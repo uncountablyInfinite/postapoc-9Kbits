@@ -1,0 +1,238 @@
+decisions = {
+	# Society powers
+	university_request_funds = {
+		is_in_society = yes
+		is_high_prio = yes
+		potential = {			
+			is_member_of_faculty_trigger = yes
+			society_rank >= 2
+			
+		}
+		allow = {
+			has_society_currency_medium_trigger = yes
+		}
+		effect = {
+			wealth = 100
+			detract_society_currency_medium_effect = yes
+			prestige = -50
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 2
+				is_ruler = no
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					government = nomadic_government
+					government = tribal_government
+				}
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					trait = greedy
+					trait = arbitrary
+					trait = deceitful
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = charitable
+					trait = just
+					trait = honest
+				}
+			}
+		}
+	}
+	university_perform_research = {
+		is_in_society = yes
+		is_high_prio = yes
+		potential = {			
+			is_member_of_faculty_trigger = yes
+			society_rank >= 2
+			
+		}
+		allow = {
+			has_society_currency_medium_trigger = yes
+		}
+		effect = {
+			wealth = -20
+			detract_society_currency_medium_effect = yes
+			hidden_tooltip = {
+			random_list = {
+				33 = { culture_techpoints = 75}
+				33 = { economy_techpoints = 75}
+				33 = { military_techpoints = 75}
+				1 = {
+					culture_techpoints = 75
+					economy_techpoints = 75
+					military_techpoints = 75
+				}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				factor = 0
+				is_ruler = no
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					government = nomadic_government
+					government = tribal_government
+				}
+			}
+			modifier = {
+				factor = 0.1
+				religion = gaian
+			}			
+		}
+	}
+	establish_laboratory_in_capital = {
+		is_in_society = yes
+		is_ruler = yes
+		is_high_prio = yes
+		potential = {			
+			is_member_of_faculty_trigger = yes
+			society_rank >= 3			
+		}
+		allow = {
+			has_society_currency_major_trigger = yes
+		}
+		effect = {
+			detract_society_currency_major_effect = yes
+			hidden_tooltip = {
+				character_event = { id = faculty.300 }
+			}
+		}
+		ai_will_do = {
+			factor = 0.9
+			modifier = {
+				factor = 0
+				is_ruler = no
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					government = nomadic_government
+					government = tribal_government
+				}
+			}
+			modifier = {
+				factor = 0
+				religion = gaian
+			}			
+		}
+	}
+	choose_academic_discipline = {
+		is_in_society = yes
+		is_high_prio = yes
+		potential = {			
+			is_member_of_faculty_trigger = yes
+			society_rank >= 4			
+		}
+		allow = {
+			has_society_currency_major_trigger = yes
+			NAND = {
+				trait = administrator
+				trait = scholar
+				trait = theologian
+				trait =	physician
+			}
+		}
+		effect = {
+			detract_society_currency_major_effect = yes
+			hidden_tooltip = {
+				character_event = { id = faculty.310 }
+			}
+		}
+		ai_will_do = {
+			factor = 0.9
+			modifier = {
+				factor = 2
+				is_ruler = no
+			}			
+			modifier = {
+				factor = 0.5
+				OR = {
+					government = nomadic_government
+					government = tribal_government
+				}
+			}
+			modifier = {
+				factor = 0.5
+				primary_title = { higher_tier_than = COUNT }
+			}
+			modifier = {
+				factor = 0.1
+				primary_title = { higher_tier_than = DUKE }
+			}
+		}
+	
+	}
+	university_disseminate_technology = {
+		is_high_prio = yes
+		is_in_society = yes
+		potential = {			
+			is_member_of_faculty_trigger = yes
+			society_rank >= 4			
+		}
+		allow = {
+			has_society_currency_major_trigger = yes
+		}
+		effect = {
+			detract_society_currency_major_effect = yes
+			hidden_tooltip = {
+				character_event = { id = faculty.320 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_ruler = no
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					government = nomadic_government
+					government = tribal_government
+				}
+			}
+			modifier = {
+				factor = 0
+				religion = gaian
+			}			
+		}
+	
+	}
+		
+}
+targetted_decisions = {# Quest decisions
+	
+	university_raise_funds_mission = {
+		is_in_society = yes
+		ai_target_filter = realm
+		potential = {
+			FROM = {
+				has_quest = quest_faculty_quest_1
+			}
+			distance = { who = ROOT value = 500 }
+		}
+		allow = {
+			FROM = {
+				has_quest = quest_faculty_quest_1
+			}
+			wealth = 200
+		}
+		
+		effect = {
+			character_event = {	id = faculty.142 }
+		}		
+	}
+}

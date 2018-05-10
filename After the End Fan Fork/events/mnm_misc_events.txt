@@ -1260,6 +1260,7 @@ character_event = {
 							can_join_society = secret_religious_society_mormon
 						}
 						join_society = secret_religious_society_mormon
+
 						random_list = { # Artificially increase society influence for balance purposes
 							75 = {
 								modifier = {
@@ -2132,7 +2133,6 @@ character_event = {
     #	text = EVTDESC_MNM_10042
     #	picture = GFX_evt_gathering_of_minds
     #}
-
     is_triggered_only = yes
     
     #Make them enemy

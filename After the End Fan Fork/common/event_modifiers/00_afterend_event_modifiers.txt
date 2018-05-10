@@ -96,6 +96,13 @@ unenlightened_emperor = {
 	icon = 35
 }
 
+
+laboratory_in_province = {
+	tech_growth_modifier = 0.2
+	disease_defence = 0.1
+	icon = 12
+}
+
 # Character Modifiers
 
 protector_in_the_storm = {

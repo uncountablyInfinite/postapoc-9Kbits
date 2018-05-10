@@ -92,12 +92,15 @@ narrative_event = {
 	hide_from = yes
 
 	trigger = {
+<<<<<<< d7498ff82ffd6ad6292bb9d13a28b3bc2a6c1ba1
 		NOT = {
 			has_game_rule = {
 				name = caribbean_collapse
 				value = off
 			}
 		}
+=======
+>>>>>>> Initial university commit, the groundwork is there but quests are still in progress.
 		independent = yes
 		real_tier = emperor
 

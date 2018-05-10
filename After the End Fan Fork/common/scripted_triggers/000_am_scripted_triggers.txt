@@ -59,3 +59,16 @@ warrior_trigger = {
 		trait = peasant_leader
 	}
 }
+
+is_member_of_faculty_trigger = {
+	OR = {
+		society_member_of = university_st_luis
+		society_member_of = university_atlanta
+		society_member_of = university_west_indies
+		society_member_of = university_cleveland
+		society_member_of = university_UTS
+		society_member_of = university_mcgill
+		society_member_of = university_yale
+		society_member_of = university_UCLA
+	}
+}

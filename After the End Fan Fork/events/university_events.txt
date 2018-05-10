@@ -1,4 +1,7 @@
 # University events
+# 1 - 13 Normal year events
+# 20 - 25 Bad events
+# 30 - 35 Good events
 namespace = univ
 
 # Leaving for university
@@ -10,7 +13,7 @@ character_event = {
 	
 	option = {
 		ai_chance = { factor = 1 }
-		name = "New Haven"
+		name = "Yale"
 		trigger = {
 			b_new_haven_CT = {
 				holder_scope = { NOT = { war_with = ROOT } }
@@ -19,12 +22,19 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_new_haven
-		FROM = { wealth = -50 }
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
 		ai_chance = { factor = 1 }
-		name = "Quebec"
+		name = "McGill"
 		trigger = {
 			b_quebec_QC = {
 				holder_scope = { NOT = { war_with = ROOT } }
@@ -33,12 +43,20 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_quebec
-		FROM = { wealth = -50 }
+		
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
 		ai_chance = { factor = 1 }
-		name = "Austin"
+		name = "UTS"
 		trigger = {
 			b_austin_TX = {
 				holder_scope = { NOT = { war_with = ROOT } }
@@ -47,7 +65,15 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_austin
-		FROM = { wealth = -50 }
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}		
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
@@ -61,12 +87,20 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_cleveland
-		FROM = { wealth = -50 }
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}		
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
 		ai_chance = { factor = 1 }
-		name = "Kingston"
+		name = "West Indies"
 		trigger = {
 			b_kingston_JA = {
 				holder_scope = { NOT = { war_with = ROOT } }
@@ -75,7 +109,15 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_kingston
-		FROM = { wealth = -50 }
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}		
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
@@ -89,7 +131,15 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_atlanta
-		FROM = { wealth = -50 }
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}		
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
@@ -103,7 +153,37 @@ character_event = {
 		}
 		add_trait = student
 		set_character_flag = u_st_louis
-		FROM = { wealth = -50 }
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}
+		set_variable = { which = college_years value = 0}
+	}
+	
+	option = {
+		ai_chance = { factor = 1 }
+		name = "UCLA"
+		trigger = {
+			b_santa_monica_CA = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+			}
+		}
+		add_trait = student
+		set_character_flag = u_st_louis
+
+		if = {
+			limit = { FROM = { is_landed = yes }}
+			FROM = {  wealth = -20 }
+		}
+		else = {
+			FROM = { liege = { wealth = -20 } }
+		}
+		set_variable = { which = college_years value = 0}
 	}
 	
 	option = {
@@ -111,7 +191,16 @@ character_event = {
 		name = "Never mind"
 	}
 }
-
+# Leaving university
+character_event = {
+	id = univ.2
+	desc = univ.2.desc
+	is_triggered_only = yes
+	option = {
+		name = univ.2.optA
+		remove_trait = student
+	}
+}
 # School of history: military/learning
 # School of business: stewardship/intrigue
 # School of science: stewardship/military
@@ -147,7 +236,7 @@ character_event = {
 		trigger = { has_character_flag = college_history }
 		name = univ.10.optA
 		clr_character_flag = college_history
-		change_variable = { which = "college_years" value = 1 }
+		change_variable = { which = college_years value = 1 }
 		character_event = { id = univ.11 }
 		random_list = {
 			25 = { }
@@ -167,7 +256,7 @@ character_event = {
 		trigger = { has_character_flag = college_business }
 		name = univ.10.optA
 		clr_character_flag = college_business
-		change_variable = { which = "college_years" value = 1 }
+		change_variable = { which = college_years value = 1 }
 		character_event = { id = univ.11 }
 		random_list = {
 			25 = { }
@@ -187,7 +276,7 @@ character_event = {
 		trigger = { has_character_flag = college_politics }
 		name = univ.10.optA
 		clr_character_flag = college_politics
-		change_variable = { which = "college_years" value = 1 }
+		change_variable = { which = college_years value = 1 }
 		character_event = { id = univ.11 }
 		random_list = {
 			25 = { }
@@ -207,7 +296,7 @@ character_event = {
 		trigger = { has_character_flag = college_science }
 		name = univ.10.optA
 		clr_character_flag = college_science
-		change_variable = { which = "college_years" value = 1 }
+		change_variable = { which = college_years value = 1 }
 		character_event = { id = univ.11 }
 		random_list = {
 			25 = { }
@@ -227,7 +316,7 @@ character_event = {
 		trigger = { has_character_flag = college_literature }
 		name = univ.10.optA
 		clr_character_flag = college_literature
-		change_variable = { which = "college_years" value = 1 }
+		change_variable = { which = college_years value = 1 }
 		character_event = { id = univ.11 }
 		random_list = {
 			25 = { }
@@ -260,40 +349,69 @@ character_event = {
 	}
 
 	option = {
-		ai_chance = { factor = 1 }
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				check_variable = { which = college_years value = 4 }
+			}
+		}
 		name = univ.11.optA # History
 		set_character_flag = college_history
+		if = {
+			limit = { is_landed = yes }
+			wealth = -20
+		}
+		else = {
+			liege = { wealth = -20 }
+		}
+		
 	}
 	
 	option = {
-		ai_chance = { factor = 1 }
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				check_variable = { which = college_years value = 4 }
+			}
+		}
 		name = univ.11.optB # Science
 		set_character_flag = college_science
+		if = {
+			limit = { is_landed = yes }
+			wealth = -20
+		}
+		else = {
+			liege = { wealth = -20 }
+		}
 	}
 	
 	option = {
-		ai_chance = { factor = 1 }
-		name = univ.11.optC # Business
-		set_character_flag = college_business
-	}
-	
-	option = {
-		ai_chance = { factor = 0 }
+		ai_chance = { 
+			factor = 0.5 
+		}
 		name = more_options
 		character_event = { id = univ.12 }
 	}
 	
 	option = {
-		ai_chance = { factor = 1 }
-		name = univ.11.optD # Politics
-		set_character_flag = college_politics
+		trigger = { 
+			check_variable = { which = college_years value = 1 } 
+		}
+		ai_chance = { 
+			factor = 0.1 
+			modifier = {
+				factor = 7
+				check_variable = { which = college_years value = 4 }
+			}			
+		}
+		name = univ.11.optLeave # Leaving
+		character_event = { id = univ.13 }
 	}
 	
-	option = {
-		ai_chance = { factor = 1 }
-		name = univ.11.optE # Literature
-		set_character_flag = college_literature
-	}
+	
+	
 }
 
 character_event = {
@@ -303,17 +421,258 @@ character_event = {
 	picture = GFX_evt_character_recieving_letter
 	
 	option = {
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				check_variable = { which = college_years value = 4 }
+			}
+		}
 		name = univ.11.optD # Politics
 		set_character_flag = college_politics
+		if = {
+			limit = { is_landed = yes }
+			wealth = -20
+		}
+		else = {
+			liege = { wealth = -20 }
+		}
 	}
 	
 	option = {
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				check_variable = { which = college_years value = 4 }
+			}
+		}
 		name = univ.11.optE # Literature
 		set_character_flag = college_literature
+		if = {
+			limit = { is_landed = yes }
+			wealth = -20
+		}
+		else = {
+			liege = { wealth = -20 }
+		}
 	}
+	
+	option = {
+		ai_chance = { 
+			factor = 1 
+			modifier = {
+				factor = 0
+				check_variable = { which = college_years value = 4 }
+			}
+		}
+		name = univ.11.optC # Business
+		set_character_flag = college_business
+		if = {
+			limit = { is_landed = yes }
+			wealth = -20
+		}
+		else = {
+			liege = { wealth = -20 }
+		}
+	}	
 	
 	option = {
 		name = more_options
 		character_event = { id = univ.11 }
+	}
+}
+
+character_event = {
+	id = univ.13
+	desc = univ.13.desc
+	is_triggered_only = yes
+	picture = GFX_evt_character_recieving_letter
+	
+	option = {
+		name = univ.13.optA # Graduation
+		remove_trait = student
+		add_trait = graduate
+	}
+}
+
+# Student vices
+character_event = {
+	id = univ.20
+	desc = univ.20.desc
+	picture = GFX_evt_monk_illuminating_book	
+
+	trigger = {
+		trait = student
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	# Drunkard
+	option = {	
+		trigger = {
+			NOT = { trait = drunkard}
+			NOT = { trait = temperate}
+		}
+		add_trait = drunkard	
+		name = univ.20.optA
+	}
+	# Freshman 15
+	option = {
+		trigger = {
+			NOT = { trait = gluttonous}
+			NOT = { trait = temperate }
+		}
+		add_trait = gluttonous 
+		name = univ.20.optB
+	}
+	# Lust
+	option = {
+		trigger = {
+			NOT = { trait = lustful}
+			NOT = { trait = chaste }
+		}
+		add_trait = lustful
+		name = univ.20.optC		
+	}
+	# Dedication
+	option = {
+		trigger = {
+			learning = 20
+		}
+		name = univ.20.optD
+	}
+}
+# Unexpected expenses
+character_event = {
+	id = univ.21
+	desc = univ.21.desc
+	picture = GFX_evt_monk_illuminating_book	
+
+	trigger = {
+		trait = student
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+	}
+	# Buy textbooks
+	option = {	
+		wealth = -10	
+		name = univ.21.optA
+	}
+	# Barter for textbooks
+	option = {
+		trigger = {
+			stewardship = 15
+		}
+		tooltip_info = stewardship
+		name = univ.21.optB
+	}
+	# Steal textbooks
+	option = {
+		trigger = {
+			intrigue = 15
+		}
+		tooltip_info = intrigue
+		name = univ.21.optC		
+	}
+	# Don't need textbooks
+	option = {
+		trigger = {
+			learning = 20
+		}
+		name = univ.21.optD
+	}
+}
+
+# Academic conflict
+character_event = {
+	id = univ.22
+	desc = univ.22.desc
+	picture = GFX_evt_monk_illuminating_book	
+
+	trigger = {
+		trait = student
+		learning = 20
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	# Stand by your principles
+	option = {	
+		add_trait = brave	
+		name = univ.22.optA
+	}
+	# Submit to authority
+	option = {		
+		add_trait = shy
+		name = univ.22.optB
+	}
+	# Gather support
+	option = {
+		trigger = {
+			diplomacy = 15
+		}
+		tooltip_info = diplomacy
+		name = univ.22.optC		
+	}
+	# Discredit authority
+	option = {
+		trigger = {
+			intrigue = 15
+		}
+		tooltip_info = intrigue
+		add_trait = deceitful
+		name = univ.22.optD
+	}
+}
+# Ruined lab
+character_event = {
+	id = univ.23
+	desc = univ.23.desc
+	picture = GFX_evt_monk_illuminating_book	
+
+	trigger = {
+		trait = student
+		has_character_flag = college_science
+		learning = 10
+		NOT = { trait = diligent }
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	# Pay for damages
+	option = {	
+		wealth = -30
+		name = univ.23.optA
+	}
+	# Talk your way out of it
+	option = {		
+		add_trait = deceitful
+		name = univ.23.optB
+	}
+	# I will fix it.
+	option = {
+		trigger = {
+			stewardship = 15
+			learning = 10
+		}
+		tooltip_info = stewardship
+		name = univ.23.optC		
+	}
+	# Blame someone else
+	option = {
+		trigger = {
+			intrigue = 17
+		}
+		tooltip_info = intrigue
+		add_trait = deceitful
+		add_trait = arbitrary
+		name = univ.23.optD
 	}
 }

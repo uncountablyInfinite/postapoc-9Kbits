@@ -139,7 +139,9 @@ student_desc;This character is studying at a university.;;;;;;;;;;;;;x
 graduate;Graduate;;;;;;;;;;;;;x
 graduate_desc;This character has received a university education.;;;;;;;;;;;;;x
 attend_university;Enroll at a University;;;;;;;;;;;;;x
-send_kid_to_university;Send [This.GetBestName] to University;;;;;;;;;;;;;x
+drop_out_of_university;Leave University;;;;;;;;;;;;;x
+send_to_university;Send [This.GetBestName] to University;;;;;;;;;;;;;x
+call_back_from_university;Call [This.GetBestName] back from University;;;;;;;;;;;;;x
 univ.1.desc;Which university should I attend?;;;;;;;;;;;;;x
 univ.10.desc;The college term has ended.;;;;;;;;;;;;;x
 univ.10.optA;Let us rejoice;;;;;;;;;;;;;x

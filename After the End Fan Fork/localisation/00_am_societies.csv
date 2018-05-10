@@ -1310,3 +1310,155 @@ starry_wisdom_rank_3_male;High Cultist;;;;;;;;;x
 starry_wisdom_rank_4_female;Archaeologist;;;;;;;;;x
 starry_wisdom_rank_4_male;Archaeologist;;;;;;;;;x
 currency_name_starry_wisdom;Dark Power;Pouvoir obscur;Dunkle Macht;;Poder oscuro;;;;;;;;;x
+
+String_university_yale;the Yale University;;;;;;;;;x
+university_yale;The Yale University;;;;;;;;;x
+university_yale_desc;Yale;;;;;;;;;x
+String_university_yale;the Yale University;;;;;;;;x
+university_yale_recruit;Invite into faculty.;;;;;;;;;x
+university_yale_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_yale_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_yale_leader_desc;The President of Yale university;;;;;;;;;x
+university_yale_rank_1_female;Lecturer;;;;;;;;;x
+university_yale_rank_1_male;Lecturer;;;;;;;;;x
+university_yale_rank_2_female;Professor;;;;;;;;;x
+university_yale_rank_2_male;Professor;;;;;;;;;x
+university_yale_rank_3_female;Dean;;;;;;;;;x
+university_yale_rank_3_male;Dean;;;;;;;;;x
+university_yale_rank_4_female;President;;;;;;;;;x
+university_yale_rank_4_male;President;;;;;;;;;x
+currency_name_university_yale;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_mcgill;the McGill University;;;;;;;;;x
+university_mcgill;The McGill University;;;;;;;;;x
+university_mcgill_desc;McGill;;;;;;;;;x
+String_university_mcgill;the McGill University;;;;;;;;x
+university_mcgill_recruit;Invite into faculty.;;;;;;;;;x
+university_mcgill_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_mcgill_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_mcgill_leader_desc;The President of McGill university;;;;;;;;;x
+university_mcgill_rank_1_female;Lecturer;;;;;;;;;x
+university_mcgill_rank_1_male;Lecturer;;;;;;;;;x
+university_mcgill_rank_2_female;Professor;;;;;;;;;x
+university_mcgill_rank_2_male;Professor;;;;;;;;;x
+university_mcgill_rank_3_female;Dean;;;;;;;;;x
+university_mcgill_rank_3_male;Dean;;;;;;;;;x
+university_mcgill_rank_4_female;President;;;;;;;;;x
+university_mcgill_rank_4_male;President;;;;;;;;;x
+currency_name_university_mcgill;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_UTS;the UTS;;;;;;;;;x
+university_UTS;The UTS;;;;;;;;;x
+university_UTS_desc;UTS;;;;;;;;;x
+String_university_UTS;the UTS;;;;;;;;x
+university_UTS_recruit;Invite into faculty.;;;;;;;;;x
+university_UTS_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_UTS_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_UTS_leader_desc;The President of UTS;;;;;;;;;x
+university_UTS_rank_1_female;Lecturer;;;;;;;;;x
+university_UTS_rank_1_male;Lecturer;;;;;;;;;x
+university_UTS_rank_2_female;Professor;;;;;;;;;x
+university_UTS_rank_2_male;Professor;;;;;;;;;x
+university_UTS_rank_3_female;Dean;;;;;;;;;x
+university_UTS_rank_3_male;Dean;;;;;;;;;x
+university_UTS_rank_4_female;President;;;;;;;;;x
+university_UTS_rank_4_male;President;;;;;;;;;x
+currency_name_university_UTS;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_cleveland;the Cleveland University;;;;;;;;;x
+university_cleveland;The Cleveland University;;;;;;;;;x
+university_cleveland_desc;Cleveland;;;;;;;;;x
+String_university_cleveland;the Cleveland University;;;;;;;;x
+university_cleveland_recruit;Invite into faculty.;;;;;;;;;x
+university_cleveland_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_cleveland_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_cleveland_leader_desc;The President of Cleveland university;;;;;;;;;x
+university_cleveland_rank_1_female;Lecturer;;;;;;;;;x
+university_cleveland_rank_1_male;Lecturer;;;;;;;;;x
+university_cleveland_rank_2_female;Professor;;;;;;;;;x
+university_cleveland_rank_2_male;Professor;;;;;;;;;x
+university_cleveland_rank_3_female;Dean;;;;;;;;;x
+university_cleveland_rank_3_male;Dean;;;;;;;;;x
+university_cleveland_rank_4_female;President;;;;;;;;;x
+university_cleveland_rank_4_male;President;;;;;;;;;x
+currency_name_university_cleveland;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_west_indies;the University of West Indies;;;;;;;;;x
+university_west_indies;The University of West Indies;;;;;;;;;x
+university_west_indies_desc;University of West Indies;;;;;;;;;x
+String_university_west_indies;the University of West Indies;;;;;;;;x
+university_west_indies_recruit;Invite into faculty.;;;;;;;;;x
+university_west_indies_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_west_indies_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_west_indies_leader_desc;The President of the University of West Indies;;;;;;;;;x
+university_west_indies_rank_1_female;Lecturer;;;;;;;;;x
+university_west_indies_rank_1_male;Lecturer;;;;;;;;;x
+university_west_indies_rank_2_female;Professor;;;;;;;;;x
+university_west_indies_rank_2_male;Professor;;;;;;;;;x
+university_west_indies_rank_3_female;Dean;;;;;;;;;x
+university_west_indies_rank_3_male;Dean;;;;;;;;;x
+university_west_indies_rank_4_female;President;;;;;;;;;x
+university_west_indies_rank_4_male;President;;;;;;;;;x
+currency_name_university_west_indies;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_atlanta;the University of Atlanta;;;;;;;;;x
+university_atlanta;The University of Atlanta;;;;;;;;;x
+university_atlanta_desc;Atlanta;;;;;;;;;x
+String_university_atlanta;the University of Atlanta;;;;;;;;x
+university_atlanta_recruit;Invite into faculty.;;;;;;;;;x
+university_atlanta_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_atlanta_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_atlanta_leader_desc;The President of University of Atlanta;;;;;;;;;x
+university_atlanta_rank_1_female;Lecturer;;;;;;;;;x
+university_atlanta_rank_1_male;Lecturer;;;;;;;;;x
+university_atlanta_rank_2_female;Professor;;;;;;;;;x
+university_atlanta_rank_2_male;Professor;;;;;;;;;x
+university_atlanta_rank_3_female;Dean;;;;;;;;;x
+university_atlanta_rank_3_male;Dean;;;;;;;;;x
+university_atlanta_rank_4_female;President;;;;;;;;;x
+university_atlanta_rank_4_male;President;;;;;;;;;x
+currency_name_university_atlanta;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_st_luis;the University of St. Luis;;;;;;;;;x
+university_st_luis;The University of St. Luis;;;;;;;;;x
+university_st_luis_desc;St. Luis;;;;;;;;;x
+String_university_st_luis;the University of St. Luis;;;;;;;;x
+university_st_luis_recruit;Invite into faculty.;;;;;;;;;x
+university_st_luis_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_st_luis_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_st_luis_leader_desc;The President of St. Luis university;;;;;;;;;x
+university_st_luis_rank_1_female;Lecturer;;;;;;;;;x
+university_st_luis_rank_1_male;Lecturer;;;;;;;;;x
+university_st_luis_rank_2_female;Professor;;;;;;;;;x
+university_st_luis_rank_2_male;Professor;;;;;;;;;x
+university_st_luis_rank_3_female;Dean;;;;;;;;;x
+university_st_luis_rank_3_male;Dean;;;;;;;;;x
+university_st_luis_rank_4_female;President;;;;;;;;;x
+university_st_luis_rank_4_male;President;;;;;;;;;x
+currency_name_university;Academic Prestige;;;;;;;;;;;;;x
+
+String_university_UCLA;the UCLA;;;;;;;;;x
+university_UCLA;The UCLA;;;;;;;;;x
+university_UCLA_desc;UCLA;;;;;;;;;x
+String_university_UCLA;the UCLA;;;;;;;;x
+university_UCLA_recruit;Invite into faculty.;;;;;;;;;x
+university_UCLA_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
+university_UCLA_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
+university_UCLA_leader_desc;The President of UCLA;;;;;;;;;x
+university_UCLA_rank_1_female;Lecturer;;;;;;;;;x
+university_UCLA_rank_1_male;Lecturer;;;;;;;;;x
+university_UCLA_rank_2_female;Professor;;;;;;;;;x
+university_UCLA_rank_2_male;Professor;;;;;;;;;x
+university_UCLA_rank_3_female;Dean;;;;;;;;;x
+university_UCLA_rank_3_male;Dean;;;;;;;;;x
+university_UCLA_rank_4_female;President;;;;;;;;;x
+university_UCLA_rank_4_male;President;;;;;;;;;x
+currency_name_university;Academic Prestige;;;;;;;;;;;;;x
+
+university_request_funds;Request university funding;;;;;;;;;;;;;x
+university_perform_research;Perform academic research;;;;;;;;;;;;;x
+establish_laboratory_in_capital;Establish laboratory in your capital.;;;;;;;;;;;;;x
+choose_academic_discipline;Choose academic discipline;;;;;;;;;;;;;x
+university_disseminate_technology;Disseminate technology in your realm;;;;;;;;;;;;;x
+
+university_raise_funds_mission;Raise funds for your university;;;;;;;;;;;;;x

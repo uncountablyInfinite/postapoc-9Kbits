@@ -1813,3 +1813,46 @@ TITLE_collapse_CARIBBEAN;Disintegration of the Caribbean Empire;;;;;;;;;;;;;x
 EVTDESC_collapse_CARIBBEAN;The dream of a united Caribbean is over. When Marchioness Portia brought the lords and ladies of the islands under one banner, many believed it to be the start of a new era. \n Culture and sciences bloomed, while piracy declined and the imperial coffers were filled with treasure. With a strong and just empress, nothing could threaten the people of the Caribbean. Now, those days of stability are nothing but a distant memory. The rulers of the Caribbean have renounced their vows of loyalty, and the new emperor is not recognized beyond his own lands. \n The world is watching, as a fallen empire is ripe for conquest.;;;;;;;;;;;;;x
 RUIN_CARIBBEAN_NORM;I sense an opportunity...;;;;;;;;;;;;;x
 RUIN_CARIBBEAN_EMP;What will I do now?;;;;;;;;;;;;;x
+
+EVTDESC_faculty_102;The letter from University arrived. They have accepted me into faculty.;;;;;;;;;;;;;x
+EVTOPTA_faculty_102;I graciously accept.;;;;;;;;;;;;;x
+EVTOPTB_faculty_102;Sounds like too much work...;;;;;;;;;;;;;x
+
+EVTDESC_faculty_122;President of our university approved my request.;;;;;;;;;;;;;x
+EVTOPTA_faculty_122;Finally, some well deserved reckognition;;;;;;;;;;;;;x
+
+EVTDESC_faculty_141;University job;;;;;;;;;;;;;x
+
+EVTDESC_faculty_142;University needs additional finances. Libraries, laboratories and faculty launges don't pay for themselves. \nOn the other hand, a wealthy donor or two...;;;;;;;;;;;;;x
+EVTOPTA_faculty_142;It's not extortion, if it's for science.;;;;;;;;;;;;;x
+EVTOPTB_faculty_142;Perhaps my famous charm will be of some use.;;;;;;;;;;;;;x
+
+EVTDESC_faculty_150;Quarelling students;;;;;;;;;;;;;x
+EVTOPTA_faculty_150;Beat some sense into them.;;;;;;;;;;;;;x
+EVTOPTB_faculty_150;They will respect my authoritah!;;;;;;;;;;;;;x
+EVTOPTC_faculty_150;Talk some sense into them.;;;;;;;;;;;;;x
+EVTOPTD_faculty_150;Let them fight...;;;;;;;;;;;;;x
+
+univ.20.desc;University life has some rather pleasurable elements.;;;;;;;;;;;;;x
+univ.20.optA;Especially the wine.;;;;;;;;;;;;;x
+univ.20.optB;I seem to have gained some weight.;;;;;;;;;;;;;x
+univ.20.optC;So many beautiful flowers bloom in this garden of knowledge!;;;;;;;;;;;;;x
+univ.20.optD;And I have too much work to even think about them.;;;;;;;;;;;;;x
+
+univ.21.desc;It seems I may need some more books for my studies.;;;;;;;;;;;;;x
+univ.21.optA;I guess I'll have to buy them? ;;;;;;;;;;;;;x
+univ.21.optB;I know just where to get them. ;;;;;;;;;;;;;x
+univ.21.optC;I know someone who already has them.;;;;;;;;;;;;;x
+univ.21.optD;Actually I don't even need them.;;;;;;;;;;;;;x
+
+univ.22.desc;It seems I may need some more books for my studies.;;;;;;;;;;;;;x
+univ.22.optA;I guess I'll have to buy them? ;;;;;;;;;;;;;x
+univ.22.optB;I know just where to get them. ;;;;;;;;;;;;;x
+univ.22.optC;I know someone who already has them.;;;;;;;;;;;;;x
+univ.22.optD;Actually I don't even need them.;;;;;;;;;;;;;x
+
+univ.23.desc;I seem to have mixed wrong compounds during our chemistry class. \nWhen I came to my senses there was a hole in a wall, pile of ash where my table used to be and my partner was missing a jaw!;;;;;;;;;;;;;x
+univ.23.optA;Oh well, I will pay for new equipment and the wall.;;;;;;;;;;;;;x
+univ.23.optB;It is clear as day that I'm at no fault at all. And here is why...;;;;;;;;;;;;;x
+univ.23.optC;I will fetch my tools. And I will need a furnace.;;;;;;;;;;;;;x
+univ.23.optD;I need a patsy.;;;;;;;;;;;;;x

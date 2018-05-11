@@ -62,9 +62,7 @@ university_yale = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -214,7 +212,9 @@ university_yale = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no			
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }		
 			OR = {
 				AND = {
 					is_landed = yes
@@ -304,9 +304,7 @@ university_mcgill = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -456,7 +454,9 @@ university_mcgill = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no			
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }		
 			OR = {
 				AND = {
 					is_landed = yes
@@ -546,9 +546,7 @@ university_UTS = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -698,7 +696,9 @@ university_UTS = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no			
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }
 			OR = {
 				AND = {
 					is_landed = yes
@@ -788,9 +788,7 @@ university_cleveland = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -940,7 +938,9 @@ university_cleveland = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no			
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }		
 			OR = {
 				AND = {
 					is_landed = yes
@@ -1030,9 +1030,7 @@ university_west_indies = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -1182,7 +1180,9 @@ university_west_indies = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no			
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }		
 			OR = {
 				AND = {
 					is_landed = yes
@@ -1276,9 +1276,7 @@ university_atlanta = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -1428,7 +1426,9 @@ university_atlanta = {
 			ai = yes
 			age = 25
 			is_in_society = no
-			is_dumb_trigger = no	
+			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }
 			OR = {
 			religion_group = christian
 			culture_group = south_anglo
@@ -1526,9 +1526,7 @@ university_st_luis = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -1679,6 +1677,8 @@ university_st_luis = {
 			age = 25
 			is_in_society = no
 			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }
 			OR = {
 				religion_group = christian
 				religion_group = cult_of_saints
@@ -1773,9 +1773,7 @@ university_UCLA = {
 		modifier = {
 			monthly_character_prestige = 0.15
 		}
-		decisions = {
-			university_write_paper # Enables you to write a theorem paper that, if approved, gives you society power
-		}
+		
 	}
 	
 	society_rank = {
@@ -1926,6 +1924,8 @@ university_UCLA = {
 			age = 25
 			is_in_society = no
 			is_dumb_trigger = no
+			NOT = { religion_group = pagan_group }
+			NOT = { religion = pirate }
 			OR = {
 				religion_group = christian
 				religion_group = cult_of_saints

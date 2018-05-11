@@ -17,7 +17,7 @@ character_event = {
 		trigger = {
 			b_new_haven_CT = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -38,7 +38,7 @@ character_event = {
 		trigger = {
 			b_quebec_QC = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -60,7 +60,7 @@ character_event = {
 		trigger = {
 			b_austin_TX = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -82,7 +82,7 @@ character_event = {
 		trigger = {
 			b_cleveland_OH = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -126,7 +126,7 @@ character_event = {
 		trigger = {
 			b_atlanta_GA = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -148,7 +148,7 @@ character_event = {
 		trigger = {
 			b_st_louis_MO = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student
@@ -170,7 +170,7 @@ character_event = {
 		trigger = {
 			b_santa_monica_CA = {
 				holder_scope = { NOT = { war_with = ROOT } }
-				location = { NOT = { distance = { where = ROOT distance = 300 } } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 		}
 		add_trait = student

@@ -159,3 +159,7 @@ region_isla_guadalupe = {
 region_isla_socorro = {
 	provinces = { 608 }
 }
+
+region_saint_pierre = {
+	provinces = { 3400 }
+}

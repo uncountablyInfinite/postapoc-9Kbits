@@ -351,6 +351,19 @@ e_arctica = {
 				b_raleigh_NL = {}
 				b_lanse_aux_meadows_NL = {}
 			}
+			
+			c_saint_pierre = { #3400
+				color={ 74 146 55 }
+				color2={ 255 255 255 }
+				
+				b_saint_pierre_NL = {}
+				b_miquelon_NL = {}
+				b_langlade_NL = {}
+				b_ile_aux_marins_NL = {}
+				b_ile_aux_vainqueurs_NL = {}
+				b_grand_colombier_NL = {}
+				b_grand_barachois_NL = {}
+			}
 		}
 	}
 	k_jamesie = {

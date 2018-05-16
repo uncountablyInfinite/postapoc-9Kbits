@@ -511,7 +511,7 @@ character_event = {
 						
 			100 = { #AI refuse mission
 				modifier = {
-					factor = 0
+					factor = 0.5
 					ai = no
 				}
 			}
@@ -537,7 +537,8 @@ society_quest_event = {
     option = { 
 		name = ACCEPT
 		
-		set_quest = quest_faculty_quest_1 #use this if the quest has no real target, look at other quests made by Paradox if you want something more complicated that target someone/something
+		set_quest = quest_faculty_quest_1 
+
 	}
 
 	option = {
@@ -550,7 +551,7 @@ society_quest_event = {
 			days = 1000
 		}
 
-		ai_chance = { factor = 0.2 }
+		ai_chance = { factor = 0.3 }
 	}
 }
 
@@ -565,13 +566,27 @@ character_event = {
 
     option = { 
         name = EVTOPTA_faculty_142
+		# FROMFROM = {
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = no
+				
+			# }
+			# character_event = {
+				# id = faculty.501
+			# }		
+		# }
 		FROM = {
-			clr_quest = quest_faculty_quest_1 #remove the quest
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = no
+				
+			# }			
 			character_event = {
 				id = faculty.501
 			}		
 		}
-		clr_quest = quest_faculty_quest_1
+		
 		ai_chance = {
 			factor = 0.01
 			modifier = {
@@ -598,15 +613,33 @@ character_event = {
 		}
 		wealth = -150
     }
-    option = { 
+    option = {
         name = EVTOPTB_faculty_142
+		# FROMFROM = {
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = yes
+			# }
+			# character_event = {
+				# id = faculty.500
+			# }		
+		# }
 		FROM = {
-			clr_quest = quest_faculty_quest_1 #remove the quest		
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = yes
+			# }			
 			character_event = {
 				id = faculty.500
-			}
+			}		
 		}
-		clr_quest = quest_faculty_quest_1
+		clr_quest = { 
+				id = quest_faculty_quest_1 #remove the quest
+				failure = yes
+			}			
+		character_event = {
+			id = faculty.500
+		}
 		ai_chance = {
 			factor = 0.8
 		}
@@ -849,11 +882,36 @@ character_event = {
 # General quest failure 
 character_event = {
 	id = faculty.500
+	is_triggered_only = yes
 	hide_window = yes
 	immediate = {
 		add_mission_fail_influence_effect = yes #quest remove society influence
 		change_society_currency = -100 #penalty
-		log = "[Root.GetBaseName] failed in university mission."	
+		# FROMFROM = {
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = yes
+				
+			# }				
+		# }
+		# FROM = {
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = yes
+				
+			# }
+		# }
+		clr_quest = { 
+				id = quest_faculty_quest_1 #remove the quest
+				failure = no
+				
+		}
+		log = " [Root.GetBestName] failed in university mission."
+		add_character_modifier = { #will delay the next quest for a while
+			name = quest_cooldown_timer
+			hidden = yes
+			days = 1000
+		}		
 	}
 }
 
@@ -861,9 +919,25 @@ character_event = {
 character_event = {
 	id = faculty.501
 	hide_window = yes
+	is_triggered_only = yes
 	immediate = {
 		add_mission_succeed_influence_effect = yes #quest add society influence
-		change_society_currency = 100 #reward
-		log = "[Root.GetBaseName] suceeded in university mission."
+		change_society_currency = 100 #reward		
+		# FROM = {
+			# clr_quest = { 
+				# id = quest_faculty_quest_1 #remove the quest
+				# failure = no
+			# }
+		# }
+		clr_quest = { 
+				id = quest_faculty_quest_1 #remove the quest
+				failure = no
+		}	
+		log = "[Root.GetBestName] suceeded in university mission."
+		add_character_modifier = { #will delay the next quest for a while
+			name = quest_cooldown_timer
+			hidden = yes
+			days = 800
+		}
 	}
 }

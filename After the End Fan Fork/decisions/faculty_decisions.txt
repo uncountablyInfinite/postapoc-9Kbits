@@ -218,16 +218,17 @@ targetted_decisions = {# Quest decisions
 	university_raise_funds_mission = {
 		is_in_society = yes
 		ai_target_filter = realm
+		filter = realm
 		potential = {
 			FROM = {
 				has_quest = quest_faculty_quest_1
 			}
-			distance = { who = ROOT value = 500 }
 		}
 		allow = {
 			FROM = {
 				has_quest = quest_faculty_quest_1
 			}
+			is_within_diplo_range = ROOT
 			wealth = 200
 		}
 		

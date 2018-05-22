@@ -3979,6 +3979,7 @@ b_granada_LLA;Granada;;;;;;;;;;;;;x
 b_granada_QC;Granada;;;;;;;;;;;;;x
 b_granby_QC;Granby;;;;;;;;;;;;;x
 b_grand_barachois_NB;Grand-Barachois;;;;;;;;;;;;;x
+b_grand_barachois_NL;Grand Barachois;;;;;;;;;;;;;x
 b_grand_falls_NB;Grand Falls;;;;;;;;;;;;;x
 b_grand_forks_ND;Grand Forks;;;;;;;;;;;;;x
 b_grand_island_NE;Grand Island;;;;;;;;;;;;;x
@@ -5504,6 +5505,7 @@ b_lang_bay_BC;Lang Bay;;;;;;;;;;;;;x
 b_langdon_ND;Langdon;;;;;;;;;;;;;x
 b_langham_SK;Langham;;;;;;;;;;;;;x
 b_langlade_WI;Langlade;;;;;;;;;;;;;x
+b_langlade_NL;Langlade;;;;;;;;;;;;;x
 b_langley_BC;Langley;;;;;;;;;;;;;x
 b_langley_VA;Langley;;;;;;;;;;;;;x
 b_lanse_au_loup_QC_adj;L'Anse-au-Loupian;;;;;;;;;;;;;x
@@ -5614,6 +5616,7 @@ b_lawton_OK;Lawton;;;;;;;;;;;;;x
 b_layou_WW;Layou;;;;;;;;;;;;;x
 b_layton_UT;Layton;;;;;;;;;;;;;x
 b_lazaro_cardenas_VE;Lázaro Cárdenas;;;;;;;;;;;;;x
+b_le_cap;Le Cap;;;;;;;;;;;;;x
 b_le_center_MN;Le Center;;;;;;;;;;;;;x
 b_le_cowbellion;le Cowbellion;;;;;;;;;;;;;x
 b_le_lamentin_FA;Le Lamentin;;;;;;;;;;;;;x
@@ -6658,6 +6661,7 @@ b_minot_ND;Minot;;;;;;;;;;;;;x
 b_mint_hill_NC;Mint Hill;;;;;;;;;;;;;x
 b_mio_MI;Mio;;;;;;;;;;;;;x
 b_miquelon_QC;Miquelon;;;;;;;;;;;;;x
+b_miquelon_NL;Miquelon;;;;;;;;;;;;;x
 b_mirabel_QC;Mirabel;;;;;;;;;;;;;x
 b_miraflores_BOL_adj;Mirafloresian;;;;;;;;;;;;;x
 b_miraflores_BOL;Miraflores;;;;;;;;;;;;;x
@@ -8773,6 +8777,7 @@ b_saint_marc_HA;Saint Marc;;;;;;;;;;;;;x
 b_saint_mathieu_du_parc_QC;Saint-Mathieu-du-Parc;;;;;;;;;;;;;x
 b_saint_michel_de_latalaye_HA;Saint-Michel-de-l'Atalaye;;;;;;;;;;;;;x
 b_saint_michel_des_saints_QC;Saint-Michel-des-Saints;;;;;;;;;;;;;x
+b_saint_pierre_NL;Saint-Pierre;;;;;;;;;;;;;x
 b_saint_polycarpe_QC;Saint-Polycarpe;;;;;;;;;;;;;x
 b_saint_zenon_QC;Saint-Zénon;;;;;;;;;;;;;x
 b_sainte_anne_FA;Sainte-Anne;;;;;;;;;;;;;x
@@ -12667,6 +12672,8 @@ c_saint_john_adj;Johnite;;;;;;;;;;;;;x
 c_saint_laurent_du_maroni_adj;Saint-Laurent-du-Maronian;;saint-laurent-du-maroner;;;;;;;;;;;x
 c_saint_laurent_du_maroni;Saint-Laurent-du-Maroni;Saint-Laurent-du-Maroni;Saint-Laurent-du-Maroni;;Saint-Laurent-du-Maroni;;;;;;;;;x
 c_saint_maurice_adj;Mauricien;;;;;;;;;;;;;x
+c_saint_pierre_adj;Saint-Pierrais;;;;;;;;;;;;;x
+c_saint_pierre;Saint-Pierre;;;;;;;;;;;;;x
 c_saldana_adj;Saldaña;;;;;;;;;;;;;x
 c_saline_adj;Salinean;;;;;;;;;;;;;x
 c_salkehatchie_adj;Salkehatchite;;;;;;;;;;;;;x
@@ -14673,6 +14680,8 @@ b_randado_TX;Randado;Randado;Randado;;Randado;;;;;;;;;x
 b_rio_hondo_TX;Rio Hondo;Rio Hondo;Rio Hondo;;Rio Hondo;;;;;;;;;x
 b_port_mansfield_TX;Port Mansfield;Port Mansfield;Port Mansfield;;Port Mansfield;;;;;;;;;x
 b_ile_kamakanikach_QC;Île Kamakanikach;Île Kamakanikach;Île Kamakanikach;;Île Kamakanikach;;;;;;;;;x
+b_ile_aux_marins;Île-aux-Marins;;;;;;;;;x
+b_ile_aux_vainqueurs_NL;Île-aux-Vainqueurs;;;;;;;;;x
 b_freer_TX;Freer;;;;;;;;;;;;;x
 b_seven_sisters_TX;Seven Sisters;;;;;;;;;;;;;x
 b_realitos_TX;Realitos;;;;;;;;;;;;;x

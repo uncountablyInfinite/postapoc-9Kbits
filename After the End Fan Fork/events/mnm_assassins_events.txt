@@ -8606,9 +8606,8 @@ character_event = {
 							NOT = { is_rival = ROOT }
 							NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_very_grateful } }
 							OR = {
-								trait = decadent
-								trait = hedonist
-								trait = gluttonous
+								trait = cruel
+								trait = arbitrary
 								trait = drunkard
 							}
 						}
@@ -8623,9 +8622,8 @@ character_event = {
 						NOT = { is_rival = ROOT }
 						NOT = { has_opinion_modifier = { who = ROOT modifier = opinion_very_grateful } }
 						OR = {
-							trait = decadent
-							trait = hedonist
-							trait = gluttonous
+							trait = cruel
+							trait = arbitrary
 							trait = drunkard
 						}
 					}

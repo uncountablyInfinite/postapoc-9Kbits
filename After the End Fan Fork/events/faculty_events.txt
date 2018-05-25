@@ -503,7 +503,7 @@ character_event = {
     	}
 
     	#Randomizes mission
-		#Has I have only 1 mission this random_list is unnecessary, but you will need it if you make more than one mission.
+		#Since I have only 1 mission this random_list is unnecessary, but you will need it if you make more than one mission.
     	random_list = {
 			150 = { #press the button, the mission
 				event_target:quest_collaborator = { character_event = { id = faculty.140 days = 7 random = 7 } } #will send the quest to the quest_collaborator, which will offer it back to you.
@@ -563,25 +563,10 @@ character_event = {
     border = GFX_event_normal_frame_war
 
     is_triggered_only = yes
-
+	# Give them money
     option = { 
-        name = EVTOPTA_faculty_142
-		# FROMFROM = {
-			# clr_quest = { 
-				# id = quest_faculty_quest_1 #remove the quest
-				# failure = no
-				
-			# }
-			# character_event = {
-				# id = faculty.501
-			# }		
-		# }
-		FROM = {
-			# clr_quest = { 
-				# id = quest_faculty_quest_1 #remove the quest
-				# failure = no
-				
-			# }			
+        name = EVTOPTA_faculty_142		
+		FROM = {					
 			character_event = {
 				id = faculty.501
 			}		
@@ -613,22 +598,10 @@ character_event = {
 		}
 		wealth = -150
     }
+	# Nope
     option = {
-        name = EVTOPTB_faculty_142
-		# FROMFROM = {
-			# clr_quest = { 
-				# id = quest_faculty_quest_1 #remove the quest
-				# failure = yes
-			# }
-			# character_event = {
-				# id = faculty.500
-			# }		
-		# }
-		FROM = {
-			# clr_quest = { 
-				# id = quest_faculty_quest_1 #remove the quest
-				# failure = yes
-			# }			
+        name = EVTOPTB_faculty_142		
+		FROM = {					
 			character_event = {
 				id = faculty.500
 			}		

@@ -12,13 +12,13 @@ university_yale = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
 			b_new_haven_CT = {
-					holder_scope = { NOT = { war_with = ROOT } }
-					location = { NOT = { distance = { where = ROOT distance = 400 } } }
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
 			}
 			NAND = {
 				ai = yes
@@ -75,7 +75,7 @@ university_yale = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -214,7 +214,11 @@ university_yale = {
 			is_in_society = no
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
-			NOT = { religion = pirate }		
+			NOT = { religion = pirate }	
+			b_new_haven_CT = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -254,14 +258,14 @@ university_mcgill = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
 			b_montreal_QC = {
-					holder_scope = { NOT = { war_with = ROOT } }
-					location = { NOT = { distance = { where = ROOT distance = 400 } } }
-				}
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -317,7 +321,7 @@ university_mcgill = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -456,7 +460,11 @@ university_mcgill = {
 			is_in_society = no
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
-			NOT = { religion = pirate }		
+			NOT = { religion = pirate }	
+			b_montreal_QC = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -496,14 +504,14 @@ university_UTS = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
 			b_austin_TX = {
-					holder_scope = { NOT = { war_with = ROOT } }
-					location = { NOT = { distance = { where = ROOT distance = 400 } } }
-				}
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			NAND = {
 				ai = yes
 				is_society_rank_full = { 
@@ -559,7 +567,7 @@ university_UTS = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -699,6 +707,10 @@ university_UTS = {
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
 			NOT = { religion = pirate }
+			b_austin_TX = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -738,25 +750,25 @@ university_cleveland = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
 		b_cleveland_OH = {
-					holder_scope = { NOT = { war_with = ROOT } }
-					location = { NOT = { distance = { where = ROOT distance = 400 } } }
-				}
-			NAND = {
-				ai = yes
-				is_society_rank_full = { 
-					society = university_cleveland
-					rank = 1
-				}
+			holder_scope = { NOT = { war_with = ROOT } }
+			location = { NOT = { distance = { where = ROOT distance = 400 } } }
+		}
+		NAND = {
+			ai = yes
+			is_society_rank_full = { 
+				society = university_cleveland
+				rank = 1
 			}
-			OR = {
-				is_landed = yes
-				is_patrician = yes
-			}
+		}
+		OR = {
+			is_landed = yes
+			is_patrician = yes
+		}
 		}
 		trait = graduate
 		learning = 10		
@@ -801,7 +813,7 @@ university_cleveland = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -940,7 +952,11 @@ university_cleveland = {
 			is_in_society = no
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
-			NOT = { religion = pirate }		
+			NOT = { religion = pirate }
+			b_cleveland_OH = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 400 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -980,7 +996,7 @@ university_west_indies = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
@@ -1025,7 +1041,7 @@ university_west_indies = {
 	
 	society_rank = {
 		level = 1
-		limit = 300
+		limit = 400
 		startup_limit = 10
 		modifier = {
 			monthly_character_prestige = 0.15
@@ -1035,7 +1051,7 @@ university_west_indies = {
 	
 	society_rank = {
 		level = 2
-		limit = 100
+		limit = 200
 		startup_limit = 6
 		modifier = { 
 			economy_techpoints = 0.06
@@ -1043,13 +1059,13 @@ university_west_indies = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
 	society_rank = {
 		level = 3
-		limit = 50
+		limit = 100
 		startup_limit = 4
 		modifier = {
 			economy_techpoints = 0.08
@@ -1062,7 +1078,7 @@ university_west_indies = {
 
 	society_rank = {
 		level = 4
-		limit = 20
+		limit = 40
 		startup_limit = 2
 		modifier = { 
 			economy_techpoints = 0.1
@@ -1182,7 +1198,11 @@ university_west_indies = {
 			is_in_society = no
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
-			NOT = { religion = pirate }		
+			NOT = { religion = pirate }
+			b_kingston_JA = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 600 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -1222,7 +1242,7 @@ university_atlanta = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
@@ -1289,7 +1309,7 @@ university_atlanta = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -1430,8 +1450,13 @@ university_atlanta = {
 			NOT = { religion_group = pagan_group }
 			NOT = { religion = pirate }
 			OR = {
-			religion_group = christian
-			culture_group = south_anglo
+				religion_group = christian
+				culture_group = south_anglo
+				culture = tuskegee
+			}
+			b_atlanta_GA = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}
 			OR = {
 				AND = {
@@ -1472,7 +1497,7 @@ university_st_luis = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	#indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
@@ -1539,7 +1564,7 @@ university_st_luis = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -1682,7 +1707,11 @@ university_st_luis = {
 			OR = {
 				religion_group = christian
 				religion_group = cult_of_saints
-			}			
+			}
+			b_st_louis_MO = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
+			}
 			OR = {
 				AND = {
 					is_landed = yes
@@ -1723,7 +1752,7 @@ university_UCLA = {
 	active = {
 		has_dlc = "Mystics"
 	}
-	indestructible = yes
+	# indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
@@ -1750,6 +1779,11 @@ university_UCLA = {
 			is_tribal = yes
 			religion_group = pagan_group
 			religion_group = pirate
+			religion = raven_tales
+		}
+		OR = {
+			religion_group = pacific
+			culture_group = californian
 		}
 		hidden_trigger = { mercenary = no }
 		age = 25
@@ -1786,7 +1820,7 @@ university_UCLA = {
 		}
 		decisions = {
 			university_perform_research # Enables you to perform a research and get techpoints
-			university_request_funds
+			university_request_funds # You can request money from university
 		}
 	}
 	
@@ -1926,9 +1960,14 @@ university_UCLA = {
 			is_dumb_trigger = no
 			NOT = { religion_group = pagan_group }
 			NOT = { religion = pirate }
+			NOT = { religion = raven_tales }
 			OR = {
-				religion_group = christian
-				religion_group = cult_of_saints
+				religion_group = pacific
+				culture_group = californian
+			}
+			b_santa_monica_CA = {
+				holder_scope = { NOT = { war_with = ROOT } }
+				location = { NOT = { distance = { where = ROOT distance = 500 } } }
 			}			
 			OR = {
 				AND = {

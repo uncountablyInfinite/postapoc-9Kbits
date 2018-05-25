@@ -1313,7 +1313,7 @@ currency_name_starry_wisdom;Dark Power;Pouvoir obscur;Dunkle Macht;;Poder oscuro
 
 String_university_yale;the Yale University;;;;;;;;;x
 university_yale;The Yale University;;;;;;;;;x
-university_yale_desc;Yale;;;;;;;;;x
+university_yale_desc;It is said that Yale was founded before the dawn of America. Few dispute these claims, given the extensive records proving its pedigree. Following the Event, Yale absorbed many smaller universities and colleges, including its ancient rivals.\n And among devastation of post-deluge world, Yale still stands strong.\n A neutral ground where scholars of all creeds and nations can meet to share their knowledge.;;;;;;;;;x
 String_university_yale;the Yale University;;;;;;;;x
 university_yale_recruit;Invite into faculty.;;;;;;;;;x
 university_yale_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
@@ -1385,7 +1385,7 @@ currency_name_university_cleveland;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_west_indies;the University of West Indies;;;;;;;;;x
 university_west_indies;The University of West Indies;;;;;;;;;x
-university_west_indies_desc;University of West Indies;;;;;;;;;x
+university_west_indies_desc;There are only few institutions as decentralized and dispersed as University of West Indies. Every major island has its own small college, or several, so that in the event of natural calamity the university survives. In fact, many students never even gaze upon hallowed wall of Kingston.;;;;;;;;;x
 String_university_west_indies;the University of West Indies;;;;;;;;x
 university_west_indies_recruit;Invite into faculty.;;;;;;;;;x
 university_west_indies_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
@@ -1421,7 +1421,7 @@ currency_name_university_atlanta;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_st_luis;the University of St. Luis;;;;;;;;;x
 university_st_luis;The University of St. Luis;;;;;;;;;x
-university_st_luis_desc;St. Luis;;;;;;;;;x
+university_st_luis_desc;St. Luis is the heart of Catholic world, and its university heart of Catholic scholarship and learning. Indeed, wast libraries and stores ancient microfilms, draw scholars from entire Christendom into it's sacred halls.\n Even worshippers of Sacred Heart and Divine Grace are welcomed in the ranks of its students.;;;;;;;;;x
 String_university_st_luis;the University of St. Luis;;;;;;;;x
 university_st_luis_recruit;Invite into faculty.;;;;;;;;;x
 university_st_luis_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
@@ -1439,7 +1439,7 @@ currency_name_university;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_UCLA;the UCLA;;;;;;;;;x
 university_UCLA;The UCLA;;;;;;;;;x
-university_UCLA_desc;UCLA;;;;;;;;;x
+university_UCLA_desc;Meaning of the name was lost to time. Although some unorthodox scholars claim it was a simple acronym. But for centuries UCLA is the greatest beacon of wisdom in the West. Countless prefects, kings and most Emperors of California recieved education here. \nEven northern Luddites embark on pilgimages to this illustrious place.;;;;;;;;;x
 String_university_UCLA;the UCLA;;;;;;;;x
 university_UCLA_recruit;Invite into faculty.;;;;;;;;;x
 university_UCLA_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x

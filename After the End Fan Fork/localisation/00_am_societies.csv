@@ -1331,7 +1331,7 @@ currency_name_university_yale;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_mcgill;the McGill University;;;;;;;;;x
 university_mcgill;The McGill University;;;;;;;;;x
-university_mcgill_desc;McGill;;;;;;;;;x
+university_mcgill_desc;Canada may have fallen. But it's spirit remained here, nurtured in the halls of McGill. And if the lands of Canada are to ever recover, the McGill will be the key.;;;;;;;;;x
 String_university_mcgill;the McGill University;;;;;;;;x
 university_mcgill_recruit;Invite into faculty.;;;;;;;;;x
 university_mcgill_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
@@ -1349,7 +1349,7 @@ currency_name_university_mcgill;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_UTS;the UTS;;;;;;;;;x
 university_UTS;The UTS;;;;;;;;;x
-university_UTS_desc;UTS;;;;;;;;;x
+university_UTS_desc;There are only few things King of Comancheria, Academician Pollard and count of Texarkana have in common. Being graduate of UTS is one of them. It is a testament to the will of it's people. That this symbol of Lone Star unity still stands.;;;;;;;;;x
 String_university_UTS;the UTS;;;;;;;;x
 university_UTS_recruit;Invite into faculty.;;;;;;;;;x
 university_UTS_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
@@ -1365,14 +1365,14 @@ university_UTS_rank_4_female;President;;;;;;;;;x
 university_UTS_rank_4_male;President;;;;;;;;;x
 currency_name_university_UTS;Academic Prestige;;;;;;;;;;;;;x
 
-String_university_cleveland;the Cleveland University;;;;;;;;;x
-university_cleveland;The Cleveland University;;;;;;;;;x
-university_cleveland_desc;Cleveland;;;;;;;;;x
-String_university_cleveland;the Cleveland University;;;;;;;;x
+String_university_cleveland;the Institute of Cleveland;;;;;;;;;x
+university_cleveland;Institute of Cleveland;;;;;;;;;x
+university_cleveland_desc;Lands of Ohio are, in many ways, on the very edge of the civilization. Countless tribes, creeds and rulers, clash here. Leaving devastation in their wake. Nevertheless, the flames of knowledge are not easy to extinguish. Hidden, from those who would seek to hurt it, the Institute remains. Sentinel of progress in these bloody lands.;;;;;;;;;x
+String_university_cleveland;the Institute of Cleveland;;;;;;;;x
 university_cleveland_recruit;Invite into faculty.;;;;;;;;;x
 university_cleveland_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x
 university_cleveland_recruit_block_tooltip;Has not been approached by university before.;;;;;;;;;x
-university_cleveland_leader_desc;The President of Cleveland university;;;;;;;;;x
+university_cleveland_leader_desc;The President of the Institute of Cleveland;;;;;;;;;x
 university_cleveland_rank_1_female;Lecturer;;;;;;;;;x
 university_cleveland_rank_1_male;Lecturer;;;;;;;;;x
 university_cleveland_rank_2_female;Professor;;;;;;;;;x
@@ -1403,7 +1403,7 @@ currency_name_university_west_indies;Academic Prestige;;;;;;;;;;;;;x
 
 String_university_atlanta;the University of Atlanta;;;;;;;;;x
 university_atlanta;The University of Atlanta;;;;;;;;;x
-university_atlanta_desc;Atlanta;;;;;;;;;x
+university_atlanta_desc;Atlanta played crucial part in the birth of Holy Columbian Confederacy, and it's role didn't diminish with time. Ranks of Imperial nobility and clergy are filled with its alumni, and emperor himself is protector of this venerable institution.;;;;;;;;;x
 String_university_atlanta;the University of Atlanta;;;;;;;;x
 university_atlanta_recruit;Invite into faculty.;;;;;;;;;x
 university_atlanta_recruit_desc;Attempt to find out whether §Y[Root.GetTitledFirstName]§! is open to joining the faculty. If so, you may invite [Root.GetHerHim] to among you.;;;;;;;;;x

@@ -13,6 +13,7 @@
 	trait="sympathy_american_native"
 	trait=ambitious
 	trait=skilled_tactician
+	trait=graduate
 	2643.1.1={birth=yes}
 	2660.1.1={add_spouse=1875002}
 	2700.1.1={death=yes}

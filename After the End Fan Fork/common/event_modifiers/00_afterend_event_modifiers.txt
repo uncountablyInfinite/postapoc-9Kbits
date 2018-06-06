@@ -741,3 +741,10 @@ secret_hindu_community = {
 		society_member_of = secret_religious_society_hindu
 	}
 }
+
+decided_on_uni_contribution = {
+	is_visible = {
+		always = no
+	}
+	icon = 26
+}

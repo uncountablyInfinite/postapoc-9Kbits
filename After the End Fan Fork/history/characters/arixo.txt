@@ -240,6 +240,7 @@
 	trait=ambitious
 	trait=diligent
 	trait=atom_bless
+	trait=graduate
 	culture=arixan
 	religion=atomicist
 	2635.1.1={birth=yes}

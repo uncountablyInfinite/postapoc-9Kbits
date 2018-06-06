@@ -11,6 +11,7 @@
 	culture=texan
 	religion=catholic
 	trait=diligent
+	trait=graduate
 	trait=fortune_builder
 	2614.1.1={birth=yes}
 	2636.1.1={add_spouse=1836003}

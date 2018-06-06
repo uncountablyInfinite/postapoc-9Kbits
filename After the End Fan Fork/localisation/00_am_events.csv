@@ -139,9 +139,13 @@ student_desc;This character is studying at a university.;;;;;;;;;;;;;x
 graduate;Graduate;;;;;;;;;;;;;x
 graduate_desc;This character has received a university education.;;;;;;;;;;;;;x
 attend_university;Enroll at a University;;;;;;;;;;;;;x
+attend_university_desc;I could use some formal education.;;;;;;;;;;;;;x
 drop_out_of_university;Leave University;;;;;;;;;;;;;x
+drop_out_of_university_desc;Time to leave academic life behind.;;;;;;;;;;;;;x
 send_to_university;Send [This.GetBestName] to University;;;;;;;;;;;;;x
+send_to_university_desc;[This.GetBestName] could use some formal education.;;;;;;;;;;;;;x
 call_back_from_university;Call [This.GetBestName] back from University;;;;;;;;;;;;;x
+call_back_from_university_desc;It is time for [This.GetBestName] to end his studies.;;;;;;;;;;;;;x
 univ.1.desc;Which university should I attend?;;;;;;;;;;;;;x
 univ.10.desc;The college term has ended.;;;;;;;;;;;;;x
 univ.10.optA;Let us rejoice;;;;;;;;;;;;;x
@@ -149,6 +153,7 @@ univ.11.desc;Which subjects will I study this year?;;;;;;;;;;;;;x
 univ.11.optA;History (Martial and Learning);;;;;;;;;;;;;x
 univ.11.optB;Science (Stewardship and Martial);;;;;;;;;;;;;x
 univ.11.optC;Business (Stewardship and Intrigue);;;;;;;;;;;;;x
+univ.11.optLeave;Time has come for me to graduate.;;;;;;;;;;;;;x
 univ.11.optD;Politics (Intrigue and Diplomacy);;;;;;;;;;;;;x
 univ.11.optE;Literature (Diplomacy and Learning);;;;;;;;;;;;;x
 more_options;More options...;;;;;;;;;;;;;x
@@ -705,3 +710,41 @@ EVTNAME_gracia.2;The Heir of El Libertador;;;;;;;;;;;;;x
 EVTDESC_gracia.2;Gran Colombia, though divided even in antediluvian times, has at long last been reunited! [From.GetBestName] has proclaimed that this victory is evidence of [From.GetHerHis] descent from the legendary El Libertador and many within the Gracia Divina faith are inclined to believe it.;;;;;;;;;;;;;x
 EVTOPTA_gracia.2;All hail El Libertador!;;;;;;;;;;;;;x
 EVTOPTB_gracia.2;Heathens, all of them!;Tous des païens !;Ketzer, die ganze Bande!;;¡Paganos, todos ellos!;;;;;;;;;x
+
+EVTDESC_faculty_141;My esteemed colleague. Our institution is in dire need of funds. Would you apply your talents to secure some donors?;;;;;;;;;;;;;x
+EVTDESC_faculty_161;Some of our facilities have deteriorated to a point where they are barely suitable for habitation!\nWould you be willing to take charge of their renovation?;;;;;;;;;;;;;x
+EVTDESC_faculty_162;Our library is in dire need books. Many older tomes have fallen apart, and more recent titles are missing altogether.\nThe question is, where to get them? And more importantly, how much will it cost me?;;;;;;;;;;;;;x
+EVTOPTA_faculty_162;Science requires sacrifices, only the best will do!;;;;;;;;;;;;;x
+EVTOPTB_faculty_162;Something from the bargain bin perhaps?;;;;;;;;;;;;;x
+EVTOPTC_faculty_162;I know every book peddler in town.;;;;;;;;;;;;;x
+EVTOPTD_faculty_162;This is hopeless.;;;;;;;;;;;;;x
+EVTDESC_faculty_163;Books don't go well with moisture, same could be said of older faculty members. I need to make sure that roof is impregnable! \nAlso the latrines need attention.;;;;;;;;;;;;;x
+EVTOPTA_faculty_163;Copper roof! And lightning rods! And some work of Thomas Crapper!;;;;;;;;;;;;;x
+EVTOPTB_faculty_163;Proper shingles will do. Digging deeper septic tank goes without question.;;;;;;;;;;;;;x
+EVTOPTC_faculty_163;There is lot of free workforce around. Especially among grad students.;;;;;;;;;;;;;x
+EVTOPTD_faculty_163;This is pointless!;;;;;;;;;;;;;x
+EVTDESC_faculty_164;Relics of pre-Event world surface from time to time. Including old printing engines. University even has few of them in its vaults. \nWith lots of experimentation, and money, I could surly build a new one!\nOf course, I will have to replace some components that no longer exist with suitable alternatives.;;;;;;;;;;;;;x
+EVTOPTA_faculty_164;Increadible! A beast of brass, steel and  type metal, powered by water-wheel and spitting pages!;;;;;;;;;;;;;x
+EVTOPTB_faculty_164;I will have to pull some strings to get the money.;;;;;;;;;;;;;x
+EVTOPTC_faculty_164;On the other hand, I think we can stick with scribes.;;;;;;;;;;;;;x
+EVTDESC_faculty_165;Finally the library stands. And awaits judgement of the faculty.;;;;;;;;;;;;;x
+EVTOPTA_faculty_165;They are amazed. Some even call me genius!;;;;;;;;;;;;;x
+EVTOPTB_faculty_165;They are grateful, and congratulate me on job well done.;;;;;;;;;;;;;x
+EVTOPTC_faculty_165;They are dissapointed, and some even want to expel me!;;;;;;;;;;;;;x
+
+EVTDESC_faculty_300;I have amassed substantial clout in academic community.\nI could use it to establish laboratory in my capital, thus boosting development of my lands.;;;;;;;;;;;;;x
+EVTOPTA_faculty_300;What am I waiting for?;;;;;;;;;;;;;x
+EVTOPTB_faculty_300;On the other hand, this is looking very expensive.;;;;;;;;;;;;;x
+
+EVTDESC_faculty_310;If I devote enough time to it, I am sure I could substantially deepen my knowledge of...;;;;;;;;;;;;;x
+EVTOPTA_faculty_310;economics and administration.;;;;;;;;;;;;;x
+EVTOPTB_faculty_310;ancient lore.;;;;;;;;;;;;;x
+EVTOPTC_faculty_310;medicine and chemistry.;;;;;;;;;;;;;x
+EVTOPTD_faculty_310;theology.;;;;;;;;;;;;;x
+
+EVTDESC_faculty_320;With substantial investment I could spread what I learned among my countrymen.\nThus boosting develop throughout the realm!;;;;;;;;;;;;;x
+EVTOPTA_faculty_320;Information wants to be free!;;;;;;;;;;;;;x
+EVTOPTB_faculty_320;But knowledge is power, and this isn't exactly cheap.;;;;;;;;;;;;;x
+
+EVTDESC_faculty_321;It seems new ideas are spreading in our lands.\nThanks to my genius no doubt!;;;;;;;;;;;;;x
+EVTOPTA_faculty_321;OK;;;;;;;;;;;;;x

@@ -1456,9 +1456,15 @@ university_UCLA_rank_4_male;President;;;;;;;;;x
 currency_name_university;Academic Prestige;;;;;;;;;;;;;x
 
 university_request_funds;Request university funding;;;;;;;;;;;;;x
+university_request_funds_desc;University will surly help a faculty member in need.;;;;;;;;;;;;;x
 university_perform_research;Perform academic research;;;;;;;;;;;;;x
+university_perform_research_desc;Vast archives, libraries and oceans of students are at your disposal. Use them!;;;;;;;;;;;;;x
 establish_laboratory_in_capital;Establish laboratory in your capital.;;;;;;;;;;;;;x
+establish_laboratory_in_capital_desc;Use your influence to establish laboratory in your capital.;;;;;;;;;;;;;x
 choose_academic_discipline;Choose academic discipline;;;;;;;;;;;;;x
+choose_academic_discipline_desc;Specialize in specific area of human inquiry.;;;;;;;;;;;;;x
 university_disseminate_technology;Disseminate technology in your realm;;;;;;;;;;;;;x
+university_disseminate_technology_desc;Knowledge is to be shared, improving lives of everyone.;;;;;;;;;;;;;x
 
 university_raise_funds_mission;Raise funds for your university;;;;;;;;;;;;;x
+university_raise_funds_mission_desc;Ask [Root.GetName] to provide funding.;;;;;;;;;;;;;x

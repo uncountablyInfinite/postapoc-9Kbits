@@ -641,7 +641,10 @@ character_event = {
 		learning = 10
 		NOT = { trait = diligent }
 	}
-	
+	# Lab partner rivarly?
+	#immediate = {
+	#	
+	#}
 	mean_time_to_happen = {
 		months = 30
 	}

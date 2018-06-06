@@ -71,7 +71,57 @@ decisions = {
 					economy_techpoints = 75
 					military_techpoints = 75
 				}
+			}
+			if = {
+				limit = {
+					society_influence = {
+						value = 90
+					}			
 				}
+				economy_techpoints = 100
+				military_techpoints = 100
+				culture_techpoints = 100
+			}
+			if = {
+				limit = {
+					society_influence = {
+						value = 80
+					}			
+				}
+				economy_techpoints = 25
+				military_techpoints = 25
+				culture_techpoints = 25
+			}
+			if = {
+				limit = {
+					society_influence = {
+						value = 60
+					}			
+				}
+				economy_techpoints = 25
+				military_techpoints = 25
+				culture_techpoints = 25
+			}
+			if = {
+				limit = {
+					society_influence = {
+						value = 40
+					}			
+				}
+				economy_techpoints = 25
+				military_techpoints = 25
+				culture_techpoints = 25
+			}
+			if = {
+				limit = {
+					society_influence = {
+						value = 20
+					}			
+				}
+				economy_techpoints = 25
+				military_techpoints = 25
+				culture_techpoints = 25
+			}		
 			}
 		}
 		ai_will_do = {
@@ -230,6 +280,7 @@ targetted_decisions = {# Quest decisions
 			}
 			is_within_diplo_range = ROOT
 			wealth = 200
+			NOT = { has_character_modifier = decided_on_uni_contribution }
 		}
 		
 		effect = {

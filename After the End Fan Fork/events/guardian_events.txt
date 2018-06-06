@@ -3814,6 +3814,39 @@ letter_event = {
 	
 	option = {
 		name = EVTOPTA2481
+		ai_chance = {
+			factor = 1
+			# Vassal isn't of my culture
+			modifier = {
+				factor = 0.5
+				
+			}
+			# Vassal isn't of my faith
+			modifier = {
+				factor = 0.01
+				
+			}
+			# Vassal is well educated
+			modifier = {
+				factor = 2
+				FROM = {
+					trait = graduate
+				}
+			}
+			# Vassal is master of his field
+			modifier = {
+				factor = 3
+				FROM = {
+					OR = {
+						trait = grey_eminence
+						trait =	brilliant_strategist
+						trait = midas_touched
+						trait = elusive_shadow
+						trait = mastermind_theologian
+					}
+				}
+			}
+		}
 		random_child = {
 			limit = {
 				age = 6
@@ -3824,7 +3857,7 @@ letter_event = {
 			}
 			set_character_flag = guardian_child
 			character_event = { id = 2484 tooltip = EVTTOOLTIP2484 }
-		}
+		}		
 		FROM = {
 			letter_event = {
 				id = 2482

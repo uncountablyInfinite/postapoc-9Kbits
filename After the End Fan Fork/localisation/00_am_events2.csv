@@ -1823,9 +1823,9 @@ EVTOPTA_faculty_122;Finally, some well deserved reckognition;;;;;;;;;;;;;x
 
 EVTDESC_faculty_141;University job;;;;;;;;;;;;;x
 
-EVTDESC_faculty_142;University needs additional finances. Libraries, laboratories and faculty launges don't pay for themselves. \nOn the other hand, a wealthy donor or two...;;;;;;;;;;;;;x
-EVTOPTA_faculty_142;It's not extortion, if it's for science.;;;;;;;;;;;;;x
-EVTOPTB_faculty_142;Perhaps my famous charm will be of some use.;;;;;;;;;;;;;x
+EVTDESC_faculty_142;I have been approached by [FromFrom.GetBestName]. Apparently, [FromFrom.GetHerHis] university is in need of funds and [FromFrom.GetSheHe] believes I could be of help.;;;;;;;;;;;;;x
+EVTOPTA_faculty_142;Science and education benefits everyone.;;;;;;;;;;;;;x
+EVTOPTB_faculty_142;They won't get a single dime!;;;;;;;;;;;;;x
 
 EVTDESC_faculty_150;Quarelling students;;;;;;;;;;;;;x
 EVTOPTA_faculty_150;Beat some sense into them.;;;;;;;;;;;;;x

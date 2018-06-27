@@ -2,7 +2,7 @@ namespace = dynamic
 
 #Formation of Dine
 narrative_event={
-	id = dyanamic.1
+	id = dynamic.1
 	title = EVTNAME_form_dine
 	desc = EVTDESC_form_dine
 	picture = GFX_evt_throne_room
@@ -99,7 +99,7 @@ narrative_event={
 
 #Formation of Tuskegee
 narrative_event={
-	id = dyanamic.2
+	id = dynamic.2
 	title = EVTNAME_form_tuskegee
 	desc = EVTDESC_form_tuskegee
 	picture = GFX_evt_throne_room
@@ -197,7 +197,7 @@ narrative_event={
 
 #Formation of the Triple Alliance
 narrative_event={
-	id = dyanamic.3
+	id = dynamic.3
 	title = EVTNAME_form_triple_alliance
 	desc = EVTDESC_form_triple_alliance
 	picture = GFX_evt_throne_room
@@ -394,7 +394,7 @@ narrative_event={
 
 #Formation of Haudenosaunee
 narrative_event={
-	id = dyanamic.5
+	id = dynamic.5
 	title = EVTNAME_form_iroquois
 	desc = EVTDESC_form_iroquois
 	picture = GFX_evt_throne_room
@@ -492,7 +492,7 @@ narrative_event={
 
 #Formation of Acadie
 narrative_event={
-	id = dyanamic.6
+	id = dynamic.6
 	title = EVTNAME_form_acadie
 	desc = EVTDESC_form_acadie
 	picture = GFX_evt_throne_room
@@ -508,7 +508,7 @@ narrative_event={
 			has_landed_title = k_maritimes
 			has_landed_title = k_mikmaki
 		}
-		culture = acadien
+		culture_group = gallomerican
 		NOT = { has_global_flag = k_acadie_formed }
 	}
 	
@@ -591,19 +591,19 @@ narrative_event={
 		}
 	}
 	option = {
-		name = EVTOPTA_form_acadie
+		name = EVTOPTB_form_acadie
 		trigger = {
 			culture_group = gallomerican
 		}
 	}
 	option = {
-		name = EVTOPTB_form_acadie
+		name = EVTOPTC_form_acadie
 		trigger = {
 			culture = maritimer
 		}
 	}
 	option = {
-		name = EVTOPTC_form_acadie
+		name = EVTOPTD_form_acadie
 		trigger = {
 			NOT = { culture_group = gallomerican }
 			NOT = { culture = maritimer }
@@ -613,7 +613,7 @@ narrative_event={
 
 #Formation of Mi'kma'ki
 narrative_event={
-	id = dyanamic.7
+	id = dynamic.7
 	title = EVTNAME_form_mikmaki
 	desc = EVTDESC_form_mikmaki
 	picture = GFX_evt_throne_room
@@ -709,7 +709,7 @@ narrative_event={
 		}
 	}
 	option = {
-		name = EVTOPTA_form_mikmaki
+		name = EVTOPTB_form_mikmaki
 		trigger = {
 			OR = {
 				culture_group = subarctic
@@ -719,7 +719,7 @@ narrative_event={
 		}
 	}
 	option = {
-		name = EVTOPTB_form_acadie
+		name = EVTOPTC_form_mikmaki
 		trigger = {
 			OR = {
 				culture = maritimer
@@ -728,7 +728,7 @@ narrative_event={
 		}
 	}
 	option = {
-		name = EVTOPTC_form_acadie
+		name = EVTOPTD_form_acadie
 		trigger = {
 			NOR = {
 				culture_group = subarctic
@@ -745,7 +745,7 @@ narrative_event={
 
 #Reversion to Arixo
 narrative_event={
-	id = dyanamic.8
+	id = dynamic.8
 	title = EVTNAME_form_arixo
 	desc = EVTDESC_form_arixo
 	picture = GFX_evt_throne_room
@@ -844,7 +844,7 @@ narrative_event={
 
 #Reversion to Dixieland
 narrative_event={
-	id = dyanamic.9
+	id = dynamic.9
 	title = EVTNAME_form_dixieland
 	desc = EVTDESC_form_dixieland
 	picture = GFX_evt_throne_room
@@ -942,7 +942,7 @@ narrative_event={
 
 #Reversion to Mexico
 narrative_event={
-	id = dyanamic.10
+	id = dynamic.10
 	title = EVTNAME_form_mexico
 	desc = EVTDESC_form_mexico
 	picture = GFX_evt_throne_room
@@ -1256,7 +1256,7 @@ narrative_event={
 			has_landed_title = k_acadie
 			has_landed_title = k_mikmaki
 		}
-		culture = acadien
+		culture = maritimer
 		OR = {
 			has_global_flag = k_acadie_formed
 			has_global_flag = k_mikmaki_formed
@@ -1351,13 +1351,13 @@ narrative_event={
 		}
 	}
 	option = {
-		name = EVTOPTD_form_acadie
+		name = EVTOPTD_form_maritimes
 		trigger = {
 			culture = maritimer
 		}
 	}
 	option = {
-		name = EVTOPTE_form_acadie
+		name = EVTOPTE_form_maritimes
 		trigger = {
 			NOT = { culture = maritimer }
 			NOT = { culture_group = subarctic }

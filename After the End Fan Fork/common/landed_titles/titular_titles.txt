@@ -3349,6 +3349,8 @@ e_triple_alliance = {
 	allow = {
 		always = no # cannot be formed normally
 	}
+	
+	short_name = yes
 }
 
 k_keystone = {

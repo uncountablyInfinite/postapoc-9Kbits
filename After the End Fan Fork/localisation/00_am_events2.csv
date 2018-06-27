@@ -1939,3 +1939,86 @@ EVTOPTA_form_dine;Our homeland is ours once again.;;;;;;;;;;;;;x
 EVTOPTB_form_dine;First the Comanche, now the Navajo...;;;;;;;;;;;;;x
 EVTOPTC_form_dine;It is theirs by right.;;;;;;;;;;;;;x
 EVTOPTD_form_dine;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_tuskegee;Formation of Tuskegee;;;;;;;;;;;;;x
+EVTDESC_form_tuskegee;Since the time of Old America, the Deep South has been thought of as the traditional homeland of the Dixie people. However, this land is also the birthplace of Afro-Anglo culture, and the Afro-Anglo peoples have always said that they have just as much of a right to the Deep South as the Dixies and Southrons. The Afro-Anglo peoples have now asserted their claim, and the area once referred to as "Dixieland" is now the "Kingdom of Tuskegee".;;;;;;;;;;;;;x
+EVTOPTA_form_tuskegee;Brothers, we are finally free!
+EVTOPTB_form_tuskegee;The South will rise again!;;;;;;;;;;;;;x
+EVTOPTC_form_tuskegee;Our brothers have been freed!;;;;;;;;;;;;;x
+EVTOPTD_form_tuskegee;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_triple_alliance;Formation of Excan Tlahtoloyan;;;;;;;;;;;;;x
+EVTDESC_form_triple_alliance;The heart of Mesoamerica has been known as "Mexico" for millenia, a legacy of the Spanish conquest of the ancient Aztec Empire. However, at long last, the true heirs of the Aztec Empire have reclaimed its lands. "Mexico" is now once again known by its rightful native name - Excan Tlahtoloyan, or "Triple Alliance". Although the alliance itself is still long-dead, the revival of this ancient name signals a turning point in the history of Mesoamerica.;;;;;;;;;;;;;x
+EVTOPTA_form_triple_alliance;The old gods will it!;;;;;;;;;;;;;x
+EVTOPTB_form_triple_alliance;Blasted heathens!;;;;;;;;;;;;;x
+EVTOPTC_form_triple_alliance;The gods be praised!;;;;;;;;;;;;;x
+EVTOPTD_form_triple_alliance;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_keystone;Formation of Keystone;;;;;;;;;;;;;x
+EVTDESC_form_keystone;Shortly after the event, the Deitsch people gained control over the entirety of what was once eastern Pennsylvania. Although their takeover was largely peaceful, they nevertheless imposed their culture and traditions on the people, and the area became known as "Deitscherei". However, with the loss of Deitsch control over Eastern Pennsylvania, it is once again referred to by its ancient name - Keystone.;;;;;;;;;;;;;x
+EVTOPTA_form_keystone;We look to the future, not the past.;;;;;;;;;;;;;x
+EVTOPTB_form_keystone;We will turn the other cheek...;;;;;;;;;;;;;x
+EVTOPTC_form_keystone;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_iroquois;Formation of Haudenosaunee;;;;;;;;;;;;;x
+EVTDESC_form_iroquois;In millenia gone by, the region known as "Hudsonia" was once the core of a great Native empire - the Haudenosaunee Confederacy. Formed by an alliance of six related nations, the Confederacy was torn asunder by the war against the Redcoats and was easy pickings for Old America. However, the ancient owners of this land have finally reasserted control over them, and the area is once again known by its ancient name - Haudenosaunee.;;;;;;;;;;;;;x
+EVTOPTA_form_iroquois;The Peacemaker would be proud.;;;;;;;;;;;;;x
+EVTOPTB_form_iroquois;They lost their land once, and they will lose it again...;;;;;;;;;;;;;x
+EVTOPTC_form_iroquois;It is theirs by right.;;;;;;;;;;;;;x
+EVTOPTD_form_iroquois;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_acadie;Formation of Acadie;;;;;;;;;;;;;x
+EVTDESC_form_acadie;Before the British conquest of the North Atlantic, the area now known as the Maritimes was inhabited primarily by Gallomericans, who dubbed the area "Acadie." Perfidious Albion attempted to completely sever the ties of the Acadien people to their land, first by deporting them south and then by allowing migrants from their own isle to arrive by the thousands. Now that the Gallomerican people have re-established rule over the area, the old British name has fallen by the wayside, and the Kingdom of Acadie has emerged in its place.;;;;;;;;;;;;;x
+EVTOPTA_form_acadie;Vive l'Acadie!;;;;;;;;;;;;;x
+EVTOPTB_form_acadie;We have not forgotten.
+EVTOPTC_form_acadie;But this is our land, too...;;;;;;;;;;;;;x
+EVTOPTD_form_acadie;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_mikmaki;Formation of Mi'kma'ki;;;;;;;;;;;;;x
+EVTDESC_form_mikmaki;Before the Maritimers, before even the Acadiens, there were the Mi'kmaq. The homeland of the Mi'kmaq people was on the northeastern coast of the North American mainland, south of the St. Lawrence River. After the arrival of first the French and then the British, the Mi'kmaq were reduced to a tiny minority in their historic homeland. But those days are past, and the Mi'kmaq now rule once more. Their homeland is once again known by its proper name: Mi'kma'ki.;;;;;;;;;;;;;x
+EVTOPTA_form_mikmaki;We will never lose this land again.;;;;;;;;;;;;;x
+EVTOPTB_form_mikmaki;It is theirs by right.;;;;;;;;;;;;;x
+EVTOPTC_form_mikmaki;This is our land too!;;;;;;;;;;;;;x
+EVTOPTD_form_acadie;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_arixo;Restoration of Arixo;;;;;;;;;;;;;x
+EVTDESC_form_arixo;The Navajo reconquest of their ancient homeland was glorious, but ultimately short-lived. History has repeated itself, and the Arixo people have reasserted their claim to the land once known as "Diné". They have restored both its old name and symbols, and have proclaimed that they will never again lose control of the land.;;;;;;;;;;;;;x
+EVTOPTA_form_arixo;The West has been won again!;;;;;;;;;;;;;x
+EVTOPTB_form_arixo;They have no right to the land. They will lose it once more.;;;;;;;;;;;;;x
+EVTOPTC_form_arixo;Good for them...;;;;;;;;;;;;;x
+EVTOPTD_form_arixo;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_dixieland;Restoration of Dixieland;;;;;;;;;;;;;x
+EVTDESC_form_dixieland;For centuries, the motto of the Dixie people has been "The South will rise again!" This motto has come to fruition today, as the South Anglo people once again assert control over the land they call home. The Kingdom of Tuskegee is no more, and the Kingdom of Dixieland has risen to take its place.;;;;;;;;;;;;;x
+EVTOPTA_form_dixieland;In Dixieland I'll take my stand to live and die in Dixie.;;;;;;;;;;;;;x
+EVTOPTB_form_dixieland;They can try, but they won't keep us down!;;;;;;;;;;;;;x
+EVTOPTC_form_dixieland;Our heritage will never die!;;;;;;;;;;;;;x
+EVTOPTD_form_dixieland;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_mexico;Restoration of Mexico;;;;;;;;;;;;;x
+EVTDESC_form_mexico;After the re-establishment of Excan Tlahtoloyan, most thought that the Aztec rule of Mexico would not fall again. However, the tenacious people of Mexico have proven them wrong. With the Sacred Heart behind them, the true inhabitants of Mexico have completed their reconquista of Mesoamerica, and Mexico has been restored.;;;;;;;;;;;;;x
+EVTOPTA_form_mexico;Viva la Reconquista!;;;;;;;;;;;;;x
+EVTOPTB_form_mexico;The gods have abandoned us...;;;;;;;;;;;;;x
+EVTOPTC_form_mexico;Praise the saints!;;;;;;;;;;;;;x
+EVTOPTD_form_mexico;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_deitscherei;Restoration of Deitscherei;;;;;;;;;;;;;x
+EVTDESC_form_deitscherei;The Deitsch have once again asserted control over what was once Eastern Pennsylvania. With their old language and customs comes the old name for the area - Deitscherei.;;;;;;;;;;;;;x
+EVTOPTA_form_deitscherei;The English will not take this land again.;;;;;;;;;;;;;x
+EVTOPTB_form_deitscherei;Praise God!;;;;;;;;;;;;;x
+EVTOPTC_form_deitscherei;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_hudsonia;Restoration of Hudsonia;;;;;;;;;;;;;x
+EVTDESC_form_hudsonia;Haudenosaunee has fallen once again to the descendants of the Americans. Their traditions and symbols have once again been swept to the wayside and abandoned, and the area north of the great city is once again referred to using its old name - Hudsonia.;;;;;;;;;;;;;x
+EVTOPTA_form_hudsonia;Excelsior!;;;;;;;;;;;;;x
+EVTOPTB_form_hudsonia;I said it would happen.;;;;;;;;;;;;;x
+EVTOPTC_form_hudsonia;The land is not rightfully theirs. They will lose it again.;;;;;;;;;;;;;x
+EVTOPTD_form_hudsonia;So it goes...;;;;;;;;;;;;;x
+
+EVTNAME_form_maritimes;Restoration of the Maritimes;;;;;;;;;;;;;x
+EVTDESC_form_maritimes;The Maritimers once again rule in the North Atlantic, and their kingdom is once again known as the Maritimes.;;;;;;;;;;;;;x
+EVTOPTA_form_maritimes;We won't lose it again.;;;;;;;;;;;;;x
+EVTOPTB_form_maritimes;Perfidious Albion strikes again...;;;;;;;;;;;;;x
+EVTOPTC_form_maritimes;That land is ours by right!;;;;;;;;;;;;;x
+EVTOPTD_form_maritimes;As it should be.;;;;;;;;;;;;;x
+EVTOPTE_form_maritimes;So it goes...;;;;;;;;;;;;;x

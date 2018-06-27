@@ -218,7 +218,6 @@ decisions = {
 				has_holder = no
 			}
 			NOT = { has_landed_title = e_dixie }
-			NOT = { has_landed_title = k_commonwealth }
 		}
 		allow = {
 			is_adult = yes
@@ -520,127 +519,6 @@ decisions = {
 		}
 	}
 	
-	form_the_commonwealth = {
-		is_high_prio = yes
-		potential = {
-			NOT = {
-				has_game_rule = {
-					name = empire_decisions
-					value = off
-				}
-			}			NOT = { has_global_flag = commonwealth_formed }
-			NOT = { has_global_flag = usa_restored }
-			NOT = { has_global_flag = nys_formed }
-			independent = yes
-			OR = {
-				culture = delawarean
-				culture = deitsch
-				culture = rostmann
-			}
-			OR = {
-				has_landed_title = k_keystone
-				has_landed_title = k_allegheny
-				has_landed_title = d_philadelphia
-			}
-			NOT = { tier = EMPEROR }
-			e_usa = {
-				has_holder = no
-			}
-			NOT = { has_landed_title = e_dixie }
-			NOT = { has_landed_title = e_nys }
-		}
-		allow = {
-			is_adult = yes
-			prisoner = no
-			NOT = { trait = incapable }
-			prestige = 1000
-			scaled_wealth = 1.5
-			war = no
-			completely_controls = d_coalland
-			completely_controls = d_west_susquehanna
-			completely_controls = d_east_susquehanna
-			completely_controls = d_wilds
-			completely_controls = d_westsylvania
-			completely_controls = c_erie
-			completely_controls = d_philadelphia
-		}
-		effect = {
-			activate_title = { title = k_commonwealth status = yes }
-			primary_title = {
-				k_commonwealth = {
-					grant_title = ROOT
-					copy_title_laws = PREV
-				}
-			}
-			scaled_wealth = -2
-			if = {
-				limit = { has_nickname = no }
-				give_nickname = nick_the_great
-			}
-			c_erie = {
-				de_jure_liege = d_erie
-			}
-			d_erie = {
-				de_jure_liege = k_commonwealth
-			}
-			d_niagara = {
-				de_jure_liege = k_hudsonia
-			}
-			d_wilds = {
-				de_jure_liege = k_commonwealth
-			}
-			d_westsylvania = {
-				de_jure_liege = k_commonwealth
-			}
-			d_east_susquehanna = {
-				de_jure_liege = k_commonwealth
-			}
-			d_west_susquehanna = {
-				de_jure_liege = k_commonwealth
-			}
-			d_philadelphia = {
-				de_jure_liege = k_commonwealth
-			}
-			d_coalland = {
-				de_jure_liege = k_commonwealth
-			}
-			k_commonwealth = {
-				de_jure_liege = e_atlantica
-			}
-			custom_tooltip = { #If the duchy of Niagra is fully controlled, make it de jure under the Kingdom of the Commonwealth
-				text = form_the_commonwealth_tooltip_1
-				hidden_tooltip = {
-					if = {
-						limit = {
-							completely_controls = d_niagara
-						}
-						c_erie = {
-							de_jure_liege = d_niagara
-						}
-						d_niagara = { 
-							de_jure_liege = k_commonwealth
-						}
-					}
-				}
-			}
-			hidden_tooltip = {
-				k_keystone = {
-					destroy_landed_title = THIS
-				}
-				k_allegheny = {
-					destroy_landed_title = THIS
-				}
-			}
-			set_global_flag = commonwealth_formed
-		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	vassalize_lebanon_brethren = {
 		is_high_prio = yes
 		
@@ -651,7 +529,10 @@ decisions = {
 			
 			is_title_active = d_lebanon_brethren
 			
-			has_landed_title = k_commonwealth
+			AND = {
+				has_landed_title = k_deitschrei
+				has_landed_title = k_allegheny
+			}
 			
 			d_lebanon_brethren = {
 				holder_scope = {
@@ -715,7 +596,6 @@ decisions = {
 			NOT = { has_landed_title = e_usa }
 			NOT = { has_landed_title = e_dixie }
 			NOT = { has_landed_title = e_nys }
-			NOT = { has_landed_title = k_commonwealth }
 		}
 		allow = {
 			is_adult = yes

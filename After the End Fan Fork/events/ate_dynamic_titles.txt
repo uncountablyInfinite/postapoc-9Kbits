@@ -1,0 +1,1367 @@
+namespace = dynamic
+
+#Formation of Dine
+narrative_event={
+	id = dyanamic.1
+	title = EVTNAME_form_dine
+	desc = EVTDESC_form_dine
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		has_landed_title = k_arixo
+		culture = navajo
+		NOT = { has_global_flag = k_dinetah_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 412 #Fort Defiance
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_dinetah_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_dine
+		trigger = {
+			has_landed_title = k_arixo
+		}
+		prestige = 500
+		activate_title = { title = k_dinetah status = yes }
+		k_dinetah = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_navajoland = {
+			de_jure_liege = k_dinetah
+		}
+		d_hopi = {
+			de_jure_liege = k_dinetah
+		}
+		d_apacheria = {
+			de_jure_liege = k_dinetah
+		}
+		d_gadsden = {
+			de_jure_liege = k_dinetah
+		}
+		d_arizona = {
+			de_jure_liege = k_dinetah
+		}
+		k_arixo = {
+			destroy_landed_title = THIS
+		}
+		k_dinetah = {
+			de_jure_liege = e_aztlan
+		}
+	}
+	option = {
+		name = EVTOPTB_form_dine
+		trigger = {
+			culture_group = west_anglo
+		}
+	}
+	option = {
+		name = EVTOPTC_form_dine
+		trigger = {
+			OR = {
+				culture_group = plains
+				culture_group = plateau
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_form_dine
+		trigger = {
+			NOT = { culture = arixo }
+			NOR = {
+				culture_group = plains
+				culture_group = plateau
+			}
+		}
+	}
+}
+
+#Formation of Tuskegee
+narrative_event={
+	id = dyanamic.2
+	title = EVTNAME_form_tuskegee
+	desc = EVTDESC_form_tuskegee
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_dixieland
+		culture_group = afro_anglo
+		NOT = { has_global_flag = k_tuskegee_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 149 #Atlanta
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_tuskegee_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_tuskegee
+		trigger = {
+			has_landed_title = k_dixieland
+		}
+		prestige = 500
+		activate_title = { title = k_tuskegee status = yes }
+		k_tuskegee = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_peachtree = {
+			de_jure_liege = k_tuskegee
+		}
+		d_savannah = {
+			de_jure_liege = k_tuskegee
+		}
+		d_altamaha = {
+			de_jure_liege = k_tuskegee
+		}
+		d_sowega = {
+			de_jure_liege = k_tuskegee
+		}
+		d_black_belt = {
+			de_jure_liege = k_tuskegee
+		}
+		d_wiregrass = {
+			de_jure_liege = k_tuskegee
+		}
+		d_birmingham = {
+			de_jure_liege = k_tuskegee
+		}
+		k_tuskegee = {
+			de_jure_liege = e_dixie
+		}
+		k_dixieland = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_tuskegee
+		trigger = {
+			culture_group = south_anglo
+		}
+	}
+	option = {
+		name = EVTOPTC_form_tuskegee
+		trigger = {
+			culture_group = afro_anglo
+		}
+	}
+	option = {
+		name = EVTOPTD_form_tuskegee
+		trigger = {
+			NOT = { culture_group = south_anglo }
+			NOT = { culture_group = afro_anglo }
+		}
+	}
+}
+
+#Formation of the Triple Alliance
+narrative_event={
+	id = dyanamic.3
+	title = EVTNAME_form_triple_alliance
+	desc = EVTDESC_form_triple_alliance
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = e_mexico
+		OR = {
+			culture_group = mesoamerican
+			culture_group = mayan
+		}
+		religion_group = mesoamerican_gods
+		NOT = { has_global_flag = e_triple_alliance_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 3067 #c_mexico
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = e_triple_alliance_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_triple_alliance
+		trigger = {
+			has_landed_title = e_mexico
+		}
+		prestige = 1000
+		activate_title = { title = e_triple_alliance status = yes }
+		e_triple_alliance = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		k_bajio = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_colima = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_gran_chichimeca = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_jalisco = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_mexico = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_michoacan = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_mixteca = {
+			de_jure_liege = e_triple_alliance
+		}
+		k_zapoteca = {
+			de_jure_liege = e_triple_alliance
+		}
+		e_mexico = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_triple_alliance
+		trigger = {
+			OR = {
+				culture_group = mexicano
+				religion_group = cult_of_saints
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_form_triple_alliance
+		trigger = {
+			OR = {
+				culture_group = mesoamerican
+				culture_group = mayan
+			}
+			religion_group = mesoamerican_gods
+		}
+	}
+	option = {
+		name = EVTOPTD_form_triple_alliance
+		trigger = {
+			NOR = {
+				culture_group = mexicano
+				religion_group = cult_of_saints
+			}
+			NAND = {
+				OR = {
+					culture_group = mesoamerican
+					culture_group = mayan
+				}
+				religion_group = mesoamerican_gods
+			}
+		}
+	}
+}
+
+#Formation of Keystone
+narrative_event={
+	id = dynamic.4
+	title = EVTNAME_form_keystone
+	desc = EVTDESC_form_keystone
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_deitscherei
+		NOT = { culture = deitsch }
+		NOT = { has_global_flag = k_keystone_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 51 #Schulykill
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_keystone_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_keystone
+		trigger = {
+			has_landed_title = k_deitscherei
+		}
+		prestige = 500
+		activate_title = { title = k_keystone status = yes }
+		k_keystone = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_coalland = {
+			de_jure_liege = k_keystone
+		}
+		d_east_susquehanna = {
+			de_jure_liege = k_keystone
+		}
+		d_west_susquehanna = {
+			de_jure_liege = k_keystone
+		}
+		k_keystone = {
+			de_jure_liege = e_atlantica
+		}
+		k_deitscherei = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_keystone
+		trigger = {
+			culture = deitsch
+		}
+	}
+	option = {
+		name = EVTOPTC_form_keystone
+		trigger = {
+			NOT = { culture = deitsch }
+		}
+	}
+}
+
+#Formation of Haudenosaunee
+narrative_event={
+	id = dyanamic.5
+	title = EVTNAME_form_iroquois
+	desc = EVTDESC_form_iroquois
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_hudsonia
+		culture = iroquois
+		NOT = { has_global_flag = k_iroquois_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 14 #Syracuse
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_iroquois_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_iroquois
+		trigger = {
+			has_landed_title = k_hudsonia
+		}
+		prestige = 500
+		activate_title = { title = k_iroquois status = yes }
+		k_iroquois = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_adirondack = {
+			de_jure_liege = k_iroquois
+		}
+		d_finger_lakes = {
+			de_jure_liege = k_iroquois
+		}
+		d_cayuga = {
+			de_jure_liege = k_iroquois
+		}
+		d_mohawk_valley = {
+			de_jure_liege = k_iroquois
+		}
+		d_hudson_valley = {
+			de_jure_liege = k_iroquois
+		}
+		d_champlain = {
+			de_jure_liege = k_iroquois
+		}
+		d_catskill = {
+			de_jure_liege = k_iroquois
+		}
+		k_iroquois = {
+			de_jure_liege = e_atlantica
+		}
+		k_hudsonia = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_iroquois
+		trigger = {
+			culture_group = north_atlantic
+		}
+	}
+	option = {
+		name = EVTOPTC_form_iroquois
+		trigger = {
+			culture_group = eastern_woodlands
+		}
+	}
+	option = {
+		name = EVTOPTD_form_iroquois
+		trigger = {
+			NOT = { culture_group = north_atlantic }
+			NOT = { culture_group = eastern_woodlands }
+		}
+	}
+}
+
+#Formation of Acadie
+narrative_event={
+	id = dyanamic.6
+	title = EVTNAME_form_acadie
+	desc = EVTDESC_form_acadie
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		OR = {
+			has_landed_title = k_maritimes
+			has_landed_title = k_mikmaki
+		}
+		culture = acadien
+		NOT = { has_global_flag = k_acadie_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 1262 #Port-Royal
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_acadie_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_acadie
+		trigger = {
+			OR = {
+				has_landed_title = k_maritimes
+				has_landed_title = k_mikmaki
+			}
+		}
+		prestige = 500
+		activate_title = { title = k_acadie status = yes }
+		k_acadie = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_new_brunswick = {
+			de_jure_liege = k_acadie
+		}
+		d_petitcodiac = {
+			de_jure_liege = k_acadie
+		}
+		d_miramichi = {
+			de_jure_liege = k_acadie
+		}
+		d_restigouche = {
+			de_jure_liege = k_acadie
+		}
+		d_madeleine_islands = {
+			de_jure_liege = k_acadie
+		}
+		d_prince_edward_island = {
+			de_jure_liege = k_acadie
+		}
+		d_nova_scotia = {
+			de_jure_liege = k_acadie
+		}
+		d_cape_breton = {
+			de_jure_liege = k_acadie
+		}
+		k_acadie = {
+			de_jure_liege = e_canada
+		}
+		if = {
+			limit = {
+				NOT = { has_global_flag = k_mikmaki_formed }
+			}
+			k_maritimes = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = k_mikmaki_formed }
+			}
+			clr_global_flag = k_mikmaki_formed
+			k_mikmaki = {
+				destroy_landed_title = THIS
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_form_acadie
+		trigger = {
+			culture_group = gallomerican
+		}
+	}
+	option = {
+		name = EVTOPTB_form_acadie
+		trigger = {
+			culture = maritimer
+		}
+	}
+	option = {
+		name = EVTOPTC_form_acadie
+		trigger = {
+			NOT = { culture_group = gallomerican }
+			NOT = { culture = maritimer }
+		}
+	}
+}
+
+#Formation of Mi'kma'ki
+narrative_event={
+	id = dyanamic.7
+	title = EVTNAME_form_mikmaki
+	desc = EVTDESC_form_mikmaki
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		OR = {
+			has_landed_title = k_maritimes
+			has_landed_title = k_acadie
+		}
+		culture = mikmaq
+		NOT = { has_global_flag = k_mikmaki_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 1165 #Moncton
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = k_mikmaki_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_mikmaki
+		trigger = {
+			has_landed_title = k_maritimes
+		}
+		prestige = 500
+		activate_title = { title = k_mikmaki status = yes }
+		k_acadie = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_new_brunswick = {
+			de_jure_liege = k_mikmaki
+		}
+		d_petitcodiac = {
+			de_jure_liege = k_mikmaki
+		}
+		d_miramichi = {
+			de_jure_liege = k_mikmaki
+		}
+		d_restigouche = {
+			de_jure_liege = k_mikmaki
+		}
+		d_madeleine_islands = {
+			de_jure_liege = k_mikmaki
+		}
+		d_prince_edward_island = {
+			de_jure_liege = k_mikmaki
+		}
+		d_nova_scotia = {
+			de_jure_liege = k_mikmaki
+		}
+		d_cape_breton = {
+			de_jure_liege = k_mikmaki
+		}
+		k_acadie = {
+			de_jure_liege = e_canada
+		}
+		if = {
+			limit = {
+				NOT = { has_global_flag = k_acadie_formed }
+			}
+			k_maritimes = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = k_acadie_formed
+			}
+			clr_global_flag = k_acadie_formed
+			k_acadie = {
+				destroy_landed_title = THIS
+			}
+		}
+	}
+	option = {
+		name = EVTOPTA_form_mikmaki
+		trigger = {
+			OR = {
+				culture_group = subarctic
+				culture_group = algonquian
+				culture = metis
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_form_acadie
+		trigger = {
+			OR = {
+				culture = maritimer
+				culture = acadien
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_form_acadie
+		trigger = {
+			NOR = {
+				culture_group = subarctic
+				culture_group = algonquian
+				culture = metis
+			}
+			NOR = {
+				culture = maritimer
+				culture = acadien
+			}
+		}
+	}
+}
+
+#Reversion to Arixo
+narrative_event={
+	id = dyanamic.8
+	title = EVTNAME_form_arixo
+	desc = EVTDESC_form_arixo
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		has_landed_title = k_dinetah
+		culture = arixo
+		has_global_flag = k_dinetah_formed
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 439 #Phoenix
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = k_dinetah_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_arixo
+		trigger = {
+			has_landed_title = k_dinetah
+		}
+		prestige = 500
+		activate_title = { title = k_arixo status = yes }
+		k_arixo = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_navajoland = {
+			de_jure_liege = k_arixo
+		}
+		d_hopi = {
+			de_jure_liege = k_arixo
+		}
+		d_apacheria = {
+			de_jure_liege = k_arixo
+		}
+		d_gadsden = {
+			de_jure_liege = k_arixo
+		}
+		d_arizona = {
+			de_jure_liege = k_arixo
+		}
+		k_dinetah = {
+			destroy_landed_title = THIS
+		}
+		k_arixo = {
+			de_jure_liege = e_aztlan
+		}
+	}
+	option = {
+		name = EVTOPTB_form_arixo
+		trigger = {
+			OR = {
+				culture_group = plains
+				culture_group = plateau
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_form_arixo
+		trigger = {
+			OR = {
+				culture_group = west_anglo
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_form_arixo
+		trigger = {
+			NOT = { culture_group = west_anglo }
+			NOR = {
+				culture_group = plains
+				culture_group = plateau
+			}
+		}
+	}
+}
+
+#Reversion to Dixieland
+narrative_event={
+	id = dyanamic.9
+	title = EVTNAME_form_dixieland
+	desc = EVTDESC_form_dixieland
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_dixieland
+		culture_group = south_anglo
+		has_global_flag = k_tuskegee_formed
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 149 #Atlanta
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = k_tuskegee_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_dixieland
+		trigger = {
+			has_landed_title = k_tuskegee
+		}
+		prestige = 500
+		activate_title = { title = k_dixieland status = yes }
+		k_dixieland = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_peachtree = {
+			de_jure_liege = k_dixieland
+		}
+		d_savannah = {
+			de_jure_liege = k_dixieland
+		}
+		d_altamaha = {
+			de_jure_liege = k_dixieland
+		}
+		d_sowega = {
+			de_jure_liege = k_dixieland
+		}
+		d_black_belt = {
+			de_jure_liege = k_dixieland
+		}
+		d_wiregrass = {
+			de_jure_liege = k_dixieland
+		}
+		d_birmingham = {
+			de_jure_liege = k_dixieland
+		}
+		k_dixieland = {
+			de_jure_liege = e_dixie
+		}
+		k_tuskegee = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_dixieland
+		trigger = {
+			culture_group = afro_anglo
+		}
+	}
+	option = {
+		name = EVTOPTC_form_dixieland
+		trigger = {
+			culture_group = south_anglo
+		}
+	}
+	option = {
+		name = EVTOPTD_form_dixieland
+		trigger = {
+			NOT = { culture_group = south_anglo }
+			NOT = { culture_group = afro_anglo }
+		}
+	}
+}
+
+#Reversion to Mexico
+narrative_event={
+	id = dyanamic.10
+	title = EVTNAME_form_mexico
+	desc = EVTDESC_form_mexico
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = e_triple_alliance
+		OR = {
+			culture_group = mexicano
+			religion_group = cult_of_saints
+		}
+		has_global_flag = e_triple_alliance_formed
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 3067 #c_mexico
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = e_triple_alliance_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_mexico
+		trigger = {
+			has_landed_title = e_triple_alliance
+		}
+		prestige = 1000
+		activate_title = { title = e_mexico status = yes }
+		e_mexico = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		k_bajio = {
+			de_jure_liege = e_mexico
+		}
+		k_colima = {
+			de_jure_liege = e_mexico
+		}
+		k_gran_chichimeca = {
+			de_jure_liege = e_mexico
+		}
+		k_jalisco = {
+			de_jure_liege = e_mexico
+		}
+		k_mexico = {
+			de_jure_liege = e_mexico
+		}
+		k_michoacan = {
+			de_jure_liege = e_mexico
+		}
+		k_mixteca = {
+			de_jure_liege = e_mexico
+		}
+		k_zapoteca = {
+			de_jure_liege = e_mexico
+		}
+		e_triple_alliance = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_mexico
+		trigger = {
+			OR = {
+				culture_group = mesoamerican
+				culture_group = mayan
+			}
+			religion_group = mesoamerican_gods
+		}
+	}
+	option = {
+		name = EVTOPTC_form_mexico
+		trigger = {
+			OR = {
+				culture_group = mexicano
+				religion_group = cult_of_saints
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_form_mexico
+		trigger = {
+			NOR = {
+				culture_group = mexicano
+				religion_group = cult_of_saints
+			}
+			NAND = {
+				OR = {
+					culture_group = mesoamerican
+					culture_group = mayan
+				}
+				religion_group = mesoamerican_gods
+			}
+		}
+	}
+}
+
+#Reversion to Deitscherei
+narrative_event={
+	id = dynamic.11
+	title = EVTNAME_form_deitscherei
+	desc = EVTDESC_form_deitscherei
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_keystone
+		culture = deitsch
+		has_global_flag = k_keystone_formed
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 51 #Schulykill
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = k_keystone_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_deitscherei
+		trigger = {
+			has_landed_title = k_keystone
+		}
+		prestige = 500
+		activate_title = { title = k_deitscherei status = yes }
+		k_deitscherei = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_coalland = {
+			de_jure_liege = k_deitscherei
+		}
+		d_east_susquehanna = {
+			de_jure_liege = k_deitscherei
+		}
+		d_west_susquehanna = {
+			de_jure_liege = k_deitscherei
+		}
+		k_deitscherei = {
+			de_jure_liege = e_atlantica
+		}
+		k_keystone = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_deitscherei
+		trigger = {
+			culture = deitsch
+		}
+	}
+	option = {
+		name = EVTOPTC_form_deitscherei
+		trigger = {
+			NOT = { culture = deitsch }
+		}
+	}
+}
+
+#Reversion to Hudsonia
+narrative_event={
+	id = dynamic.12
+	title = EVTNAME_form_hudsonia
+	desc = EVTDESC_form_hudsonia
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		has_landed_title = k_iroquois
+		OR = { #all of the cultures that can form the Empire State
+			culture = hudsonian
+			culture = gothamite
+			culture = yiddish
+		}
+		NOT = { has_global_flag = k_hudsonia_formed }
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 10 #Albany
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		clr_global_flag = k_iroquois_formed
+	}
+	
+	option = {
+		name = EVTOPTA_form_hudsonia
+		trigger = {
+			has_landed_title = k_iroquois
+		}
+		prestige = 500
+		activate_title = { title = k_hudsonia status = yes }
+		k_hudsonia = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_adirondack = {
+			de_jure_liege = k_hudsonia
+		}
+		d_finger_lakes = {
+			de_jure_liege = k_hudsonia
+		}
+		d_cayuga = {
+			de_jure_liege = k_hudsonia
+		}
+		d_mohawk_valley = {
+			de_jure_liege = k_hudsonia
+		}
+		d_hudson_valley = {
+			de_jure_liege = k_hudsonia
+		}
+		d_champlain = {
+			de_jure_liege = k_hudsonia
+		}
+		d_catskill = {
+			de_jure_liege = k_hudsonia
+		}
+		k_hudsonia = {
+			de_jure_liege = e_atlantica
+		}
+		k_iroquois = {
+			destroy_landed_title = THIS
+		}
+	}
+	option = {
+		name = EVTOPTB_form_hudsonia
+		trigger = {
+			culture_group = north_atlantic
+		}
+	}
+	option = {
+		name = EVTOPTC_form_hudsonia
+		trigger = {
+			culture_group = eastern_woodlands
+		}
+	}
+	option = {
+		name = EVTOPTD_form_hudsonia
+		trigger = {
+			NOT = { culture_group = north_atlantic }
+			NOT = { culture_group = eastern_woodlands }
+		}
+	}
+}
+
+#Reversion to Maritimes
+narrative_event={
+	id = dynamic.13
+	title = EVTNAME_form_maritimes
+	desc = EVTDESC_form_maritimes
+	picture = GFX_evt_throne_room
+	border = GFX_event_narrative_frame_war
+	
+	only_playable = yes
+	
+	major = yes
+	
+	trigger = {
+		is_independent = yes
+		OR = {
+			has_landed_title = k_acadie
+			has_landed_title = k_mikmaki
+		}
+		culture = acadien
+		OR = {
+			has_global_flag = k_acadie_formed
+			has_global_flag = k_mikmaki_formed
+		}
+	}
+	
+	major_trigger = {
+		capital_scope = {
+			NOT = {
+				distance = {
+					where = 1165 # Moncton
+					value = 600 #Same part of the world
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTA_form_maritimes
+		trigger = {
+			OR = {
+				has_landed_title = k_acadie
+				has_landed_title = k_mikmaki
+			}
+		}
+		prestige = 500
+		activate_title = { title = k_maritimes status = yes }
+		k_maritimes = {
+			grant_title = ROOT
+			copy_title_laws = PREV
+		}
+		d_new_brunswick = {
+			de_jure_liege = k_maritimes
+		}
+		d_petitcodiac = {
+			de_jure_liege = k_maritimes
+		}
+		d_miramichi = {
+			de_jure_liege = k_maritimes
+		}
+		d_restigouche = {
+			de_jure_liege = k_maritimes
+		}
+		d_madeleine_islands = {
+			de_jure_liege = k_maritimes
+		}
+		d_prince_edward_island = {
+			de_jure_liege = k_maritimes
+		}
+		d_nova_scotia = {
+			de_jure_liege = k_maritimes
+		}
+		d_cape_breton = {
+			de_jure_liege = k_maritimes
+		}
+		k_maritimes = {
+			de_jure_liege = e_canada
+		}
+		if = {
+			limit = {
+				has_global_flag = k_acadie_formed
+			}
+			clr_global_flag = k_acadie_formed
+			k_acadie = {
+				destroy_landed_title = THIS
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = k_mikmaki_formed
+			}
+			clr_global_flag = k_mikmaki_formed
+			k_mikmaki = {
+				destroy_landed_title = THIS
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_form_maritimes
+		trigger = {
+			culture_group = gallomerican
+		}
+	}
+	option = {
+		name = EVTOPTC_form_maritimes
+		trigger = {
+			culture_group = subarctic
+		}
+	}
+	option = {
+		name = EVTOPTD_form_acadie
+		trigger = {
+			culture = maritimer
+		}
+	}
+	option = {
+		name = EVTOPTE_form_acadie
+		trigger = {
+			NOT = { culture = maritimer }
+			NOT = { culture_group = subarctic }
+			NOT = { culture_group = gallomerican }
+		}
+	}
+}

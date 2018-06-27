@@ -32,6 +32,12 @@ e_dixie = {
 
 		culture = dixie
 		capital = 149 # Atlanta
+		
+		allow = { #Can only form this title if you are an independent ruler who isn't the HCC
+			war = no
+			independent = yes
+			NOT = { has_landed_title = e_dixie }
+		}
 
 		d_peachtree = {
 			color={ 206 66 26 }

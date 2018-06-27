@@ -14239,14 +14239,12 @@ e_coloradan_adj;Coloradan;;;;;;;;;;;;;x
 e_coloradan;Coloradan Empire;;;;;;;;;;;;;x
 e_comanche_adj;Comanche;;;;;;;;;;;;;x
 e_comanche;Comanche Empire;;;;;;;;;;;;;x
-k_commonwealth_adj;Pennsylvanian;;;;;;;;;;;;;x
-k_commonwealth;The Commonwealth;;;;;;;;;;;;;x
+k_keystone_adj;Keystoner;;;;;;;;;;;;;x
+k_keystone;Keystone;;;;;;;;;;;;;x
 e_cree_adj;Cree;;;;;;;;;;;;;x
 e_cree;Cree Empire;;;;;;;;;;;;;x
 e_creole_adj;Creole;;;;;;;;;;;;;x
 e_creole;Creole Empire;;;;;;;;;;;;;x
-e_commonwealth_adj;Pennsylvanian;;;;;;;;;;;;;x
-e_commonwealth;The Commonwealth;;;;;;;;;;;;;x
 e_cuba_adj;Cuban;;;;;;;;;;;;;x
 e_cuba;Cuban Empire;;;;;;;;;;;;;x
 e_deitsch_adj;Deitsch;;;;;;;;;;;;;x
@@ -15012,3 +15010,14 @@ b_uaipan_tepui_BOL;Uaipán-tepui;;;;;;;;;;;;;x
 b_cerro_el_sol_BOL;Cerro El Sol;;;;;;;;;;;;;x
 d_oppenheimer;Sons of Oppenheimer;;;;;;;;;;;;;x
 d_oppenheimer_adj;Oppenheimer;;;;;;;;;;;;;x
+
+k_tuskegee_adj;Tuskegean;;;;;;;;;;;;;x
+k_tuskegee;Tuskegee;;;;;;;;;;;;;x
+e_triple_alliance_adj;Aztec;;;;;;;;;;;;;x
+e_triple_alliance;Excan Tlahtoloyan;;;;;;;;;;;;;x
+k_iroquois_adj;Iroquois;;;;;;;;;;;;;x
+k_iroquois;Haudenosaunee;;;;;;;;;;;;;x
+k_acadie_adj;Acadien;;;;;;;;;;;;;x
+k_acadie;Acadie;;;;;;;;;;;;;x
+k_mikmaki_adj;Mi'kmaq;;;;;;;;;;;;;x
+k_mikmaki;Mi'kma'ki;;;;;;;;;;;;;x

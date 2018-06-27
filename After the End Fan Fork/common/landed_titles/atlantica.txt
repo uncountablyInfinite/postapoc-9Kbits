@@ -22,7 +22,6 @@ e_atlantica = {
 		capital = 10 # Albany
 		
 		yiddish = "Apsteyt"
-		iroquois = "Haudenosaunee"
 		deitsch = "Hudsonie"
 
 		d_adirondack = {
@@ -1169,7 +1168,7 @@ e_atlantica = {
 		}
 	}
 	
-	k_keystone = {
+	k_deitscherei = {
 		color= { 136 40 70 } #{ 195 205 185 }
 		color2={ 220 220 0 }
 		
@@ -1184,9 +1183,6 @@ e_atlantica = {
 		norse_pagan_reformed = 25
 		
 		culture = deitsch
-		
-		deitsch = "Deitschrei"
-		yiddish = "Shlislshteyn"
 
 		capital = 51 # Schuylkill
 		

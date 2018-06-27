@@ -42,29 +42,6 @@ e_nys = {
 	}
 }
 
-k_commonwealth = {
-	color = { 196 121 42 }
-	color2 = { 220 220 0}
-	short_name = yes
-	capital = 27 #Philadelphia
-	creation_requires_capital = no
-	dynasty_title_names = no
-	allow = {
-		AND = {
-			OR = {
-				culture = delawarean
-				culture = deitsch
-				culture = rostmann
-			}
-			FROM = { # FROM = this title
-				any_previous_holder = {
-					always = yes # The title has existed before
-				}
-			}
-		}
-	}
-}
-
 e_new_france = {
 	color={ 11 22 170 }
 	color2 = { 220 220 0}

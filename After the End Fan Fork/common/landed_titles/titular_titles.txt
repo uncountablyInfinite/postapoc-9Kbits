@@ -3105,18 +3105,6 @@ e_wladfaeg = {
 }
 
 ### titular kingdoms
-
-k_dinetah = {
-	color = { 146 62 176 }
-	color2= { 255 255 255 }
-	capital = 412 # Fort Defiance
-
-	culture = navajo
-
-	allow = {
-		always = no # disabled temporarily
-	}
-}
 	
 k_jersey = {
 	color={ 136 30 85 }
@@ -3317,4 +3305,139 @@ d_rhode_island = {
 
 	culture = yankee
 	capital = 58 # Providence
+}
+
+##Dynamic titles (cannot be formed normally)##
+k_dinetah = {
+	color = { 146 62 176 }
+	color2= { 255 255 255 }
+	capital = 412 # Fort Defiance
+
+	culture = navajo
+
+	allow = {
+		always = no # cannot be formed normally
+	}
+}
+
+k_tuskegee = {
+	color={ 90 50 90 }
+	color2= { 255 255 255 }
+	capital = 149 #Atlanta
+	
+	# Crusade target weight
+	catholic = 5
+	americanist = 5
+	revelationist_reformed = 100
+	rust_cultist_reformed = 5
+	thelemic_reformed = 5
+	
+	culture = tuskegean
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
+}
+
+e_triple_alliance = {
+	color = { 48 149 21 }
+	color2={ 210 50 20 }
+	capital = 3067 # c_mexico
+	
+	culture = nahua
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
+}
+
+k_keystone = {
+	color = { 195 205 185 }
+	color2={ 220 220 0 }
+	
+	#Crusade target weight
+	catholic = 5
+	ursuline = 5
+	americanist = 50
+	revelationist_reformed = 100
+	rust_cultist_reformed = 50
+	occultist_reformed = 50
+	thelemic_reformed = 50
+	norse_pagan_reformed = 25
+	
+	yiddish = "Shlislshteyn"
+	
+	capital = 51 # Schuylkill
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
+}
+
+k_iroquois = { #"Haudenosaunee"
+	color = { 80 60 180 }
+	color2={ 220 220 0 }
+	
+	culture = iroquois
+	
+	# Crusade target weight
+	ursuline = 100
+	americanist = 100
+	revelationist_reformed = 5
+	rust_cultist_reformed = 200
+	occultist_reformed = 500
+	thelemic_reformed = 100
+	norse_pagan_reformed = 50
+	jewish = 500
+	mormon = 5
+	
+	capital = 14 #Syracuse
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
+	
+	short_name = yes
+}
+
+k_acadie = {
+	color = { 90 180 160 }
+	color2= { 220 220 0 }
+	
+	culture = acadien
+	
+	# Crusade target weight
+	ursuline = 50
+	americanist = 5
+	occultist_reformed = 50
+	thelemic_reformed = 5
+	norse_pagan_reformed = 5
+	celtic_pagan_reformed = 1000
+	
+	capital = 1262 #Port-Royal
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
+}
+
+k_mikmaki = {
+	color = { 150 180 170 }
+	color2= { 220 220 0 }
+	
+	culture = mikmaq
+	
+	# Crusade target weight
+	ursuline = 50
+	americanist = 5
+	occultist_reformed = 50
+	thelemic_reformed = 5
+	norse_pagan_reformed = 5
+	celtic_pagan_reformed = 1000
+	
+	capital = 1165 # Moncton
+	
+	allow = {
+		always = no # cannot be formed normally
+	}
 }

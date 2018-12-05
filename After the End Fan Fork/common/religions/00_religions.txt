@@ -497,6 +497,7 @@ christian = {
 		graphical_culture = westerngfx
 
 		icon = 3
+		heresy_icon = 12
 		
 		color = { 0.6 0.6 0.25 }
 		
@@ -526,6 +527,27 @@ christian = {
 		peace_piety_gain = 1.0 #Gains 1 extra piety per month while at peace
 		
 		can_retire_to_monastery = yes
+		
+		religious_clothing_head = 2
+		religious_clothing_priest = 2
+	}
+	
+	batenburger = {
+		graphical_culture = westerngfx
+
+		icon = 3
+		heresy_icon = 12
+		
+		color = { 0.6 0.5 0.25 }
+		parent = anabaptist
+		
+		crusade_name = CRUSADE
+		pacifist = no
+		peace_piety_gain = 0 #Gains no extra piety per month while at peace
+		aggression = 1.5 # more likely to expand
+		allow_rivermovement = yes
+		allow_looting = yes #can raid infidels
+		max_wives = 4 #allow polygamy
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2
@@ -619,7 +641,7 @@ christian = {
 		graphical_culture = westerngfx
 
 		icon = 39
-		heresy_icon = 39
+		heresy_icon = 75
 		
 		color = { 0.9 0.8 0.3 }
 
@@ -644,6 +666,35 @@ christian = {
 		crusade_name = CRUSADE
 		scripture_name = THE_BIBLE
 		priest_title = PADRE
+		
+		intermarry = catholic
+		intermarry = mictlantec
+		intermarry = neomayan
+		intermarry = sol_invicta
+		intermarry = uahomche
+	}
+	
+	moravian = {
+		graphical_culture = westerngfx
+
+		icon = 39
+		heresy_icon = 75
+		
+		color = { 0.9 0.7 0.3 }		
+		parent = falling_star	
+
+		god_names = {
+			GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		crusade_name = CRUSADE
+		priest_title = PRIEST
+		
+		priests_can_marry = yes
+		allow_rivermovement = yes
+		
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
 		
 		intermarry = catholic
 		intermarry = mictlantec
@@ -746,7 +797,7 @@ christian = {
 		graphical_culture = westerngfx
 		
 		icon = 74
-		heresy_icon = 75
+		#heresy_icon = 75
 		
 		color = { 0.7 0.7 0.1 }
 		

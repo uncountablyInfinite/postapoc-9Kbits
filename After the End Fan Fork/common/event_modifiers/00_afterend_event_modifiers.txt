@@ -493,6 +493,12 @@ secret_anabaptist_community = {
 		society_member_of = secret_religious_society_anabaptist
 	}
 }
+secret_batenburger_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_batenburger
+	}
+}
 secret_evangelical_community = {
 	icon = 18
 	is_visible = {
@@ -515,6 +521,12 @@ secret_falling_star_community = {
 	icon = 18
 	is_visible = {
 		society_member_of = secret_religious_society_falling_star
+	}
+}
+secret_moravian_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_moravian
 	}
 }
 secret_high_church_community = {

@@ -2552,30 +2552,8 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6218
-		trigger = {
-			NOR = {
-				religion = anabaptist
-				religion = falling_star
-			}
-		}
 		become_heretic = yes
-	}
-	
-	option = {
-		name = EVTOPTA6218
-		trigger = {
-			religion = anabaptist
-		}
-		religion = evangelical
-	}
-	
-	option = {
-		name = EVTOPTA6218
-		trigger = {
-			religion = falling_star
-		}
-		religion = sacred_heart
-	}
+	}	
 }
 
 # Jesus hands out military advice

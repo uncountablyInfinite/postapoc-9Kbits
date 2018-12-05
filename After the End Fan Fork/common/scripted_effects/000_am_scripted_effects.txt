@@ -570,6 +570,22 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
     				NOT = {
 						has_character_was_religion_flag_trigger = yes
     				}
+    				religion = batenburger
+    			}
+    			has_character_flag = character_was_batenburger
+			}
+    	}
+    	set_secret_religion = batenburger
+    	clr_character_flag = character_was_batenburger
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
     				religion = evangelical
     			}
     			has_character_flag = character_was_evangelical
@@ -625,6 +641,22 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
     	}
     	set_secret_religion = falling_star
     	clr_character_flag = character_was_falling_star
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
+    				religion = moravian
+    			}
+    			has_character_flag = character_was_moravian
+			}
+    	}
+    	set_secret_religion = moravian
+    	clr_character_flag = character_was_moravian
 		break = yes
     }
 	if = {
@@ -1351,6 +1383,10 @@ add_religion_char_flag_effect = {
     	set_character_flag = character_was_anabaptist
     }
 	if = {
+    	limit = { religion = batenburger }
+    	set_character_flag = character_was_batenburger
+    }
+	if = {
     	limit = { religion = evangelical }
     	set_character_flag = character_was_evangelical
     }
@@ -1365,6 +1401,10 @@ add_religion_char_flag_effect = {
 	if = {
     	limit = { religion = falling_star }
     	set_character_flag = character_was_falling_star
+    }
+	if = {
+    	limit = { religion = moravian }
+    	set_character_flag = character_was_moravian
     }
 	if = {
     	limit = { religion = high_church }
@@ -1548,10 +1588,12 @@ clr_religion_char_flag_effect = {
 	clr_character_flag = character_was_angeline
 	clr_character_flag = character_was_confederated
 	clr_character_flag = character_was_anabaptist
+	clr_character_flag = character_was_batenburger
 	clr_character_flag = character_was_evangelical
 	clr_character_flag = character_was_antinomian
 	clr_character_flag = character_was_charismatic
 	clr_character_flag = character_was_falling_star
+	clr_character_flag = character_was_moravian
 	clr_character_flag = character_was_high_church
 	clr_character_flag = character_was_anglo_papalist
 	clr_character_flag = character_was_united_church
@@ -1716,6 +1758,13 @@ event_target_old_religion_from_flag_effect = {
     	}
     }
 	if = {
+    	limit = { has_character_flag = character_was_batenburger }
+    	random_character = {
+    		limit = { religion = batenburger }
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
     	limit = { has_character_flag = character_was_evangelical }
     	random_character = {
     		limit = { religion = evangelical }
@@ -1740,6 +1789,13 @@ event_target_old_religion_from_flag_effect = {
     	limit = { has_character_flag = character_was_falling_star }
     	random_character = {
     		limit = { religion = falling_star }
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
+    	limit = { has_character_flag = character_was_moravian }
+    	random_character = {
+    		limit = { religion = moravian }
     		save_event_target_as = old_religion
     	}
     }
@@ -2211,6 +2267,17 @@ flip_secret_religious_community_provinces = {
 				}
 			}
 		}
+		secret_religious_society_batenburger = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_batenburger_community
+					}
+					religion = batenburger
+					remove_province_modifier = secret_batenburger_community
+				}
+			}
+		}
 		secret_religious_society_evangelical = {
 			ROOT = {
 				any_demesne_province = {
@@ -2252,6 +2319,17 @@ flip_secret_religious_community_provinces = {
 					}
 					religion = falling_star
 					remove_province_modifier = secret_falling_star_community
+				}
+			}
+		}
+		secret_religious_society_moravian = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_moravian_community
+					}
+					religion = moravian
+					remove_province_modifier = secret_moravian_community
 				}
 			}
 		}
@@ -3050,6 +3128,7 @@ increase_visibility_minor_effect = {
 						religion = americanist
 						religion = libertarian
 						religion = anabaptist
+						religion = batenburger
 					}
 				}
 				add_trait = excommunicated

@@ -2663,6 +2663,7 @@ character_event = {
 					religion = ursuline
 					religion = confederated
 					religion = anabaptist
+					religion = batenburger
 					religion = americanist
 				}
 			}

@@ -341,6 +341,24 @@ secret_anabaptist_community;Secret Anabaptist Community;;;;;;;;;;;;;x
 secret_anabaptist_community_desc;In secret, Anabaptist faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
 secret_religious_society_anabaptist_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
 
+secret_religious_society_batenburger;the Children of God;;;;;;;;x
+secret_religious_society_batenburger_desc;Ever since its humble roots, true Christians have marked themselves by their refusal to abandon their faith in the face of persecution. So it is that a rich tradition of martyrs and underground parishes can give hope to groups of believers in even the darkest of times, no matter what they are outwardly forced to profess. To each other they can profess their true faith in God and the Right Baptism, even as they remind themselves of the first Batenburger martyr.;;;;;;;;x
+secretly_convert_to_batenburger_holy_site;Secretly Convert to Batenburger;;;;;;;;;;;;;x
+secretly_convert_to_batenburger_holy_site_desc;The §YBatenburger§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_batenburger_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_batenburger_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_batenburger_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_batenburger_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_batenburger_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_batenburger_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_batenburger_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_batenburger_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_batenburger_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_batenburger;Secret Batenburger Community;;;;;;;;;;;;;x
+secret_batenburger_community;Secret Batenburger Community;;;;;;;;;;;;;x
+secret_batenburger_community_desc;In secret, Batenburger faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_batenburger_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
+
 secret_religious_society_evangelical;the Good Old Boys;;;;;;;;x
 secret_religious_society_evangelical_desc;Ever since its humble roots, Christians have marked themselves by their refusal to abandon their faith in the face of persecution. Although spreading the Word of God is of paramount theological importance to Evangelicals, extreme circumstances can make it acceptable to take inspiration from historical traditions of martyrs and underground parishes in the early church, but fellowship in Faith is still paramount.;;;;;;;;x
 secretly_convert_to_evangelical_holy_site;Secretly Convert to Evangelical;;;;;;;;;;;;;x
@@ -827,6 +845,24 @@ secret_falling_star_community;Secret Falling Star Community;;;;;;;;;;;;;x
 secret_falling_star_community_desc;In secret, Falling Star faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
 secret_religious_society_falling_star_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
 
+secret_religious_society_moravian;the Hidden Seed;Fidèles de Dieu;Gottes Getreue;;los fieles de Dios;;;;;;;;;x
+secret_religious_society_moravian_desc;The Moravian Church has long suffered from persecution, and its adherents know well that hiding their faith in plain sight is sometimes the only way to escape death or exile. However, just like in the time before the Event, the Moravian Church will one day re-emerge, stronger than ever.;;;;;;;;;;;;;x
+secretly_convert_to_moravian_holy_site;Secretly Convert to Moravian;;;;;;;;;;;;;x
+secretly_convert_to_moravian_holy_site_desc;The §YMoravian§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_moravian_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_moravian_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_moravian_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_moravian_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_moravian_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_moravian_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_moravian_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_moravian_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_moravian_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_moravian;Secret Moravian Community;;;;;;;;;;;;;x
+secret_moravian_community;Secret Falling Star Community;;;;;;;;;;;;;x
+secret_falling_star_community_desc;In secret, Moravian faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_moravian_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
+
 secret_religious_society_thelemic;the Ordo Templi Orientis;Fidèles de Dieu;Gottes Getreue;;los fieles de Dios;;;;;;;;;x
 secret_religious_society_thelemic_desc;Followers of Thelema have always been treated with contempt by the unenlightened, who reject the Law given to the world by the prophet Crowley and continue in their tired old ways. However, those whose True Will is to guide others to accept the Law will continue to work in the shadows, until the whole world truly enters the Aeon of Horus.;;;;;;;;;x
 secretly_convert_to_thelemic_holy_site;Secretly Convert to Thelema;;;;;;;;;;;;;x
@@ -1043,24 +1079,6 @@ secret_uahomche_community;Secret Uahomche Community;;;;;;;;;;;;;x
 secret_uahomche_community_desc;In secret, Uahomche faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
 secret_religious_society_uahomche_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
 
-secret_religious_society_celtic_pagan;the Summerislanders;Flamme cachée;die verborgene Flamme;;la Llama Oculta;;;;;;;;;x
-secret_religious_society_celtic_pagan_desc;Placeholder for when/if we actually add this religion.;;;;;;;;;x
-secretly_convert_to_celtic_pagan_holy_site;Secretly Convert to celtic_pagan;;;;;;;;;;;;;x
-secretly_convert_to_celtic_pagan_holy_site_desc;The §Yceltic_pagan§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
-secret_religious_society_celtic_pagan_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
-secret_religious_society_celtic_pagan_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
-secret_religious_society_celtic_pagan_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
-secret_religious_society_celtic_pagan_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
-secret_religious_society_celtic_pagan_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
-secret_religious_society_celtic_pagan_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
-secret_religious_society_celtic_pagan_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
-secret_religious_society_celtic_pagan_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
-secret_religious_society_celtic_pagan_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
-secret_religious_community_celtic_pagan;Secret celtic_pagan Community;;;;;;;;;;;;;x
-secret_celtic_pagan_community;Secret celtic_pagan Community;;;;;;;;;;;;;x
-secret_celtic_pagan_community_desc;In secret, celtic_pagan faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
-secret_religious_society_celtic_pagan_leader_desc;The High Druid, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
-
 secret_religious_society_celtic_pagan;the Hidden Circle;;;;;;;;x
 secret_religious_society_celtic_pagan_desc;The followers of the Druidic faith have long known persecution, especially from Christian hands. As always, they persevere, even if they must use deception. Though they utter empty prayers to foreign gods, they secretly meet in private chambers and secluded groves to offer devotion and sacrifice to Danu, the Mother and source of life. They keep their faith knowing that some day mighty Taranis the Thunderer will strike down those who have persecuted the faithful.;;;;;;;;x
 secret_religious_society_celtic_pagan_reformed;Danu's Faithfull;;;;;;;;x
@@ -1093,6 +1111,7 @@ secret_celtic_pagan_reformed_community;Secret Druidic Community;Communauté druid
 secret_celtic_pagan_reformed_community_desc;In secret, Druidic faithfuls have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;Des fidèles Druidiques ont secrètement formé une communauté dans cette province. Ils y convertissent les autres personnes et protègent les leurs.;In dieser Provinz haben sich Anhänger des druidisch Glaubens heimlich zu einer Gemeinde organisiert. Von dort aus bekehrt diese Gemeinde andere, wird immer größer und beschützt ihre Mitglieder.;;Los fieles de Druida han creado una comunidad secreta en esta provincia. De este modo convierten a otros, crecen y protegen a los suyos.;;;;;;;;;x
 secret_religious_society_celtic_pagan_leader_desc;A High Priest in $SOCIETY|Y$;Un grand prêtre dans $SOCIETY|Y$;Hohepriester von $SOCIETY|Y$;;Sumo sacerdote de $SOCIETY|Y$;;;;;;;;;x
 secret_religious_society_celtic_pagan_reformed_leader_desc;A High Priest in $SOCIETY|Y$;Un grand prêtre dans $SOCIETY|Y$;Hohepriester von $SOCIETY|Y$;;Sumo sacerdote de $SOCIETY|Y$;;;;;;;;;x
+
 the_trollcrafters;The Fellowship of Hela;Confrérie de Hela;Die Gefährten von Hela;;La hermandad de Hela;;;;;;;;;x
 the_trollcrafters_desc;The Fellowship of Hela are a secret society devoted to the study of dark sorcery and the veneration of Hela, the evil relative of Thor. Members believe in the power of destruction and will attempt to use dark magic to sate their greed and thirst for death. At Ragnarök they hope to join the forces of Hela and Fenrir in the fight against the other gods.;La Confrérie de Hel est une société secrète consacrée à l'étude de la sorcellerie et la vénération de Hel, la géante qui règne sur Helheim. Ses membres croient en la puissance de la destruction et tenteront d'utiliser la magie noire pour satisfaire leur cupidité et leur soif de mort. À Ragnarök, ils espèrent rejoindre les forces de Hel et de Loki dans la lutte contre les autres dieux.;Die Gefährten von Hel sind ein geheimer Zirkel, der sich dem Studium der dunklen Hexerei und der Huldigung von Hel, des riesenhaften Herrschers von Helheim, verschrieben hat. Die Mitglieder glauben an die Macht der Zerstörung und hoffen mithilfe schwarzer Magie ihre Gier und Lust nach Tod zu befriedigen. Bei Ragnarök hoffen sie darauf, ein Teil der Streitkräfte Hels und Lokes zu werden und in die Schlacht gegen die anderen Götter zu ziehen.;;La hermandad de Hela es una sociedad secreta dedicada al estudio de la magia oscura y a la veneración de Hela, la giganta que gobierna Helheim. Sus miembros creen en el poder de la destrucción y tratarán de usar la magia oscura para saciar su avaricia y sed de sangre. En Ragnarok esperan unirse a las fuerzas de Hela y Loki en su lucha contra los demás dioses.;;;;;;;;;x
 String_the_Trollcrafters;the Fellowship of Hela;la Confrérie de Hela;Gefährten von Hela;;la hermandad de Hela;;;;;;;;;x

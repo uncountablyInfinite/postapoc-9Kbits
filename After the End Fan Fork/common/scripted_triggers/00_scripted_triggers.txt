@@ -1848,6 +1848,9 @@ true_religion_confederated_trigger = {
 true_religion_anabaptist_trigger = {
 	true_religion = anabaptist
 }
+true_religion_batenburger_trigger = {
+	true_religion = batenburger
+}
 true_religion_evangelical_trigger = {
 	true_religion = evangelical
 }
@@ -1859,6 +1862,9 @@ true_religion_charismatic_trigger = {
 }
 true_religion_falling_star_trigger = {
 	true_religion = falling_star
+}
+true_religion_moravian_trigger = {
+	true_religion = moravian
 }
 true_religion_high_church_trigger = {
 	true_religion = high_church
@@ -2763,6 +2769,10 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_anabaptist }
 		}
 		AND = {
+			society_member_of = secret_religious_society_batenburger
+			PREV = { interested_in_society = secret_religious_society_batenburger }
+		}
+		AND = {
 			society_member_of = secret_religious_society_evangelical
 			PREV = { interested_in_society = secret_religious_society_evangelical }
 		}
@@ -2777,6 +2787,10 @@ is_in_prevs_interesting_society_trigger = {
 		AND = {
 			society_member_of = secret_religious_society_falling_star
 			PREV = { interested_in_society = secret_religious_society_falling_star }
+		}
+		AND = {
+			society_member_of = secret_religious_society_moravian
+			PREV = { interested_in_society = secret_religious_society_moravian }
 		}
 		AND = {
 			society_member_of = secret_religious_society_high_church
@@ -3080,6 +3094,12 @@ has_any_char_old_religion = {
 	    	}
 	    }
 		AND = {
+			has_character_flag = character_was_batenburger
+	    	any_character = {
+	    		religion = batenburger
+	    	}
+	    }
+		AND = {
 			has_character_flag = character_was_evangelical
 	    	any_character = {
 	    		religion = evangelical
@@ -3101,6 +3121,12 @@ has_any_char_old_religion = {
 			has_character_flag = character_was_falling_star
 	    	any_character = {
 	    		religion = falling_star
+	    	}
+	    }
+		AND = {
+			has_character_flag = character_was_moravian
+	    	any_character = {
+	    		religion = moravian
 	    	}
 	    }
 		AND = {
@@ -3698,6 +3724,13 @@ looting_artifact_event_religious_artifacts_trigger = {
 		NAND = {
 			any_artifact = {
 				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = batenburger
+				ROOT = { religion = batenburger }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = evangelical
 				ROOT = { religion = evangelical }
 			}
@@ -3721,6 +3754,13 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = falling_star
 				ROOT = { religion = falling_star }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = moravian
+				ROOT = { religion = moravian }
 			}
 		}
 		NAND = {

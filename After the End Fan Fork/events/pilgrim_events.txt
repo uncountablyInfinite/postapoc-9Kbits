@@ -41,7 +41,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					religion = anabaptist # Washington, Philly, Pittsburgh
+					OR = {
+						religion = anabaptist # Washington, Philly, Pittsburgh
+						religion = batenburger
+					}
 				}
 				character_event = { id = SoA.5011 }
 			}
@@ -71,7 +74,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					religion = falling_star
+					OR = {
+						religion = falling_star
+						religion = moravian
+					}
 				}
 				character_event = { id = fallingstar.1 }
 			}
@@ -174,7 +180,10 @@ character_event = {
 		name = EVTOPTB_SoA_5011
 		trigger = {
 			NOT = { capital_scope = { province_id = 149 } } #Atlanta
-			NOT = { religion = anabaptist }
+			NOR = {
+				religion = anabaptist
+				religion = batenburger
+			}
 		}
 		set_character_flag = pilgrimage_to_constantinople
 		hidden_tooltip = {
@@ -208,7 +217,10 @@ character_event = {
 	option = {
 		name = EVTOPTD_SoA_5011
 		trigger = {
-			religion = anabaptist
+			OR = {
+				religion = anabaptist
+				religion = batenburger
+			}
 		}
 		NOT = { capital_scope = { province_id = 88 } } #Pittsburgh
 		set_character_flag = pilgrimage_to_axum

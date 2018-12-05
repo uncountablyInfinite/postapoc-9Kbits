@@ -3225,6 +3225,7 @@ character_event = { # What does the liege wish to do with the apostate?
 							religion = ursuline
 							religion = confederated
 							religion = anabaptist
+							religion = batenburger
 							religion = americanist
 						}
 					}
@@ -3344,6 +3345,7 @@ character_event = { # What does the liege wish to do with the apostate?
 						religion = ursuline
 						religion = confederated
 						religion = anabaptist
+						religion = batenburger
 						religion = americanist
 					}
 				}
@@ -3426,6 +3428,7 @@ character_event = { # What does the liege wish to do with the apostate?
 						religion = ursuline
 						religion = confederated
 						religion = anabaptist
+						religion = batenburger
 						religion = americanist
 					}
 				}
@@ -3593,6 +3596,7 @@ character_event = { # The Apostate reacts to Imprisonment
 						religion = ursuline
 						religion = confederated
 						religion = anabaptist
+						religion = batenburger
 						religion = americanist
 					}
 				}
@@ -3682,6 +3686,7 @@ character_event = { # The Apostate reacts to Branding
 						religion = ursuline
 						religion = confederated
 						religion = anabaptist
+						religion = batenburger
 						religion = americanist
 					}
 				}

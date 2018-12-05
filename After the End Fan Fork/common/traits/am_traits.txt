@@ -3087,10 +3087,12 @@ secretly_united_church = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_apostolic
@@ -3176,14 +3178,15 @@ secretly_apostolic = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
-		
 		secretly_sacred_heart
 		secretly_gracia_divina
 		secretly_cetic
@@ -3266,10 +3269,12 @@ secretly_sacred_heart = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3355,10 +3360,12 @@ secretly_gracia_divina = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3444,10 +3451,12 @@ secretly_cetic = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3533,10 +3542,12 @@ secretly_gaian = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3622,10 +3633,12 @@ secretly_shinto = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3711,10 +3724,12 @@ secretly_nousthreskeia = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3800,10 +3815,12 @@ secretly_mormon = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3889,10 +3906,12 @@ secretly_bickertonite = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -3978,10 +3997,12 @@ secretly_woolleyite = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4067,10 +4088,12 @@ secretly_strangite = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4156,10 +4179,12 @@ secretly_sol_invicta = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4245,10 +4270,12 @@ secretly_mictlantec = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4334,10 +4361,12 @@ secretly_uahomche = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4423,10 +4452,12 @@ secretly_neomayan = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4512,10 +4543,12 @@ secretly_americanist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4601,10 +4634,12 @@ secretly_hamiltonian = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4690,10 +4725,12 @@ secretly_jeffersonian = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4779,10 +4816,12 @@ secretly_libertarian = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4868,10 +4907,12 @@ secretly_consumerist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -4957,10 +4998,12 @@ secretly_atomicist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5046,10 +5089,12 @@ secretly_pagan = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5135,10 +5180,12 @@ secretly_revelationist_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5224,10 +5271,12 @@ secretly_revelationist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5313,10 +5362,12 @@ secretly_rust_cultist_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5402,10 +5453,12 @@ secretly_rust_cultist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5491,10 +5544,12 @@ secretly_occultist_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5580,10 +5635,12 @@ secretly_occultist = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5669,10 +5726,12 @@ secretly_thelemic_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5758,10 +5817,12 @@ secretly_thelemic = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5847,10 +5908,12 @@ secretly_norse_pagan_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -5936,10 +5999,12 @@ secretly_norse_pagan = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6025,10 +6090,12 @@ secretly_celtic_pagan = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6114,10 +6181,12 @@ secretly_celtic_pagan_reformed = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6203,10 +6272,12 @@ secretly_brethren = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6291,10 +6362,12 @@ secretly_jewish = {
 		secretly_ursuline
 		secretly_angeline
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6379,10 +6452,12 @@ secretly_reform = {
 		secretly_ursuline
 		secretly_angeline
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church
@@ -6468,10 +6543,12 @@ secretly_hindu = {
 		secretly_angeline
 		secretly_confederated
 		secretly_anabaptist
+		secretly_batenburger
 		secretly_evangelical
 		secretly_antinomian
 		secretly_charismatic
 		secretly_falling_star
+		secretly_moravian
 		secretly_high_church
 		secretly_anglo_papalist
 		secretly_united_church

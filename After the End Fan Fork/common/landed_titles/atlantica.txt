@@ -1213,6 +1213,7 @@ e_atlantica = {
 				yiddish = "Lehayh"
 				
 				holy_site = anabaptist
+				holy_site = moravian
 
 				b_allentown_PA = {
 					deitsch = "Allenschteddel"

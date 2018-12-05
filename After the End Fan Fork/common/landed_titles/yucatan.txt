@@ -495,6 +495,7 @@ e_yucatan = {
 				color={ 112 114 156 }
 				color2={ 255 255 255 }
 				holy_site = falling_star
+				holy_site = moravian
 				
 				kriol = "Belize"
 				garinagu = "Belize"

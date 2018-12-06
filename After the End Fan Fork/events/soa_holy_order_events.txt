@@ -569,9 +569,10 @@ character_event = {
 		modifier = {
 			factor = 3.0 # Prefer PC
 			OR = {
-				culture_group = gallomerican
-				culture_group = west_anglo
-				culture_group = south_anglo
+				culture_group = afroanglo
+				culture = creole
+				culture_group = antillias
+				culture_group = caribbanglo
 			}
 		}
 	}
@@ -1116,11 +1117,14 @@ character_event = {
 			}
 		}
 		modifier = {
-			factor = 3.0 # Prefer Knights of Columbus
-			OR = {
-				culture_group = north_atlantic
-				culture_group = laurentian
-				culture_group = amerodeutsch
+			factor = 3.0
+			NOT = {
+				OR = {
+					culture_group = afroanglo
+					culture = creole
+					culture_group = antillias
+					culture_group = caribbanglo
+				}
 			}
 		}
 	}

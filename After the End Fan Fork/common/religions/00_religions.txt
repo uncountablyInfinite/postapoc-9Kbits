@@ -547,7 +547,7 @@ christian = {
 		aggression = 1.5 # more likely to expand
 		allow_rivermovement = yes
 		allow_looting = yes #can raid infidels
-		max_wives = 4 #allow polygamy
+		max_consorts = 3 #allow polygamy
 		
 		religious_clothing_head = 2
 		religious_clothing_priest = 2

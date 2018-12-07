@@ -2905,14 +2905,18 @@ character_event = {
 					}
 				}
 			}
-			10 = {                                           # Impressed by Islam or Judaism (Jerusalem only)
+			10 = {
 				if = {
-					limit = { has_character_flag = pilgrimage_to_jerusalem }
+					limit = { has_character_flag = pilgrimage_to_jerusalem } # Impressed by Islam or Judaism (Jerusalem only)
 					character_event = { id = SoA.5067 }
 				}
 				if = {
-					limit = { has_character_flag = pilgrimage_to_san_salvador }
+					limit = { has_character_flag = pilgrimage_to_san_salvador } # Impressed by Cult of Saints or Mesoamerican Gods (Jerusalem only)
 					character_event = { id = fallingstar.8 }
+				}
+				if = {
+					limit = { has_character_flag = pilgrimage_to_panama }
+					character_event = { id = fallingstar.9 }
 				}
 				if = {
 					limit = {

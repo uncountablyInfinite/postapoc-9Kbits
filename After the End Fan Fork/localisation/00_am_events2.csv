@@ -1897,14 +1897,14 @@ CHRONICLE_PILGRIMAGE_TO_QUEBEC;[Root.GetTitledName] made a pious pilgrimage to Q
 CHRONICLE_PILGRIMAGE_TO_DETROIT;[Root.GetTitledName] made a pious pilgrimage to Detroit.;;;;;;;x
 CHRONICLE_PILGRIMAGE_TO_NEW_ORLEANS;[Root.GetTitledName] made a pious pilgrimage to New Orleans.;;;;;;;x
 
-EVTOPTA_fallingstar_1;I will go to Panama and see the golden altar at the Church of St. Joseph.;;;;;;;x
+EVTOPTA_fallingstar_1;I will go to Panama and see the Church of St. Joseph, where the Star fell to Earth.;;;;;;;x
 EVTOPTB_fallingstar_1;I will go to San Salvador and see the Iglesia Cristiana Josue.;;;;;;;x
 EVTOPTC_fallingstar_1;I will go to Belize and see St. John's Cathedral.;;;;;;;x
 EVTDESC_fallingstar_2;My things are packed, everything is in order. I am ready to journey to Panama and see the golden altar.;;;;;;;x
 EVTDESC_fallingstar_3;My things are packed, everything is in order. Soon I will make my way to the churches of San Salvador.;;;;;;;x
 EVTDESC_fallingstar_4;My things are packed, everything is in order. Soon I will journey to Belize and see the grand cathedral.;;;;;;;x
 EVTNAME_fallingstar_5;Panama City;;;;;;;;;;;;;x
-EVTDESC_fallingstar_5;You have finally arrived at Panama! Situated at the narrowest point between the Atlantic and Pacific oceans, Panama has long been a center of trade, and you can hear shouted conversations in unknown tongues in almost any part of the city. Panama's Church of St. Joseph is one of the holiest places in the Fallen Star faith. It was destroyed during the Event when the corpse of the Fallen Star himself fell into it. Miraculously, the church's famous golden altar survived, and the Star's corpse was laid on top. It was then rebuilt, and stands as one of the last truly Christian churches in Panama.;;;;;;;;;;;;;x
+EVTDESC_fallingstar_5;You have finally arrived at Panama! Situated at the narrowest point between the Atlantic and Pacific oceans, Panama has long been a center of trade, and you can hear shouted conversations in unknown tongues in almost any part of the city. Panama's Church of St. Joseph is one of the holiest places in the Fallen Star faith. The Star himself fell exactly on top of the Church, destroying the building but leaving its golden altar miraculously intact. The church was rebuilt on the same spot, and stands as one of the last truly Christian churches in Panama.;;;;;;;;;;;;;x
 EVTOPTA_fallingstar_5;Panama! There is nothing like it!;;;;;;;x
 EVTNAME_fallingstar_6;San Salvador;;;;;;;;;;;;;x
 EVTDESC_fallingstar_6;You have finally arrived at San Salvador! San Salvador has always been a place where diverse faiths coexist, and this has only become more true since deluge. It contains not only the largest remaining Christian church in central America, but also prominent shrines to the Cult of Saints and the old Mesoamerican gods. As you see practitioners of all these faiths intermingle peacefully, you marvel at the sight. Still, you have come here on a holy pilgrimage, so you would be remiss to dwell on this too long. Iglesia Cristiana Josue awaits!;;;;;;;;;;;;;x

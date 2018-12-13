@@ -349,6 +349,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_fallingstar_9
 		custom_tooltip = { text = fallingstar_9_tt }
+		wealth = -10
 		hidden_tooltip = { character_event = { id = fallingstar.10 days = 3 } } # Investigate the drunk's claims...
 	}
 	option = {
@@ -372,6 +373,9 @@ character_event = {
 		piety = -50
 		prestige = 25
 		religion = moravian
+		clr_character_flag = good_pilgrimage
+		clr_character_flag = bad_pilgrimage
+		set_character_flag = abominable_pilgrimage
 		hidden_tooltip = { character_event = { id = fallingstar.10 days = 3 } } # Stay a little longer then go home
 	}
 	option = { #Never tell anyone.
@@ -384,6 +388,9 @@ character_event = {
 		piety = -500
 		add_trait = stressed
 		add_trait = depressed
+		clr_character_flag = good_pilgrimage
+		clr_character_flag = bad_pilgrimage
+		set_character_flag = abominable_pilgrimage
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 }

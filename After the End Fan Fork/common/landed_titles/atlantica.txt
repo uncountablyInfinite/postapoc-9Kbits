@@ -584,7 +584,7 @@ e_atlantica = {
 			color2={ 220 220 0 }
 
 			deitsch = "Nei Yarrick"
-			yiddish = "Niu York"
+			yiddish = "Niu Yark"
 
 			capital = 3 # Manhattan
 
@@ -605,10 +605,10 @@ e_atlantica = {
 				holy_site = jewish
 				
 				deitsch = "Mannatten"
-				yiddish = "Niu York"
+				yiddish = "Niu Yark"
 				
 				b_manhattan_NY = {
-					yiddish = "Niu York"
+					yiddish = "Niu Yark"
 				}
 				b_bronx_NY = {
 					yiddish = "Bronks"

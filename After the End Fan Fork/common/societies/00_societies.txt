@@ -2927,11 +2927,15 @@ banking_society = {
 		always = yes
 	}
 	
+	active = {
+		has_dlc = "Mystics"
+	}
 	indestructible = yes
 	
 	can_join_society = {
 		hidden_trigger = {
 			NAND = {
+				ai = yes
 				is_society_rank_full = { 
 					society = banking_society
 					rank = 1
@@ -2951,7 +2955,10 @@ banking_society = {
 			religion_group = oldworld
 			religion_group = jewish_group
 			AND = {
-				religion_group = pagan_group
+				OR = {
+					religion_group = pagan_group
+					religion_group = afro_syncretic
+				}
 				has_religion_feature = religion_jizya
 			}
 			is_patrician = yes
@@ -2978,18 +2985,40 @@ banking_society = {
 			religion_group = oldworld		# Americanists and Consumerists okay with moneylending
 			religion_group = jewish
 			AND = {
-				religion_group = pagan_group
+				OR = {
+					religion_group = pagan_group
+					religion_group = afro_syncretic
+				}
 				has_religion_feature = religion_jizya
 			}
 		}
+		is_tribal = no
+		is_nomadic = no
+		is_theocracy = no
 		NOT = { has_landed_title = d_electoral_college }
 	}
 	
 	potential = {
 		OR = {
-			is_landed = yes
+			religion_group = oldworld
+			religion_group = jewish_group
+			AND = {
+				OR = {
+					religion_group = pagan_group
+					religion_group = afro_syncretic
+				}
+				has_religion_feature = religion_jizya
+			}
 			is_patrician = yes
+			trait = greedy
+			trait = cynical
 		}
+		NOT = { trait = incapable }
+		prisoner = no
+		is_landed = yes
+		is_tribal = no
+		is_nomadic = no
+		is_theocracy = no
 		mercenary = no
 		NOT = { has_landed_title = d_electoral_college }
 	}

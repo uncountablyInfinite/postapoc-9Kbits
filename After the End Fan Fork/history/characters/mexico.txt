@@ -1418,7 +1418,9 @@
 	name="Marina"
 	female=yes
 	dna="bdabkabneml"
-	culture=chilango
+	father=666153
+	dynasty=1542003 # Pistolas
+	culture=tapatio
 	religion=sacred_heart
 	martial=5
 	diplomacy=7
@@ -1914,6 +1916,7 @@
 	trait=marian_el_santo
 	trait=cynical
 	trait=envious
+	father=666153
 	2601.11.28={birth=yes}
 	2655.6.3={death=yes}
 }
@@ -2130,16 +2133,17 @@
 
 1810151={
 	name="Aureliano"
-	dynasty=1546092 #Olmeca
+	dynasty=1823007
 	dna="bkkkdknjhmg"
-	culture=yucateco
-	religion=neomayan
+	culture=jarocho
+	religion=sacred_heart
 	martial=5
 	diplomacy=3
 	stewardship=3
 	intrigue=7
 	learning=1
 	trait=tough_soldier
+	trait=marian_guadalupe
 	trait=gardener
 	trait=cynical
 	trait=craven
@@ -2153,8 +2157,8 @@
 	name="Dolores"
 	female=yes
 	dna="obenailmdfm"
-	culture=yucateco
-	religion=neomayan
+	culture=jarocho
+	religion=sacred_heart
 	martial=0
 	diplomacy=2
 	stewardship=3
@@ -2173,16 +2177,17 @@
 1810153={
 	name="Cintia"
 	female=yes
-	dynasty=1546092
+	dynasty=1823007
 	dna="bbendklahmg"
-	culture=yucateco
-	religion=neomayan
+	culture=jarocho
+	religion=sacred_heart
 	martial=4
 	diplomacy=5
 	stewardship=6
 	intrigue=4
 	learning=5
 	trait=fortune_builder
+	trait=marian_guadalupe
 	trait=duelist
 	trait=deceitful
 	trait=lustful
@@ -2196,16 +2201,17 @@
 
 1810154={
 	name="Julián"
-	dynasty=1546092
+	dynasty=1823007
 	dna="kkkndinmdmm"
-	culture=yucateco
-	religion=neomayan
+	culture=jarocho
+	religion=sacred_heart
 	martial=5
 	diplomacy=2
 	stewardship=6
 	intrigue=6
 	learning=4
 	trait=flamboyant_schemer
+	trait=marian_guadalupe
 	trait=impaler
 	trait=cynical
 	trait=zealous
@@ -2219,10 +2225,10 @@
 
 1810155={
 	name="Javier"
-	dynasty=1386026
+	dynasty=1823008
 	dna="hgikfbnihdj"
-	culture=zapotec
-	religion=sol_invicta
+	culture=jarocho
+	religion=sacred_heart
 	martial=6
 	diplomacy=2
 	stewardship=5
@@ -2242,8 +2248,8 @@
 	name="Juana"
 	female=yes
 	dna="lcghjfegidm"
-	culture=zapotec
-	religion=sol_invicta
+	culture=jarocho
+	religion=sacred_heart
 	martial=2
 	diplomacy=4
 	stewardship=4
@@ -2605,6 +2611,7 @@
 	name="Adrianna"
 	female=yes
 	dynasty=1542011
+	father=
 	culture=tapatio
 	religion=sacred_heart
 	trait=brilliant_strategist

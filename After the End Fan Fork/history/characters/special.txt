@@ -874,6 +874,26 @@
 	}
 }
 
+666113 = { #Head of Electoral College, starting Grandmaster of the Cold Ones
+	name="Sam"
+	dynasty=1781030 #Avunculus
+	culture=beltway
+	occluded=yes
+	religion=americanist
+	trait=immortal
+	trait=legendary
+	trait=zealous
+	trait=pilgrim
+	trait=electoral_college
+	1776.7.4={birth=yes}
+	2660.1.1={
+		effect = {
+			set_character_flag = do_not_disturb
+			set_character_flag = diplomatic_immunity
+		}
+	}
+}
+
 666114 = { #Huey Long, legendary King of Lousiana
 	name="Huey"
 	dynasty=1787082 #Long
@@ -1373,5 +1393,187 @@
 	}
 	2663.1.1={
 		death=yes
+	}
+}
+
+666145={
+	name = "Juan"
+	culture = "chino"
+	religion = "sacred_heart"
+	trait = "legendary"
+	trait = "grey_eminence"
+	occluded = yes
+	dynasty = 1913011 # Ng
+	2150.1.1 = {
+		birth = yes
+	}
+	2195.1.1 = {
+		give_nickname = nick_the_peacemaker
+	}
+	2201.2.11 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+
+666146={
+	name = "Cesar"
+	culture = "chino"
+	religion = "sacred_heart"
+	father = 666145
+	trait = "legendary"	
+	trait = "brilliant_strategist"
+	trait = "brave"
+	occluded = yes
+	dynasty = 1913011 # Ng
+	2173.1.1 = {
+		birth = yes
+	}	
+	2206.9.9 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+
+666147={
+	name = "Victorio"
+	culture = "chino"
+	religion = "sacred_heart"
+	father = 666145
+	trait = "legendary"
+	occluded = yes
+	dynasty = 1913011 # Ng
+	2192.2.11 = {
+		birth = yes
+	}
+	2195.1.1 = {
+		add_trait = "eunuch"
+	}
+	2278.7.21 = {
+		give_nickname = nick_the_undying
+		death = yes
+	}
+}
+
+666148={
+	name = "Ricardo"
+	culture = "californio"
+	religion = "sacred_heart"
+	trait = "legendary"
+	occluded = yes
+	trait = genius
+	train = lunatic
+	dynasty = 1912048 # Sánchez
+	1957.1.1 = {
+		birth = yes
+	}	
+	2278.7.21 = {
+		give_nickname = nick_the_mad
+	}
+	2278.7.22 = {
+		death = {
+			death_reason = death_offmap
+		}
+	}	
+}
+
+666149={
+	name = "Roland"
+	culture = "californio"
+	religion = "cetic"
+	trait = "midas_touched"
+	trait = "genius"
+	trait = "strong"
+	trait = "attractive"
+	dynasty = 1912067 # Herrick founder of "modern" Baja Sur republic
+	2371.1.1 = {
+		birth = yes
+	}
+	2399.1.1 = {
+		prestige = 2005
+		give_nickname = nick_the_founder
+	}	
+	2442.7.12 = {
+		death = yes
+	}
+}
+
+666150={
+	name = "Bella"
+	culture = "californio"
+	religion = "mictlantec"
+	female = yes
+	father = 666149
+	trait = "genius"
+	trait = "attractive"
+	trait = "bastard"
+	dynasty = 1912067 # Herrick: Bello branch
+	2405.1.1 = {
+		birth = yes
+	}
+	2420.1.1 = {
+		give_nickname = nick_the_bleeding_eyes
+	}
+	2462.1.1 = {
+		death = yes
+	}
+}
+
+666151={
+	name = "Alexandra"
+	culture = "californio"
+	religion = "sacred_heart"
+	female = yes
+	father = 666149
+	trait = "strong"
+	trait = "brave"
+	trait = "bastard"
+	dynasty = 1912067 # Herrick: La Flor branch
+	2391.1.1 = {
+		birth = yes
+	}
+	2399.1.1 = {
+		give_nickname = nick_the_vixen
+	}
+	2432.1.1 = {
+		death = yes
+	}
+}
+
+666152={
+	name = "Lin Yuk"
+	culture = "chino"
+	religion = "sacred_heart"
+	father = 666149
+	trait = "midas_touched"
+	trait = "genius"
+	trait = "bastard"
+	dynasty = 1912067 # Herrick: Yuk branch
+	2439.1.1 = {
+		birth = yes
+	}	
+	2512.3.11 = {
+		death = yes
+	}
+}
+
+# Old King of Colima
+666153={
+	name = "Javier"
+	culture = "tapatio"
+	religion = "sacred_heart"
+	trait = "brilliant_strategist"
+	trait = "duelist"
+	trait = "impaler"
+	trait = "zealous"
+	trait = "marian_el_santo"
+	dynasty = 1542003 # Pistolas
+	2575.1.1 = {
+		birth = yes
+	}	
+	2631.10.1 = {
+		death = yes
 	}
 }

@@ -1,3 +1,27 @@
+2195.17.1 = {
+	holder = 666145
+}
+
+2201.2.15 = {
+	holder = 666146
+}
+
+2206.9.9 = {
+	holder = 666147
+}
+
+2278.7.21 = {
+	holder = 666148
+}
+
+2399.7.21 = {
+	holder = 666149
+}
+
+2475.7.21 = {
+	holder = 666152
+}
+
 2300.1.1 = { 
 	liege = "k_baja_california"
 	law = succ_primogeniture

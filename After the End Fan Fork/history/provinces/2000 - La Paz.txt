@@ -16,3 +16,22 @@ culture = chino
 religion = sacred_heart
 terrain = mountain
 #History
+2231.8.28 = {
+	build_wonder = wonder_underground_city
+	set_wonder_stage = 1
+}
+2278.5.4 = {
+	set_wonder_stage = 2
+}
+2415.2.1 = {
+	build_wonder_upgrade = upgrade_hypocausts
+	build_wonder_upgrade = upgrade_watchtower_network
+}
+2452.11.1 = {
+
+	build_wonder_upgrade = upgrade_guardian_of_the_deep
+}
+2500.1.19 = {
+	set_wonder_stage = 3
+	build_wonder_upgrade = upgrade_tunnels_travel
+}

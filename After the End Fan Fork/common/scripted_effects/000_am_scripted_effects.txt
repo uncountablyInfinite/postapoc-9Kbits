@@ -8756,6 +8756,7 @@ fire_haruspicy_event_effect = { #Used for Mesoamerican Religions
 					OR = { 
 						religion_group = mesoamerican_gods
 						has_religion_feature = religion_haruspicy 
+						has_religion_feature = religion_feature_occultist
 					} 
 				} 
 			}
@@ -8769,6 +8770,7 @@ fire_haruspicy_event_effect = { #Used for Mesoamerican Religions
 					OR = { 
 						religion_group = mesoamerican_gods
 						has_religion_feature = religion_haruspicy 
+						has_religion_feature = religion_feature_occultist
 					} 
 				} 
 			}
@@ -9235,10 +9237,7 @@ evaluate_extra_duel_result_score_effect = { # [SPECIAL CIRCUMSTANCES - OPTIONAL]
 			event_target:combatant_2 = {
 				NOT = { is_lover = ROOT }
 				OR = {
-					#ROOT = { has_religion_feature = religion_feature_zun }
 					ROOT = { has_religion_feature = religion_holy_family }
-					#ROOT = { religion = messalian }
-					#ROOT = { religion = zoroastrian }
 					NOT = { is_close_relative = ROOT }
 				}
 				possibly_romantically_interested_in_each_other_trigger = yes

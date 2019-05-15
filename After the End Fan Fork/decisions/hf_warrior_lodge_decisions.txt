@@ -1917,6 +1917,10 @@ society_decisions = {
 				has_religion_feature = religion_haruspicy
 			}
 			modifier = {
+				factor = 3
+				has_religion_feature = religion_feature_occultist
+			}
+			modifier = {
 				factor = 5
 				has_religion_feature = religion_ritual_sacrifice
 			}

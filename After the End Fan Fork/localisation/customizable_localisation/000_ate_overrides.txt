@@ -8639,7 +8639,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GeStarryWisdomRecruit
+	name = GetStarryWisdomRecruit
 	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
 		localisation_key = devil_worshiper_recruit_random
 	}

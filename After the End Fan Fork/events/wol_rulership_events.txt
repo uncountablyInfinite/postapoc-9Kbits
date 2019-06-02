@@ -30,12 +30,8 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					AND = {
-						NOT = { religion = gaian }
-						trait = administrator
-					}
+					trait = administrator
 				}
-				NOT = { has_character_modifier = wol_raja_dharma }
 				random = 85
 			}
 			character_event = { id = WoL.12502 }
@@ -119,9 +115,7 @@ character_event = {
 			AND = {
 				lifestyle_traits = 1 
 				has_character_modifier = wol_steward_2
-				NOT = { religion = gaian }
 			}
-			has_character_modifier = wol_raja_dharma
 		}
 	}
 	
@@ -162,11 +156,6 @@ character_event = {
 		if = {
 			limit = {
 				trait = administrator 
-				religion = gaian
-			}
-			add_character_modifier = {
-				modifier = wol_raja_dharma
-				duration = -1
 			}
 			break = yes
 		}
@@ -725,6 +714,7 @@ character_event = {
 	trigger = {
 		has_focus = focus_rulership
 		NOT = { trait = depressed }
+		war = no
 	}
 	
 	is_triggered_only = yes
@@ -785,6 +775,7 @@ character_event = {
 	trigger = {
 		has_focus = focus_rulership
 		NOT = { has_character_flag = in_seclusion }
+		in_command = no
 	}
 	
 	is_triggered_only = yes
@@ -1363,6 +1354,7 @@ character_event = {
 			trait = drunkard
 			ai = yes
 		}
+		in_command = no
 	}
 	
 	is_triggered_only = yes

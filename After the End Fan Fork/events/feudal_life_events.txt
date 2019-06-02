@@ -31,10 +31,8 @@ character_event = {
 	trigger = {
 		tier = count
 		in_command = no
-		NOT = {
-			religion_group = jewish_group
-			religion = gaian
-		}
+		NOT = { religion = gaian }
+		NOT = { religion_group = jewish_group }
 		OR = {
 			trait = greedy
 			trait = midas_touched
@@ -65,6 +63,9 @@ character_event = {
 	
 	option = { #Ignore
 		name = EVTOPTA4000
+		trigger = { 
+			NOT = { trait = just }
+		}
 		add_trait = just
 	}
 	
@@ -73,9 +74,6 @@ character_event = {
 		tooltip_info = just
 		trigger = {
 			trait = just
-			NOT = {
-				trait = wroth
-			}
 		}
 		add_character_modifier = {
 			name = the_judger
@@ -192,6 +190,8 @@ character_event = {
 	war = no
 	
 	trigger = {
+		NOT = {	religion = gaian }
+		NOT = {	religion_group = jewish_group }
 		in_command = no
 		tier = count
 		NOT = {
@@ -248,7 +248,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA4085
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				war = no
 				prisoner = no
@@ -259,6 +259,10 @@ character_event = {
 					trait = craven
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_relieved
 				who = ROOT
@@ -269,7 +273,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4085
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				OR = {
 					trait = diligent
@@ -277,6 +281,10 @@ character_event = {
 					trait = brave
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_delighted
 				who = ROOT
@@ -307,13 +315,17 @@ character_event = {
 		trigger = {
 			trait = diligent
 		}
-		random_courtier = {
+		any_courtier = {
 			limit = {
 				OR = {
 					has_job_title = job_marshal
 					has_job_title = job_spymaster
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+	            interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = diligent_pos
 				who = ROOT
@@ -359,7 +371,6 @@ character_event = {
 		OR = {
 			trait = chaste
 			trait = lustful
-			#religion_group = muslim
 		}
 		NOT = { is_inaccessible_trigger = yes }
 	}
@@ -395,11 +406,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4036 #Ordeal by water
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = modifier_witch
 			duration = 90
@@ -408,11 +415,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4036 #Torture
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = tortured_witch
 			duration = 90
@@ -492,11 +495,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4035 #Cut off hands
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = the_cruel
 			duration = 180
@@ -505,11 +504,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4035 #Kill!
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = kill_lawbreakers
 			duration = 180
@@ -609,11 +604,7 @@ character_event = {
 				trait = wroth
 			}
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		prestige = 15
 		any_courtier = {
 			limit = {
@@ -645,11 +636,7 @@ character_event = {
 				trait = cruel
 			}
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_trait = cruel
 	}
 	
@@ -742,7 +729,7 @@ character_event = {
 	option = {
 		name = EVTOPTA4045
 		location = {
-			random_province_lord = {
+			any_province_lord = {
 				limit = {
 					prisoner = no
 					treasury = 50
@@ -770,6 +757,10 @@ character_event = {
 						}
 					}
 				}
+				score_value = { #Prioritizes selecting an interesting courtier...
+		            value = 10
+            		interesting_courtier_selection_score = yes
+		        }
 				character_event = {
 					id = 4046
 					tooltip = EVTTOOLTIP4046
@@ -909,11 +900,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4050 #Behead him!
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = the_ruthless
 			duration = 180
@@ -950,11 +937,7 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = the_strong
 			duration = 180
@@ -967,11 +950,7 @@ character_event = {
 		trigger = {
 			trait = wroth
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		add_character_modifier = {
 			name = the_cruel
 			duration = 180
@@ -1151,6 +1130,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4020 #Ask someone to do something about it!
+		custom_tooltip = { text = EVTTOOLTIP4021 }
 		ai_chance = { factor = 80 }
 			any_courtier = {	
 				limit = {
@@ -1167,7 +1147,6 @@ character_event = {
 			character_event = {
 				id = 4021
 				days = 10
-				tooltip = EVTTOOLTIP4021
 			}
 		}
 	}
@@ -1262,11 +1241,7 @@ character_event = {
 				trait = just
 			}
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		FROM = {
 			set_character_flag = dead_poachers
 			character_event = {
@@ -1286,11 +1261,7 @@ character_event = {
 				trait = arbitrary
 			}
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		FROM = {
 			set_character_flag = ears_off
 			character_event = {
@@ -1341,11 +1312,7 @@ character_event = {
 		trigger = {
 			has_character_flag = ears_off
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		clr_character_flag = ears_off
 		FROM = {
 			character_event = {
@@ -1385,11 +1352,7 @@ character_event = {
 		trigger = {
 			has_character_flag = dead_poachers
 		}
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		clr_character_flag = dead_poachers
 		FROM = {
 			character_event = {
@@ -1554,11 +1517,7 @@ character_event = {
 			trait = arbitrary
 		}
 		ai_chance = { factor = 20 }
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		FROM = {
 			set_character_flag = heads_up
 			character_event = {
@@ -1576,11 +1535,7 @@ character_event = {
 			trait = wroth
 		}
 		ai_chance = { factor = 30 }
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		FROM = {
 			set_character_flag = hands_off
 			character_event = {
@@ -1636,11 +1591,7 @@ character_event = {
 			has_character_flag = hands_off
 		}
 		ai_chance = { factor = 30 }
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		clr_character_flag = hands_off
 		FROM = {
 			character_event = {
@@ -1656,11 +1607,7 @@ character_event = {
 			has_character_flag = hands_off
 		}
 		ai_chance = { factor = 70 }
-		if = {
-			limit = { religion = anabaptist }
-			piety = -20
-			custom_tooltip = { text = jain_ahimsa_tooltip }
-		}
+		pacifists_lose_piety_effect = yes
 		clr_character_flag = hands_off
 		FROM = {
 			character_event = {
@@ -2039,7 +1986,7 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		NOT = { religion = gaian }
+		NOT = { religion = jain }
 		OR = {
 			trait = falconer
 			trait = hunter
@@ -2086,7 +2033,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4060
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				war = no
 				prisoner = no
@@ -2099,6 +2046,10 @@ character_event = {
 					}
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = brave_pos
 				who = ROOT
@@ -2109,7 +2060,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4060
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				OR = {
 					trait = falconer
@@ -2120,6 +2071,10 @@ character_event = {
 				}
 				age = 16
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_oblivious
 				who = ROOT
@@ -2188,7 +2143,7 @@ character_event = {
 	}
 	
 	immediate = {
-		random_friend = {
+		any_friend = {
 			limit = {
 				age = 20
 				prisoner = no
@@ -2200,6 +2155,10 @@ character_event = {
 				}
 				reverse_opinion = { who = ROOT value = 25 }
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			save_event_target_as = invitation_pending
 		}
 	}
@@ -2556,7 +2515,7 @@ character_event = {
 	option = {
 		name = EVTOPTF4115
 		prestige = 50
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				higher_tier_than = BARON
 				OR = {
@@ -2564,6 +2523,10 @@ character_event = {
 					trait = gregarious
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_irritated
 				who = ROOT
@@ -2642,11 +2605,15 @@ character_event = {
 				martial = 15
 			}
 		}
-		random_courtier = {
+		any_courtier = {
 			limit = {
 				martial = 15
 				reverse_opinion = { who = ROOT value = 25 }
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = proud_pos
 				who = ROOT
@@ -2785,11 +2752,15 @@ character_event = {
 	
 	option = {
 		name = EVTOPTE4125
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				opinion = { who = ROOT value = 20 }
 				trait = brave
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_approves
 				who = ROOT
@@ -2971,7 +2942,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4135
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				at_location = ROOT
 				age = 50
@@ -2984,6 +2955,10 @@ character_event = {
 					}
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = opinion_pitiful
 				who = ROOT
@@ -2995,6 +2970,8 @@ character_event = {
 	option = {
 		name = EVTOPTC4135
 		add_trait = gluttonous
+		gain_weight_small_effect = yes
+		weight_trait_check_effect = yes
 	}
 }
 
@@ -3060,7 +3037,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTB4145
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				NOT = {
 					family = ROOT
@@ -3072,6 +3049,10 @@ character_event = {
 					trait = charitable
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			set_character_flag = liege_wroth
 			character_event = {
 				id = 4146
@@ -3095,7 +3076,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTD4145
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				NOT = {
 					family = ROOT
@@ -3107,6 +3088,10 @@ character_event = {
 					trait = charitable
 				}
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			set_character_flag = liege_gregarious
 			character_event = {
 				id = 4146
@@ -3319,8 +3304,6 @@ character_event = {
 		}
 		new_character = {
 			give_nickname = nick_the_clueless
-		}
-		new_character = { 
 			character_event = { id = misc.3 } # Diversity
 			character_event = { id = misc.4 } # Physique 
 		}
@@ -3443,12 +3426,16 @@ character_event = {
 				prisoner = no
 			}
 		}
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				learning = 15
 				NOT = { trait = incapable }
 				prisoner = no
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			opinion = {
 				modifier = gregarious_pos
 				who = ROOT
@@ -3531,10 +3518,14 @@ character_event = {
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
 		}
-		random_vassal = {
+		any_vassal = {
 			limit = {
 				trait = diligent
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			reverse_opinion = {
 				modifier = opinion_my_saviour
 				who = ROOT
@@ -3551,11 +3542,15 @@ character_event = {
 			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
 		}
-		random_courtier = {
+		any_courtier = {
 			limit = {
 				trait = ambitious
 				trait = wroth
 			}
+			score_value = { #Prioritizes selecting an interesting courtier...
+	            value = 10
+        		interesting_courtier_selection_score = yes
+	        }
 			reverse_opinion = {
 				modifier = opinion_fool_courtier
 				who = ROOT

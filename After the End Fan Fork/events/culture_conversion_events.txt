@@ -293,7 +293,7 @@ province_event = {
 					has_province_modifier = depopulated_3
 				}
 			}
-		}
+		}		
 	}
 	
 	mean_time_to_happen = {
@@ -443,32 +443,25 @@ character_event = {
 				NOT = { ROOT = { culture = british } }
 			}
 			
-			OR = { # Not when Yanquito culture should appear
-				ROOT = { NOT = { culture_group = south_anglo } }
-				AND = {
-					NOT = { culture_group = caribeno }
-				}
-				NOT = { has_dlc = "The Old Gods" }
-			}
-			
 			OR = { # Not when Carpetbagger culture should appear
 				ROOT = { NOT = { culture = yankee } }
 				AND = {
-					NOR = {
-						culture = dixie
-						culture = appalachian
-						culture = melungeon
-					}
+					NOT = { culture = dixie }
+					NOT = {	culture = appalachian }
+					NOT = { culture = melungeon }
 				}
+			}
+			
+			OR = { # Not when Yanquito culture should appear
+				ROOT = { NOT = { culture_group = south_anglo } }
+				NOT = { culture_group = caribeno }
 			}
 			
 			OR = { # Not when Nuyorican culture should appear
 				ROOT = { NOT = { culture = boricua } }
 				AND = {
-					NOR = {
-						culture = gothamite
-						culture = hudsonian
-					}
+					NOT = { culture = gothamite }
+					NOT = {	culture = hudsonian }
 				}
 			}
 		}
@@ -482,6 +475,7 @@ character_event = {
 				}
 			}
 		}
+		NOT = { government = californian_imperial_government }
 	}
 	
 	mean_time_to_happen = {

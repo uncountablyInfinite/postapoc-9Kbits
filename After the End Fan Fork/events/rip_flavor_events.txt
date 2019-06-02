@@ -2787,12 +2787,6 @@ character_event = {
 				factor = 1.5
 				trait = trusting
 			}
-			#modifier = {
-			#	factor = 0.75
-			#	NOT = {
-			#		year = 900
-			#	}
-			#}
 			modifier = {
 				factor = 0.25
 				OR = {
@@ -3981,9 +3975,18 @@ character_event = {
 
 	trigger = {
 		OR = {
-			any_lover = { is_alive = yes }
-			any_friend = { is_alive = yes }
-			any_rival = { is_alive = yes }
+			any_lover = {
+				is_alive = yes
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+			}
+			any_friend = {
+				is_alive = yes
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+			}
+			any_rival = {
+				is_alive = yes
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+			}
 		}
 		NOR = {
 			death_no_trace_trigger = yes
@@ -3997,25 +4000,34 @@ character_event = {
 		spouse = { save_event_target_as = rip_widow }
 
 		random_child = { 
-			limit = { is_adult = yes }
+			limit = {
+				is_adult = yes
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+			}
 			save_event_target_as = rip_child
 		}
 
 		#Lover event
 		random_lover = {
-			limit = { block_general_event_trigger = no NOT = { has_character_modifier = grief_timer } }
+			limit = {
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+				NOT = { has_character_modifier = grief_timer }
+			}
 			character_event = { id = RIP.29001 days = 20 } 
 		}
 
 		#Friend event
 		random_friend = {
-			limit = { block_general_event_trigger = no NOT = { has_character_modifier = grief_timer } }
+			limit = {
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+				NOT = { has_character_modifier = grief_timer }
+			}
 			save_event_target_as = rip_friend_1
 
 			ROOT = { 
 				random_friend = {
 					limit = { 
-						block_general_event_trigger = no 
+						NOT = { is_inaccessible_or_incapable_trigger = yes }
 						NOR = {
 							is_rival = event_target:rip_friend_1
 							character = event_target:rip_friend_1
@@ -4059,13 +4071,16 @@ character_event = {
 
 		#Rival event
 		random_rival = {
-			limit = { block_general_event_trigger = no NOT = { has_character_modifier = grief_timer } }
+			limit = {
+				NOT = { is_inaccessible_or_incapable_trigger = yes }
+				NOT = { has_character_modifier = grief_timer }
+			}
 			save_event_target_as = rip_enemy_1
 
 			liege = {
 				any_courtier = {
 					limit = { 
-						block_general_event_trigger = no 
+						NOT = { is_inaccessible_or_incapable_trigger = yes }
 						NOR = {
 							is_rival = event_target:rip_enemy_1
 							character = event_target:rip_enemy_1
@@ -4080,7 +4095,7 @@ character_event = {
 			ROOT = { 
 				random_rival = {
 					limit = { 
-						block_general_event_trigger = no 
+						NOT = { is_inaccessible_or_incapable_trigger = yes }
 						NOR = {
 							is_rival = event_target:rip_enemy_1
 							character = event_target:rip_enemy_1
@@ -4092,7 +4107,7 @@ character_event = {
 				}
 				random_child = {
 					limit = { 
-						block_general_event_trigger = no 
+						NOT = { is_inaccessible_or_incapable_trigger = yes }
 						NOR = {
 							is_rival = event_target:rip_enemy_1
 							character = event_target:rip_enemy_1
@@ -4104,7 +4119,7 @@ character_event = {
 				}
 				random_friend = {
 					limit = { 
-						block_general_event_trigger = no 
+						NOT = { is_inaccessible_or_incapable_trigger = yes }
 						NOR = {
 							is_rival = event_target:rip_enemy_1
 							character = event_target:rip_enemy_1
@@ -7532,7 +7547,6 @@ character_event = {
 				OR = {
 					primary_title = { has_law = agnatic_succession }
 					primary_title = { has_law = succ_patrician_elective }
-					#religion_group = muslim
 				}	
 			}
 			set_character_flag = text_girl_cant_inherit
@@ -7552,10 +7566,6 @@ character_event = {
 									primary_title = { has_law = enatic_succession } 
 								}
 							}
-						}
-						AND = {
-							is_female = no
-							ROOT = { primary_title = { has_law = true_cognatic_succession } }
 						}
 						is_female = no
 					}
@@ -8147,7 +8157,7 @@ character_event = {
 
 #######################################
 # LIEGE INTERFERES IN VASSAL WARS
-# by Henrik F?aeus
+# by Henrik Fåhraeus
 #######################################
 
 # Vassal is asked by Liege to stop war of aggression against another vassal
@@ -10716,6 +10726,7 @@ character_event = {
 						character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = death
+						set_character_flag = is_death
 					}
 				}
 				50 = {
@@ -10740,6 +10751,7 @@ character_event = {
 						character_event = { id = misc.3 } # Diversity
 						character_event = { id = misc.4 } # Physique
 						save_event_target_as = death
+						set_character_flag = is_death
 					}
 				}
 			}			
@@ -10780,8 +10792,8 @@ character_event = {
 						age = 32
 						dynasty = none
 						female = no
-						name = Augusto
-						culture = gothamite
+						name = Grim
+						culture = west_indian
 						religion = catholic
 						trait = mastermind_theologian
 						trait = monk
@@ -12167,14 +12179,14 @@ character_event = {
 				}
 				health = 6
 				fertility = 0.8
-				trait = elusive_shadow
+				trait = brilliant_strategist
 				trait = wroth
 				trait = immortal
 				trait = proud
 				trait = impaler
 				trait = cynical
 				trait = strong
-				trait = cannibal_trait
+				trait = berserker
 				trait = envious
 				historical = yes
 			}
@@ -12258,7 +12270,7 @@ character_event = {
 				religion = sol_invicta
 				culture = horse
 				female = no
-				age = 3800
+				age = 2200
 				immortal_age = 20
 				attributes = {
 					martial = 8
@@ -12281,7 +12293,6 @@ character_event = {
 				trait = stubborn
 				trait = schemer
 				trait = cynical
-				#trait = ares_own
 				trait = horse
 				historical = yes
 			}

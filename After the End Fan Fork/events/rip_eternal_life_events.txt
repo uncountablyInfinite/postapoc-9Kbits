@@ -5,7 +5,7 @@
 #
 ###################################
 
-# Written by Mathilda Bjarnehed & Milla Isaksson
+# Written by Mathilda Bjarnehed, Milla Isaksson & Linnéa Thimrén
 
 ###SEARCH STEP###
 
@@ -557,7 +557,7 @@ narrative_event = {
 	title = EVTNAME_RIP_21009
 	id = RIP.21009
 	desc = EVTDSC_RIP_21009
-	border = GFX_event_narrative_frame_war
+	border = GFX_event_normal_frame_war
 	picture = GFX_evt_knight_kneeling
 
 	is_triggered_only = yes
@@ -837,6 +837,7 @@ narrative_event = {
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
 				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic 
 
 				will_not_marry_effect = yes
@@ -896,6 +897,7 @@ narrative_event = {
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
 				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic 
 
 				will_not_marry_effect = yes
@@ -965,6 +967,7 @@ narrative_event = {
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
 				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic 
 
 				will_not_marry_effect = yes
@@ -1008,7 +1011,7 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = ghost_dance
+				religion = peyotist
 				culture = sioux
 				female = yes
 				age = 9
@@ -1020,6 +1023,7 @@ narrative_event = {
 			}
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
+				
 				set_character_flag = eternal_life_mystic 
 
 				will_not_marry_effect = yes
@@ -1160,6 +1164,9 @@ narrative_event = {
 				trait = celibate
 			}
 			new_character = {
+				character_event = { id = misc.3 } #Diversity
+				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic
 
 				will_not_marry_effect = yes
@@ -1219,6 +1226,7 @@ narrative_event = {
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
 				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic
 
 				will_not_marry_effect = yes
@@ -1288,6 +1296,7 @@ narrative_event = {
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
 				character_event = { id = misc.4 } # Physique
+				
 				set_character_flag = eternal_life_mystic
 
 				will_not_marry_effect = yes
@@ -1331,7 +1340,7 @@ narrative_event = {
 			create_character = {
 				random_traits = no
 				dynasty = none
-				religion = ghost_dance
+				religion = peyotist
 				culture = sioux
 				female = yes
 				age = 9
@@ -1346,6 +1355,7 @@ narrative_event = {
 			}
 			new_character = {
 				character_event = { id = misc.3 } #Diversity
+				
 				set_character_flag = eternal_life_mystic
 
 				will_not_marry_effect = yes
@@ -1625,7 +1635,7 @@ narrative_event = {
 
 		if = {
 			limit = {
-				FROM = { religion_group = oldworld }
+				FROM = { religion_group = oldworld } 
 				NOT = { 
 					trait = sympathy_oldworld
 					FROM = { religion_group = ROOT }
@@ -1716,6 +1726,48 @@ narrative_event = {
 	}
 }
 
+###################
+### MYSTIC DIED
+###################
+character_event = {
+	title = EVTNAME_RIP_21099
+	id = RIP.21099
+	desc = {
+		trigger = {
+			event_target:eternal_life_mystic = {
+				killer = { character = ROOT }
+			}
+		}
+		text = EVTDSC_RIP_21099_YOU_MURDERED
+	}
+	desc = {
+		trigger = {
+			event_target:eternal_life_mystic = {
+				NOT = { killer = { character = ROOT } }
+			}
+		}
+		text = EVTDSC_RIP_21099_OTHER_DEATH
+	}
+	border = GFX_event_narrative_frame_diplomacy
+	picture = GFX_evt_dead_body_hf
+
+	is_triggered_only = yes
+	hide_from = yes
+
+	option = {
+		name = EVTOPTA_RIP_21099
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = {
+					NOT = { killer = { character = ROOT } }
+				}
+			}
+			clr_character_flag = eternal_life_events #Second chance if the mystic dies randomly
+		}
+	}
+}
+
+
 ###DIPLOMATIC QUEST###
 
 #Diplomatic quest step 1 challenge
@@ -1732,6 +1784,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	fail_trigger_effect = {
 		if = {
@@ -1740,6 +1793,12 @@ narrative_event = {
 				id = RIP.21100
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -1848,6 +1907,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21102
 		custom_tooltip = { text = EVTOPTA_RIP_21102_TOOLTIP }
@@ -1888,6 +1960,19 @@ narrative_event = {
 	picture = GFX_evt_feast
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21104
@@ -1947,6 +2032,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	fail_trigger_effect = {
 		if = {
@@ -1955,6 +2041,12 @@ narrative_event = {
 				id = RIP.21110
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -2066,6 +2158,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21112
 		custom_tooltip = { text = EVTOPTA_RIP_21112_TOOLTIP }
@@ -2135,6 +2240,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21114
 
@@ -2192,6 +2310,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	fail_trigger_effect = {
 		if = {
@@ -2200,6 +2319,12 @@ narrative_event = {
 				id = RIP.21120
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -2306,6 +2431,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21122
 		custom_tooltip = { text = EVTOPTA_RIP_21122_TOOLTIP } 
@@ -2376,6 +2514,19 @@ narrative_event = {
 	picture = GFX_evt_garden
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21124
@@ -2459,6 +2610,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21126
 		custom_tooltip = { text = EVTOPTA_RIP_21126_TOOLTIP }
@@ -2498,6 +2662,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	fail_trigger_effect = {
 		if = {
@@ -2506,6 +2671,12 @@ narrative_event = {
 				id = RIP.21200
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -2619,6 +2790,7 @@ narrative_event = {
 	
 	trigger = {
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 
 	fail_trigger_effect = {
@@ -2628,6 +2800,12 @@ narrative_event = {
 				id = RIP.21202
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -2685,6 +2863,7 @@ narrative_event = {
 
 	trigger = {
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -2694,6 +2873,12 @@ narrative_event = {
 				id = RIP.21204
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 	
@@ -2755,6 +2940,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -2764,6 +2950,12 @@ narrative_event = {
 				id = RIP.21210
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 	
@@ -2871,6 +3063,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21212
 		custom_tooltip = { text = EVTOPTA_RIP_21212_TOOLTIP }
@@ -2933,6 +3138,19 @@ narrative_event = {
 	}
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21214
@@ -3002,6 +3220,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3011,6 +3230,12 @@ narrative_event = {
 				id = RIP.21220
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3149,6 +3374,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21222
 		custom_tooltip = { text = EVTOPTA_RIP_21222_TOOLTIP }
@@ -3219,6 +3457,19 @@ narrative_event = {
 	picture = GFX_evt_shadowy_cabal
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21224
@@ -3311,6 +3562,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21227
 		custom_tooltip = { text = EVTOPTA_RIP_21227_TOOLTIP }
@@ -3343,6 +3607,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3352,6 +3617,12 @@ narrative_event = {
 				id = RIP.21300
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3461,6 +3732,7 @@ narrative_event = {
 
 	trigger = {
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3470,6 +3742,12 @@ narrative_event = {
 				id = RIP.21302
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3519,6 +3797,7 @@ narrative_event = {
 
 	trigger = {
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3528,6 +3807,12 @@ narrative_event = {
 				id = RIP.21304
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3578,6 +3863,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3587,6 +3873,12 @@ narrative_event = {
 				id = RIP.21310
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3698,6 +3990,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21312
 		custom_tooltip = { text = EVTOPTA_RIP_21312_TOOLTIP }
@@ -3759,6 +4064,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21314
 
@@ -3818,6 +4136,7 @@ narrative_event = {
 
 	trigger = {
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -3827,6 +4146,12 @@ narrative_event = {
 				id = RIP.21320
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -3946,6 +4271,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21322
 		custom_tooltip = { text = EVTOPTA_RIP_21322_TOOLTIP } 
@@ -4014,6 +4352,19 @@ narrative_event = {
 	picture = GFX_evt_shadowy_cabal
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21324
@@ -4097,6 +4448,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21326
 		custom_tooltip = { text = EVTOPTA_RIP_21326_TOOLTIP } 
@@ -4128,6 +4492,16 @@ narrative_event = {
 	trigger = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
 	}
 
 	immediate = {
@@ -4231,6 +4605,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	desc = {
 		text = EVTDSC_RIP_21402_A
 		trigger = { has_character_flag = eternal_life_liar }
@@ -4279,6 +4666,19 @@ narrative_event = {
 	picture = GFX_evt_market
 
 	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	desc = {
 		text = EVTDSC_RIP_21404_A
@@ -4348,6 +4748,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -4357,6 +4758,12 @@ narrative_event = {
 				id = RIP.21410
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -4469,6 +4876,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21412
 		custom_tooltip = { text = EVTOPTA_RIP_21412_TOOLTIP }
@@ -4550,6 +4970,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21414
 		custom_tooltip = { text = EVTOPTA_RIP_21414_TOOLTIP }
@@ -4613,6 +5046,7 @@ narrative_event = {
 		FROM = { prisoner = no }
 		is_liege_of = FROM
 		prisoner = no
+		FROM = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -4622,6 +5056,12 @@ narrative_event = {
 				id = RIP.21420
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -4761,6 +5201,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21422
 		custom_tooltip = { text = EVTOPTA_RIP_21422_TOOLTIP } 
@@ -4853,6 +5306,19 @@ narrative_event = {
 	is_triggered_only = yes
 	hide_from = yes
 
+	trigger = {
+		FROM = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				FROM = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21427
 		custom_tooltip = { text = EVTOPTA_RIP_21427_TOOLTIP } 
@@ -4876,6 +5342,19 @@ character_event = {
 
 	is_triggered_only = yes
 	hide_window = yes
+
+	trigger = {
+		event_target:eternal_life_mystic = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		if = {
@@ -5032,6 +5511,19 @@ narrative_event = {
 	}
 
 	is_triggered_only = yes
+
+	trigger = {
+		event_target:eternal_life_mystic = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	#Nah it's fine
 	option = {
@@ -5194,6 +5686,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		event_target:eternal_life_mystic = { is_alive = no }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	#I don't believe you
 	option = {
 		trigger = { NOT = { trait = paranoid } }
@@ -5270,6 +5775,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 
+	trigger = {
+		event_target:eternal_life_mystic = { is_alive = no }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
+
 	option = {
 		name = EVTOPTA_RIP_21505
 	}
@@ -5297,6 +5815,7 @@ narrative_event = {
 
 	trigger = {
 		prisoner = no
+		event_target:eternal_life_mystic = { is_alive = yes }
 	}
 	
 	fail_trigger_effect = {
@@ -5306,6 +5825,12 @@ narrative_event = {
 				id = RIP.21507
 				days = 35
 			}
+		}
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
 		}
 	}
 
@@ -5374,6 +5899,19 @@ narrative_event = {
 
 	is_triggered_only = yes
 	hide_from = yes
+
+	trigger = {
+		event_target:eternal_life_mystic = { is_alive = yes }
+	}
+
+	fail_trigger_effect = {
+		if = {
+			limit = {
+				event_target:eternal_life_mystic = { is_alive = no }
+			}
+			character_event = { id = RIP.21099 }
+		}
+	}
 
 	option = {
 		name = EVTOPTA_RIP_21509

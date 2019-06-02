@@ -9,7 +9,7 @@
 ############################################
 
 #####################################
-# The Agency is created/destroyed... #
+# The Agency is created/destroyed...#
 #####################################
 
 # Birth of the Men in Black
@@ -39,10 +39,11 @@ narrative_event = {
 		year = 2689
 		religion = americanist
 		#is_heretic = no
-		NOT = { 
+		NOT = {
 			has_global_flag = assassins_founded 
 			has_global_flag = assassins_destroyed
 		}
+
 		b_langley_VA = {
 			has_holder = no
 		}
@@ -54,6 +55,10 @@ narrative_event = {
 					has_settlement_construction = yes
 				}
 			}
+		}
+
+		NOT = {
+			has_alternate_start_parameter = { key = religion_names value = random }
 		}
 	}
 	
@@ -102,6 +107,7 @@ narrative_event = {
 				grant_title = PREV
 			}
 			set_government_type = feudal_government
+
 			93 = { # Bull Run
 				build_holding = {
 					title = b_langley_VA
@@ -254,9 +260,9 @@ narrative_event = {
 		}
 		57 = { # Severn
 			NOR = {
-				num_of_settlements = 5
+				num_of_settlements = 6
 				AND = {
-					num_of_settlements = 4
+					num_of_settlements = 5
 					has_settlement_construction = yes
 				}
 			}
@@ -317,12 +323,17 @@ narrative_event = {
 	
 	trigger = {
 		has_landed_title = d_men_in_black
-		#NOT = { year = 1200 }
+		NOT = { year = 2800 }
 		NOT = { demesne_size = 1 }
 		NOT = { has_global_flag = assassins_destroyed }
 		OR = {
 			NOT = { has_global_flag = assassins_scatter }
 			has_global_flag = assassins_resurface
+		}
+		NOT = {
+			americanist = {
+				is_name_randomized = yes
+			}
 		}
 	}
 	
@@ -429,7 +440,7 @@ narrative_event = {
 			d_men_in_black = {
 				grant_title = PREV
 			}
-			#set_government_type = feudal_government
+			set_government_type = feudal_government
 			create_character = {
 				random_traits = yes
 				dynasty = NONE
@@ -535,6 +546,7 @@ narrative_event = {
 				}
 			}
 		}
+		
 	}
 	option = {
 		name = {
@@ -571,11 +583,16 @@ narrative_event = {
 	has_global_flag = assassins_founded
 	
 	trigger = {
-		#year = 1201
+		year = 1201
 		has_landed_title = d_men_in_black
 		NOT = { demesne_size = 1 }
 		NOT = {
 			has_global_flag = assassins_destroyed
+		}
+		NOT = {
+			americanist = {
+				is_name_randomized = yes
+			}
 		}
 	}
 	
@@ -606,10 +623,10 @@ narrative_event = {
 }
 
 ###################################
-# Assassins strike at the British #
+# Assassins strike at the Mongols #
 ###################################
 
-# Assassins attempt to kill British leader
+# Assassins attempt to kill Mongol leader
 character_event = {
 	id = 88005
 	hide_window = yes # not optimal but better than an empty event.
@@ -641,7 +658,7 @@ character_event = {
 	immediate = {
 		set_global_flag = mongols_provoke_assassins
 		if = {
-			limit = {
+			limit = { 
 				has_landed_title = e_redcoat_dominion
 			}
 			random_list = {
@@ -655,7 +672,7 @@ character_event = {
 		}
 		if = {
 			limit = { 
-				any_liege = { has_landed_title = e_redcoat_dominion }
+				has_landed_title = e_redcoat_dominion
 			}
 			random_list = {
 				40 = {
@@ -667,7 +684,7 @@ character_event = {
 					}
 				}
 				60 = {
-					any_liege = {
+					any_liege = { 
 						limit = {
 							has_landed_title = e_redcoat_dominion
 						}
@@ -697,7 +714,7 @@ character_event = {
 	}
 }
 
-# The British leader is dead!
+# The Mongol leader is dead!
 narrative_event = {
 	id = 88007
 	title = "EVTNAME88007"
@@ -726,7 +743,7 @@ character_event = {
 	}
 }
 
-# The British leader has survived!
+# The Mongol leader has survived!
 narrative_event = {
 	id = 88009
 	title = "EVTNAME88009"
@@ -767,6 +784,7 @@ character_event = {
 	
 	trigger = {
 		is_ruler = no
+		NOT = { society_member_of = the_assassins }
 		employer = {
 			war = yes
 			is_playable = yes
@@ -774,6 +792,7 @@ character_event = {
 			prisoner = no
 			religion_group = oldworld
 			NOT = { spouse = { character = ROOT } }
+			NOT = { society_member_of = the_assassins }
 			d_men_in_black = {
 				holder_scope = {
 					war_with = PREVPREV
@@ -884,15 +903,6 @@ character_event = {
 		FROM = {
 			death = { death_reason = death_hashshashin }
 		}
-		#hidden_tooltip = {
-		#	if = {
-		#		limit = {
-		#			FROM = { religion = bon }
-		#			ai = no
-		#		}
-		#		set_character_flag = achievement_bon_appetit
-		#	}
-		#}
 	}
 }
 
@@ -1004,6 +1014,7 @@ character_event = {
 			character = liege
 			prisoner = no
 		}
+		liege = { NOT = { society_member_of = the_assassins } }
 		OR = {
 			NOT = { has_global_flag = assassins_scatter }
 			has_global_flag = assassins_resurface

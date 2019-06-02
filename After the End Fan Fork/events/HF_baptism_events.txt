@@ -141,7 +141,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = rust_cultist_reformed }
+			event_target:sponsoring_king = { religion = rust_cultist } #reformed? np
 		}
 		text = EVTDESCHFE20003
 	}
@@ -183,7 +183,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { religion = atomicist }
+			event_target:sponsoring_king = { OR = { religion = atomicist religion = aphite } }
 		}
 		text = EVTDESCHFN20003
 	}
@@ -195,7 +195,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			event_target:sponsoring_king = { OR = { religion_group = indian_group religion_group = pacific } }
+			event_target:sponsoring_king = { religion_group = indian_group religion_group = pacific }
 		}
 		text = EVTDESCHFP20003
 	}
@@ -274,7 +274,6 @@ narrative_event = {
 					religion_group = pagan_group 
 					NOT = { religion = occultist_reformed }
 					NOT = { religion = revelationist_reformed }
-					NOT = { religion = rust_cultist_reformed }
 				}
 			}
 			ROOT = { give_nickname = nick_the_exalted }
@@ -295,15 +294,15 @@ narrative_event = {
 			}
 			ROOT = { give_nickname = nick_the_bleeding_eyes }
 		}
-		#Unused
 		if = { 
 			limit = { 
 				NOT = { has_nickname = yes }
 				higher_real_tier_than = DUKE
 				event_target:sponsoring_king = {
 					OR = {
-						religion = rust_cultist_reformed
-						religion_group = oldworld
+						religion = rust_cultist
+						religion = atomicist
+						religion = aphite
 					}
 				}
 			}
@@ -529,7 +528,7 @@ narrative_event = {
 			limit = { 
 				event_target:sponsoring_king = { 
 					OR = {
-						religion_group = christian 
+						religion_group = christian
 						religion_group = latter_day_saints
 					}
 					any_realm_character = { 
@@ -659,20 +658,6 @@ narrative_event = {
 					}
 				}
 			}
-			#if = {
-			#	limit = {
-			#		ai = no
-			#		culture_group = east_slavic
-			#		higher_tier_than = DUKE
-			#		capital_scope = {
-			#			region = world_europe_east
-			#		}
-			#		event_target:sponsoring_king = {
-			#			has_landed_title = e_byzantium
-			#		}
-			#	}
-			#	set_character_flag = achievement_baptism_of_rus
-			#}
 		}
 	}
 }
@@ -712,7 +697,7 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			religion = rust_cultist_reformed
+			religion = rust_cultist
 		}
 		text = EVTDESCHFE20004
 	}
@@ -754,7 +739,10 @@ narrative_event = {
 	}
 	desc = {
 		trigger = {
-			religion = atomicist
+			OR = {
+				religion = atomicist
+				religion = aphite
+			}
 		}
 		text = EVTDESCHFN20004
 	}
@@ -851,7 +839,6 @@ narrative_event = {
 				religion_group = pagan_group
 				NOT = { religion = revelationist_reformed }
 				NOT = { religion = occultist_reformed }
-				NOT = { religion = rust_cultist_reformed }
 			}
 			ROOT = { give_nickname = nick_the_legendary }
 		}
@@ -873,8 +860,9 @@ narrative_event = {
 			limit = { 
 				NOT = { has_nickname = yes }
 				OR = {
-					religion = rust_cultist_reformed
+					religion = rust_cultist
 					religion = atomicist
+					religion = aphite
 				}
 			}
 			ROOT = { give_nickname = nick_the_educator }
@@ -1485,20 +1473,20 @@ letter_event = {
 						event_target:sponsoring_king = { religion_group = cult_of_saints }
 					}
 					AND = {
-						trait = sympathy_latter_day_saints
-						event_target:sponsoring_king = { religion_group = latter_day_saints }
-					}
-					AND = {
 						trait = sympathy_judaism
 						event_target:sponsoring_king = { religion_group = jewish_group }
 					}
 					AND = {
-						trait = sympathy_pacific
-						event_target:sponsoring_king = { religion_group = pacific }
-					}
-					AND = {
 						trait = sympathy_indian
 						event_target:sponsoring_king = { religion_group = indian_group }
+					}
+					AND = {
+						trait = sympathy_latter_day_saints
+						event_target:sponsoring_king = { religion_group = latter_day_saints }
+					}
+					AND = {
+						trait = sympathy_pacific
+						event_target:sponsoring_king = { religion_group = pacific }
 					}
 				}
 			}
@@ -1594,7 +1582,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = rust_cultist_reformed }
+			event_target:sponsoring_king = { religion = rust_cultist }
 		}
 		text = EVTDESCHFE20008
 	}
@@ -1643,7 +1631,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			NOT  = { has_character_flag = ai_flag_refuse_conversion }
-			event_target:sponsoring_king = { religion = atomicist }
+			event_target:sponsoring_king = { OR = { religion = atomicist religion = aphite } }
 		}
 		text = EVTDESCHFN20008
 	}
@@ -1699,7 +1687,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = rust_cultist_reformed }
+			event_target:sponsoring_king = { religion = rust_cultist }
 		}
 		text = EVTDESCHFS20008
 	}
@@ -1748,7 +1736,7 @@ narrative_event = {
 	desc = {
 		trigger = {
 			has_character_flag = ai_flag_refuse_conversion
-			event_target:sponsoring_king = { religion = atomicist }
+			event_target:sponsoring_king = { OR = { religion = atomicist religion = aphite } }
 		}
 		text = EVTDESCHFVV20008
 	}
@@ -1910,17 +1898,6 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = latter_day_saints
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			random = { chance = 60
-				add_trait = sympathy_latter_day_saints
-			}
-		}
-		if = { 
-			limit = { 
-				NOT = { trait = zealous }
-				NOT = { trait = cynical }
 				religion_group = jewish_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -1932,22 +1909,33 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = pacific
+				religion_group = indian_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
 			random = { chance = 60
-				add_trait = sympathy_pacific
+				add_trait = sympathy_indian
 			}
 		}
 		if = { 
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = indian_group
+				religion_group = latter_day_saints
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
 			random = { chance = 60
-				add_trait = sympathy_indian
+				add_trait = sympathy_latter_day_saints
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = pacific
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_pacific
 			}
 		}
 		if = { 
@@ -1997,17 +1985,6 @@ narrative_event = {
 		if = { 
 			limit = { 
 				trait = zealous
-				religion_group = latter_day_saints
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			remove_trait = zealous
-			hidden_tooltip = { character_event = { id = 38310 } } #Notification
-			piety = -20
-			add_trait = sympathy_latter_day_saints
-		}
-		if = { 
-			limit = { 
-				trait = zealous
 				religion_group = jewish_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2019,17 +1996,6 @@ narrative_event = {
 		if = { 
 			limit = { 
 				trait = zealous
-				religion_group = pacific
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			remove_trait = zealous
-			hidden_tooltip = { character_event = { id = 38310 } } #Notification
-			piety = -20
-			add_trait = sympathy_pacific
-		}
-		if = { 
-			limit = { 
-				trait = zealous
 				religion_group = indian_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2037,6 +2003,28 @@ narrative_event = {
 			hidden_tooltip = { character_event = { id = 38310 } } #Notification
 			piety = -20
 			add_trait = sympathy_indian
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = latter_day_saints
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_latter_day_saints
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = pacific
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_pacific
 		}
 		if = { 
 			limit = { 
@@ -2297,17 +2285,6 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = latter_day_saints
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			random = { chance = 60
-				add_trait = sympathy_latter_day_saints
-			}
-		}
-		if = { 
-			limit = { 
-				NOT = { trait = zealous }
-				NOT = { trait = cynical }
 				religion_group = jewish_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2319,22 +2296,33 @@ narrative_event = {
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = pacific
+				religion_group = indian_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
 			random = { chance = 60
-				add_trait = sympathy_pacific
+				add_trait = sympathy_indian
 			}
 		}
 		if = { 
 			limit = { 
 				NOT = { trait = zealous }
 				NOT = { trait = cynical }
-				religion_group = indian_group
+				religion_group = latter_day_saints
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
 			random = { chance = 60
-				add_trait = sympathy_indian
+				add_trait = sympathy_latter_day_saints
+			}
+		}
+		if = { 
+			limit = { 
+				NOT = { trait = zealous }
+				NOT = { trait = cynical }
+				religion_group = pacific
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			random = { chance = 60
+				add_trait = sympathy_pacific
 			}
 		}
 		if = { 
@@ -2384,17 +2372,6 @@ narrative_event = {
 		if = { 
 			limit = { 
 				trait = zealous
-				religion_group = latter_day_saints
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			remove_trait = zealous
-			hidden_tooltip = { character_event = { id = 38310 } } #Notification
-			piety = -20
-			add_trait = sympathy_latter_day_saints
-		}
-		if = { 
-			limit = { 
-				trait = zealous
 				religion_group = jewish_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2406,17 +2383,6 @@ narrative_event = {
 		if = { 
 			limit = { 
 				trait = zealous
-				religion_group = pacific
-				NOT = { religion_group = event_target:sponsoring_king }
-			}
-			remove_trait = zealous
-			hidden_tooltip = { character_event = { id = 38310 } } #Notification
-			piety = -20
-			add_trait = sympathy_pacific
-		}
-		if = { 
-			limit = { 
-				trait = zealous
 				religion_group = indian_group
 				NOT = { religion_group = event_target:sponsoring_king }
 			}
@@ -2424,6 +2390,28 @@ narrative_event = {
 			hidden_tooltip = { character_event = { id = 38310 } } #Notification
 			piety = -20
 			add_trait = sympathy_indian
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = latter_day_saints
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_latter_day_saints
+		}
+		if = { 
+			limit = { 
+				trait = zealous
+				religion_group = pacific
+				NOT = { religion_group = event_target:sponsoring_king }
+			}
+			remove_trait = zealous
+			hidden_tooltip = { character_event = { id = 38310 } } #Notification
+			piety = -20
+			add_trait = sympathy_pacific
 		}
 		if = { 
 			limit = { 
@@ -2446,7 +2434,10 @@ narrative_event = {
 		if = { #Give Baptised Trait if Christian and a bishop is available. 
 			limit = { 
 				event_target:sponsoring_king = { 
-					religion_group = christian 
+					OR = {
+						religion_group = christian 
+						religion_group = latter_day_saints
+					}
 					any_realm_character = { 
 						is_theocracy = yes
 						liege = { character = event_target:sponsoring_king }
@@ -3226,18 +3217,6 @@ character_event = {
 			}
 		}
 		if = { 
-			limit = { secret_religion = rust_cultist }
-			any_demesne_province = {
-				random = {
-					chance = 80
-					add_province_modifier = { 
-						name = secret_rust_cultist_community
-						duration = -1
-					} 
-				}
-			}
-		}
-		if = { 
 			limit = { secret_religion = occultist }
 			any_demesne_province = {
 				random = {
@@ -3273,7 +3252,6 @@ character_event = {
 				}
 			}
 		}
-		clr_character_flag = flag_deceitful_baptism
 	}
 }
 
@@ -3643,7 +3621,7 @@ character_event = {
 				}
 				 modifier = { 
 				 	factor = 1.5
-				 	event_target:converting_king = { religion = hellenic_pagan_reformed }
+				 	event_target:converting_king = { religion = rust_cultist }
 				}
 				event_target:converting_king = { set_character_flag = flag_converter_cynical }
 				event_target:converting_king = { character_event = { id = HF.20040 days = 390 random = 190 } } } 
@@ -3664,7 +3642,7 @@ character_event = {
 				 	factor = 1.5
 				 	event_target:converting_king = { religion_group = indian_group }
 				}
-				modifier = { 
+				 modifier = { 
 				 	factor = 1.5
 				 	event_target:converting_king = { religion_group = pacific }
 				}
@@ -3714,7 +3692,7 @@ character_event = {
 				 	factor = 0.5
 				 	event_target:converting_king = { religion_group = indian_group }
 				}
-				modifier = { 
+				 modifier = { 
 				 	factor = 0.5
 				 	event_target:converting_king = { religion_group = pacific }
 				}
@@ -3739,7 +3717,7 @@ character_event = {
 				}
 				 modifier = { 
 				 	factor = 1.25
-				 	event_target:converting_king = { religion_group = cult_of_saints }
+				 	event_target:converting_king = { religion_group = latter_day_saints }
 				}
 				event_target:converting_king = { set_character_flag = flag_converter_charitable }
 				event_target:converting_king = { character_event = { id = HF.20044 days = 450 random = 190 } } } 
@@ -3766,11 +3744,11 @@ character_event = {
 				}
 				 modifier = { 
 				 	factor = 1.25
-				 	event_target:converting_king = { religion_group = latter_day_saints }
+				 	event_target:converting_king = { religion_group = christian }
 				}
 				 modifier = { 
 				 	factor = 1.25
-				 	event_target:converting_king = { religion_group = christian }
+				 	event_target:converting_king = { religion_group = latter_day_saints }
 				}
 				event_target:converting_king = { set_character_flag = flag_converter_temperate }
 				event_target:converting_king = { character_event = { id = HF.20045 days = 450 random = 190 } } } 
@@ -4277,10 +4255,7 @@ character_event = {
 		 		factor = 1.25
 		 		religion_group = pagan_group
 			}
-			modifier = { 
-		 		factor = 1.25
-		 		religion_group = oldworld
-			}
+
 		}
 	}
 }
@@ -4351,10 +4326,7 @@ character_event = {
 		 		factor = 1.5
 		 		religion_group = pagan_group
 			}
-			modifier = { 
-		 		factor = 1.5
-		 		religion_group = oldworld
-			}
+
 		}
 	}
 }
@@ -4514,6 +4486,10 @@ character_event = {
 		 	modifier = { 
 		 		factor = 1.75
 		 		religion_group = christian
+			}
+			modifier = { 
+		 		factor = 1.75
+		 		religion_group = cult_of_saints
 			}
 			modifier = { 
 		 		factor = 1.75
@@ -5660,6 +5636,10 @@ character_event = {
 		 		factor = 1.2
 		 		religion_group = pagan_group
 			}
+			modifier = { 
+		 		factor = 1.2
+		 		religion_group = oldworld
+			}
 		 	modifier = { 
 		 		factor = 0.75
 		 		FROM = { has_character_flag = flag_converter_feast_1 }
@@ -5736,10 +5716,6 @@ character_event = {
 		 	modifier = { 
 		 		factor = 1.2
 		 		religion_group = pagan_group
-			}
-			modifier = { 
-		 		factor = 1.2
-		 		religion_group = oldworld
 			}
 		 	modifier = { 
 		 		factor = 0.75
@@ -7869,13 +7845,13 @@ character_event = {
 			}
 		}
 		name = {
-			text = EVTOPTAHF20100_C #Ursuline
+			text = EVTOPTAHF20100_C
 			trigger = { 
 				rightful_religious_head_scope = { has_landed_title = k_ursuline }
 			}
 		}
 		name = {
-			text = EVTOPTAHF20100_D #Mormon
+			text = EVTOPTAHF20100_D
 			trigger = { 
 				rightful_religious_head_scope = { has_landed_title = d_quorum_of_the_twelve }
 			}
@@ -8883,8 +8859,23 @@ character_event = {
 		picture = GFX_evt_sacrifice
 	}
 	desc = {
+		text = EVTDESCBHF20103_ORTODOX
+		trigger = {
+			rightful_religious_head_scope = { has_landed_title = k_orthodox }
+			event_target:baptizing_child = { 
+				has_character_flag = flag_baptized_by_pope 
+				NOR = {
+					has_character_flag = demon_child_non_pagan
+					has_character_flag = demon_child
+				}
+			}
+		}
+		picture = GFX_evt_pope
+	}
+	desc = {
 		text = EVTDESCBHF20103
 		trigger = {
+			NOT = { rightful_religious_head_scope = { has_landed_title = k_orthodox } }
 			event_target:baptizing_child = { 
 				has_character_flag = flag_baptized_by_pope 
 				NOR = {
@@ -8994,7 +8985,7 @@ character_event = {
 					religion = evangelical
 				}
 				save_persistent_event_target = { name = baptizing_pope_per scope = event_target:scoped_baptizer }
-				custom_tooltip = { text = tooltip_gain_baptized_by_pope }
+				custom_tooltip = { text = tooltip_gain_baptized_by_patriach }
 				hidden_tooltip = { add_trait = baptized_by_patriarch }
 				clr_character_flag = flag_baptized_by_pope
 				event_target:scoped_pope = {
@@ -9380,13 +9371,13 @@ character_event = {
 			}
 		}
 		name = {
-			text = EVTOPTAHF20100_C #Ursuline
+			text = EVTOPTAHF20100_C
 			trigger = { 
 				rightful_religious_head_scope = { has_landed_title = k_ursuline }
 			}
 		}
 		name = {
-			text = EVTOPTAHF20100_D #Mormon
+			text = EVTOPTAHF20100_D
 			trigger = { 
 				rightful_religious_head_scope = { has_landed_title = d_quorum_of_the_twelve }
 			}
@@ -10030,8 +10021,8 @@ character_event = {
 	trigger = {
 		OR = {
 			religion_group = christian
-			religion_group = latter_day_saints
 			religion_group = cult_of_saints
+			religion_group = latter_day_saints
 		}
 		event_target:convert_lord_spiritual = { 
 			is_alive = yes

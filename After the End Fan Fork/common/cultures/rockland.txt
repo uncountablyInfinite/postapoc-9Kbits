@@ -176,7 +176,7 @@ rockland = {
 			Gainel Garon Geaniel_Geaniel Guyanna 
 			Hahna Hannah Heneli_Heneli Hilea 
 			Idonna Ireta Ireva Irlanda Isabel_Elizabeth Isabella_Elizabeth Isha_Isha Itha_Itha Ivis Izaiha_Izaiha Izola_Izola 
-			Jaelle Jaisel Janeil Jania Jelisa_Jelisa Jemima_Jemima Jennis Jesselah_Jesselah Joanna Jordana_Jordana Josephinie Jubeltine_Jubeltine Judica Junean_Junean Junia 
+			Jaelle Jaisel Janeil Jania Jasnah Jelisa_Jelisa Jemima_Jemima Jennis Jesselah_Jesselah Joanna Jordana_Jordana Josephinie Jubeltine_Jubeltine Judica Junean_Junean Junia 
 			Kahna Kaiah_Kaiah Kamri Kasiah_Kasiah Katriel Kena Klissann Klystia_Klystia 
 			Labbaron_Labbaron Launale Leatrice Leaun Leola Lethea_Lethea Lexine Liahonna Lorelle Lovola Luienne Lydia 
 			Macel Marbara Maridean Maridee Marshell Marvada Mavia_Mavia Melora Mikatin Morona_Morona 
@@ -185,10 +185,10 @@ rockland = {
 			Palmyra_Palmyra Parnal Phemia_Phemia Phoebe 
 			Quince 
 			Ralissa Rexine Rhoda_Rhoda Rhodendra_Rhoda Rhodogune_Rhoda Rinez Rozell Rulene Ruth 
-			Salenda Samila_Samila Samsi Saren Sariah_Sariah Seena Seletha Semiramis_Semiramis Seneth_Seneth Serah_Serah Seviah_Seviah Shambertine_Shambertine Shanalea_Shanalea Shantel Shay Shelise Sogna Sonna Staccato Starlene Sunan Sushelle_Sushelle 
+			Salenda Samila_Samila Samsi Saren Sariah_Sariah Seena Seletha Semiramis_Semiramis Seneth_Seneth Serah_Serah Seviah_Seviah Shambertine_Shambertine Shanalea_Shanalea Shantel Shay Shelise Silence Sogna Sonna Staccato Starlene Sunan Sushelle_Sushelle 
 			Talesha_Talesha Talma Tempali_Tempalia Tempalia_Tempalia Threna Trishelle Turquoise 
 			Uleah 
-			Valista Veloe Viella Vindalu Violet 
+			Valista Veloe Viella Vin Vindalu Violet 
 			Xanne_Xanne 
 			Yasmine 
 			Zarinaea_Zarinaea Zenobia_Zenobia Zeruah_Zeruah Ziona_Ziona 

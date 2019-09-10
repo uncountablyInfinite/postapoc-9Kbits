@@ -27,7 +27,7 @@ narrative_event = {
 	option = {
 		name = EVTOPT_oregon_prep_cancel
 		piety = -10
-		remove_trait = on_pilgrimage
+		remove_trait = travelling
 		ai_chance = { factor = 0 }
 	}
 	option = {
@@ -101,7 +101,7 @@ narrative_event = {
 	picture = GFX_evt_busy_trading_dock_republic
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_portland
 	}
@@ -127,7 +127,7 @@ narrative_event = {
 	picture = GFX_evt_pilgrims_epic_journey
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_boise
 		clr_character_flag = on_pilgrimage_portland
@@ -154,7 +154,7 @@ narrative_event = {
 	picture = GFX_evt_cathedral
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_slc
 	}
@@ -180,7 +180,7 @@ narrative_event = {
 	picture = GFX_evt_pilgrims_epic_journey
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_bridger
 		clr_character_flag = on_pilgrimage_boise
@@ -208,7 +208,7 @@ narrative_event = {
 	picture = GFX_evt_natrona
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_natrona
 		clr_character_flag = on_pilgrimage_bridger
@@ -235,7 +235,7 @@ narrative_event = {
 	picture = GFX_evt_chimney
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_chimney
 		clr_character_flag = on_pilgrimage_natrona
@@ -262,7 +262,7 @@ narrative_event = {
 	picture = GFX_evt_moks
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		set_character_flag = on_pilgrimage_moks
 		clr_character_flag = on_pilgrimage_chimney
@@ -290,8 +290,8 @@ narrative_event = {
 		}
 		piety = 100
 		prestige = 100
-		add_trait = pilgrim
-		remove_trait = on_pilgrimage
+		remove_trait = travelling
+		set_character_flag = went_down_oregon_trail
 		hidden_tooltip = { character_event = { id = oregon.50 days = 2 } }
 	}	
 }
@@ -303,7 +303,7 @@ narrative_event = {
 	picture = GFX_evt_nauvoo
 
 	is_triggered_only = yes
-	trigger = { trait = on_pilgrimage }
+	trigger = { trait = travelling }
 	immediate = {
 		clr_character_flag = on_pilgrimage_moks
 	}
@@ -312,8 +312,8 @@ narrative_event = {
 		name = EVTOPT_oregon_success
 		piety = 100
 		prestige = 100
-		add_trait = pilgrim
-		remove_trait = on_pilgrimage
+		remove_trait = travelling
+		set_character_flag = went_down_oregon_trail
 		if = {
 			limit = { higher_tier_than = BARON }
 			religion_authority = { modifier = ruler_pilgrimage }
@@ -502,7 +502,8 @@ narrative_event = {
 			10 = { add_trait = depressed }
 			50 = { }
 		}
-		remove_trait = on_pilgrimage
+		remove_trait = travelling
+		set_character_flag = went_down_oregon_trail
 		add_character_modifier = { name = dysentery duration = 30 }
 	}
 	
@@ -518,7 +519,8 @@ narrative_event = {
 			10 = { add_trait = depressed }
 			50 = { }
 		}
-		remove_trait = on_pilgrimage
+		remove_trait = travelling
+		set_character_flag = went_down_oregon_trail
 		give_dysentery_effect = yes
 	}
 }

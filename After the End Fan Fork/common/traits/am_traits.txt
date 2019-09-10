@@ -822,6 +822,7 @@ fords_striker  = {
 		lughs_own
 		thunderbird_warrior
 		raven_warrior
+		cowboy
 	}
 	
 	martial = 2
@@ -854,6 +855,7 @@ sword_of_the_lamb  = {
 		lughs_own
 		thunderbird_warrior
 		raven_warrior
+		cowboy
 	}
 	
 	martial = 2
@@ -887,6 +889,7 @@ knight_templar  = {
 		lughs_own
 		thunderbird_warrior
 		raven_warrior
+		cowboy
 	}
 	
 	martial = 2
@@ -920,6 +923,41 @@ order_of_the_garter = {
 		lughs_own
 		thunderbird_warrior
 		raven_warrior
+		cowboy
+	}
+	
+	martial = 2
+	combat_rating = 10 #old value: 1
+	
+	church_opinion = 15
+	same_opinion_if_same_religion = 15
+	
+	ai_zeal = 10
+	customizer = no
+	
+	male_insult = INSULT_FANATIC
+	female_insult = INSULT_FANATIC
+	male_insult_adj = INSULT_NARROWMINDED
+	female_insult_adj = INSULT_NARROWMINDED
+	male_compliment_adj = COMPL_RIGHTEOUS
+	female_compliment_adj = COMPL_RIGHTEOUS
+}
+
+cowboy = {
+	opposites = {
+		crusader
+		mujahid
+		jaguar_warrior
+		shaddai
+		valhalla_bound
+		fords_striker
+		sword_of_the_lamb
+		knight_templar
+		danite
+		lughs_own
+		thunderbird_warrior
+		raven_warrior
+		order_of_the_garter
 	}
 	
 	martial = 2

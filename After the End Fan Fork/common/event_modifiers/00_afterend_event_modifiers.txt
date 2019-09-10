@@ -816,6 +816,18 @@ secret_celtic_pagan_community = {
 		society_member_of = secret_religious_society_celtic_pagan
 	}
 }
+secret_trailwalker_reformed_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_celtic_pagan_reformed
+	}
+}
+secret_trailwalker_community = {
+	icon = 18
+	is_visible = {
+		society_member_of = secret_religious_society_celtic_pagan
+	}
+}
 secret_brethren_community = { #arrghhh!
 	icon = 18
 	is_visible = {

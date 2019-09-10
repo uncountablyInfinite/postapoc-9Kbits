@@ -94,9 +94,17 @@ add_am_crusade_trait_effect = {
 	if = {
 		limit = {
 			religion = celtic_pagan
-			religion = celtic_pagan_reforme
+			religion = celtic_pagan_reformed
 		}
 		add_trait = lughs_own
+		break = yes
+	}
+	if = {
+		limit = {
+			religion = trailwalker
+			religion = trailwalker_reformed
+		}
+		add_trait = cowboy
 		break = yes
 	}
 	if = {
@@ -1462,6 +1470,71 @@ add_secret_religion_trait_trigger_is_religion_or_old_religion_flag_clear_flag_af
     				NOT = {
 						has_character_was_religion_flag_trigger = yes
     				}
+    				religion = trailwalker
+    			}
+    			has_character_flag = character_was_trailwalker
+			}
+    	}
+    	set_secret_religion = trailwalker
+    	clr_character_flag = character_was_trailwalker
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
+    				religion = trailwalker_reformed
+    			}
+    			has_character_flag = character_was_trailwalker_reformed
+			}
+    	}
+    	set_secret_religion = trailwalker_reformed
+    	clr_character_flag = character_was_trailwalker_reformed
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
+    				religion = trailwalker
+    			}
+    			has_character_flag = character_was_trailwalker
+			}
+    	}
+    	set_secret_religion = trailwalker
+    	clr_character_flag = character_was_trailwalker
+		break = yes
+    }
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
+    				religion = trailwalker_reformed
+    			}
+    			has_character_flag = character_was_trailwalker_reformed
+			}
+    	}
+    	set_secret_religion = trailwalker_reformed
+    	clr_character_flag = character_was_trailwalker_reformed
+		break = yes
+    }
+
+	if = {
+    	limit = {
+    		OR = {
+    			AND = {
+    				NOT = {
+						has_character_was_religion_flag_trigger = yes
+    				}
     				religion = brethren
     			}
     			has_character_flag = character_was_brethren
@@ -1814,6 +1887,14 @@ add_religion_char_flag_effect = {
     	limit = { religion = celtic_pagan_reformed }
     	set_character_flag = character_was_celtic_pagan_reformed
     }
+	if = {
+    	limit = { religion = trailwalker }
+    	set_character_flag = character_was_trailwalker
+    }
+	if = {
+    	limit = { religion = trailwalker_reformed }
+    	set_character_flag = character_was_trailwalker_reformed
+    }
 }
 
 clr_religion_char_flag_effect = {
@@ -1880,6 +1961,8 @@ clr_religion_char_flag_effect = {
 	clr_character_flag = character_was_norse_pagan
 	clr_character_flag = character_was_celtic_pagan_reformed
 	clr_character_flag = character_was_celtic_pagan
+	clr_character_flag = character_was_trailwalker
+	clr_character_flag = character_was_trailwalker_reformed
 	clr_character_flag = character_was_brethren
 	clr_character_flag = character_was_jewish
 	clr_character_flag = character_was_reform
@@ -2340,6 +2423,20 @@ event_target_old_religion_from_flag_effect = {
     	limit = { has_character_flag = character_was_celtic_pagan_reformed }
     	random_character = {
     		limit = { religion = celtic_pagan_reformed }
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
+    	limit = { has_character_flag = character_was_trailwalker }
+    	random_character = {
+    		limit = { religion = trailwalker }
+    		save_event_target_as = old_religion
+    	}
+    }
+	if = {
+    	limit = { has_character_flag = character_was_trailwalker_reformed }
+    	random_character = {
+    		limit = { religion = trailwalker_reformed }
     		save_event_target_as = old_religion
     	}
     }
@@ -3085,6 +3182,28 @@ flip_secret_religious_community_provinces = {
 					}
 					religion = celtic_pagan_reformed
 					remove_province_modifier = secret_celtic_pagan_reformed_community
+				}
+			}
+		}
+		secret_religious_society_trailwalker = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_trailwalker_community
+					}
+					religion = trailwalker
+					remove_province_modifier = secret_trailwalker_community
+				}
+			}
+		}
+		secret_religious_society_trailwalker_reformed = {
+			ROOT = {
+				any_demesne_province = {
+					limit = {
+						has_province_modifier = secret_trailwalker_reformed_community
+					}
+					religion = trailwalker_reformed
+					remove_province_modifier = secret_trailwalker_reformed_community
 				}
 			}
 		}
@@ -4199,6 +4318,17 @@ root_secret_religion_provinces_convert_effect = {
 					}
 				}
 			}
+			secret_religious_society_celtic_pagan_reformed = { 
+				PREV = {
+					any_demesne_province = {
+						limit = {
+							has_province_modifier = secret_celtic_pagan_reformed_community
+						}
+						religion = celtic_pagan_reformed
+						remove_province_modifier = secret_celtic_pagan_reformed_community
+					}
+				}
+			}
 			secret_religious_society_celtic_pagan = { 
 				PREV = {
 					any_demesne_province = {
@@ -4207,6 +4337,28 @@ root_secret_religion_provinces_convert_effect = {
 						}
 						religion = celtic_pagan
 						remove_province_modifier = secret_celtic_pagan_community
+					}
+				}
+			}
+			secret_religious_society_trailwalker_reformed = { 
+				PREV = {
+					any_demesne_province = {
+						limit = {
+							has_province_modifier = secret_trailwalker_reformed_community
+						}
+						religion = trailwalker_reformed
+						remove_province_modifier = secret_trailwalker_reformed_community
+					}
+				}
+			}
+			secret_religious_society_trailwalker = { 
+				PREV = {
+					any_demesne_province = {
+						limit = {
+							has_province_modifier = secret_trailwalker_community
+						}
+						religion = trailwalker
+						remove_province_modifier = secret_trailwalker_community
 					}
 				}
 			}
@@ -5769,6 +5921,7 @@ transfer_crown_on_abdication_effect = {
 				} 
 			}
 	}
+	#add one for trailwalkers
 	if = {
 		limit = { 
 			has_landed_title = d_espiritista_reformed
@@ -7194,6 +7347,7 @@ give_this_warrior_lodge_religion_effect_ate = { #Mostly for spawned characters.
 		}
 		religion = celtic_pagan_reformed
 	}
+	#warrior lodges will be a little weird for trailwalkers, idk how that will work
 	if = {
 		limit = { 
 			society_member_of = warrior_lodge_revelationist
@@ -10500,6 +10654,10 @@ set_bloodline_founder_religion_flag_effect = {
 	else_if = {
 		limit = { religion_openly_celtic_or_reformed_trigger = yes }
 		new_bloodline = { set_bloodline_flag = requires_celtic_pagan_religion }
+	}
+	else_if = {
+		limit = { religion_openly_trailwalker_or_reformed_trigger = yes }
+		new_bloodline = { set_bloodline_flag = requires_trailwalker_religion }
 	}
 	else_if = {
 		limit = { religion_openly_espiritista_or_reformed_trigger = yes }
@@ -14920,6 +15078,20 @@ randomize_religion_names_effect = {
 		d_celtic_pagan_reformed = {
 			set_name="ALT_CELTIC"
 			adjective="ALT_CELTIC_ADJ"
+			title = "PONTIFEX_MAXIMUS"
+			title_female = "PONTIFEX_MAXIMA"
+			foa = "POPE_FOA"
+		}
+	}
+	if = {
+		limit = {
+			trailwalker_reformed = {
+				is_name_randomized = yes
+			}
+		}
+		d_trailwalker_reformed = {
+			set_name="ALT_TRAILWALKER"
+			adjective="ALT_TRAILWALKER_ADJ"
 			title = "PONTIFEX_MAXIMUS"
 			title_female = "PONTIFEX_MAXIMA"
 			foa = "POPE_FOA"

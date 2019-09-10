@@ -1598,6 +1598,8 @@ e_thunderland = {
 
 				sioux = "He Sapa"
 				holy_site = peyotist
+				holy_site = trailwalker
+				holy_site = trailwalker_reformed
 
 				b_deadwood_SD = {
 					sioux = "Owayasuta"

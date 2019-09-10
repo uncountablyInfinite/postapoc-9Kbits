@@ -1182,6 +1182,27 @@ character_event = {
                                 }
                             }
                         }
+						else_if = {
+                            limit = {
+                                religion = trailwalker_reformed
+                            }
+                            if = {
+                                limit = {
+                                    is_female = yes
+                                }
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_01
+                                    religion = trailwalker_reformed
+                                    inheritance = matrilineal
+                                }
+                            }
+                            else = {
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_01
+                                    religion = trailwalker_reformed
+                                }
+                            }
+                        }
                         else_if = {
                             limit = {
                                 religion = sacred_heart
@@ -1625,6 +1646,27 @@ character_event = {
                                 }
                             }
                         }
+						else_if = {
+                            limit = {
+                                religion = trailwalker_reformed
+                            }
+                            if = {
+                                limit = {
+                                    is_female = yes
+                                }
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_03
+                                    religion = trailwalker_reformed
+                                    inheritance = matrilineal
+                                }
+                            }
+                            else = {
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_03
+                                    religion = trailwalker_reformed
+                                }
+                            }
+                        }
                         else_if = {
                             limit = {
                                 religion = sacred_heart
@@ -1954,6 +1996,27 @@ character_event = {
                                 }
                             }
                         }
+						else_if = {
+                            limit = {
+                                religion = trailwalker_reformed
+                            }
+                            if = {
+                                limit = {
+                                    is_female = yes
+                                }
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_04
+                                    religion = trailwalker_reformed
+                                    inheritance = matrilineal
+                                }
+                            }
+                            else = {
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_04
+                                    religion = trailwalker_reformed
+                                }
+                            }
+                        }
                         else_if = {
                             limit = {
                                 religion = sacred_heart
@@ -2277,6 +2340,27 @@ character_event = {
                                 }
                             }
                         }
+						else_if = {
+                            limit = {
+                                religion = trailwalker_reformed
+                            }
+                            if = {
+                                limit = {
+                                    is_female = yes
+                                }
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_05
+                                    religion = trailwalker_reformed
+                                    inheritance = matrilineal
+                                }
+                            }
+                            else = {
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_05
+                                    religion = trailwalker_reformed
+                                }
+                            }
+                        }
                         else_if = {
                             limit = {
                                 religion = cult_of_saints
@@ -2592,6 +2676,27 @@ character_event = {
                                 create_bloodline = {
                                     type = saintly_bloodline_celtic_06
                                     religion = celtic_pagan_reformed
+                                }
+                            }
+                        }
+						else_if = {
+                            limit = {
+                                religion = trailwalker_reformed
+                            }
+                            if = {
+                                limit = {
+                                    is_female = yes
+                                }
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_06
+                                    religion = trailwalker_reformed
+                                    inheritance = matrilineal
+                                }
+                            }
+                            else = {
+                                create_bloodline = {
+                                    type = saintly_bloodline_trailwalker_06
+                                    religion = trailwalker_reformed
                                 }
                             }
                         }

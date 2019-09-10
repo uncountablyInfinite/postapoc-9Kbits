@@ -763,6 +763,13 @@ has_crusade_trait_trigger = {
 			trait = lughs_own
 		}
 		AND = {
+			OR = {
+				religion = trailwalker
+				religion = trailwalker_reformed
+			}
+			trait = cowboy
+		}
+		AND = {
 			religion_group = latter_day_saints
 			trait = danite
 		}
@@ -2404,6 +2411,12 @@ true_religion_celtic_pagan_trigger = {
 true_religion_celtic_pagan_reformed_trigger = {
 	true_religion = celtic_pagan_reformed
 }
+true_religion_trailwalker_trigger = {
+	true_religion = trailwalker
+}
+true_religion_trailwalker_reformed_trigger = {
+	true_religion = trailwalker_reformed
+}
 true_religion_brethren_trigger = {
 	true_religion = brethren
 }
@@ -3133,6 +3146,14 @@ is_celtic_secret_religious_society_member_trigger = {
 	}
 }
 
+is_trailwalker_secret_religious_society_member_trigger = {
+	society_member_of = secret_religious_cult
+	OR = {
+		society_member_of = secret_religious_society_trailwalker
+		society_member_of = secret_religious_society_trailwalker_reformed
+	}
+}
+
 is_pirate_secret_religious_society_member_trigger = {
 	society_member_of = secret_religious_cult
 	secret_religion_group = pirate
@@ -3599,6 +3620,14 @@ is_in_prevs_interesting_society_trigger = {
 			PREV = { interested_in_society = secret_religious_society_celtic_pagan_reformed }
 		}
 		AND = {
+			society_member_of = secret_religious_society_trailwalker
+			PREV = { interested_in_society = secret_religious_society_trailwalker }
+		}
+		AND = {
+			society_member_of = secret_religious_society_trailwalker_reformed
+			PREV = { interested_in_society = secret_religious_society_trailwalker_reformed }
+		}
+		AND = {
 			society_member_of = secret_religious_society_brethren
 			PREV = { interested_in_society = secret_religious_society_brethren }
 		}
@@ -4029,6 +4058,18 @@ has_any_char_old_religion = {
 	    	has_character_flag = character_was_celtic_pagan_reformed
 	    	any_character = {
 	    		religion = celtic_pagan_reformed
+	    	}
+	    }
+		AND = { 
+	    	has_character_flag = character_was_trailwalker
+	    	any_character = {
+	    		religion = trailwalker
+	    	}
+	    }
+		AND = { 
+	    	has_character_flag = character_was_trailwalker_reformed
+	    	any_character = {
+	    		religion = trailwalker_reformed
 	    	}
 	    }
 	    AND = { 
@@ -4728,6 +4769,20 @@ looting_artifact_event_religious_artifacts_trigger = {
 				has_artifact_flag = looted_artifact_tooltip_1
 				has_artifact_flag = celtic_pagan_reformed
 				ROOT = { religion = celtic_pagan_reformed }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = trailwalker
+				ROOT = { religion = trailwalker }
+			}
+		}
+		NAND = {
+			any_artifact = {
+				has_artifact_flag = looted_artifact_tooltip_1
+				has_artifact_flag = trailwalker_reformed
+				ROOT = { religion = trailwalker_reformed }
 			}
 		}
 		NAND = {
@@ -5476,6 +5531,8 @@ has_unsafe_secret_religion = {
 				secret_religion = thelemic_reformed
 				secret_religion = celtic_pagan
 				secret_religion = celtic_pagan_reformed
+				secret_religion = trailwalker
+				secret_religion = trailwalker_reformed
 			}
 		}
 		AND = {
@@ -6313,6 +6370,8 @@ has_unsafe_religion = {
 				religion = thelemic_reformed
 				religion = celtic_pagan
 				religion = celtic_pagan_reformed
+				religion = trailwalker
+				religion = trailwalker_reformed
 			}
 		}
 		AND = {
@@ -9065,6 +9124,8 @@ has_character_was_religion_flag_trigger = {
 		has_character_flag = character_was_norse_pagan
 		has_character_flag = character_was_celtic_pagan
 		has_character_flag = character_was_celtic_pagan_reformed
+		has_character_flag = character_was_trailwalker
+		has_character_flag = character_was_trailwalker_reformed
 		has_character_flag = character_was_brethren
 		has_character_flag = character_was_jewish
 		has_character_flag = character_was_reform
@@ -9262,6 +9323,18 @@ religion_openly_celtic_or_reformed_trigger = {
 			OR = {
 				religion = celtic_pagan
 				religion = celtic_pagan_reformed
+			}
+		}
+	}
+}
+
+religion_openly_trailwalker_or_reformed_trigger = {
+	custom_tooltip = {
+		text = religion_openly_trailwalker_or_reformed_tooltip
+		hidden_trigger = {
+			OR = {
+				religion = trailwalker
+				religion = trailwalker_reformed
 			}
 		}
 	}

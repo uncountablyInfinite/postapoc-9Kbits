@@ -275,6 +275,8 @@ decisions = {
 				religion = revelationist
 				religion = occultist_reformed
 				religion = occultist
+				religion = trailwalker
+				religion = trailwalker_reformed
 				religion = gaian
 				religion = nousthreskeia
 			}
@@ -328,6 +330,8 @@ decisions = {
 							religion = revelationist
 							religion = occultist_reformed
 							religion = occultist
+							religion = trailwalker
+							religion = trailwalker_reformed
 							religion = gaian
 							religion = nousthreskeia
 						}

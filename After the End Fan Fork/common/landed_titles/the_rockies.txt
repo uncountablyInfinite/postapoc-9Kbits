@@ -644,7 +644,9 @@ e_the_rockies = {
 				color2= { 255 255 255 }
 				holy_site = gaian
 				holy_site = nousthreskeia #anomalies
-
+				holy_site = trailwalker
+				holy_site = trailwalker_reformed
+				
 				b_fishing_bridge_WY = {}
 				b_heart_lake_WY = {
 					used_for_dynasty_names = no

@@ -170,6 +170,7 @@ lughs_own = {
 		danite
 		thunderbird_warrior
 		raven_warrior
+		cowboy
 	}
 	
 	martial = 2
@@ -217,6 +218,7 @@ jaguar_warrior  = {
 		lughs_own
 		thunderbird_warrior
 		raven_warrior
+		cowboy
 	}
 	
 	martial = 2

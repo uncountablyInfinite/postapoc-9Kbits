@@ -1792,3 +1792,80 @@ narrative_event = {
 		}
 	}
 }
+
+# Formation of the Order of the Flaming Sword
+narrative_event = {
+	id = holyorder.24
+	title = "EVTNAME_buffalo_rangers_creation"
+	desc = "EVTDESC_buffalo_rangers_creation"
+	picture = "GFX_evt_crusaders"
+	border = "GFX_event_narrative_frame_religion"
+	
+	major = yes
+	only_playable = yes
+	only_men = yes
+	
+	trigger = {
+		NOT = { #immersion-breaking
+			has_alternate_start_parameter = { key = religion_names value = random }
+		}
+		religion = trailwalker_reformed
+
+		is_heretic = no
+		
+		NOT = { is_title_active = d_buffalo_rangers }
+		
+		349 = { # Dodge
+			owner = { religion = trailwalker_reformed }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	immediate = {
+		activate_title = { title = d_buffalo_rangers status = yes }
+		create_character = {
+			dynasty = none
+			random_traits = yes
+			trait = zealous
+			trait = mastermind_theologian
+			religion = trailwalker_reformed
+			culture=grangelander
+		}
+		new_character = {
+			character_event = { id = misc.3 } # Diversity
+			character_event = { id = misc.4 } # Physique
+			d_buffalo_rangers = {
+				grant_title = PREV
+			}
+			set_defacto_liege = THIS
+			wealth = 500
+		}
+		
+		religion_authority = {
+			modifier = religious_orders_formed
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTA_religious_orders_creation"
+		trigger = {
+			religion = trailwalker_reformed
+		}
+	}
+	option = {
+		name = "EVTOPTB_religious_orders_creation"
+		trigger = {
+			NOT = { religion_group = pagan_group }
+		}
+	}
+	option = {
+		name = "EVTOPTC_religious_orders_creation"
+		trigger = {
+			religion_group = pagan_group
+			NOT = { religion = trailwalker_reformed }
+		}
+	}
+}

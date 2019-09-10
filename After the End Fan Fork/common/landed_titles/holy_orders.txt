@@ -974,3 +974,26 @@ d_taxet_warriors = {
 	
 	mercenary_type = d_taxet_warriors_composition
 }
+
+d_buffalo_rangers = {
+
+	color = { 105 40 0 } #
+	color2= { 255 255 255 }
+	
+	graphical_culture = holygfx
+	
+	capital = 349 # Dodge
+
+	title = "CHIEF"
+	foa = "CHIEF_FOA"
+
+	culture = grangelander
+	religion = trailwalker
+	
+	landless = yes	
+	holy_order = yes	
+	primary = yes
+	monthly_income = 4
+
+	mercenary_type = d_buffalo_rangers_composition
+}

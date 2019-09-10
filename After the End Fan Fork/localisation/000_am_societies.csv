@@ -1095,8 +1095,48 @@ secret_brethren_community;Secret Brethren Community;;;;;;;;;;;;;x
 secret_brethren_community_desc;In secret, Brethren faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
 secret_religious_society_brethren_leader_desc;The High Captain, leadin' the international effort of bringin' more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
 
-#Redundant
+secret_religious_society_trailwalker;[GetReligiousCommunityName_trailwalker];[GetReligiousCommunityName_trailwalker];[GetReligiousCommunityName_trailwalker];;[GetReligiousCommunityName_trailwalker];;;;;;;;;x
+secret_religious_society_REAL_trailwalker;The Pioneers;;;;;;;;;;;;x
+alt_start_community_name_trailwalker;The [trailwalker.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_trailwalker_desc;[GetReligiousSocietyDesc_trailwalker];[GetReligiousSocietyDesc_trailwalker];[GetReligiousSocietyDesc_trailwalker];;[GetReligiousSocietyDesc_trailwalker];;;;;;;;;x
+secret_religious_society_trailwalker_desc_REAL;Those who devote themslves to walking the Trails must do so at all times, even if told not to by meddling slickers. Soon, Great Buffalo will remind them all why the Trails must be followed...;;;;;;;;;x
+secretly_convert_to_trailwalker_holy_site;Secretly Convert to Trailwalker;;;;;;;;;;;;;x
+secretly_convert_to_trailwalker_holy_site_desc;The §YTrailwalker§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_trailwalker_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_trailwalker_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_trailwalker_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_trailwalker_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_trailwalker_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_trailwalker_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_trailwalker_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_trailwalker_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_trailwalker_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_trailwalker;Secret Trailwalker Community;;;;;;;;;;;;;x
+secret_trailwalker_community;Secret Trailwalker Community;;;;;;;;;;;;;x
+secret_trailwalker_community_desc;In secret, Trailwalker faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_trailwalker_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
 
+secret_religious_society_trailwalker_reformed;[GetReligiousCommunityName_trailwalker_reformed];[GetReligiousCommunityName_trailwalker_reformed];[GetReligiousCommunityName_trailwalker_reformed];;[GetReligiousCommunityName_trailwalker_reformed];;;;;;;;;x
+secret_religious_society_REAL_trailwalker_reformed;The Pioneers;;;;;;;;;;;;x
+alt_start_community_name_trailwalker_reformed;The [trailwalker_reformed.GetName] Faithful;;;;;;;;;;;;;x
+secret_religious_society_trailwalker_reformed_desc;[GetReligiousSocietyDesc_trailwalker_reformed];[GetReligiousSocietyDesc_trailwalker_reformed];[GetReligiousSocietyDesc_trailwalker_reformed];;[GetReligiousSocietyDesc_trailwalker_reformed];;;;;;;;;x
+secret_religious_society_trailwalker_reformed_desc_REAL;The true followers of the Snake and the Lamb have long lived secluded lives. They never bothered others, and others didn't bother them... until now, that is. Now, Revelationists have been banned from handling snakes and speaking in tongues. However, true followers of the Holy Ghost continue practicing their traditions in secret. Soon, all will embrace the Light... or be struck down by the Angel of Death.;;;;;;;;;x
+secretly_convert_to_trailwalker_reformed_holy_site;Secretly Convert to Trailwalker;;;;;;;;;;;;;x
+secretly_convert_to_trailwalker_reformed_holy_site_desc;The §YTrailwalker§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;;x
+secret_religious_society_trailwalker_reformed_currency;Devotion;Dévotion;Hingabe;;Devoción;;;;;;;;;x
+secret_religious_society_trailwalker_reformed_rank_1_female;Faithful;Fidèle;Getreue;;Fiel;;;;x
+secret_religious_society_trailwalker_reformed_rank_2_female;Adherent;Adhérente;Anhängerin;;Seguidora;;;;x
+secret_religious_society_trailwalker_reformed_rank_3_female;Preacher;Prêcheuse;Predigerin;;Predicadora;;;;x
+secret_religious_society_trailwalker_reformed_rank_4_female;Herald;Messagère;Herold;;Mensajera;;;;x
+secret_religious_society_trailwalker_reformed_rank_1_male;Faithful;Fidèle;Getreuer;;Fiel;;;;x
+secret_religious_society_trailwalker_reformed_rank_2_male;Adherent;Adhérent;Anhänger;;Seguidor;;;;x
+secret_religious_society_trailwalker_reformed_rank_3_male;Preacher;Prêcheur;Prediger;;Predicador;;;;x
+secret_religious_society_trailwalker_reformed_rank_4_male;Herald;Messager;Herold;;Mensajero;;;;x
+secret_religious_community_trailwalker_reformed;Secret Trailwalker Community;;;;;;;;;;;;;x
+secret_trailwalker_reformed_community;Secret Trailwalker Community;;;;;;;;;;;;;x
+secret_trailwalker_reformed_community_desc;In secret, Trailwalker faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
+secret_religious_society_trailwalker_reformed_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
+String_Trailblazer;Trailblazer;;;;;;;;;;;;;x
 secret_religious_society_revelationist;[GetReligiousCommunityName_revelationist];[GetReligiousCommunityName_revelationist];[GetReligiousCommunityName_revelationist];;[GetReligiousCommunityName_revelationist];;;;;;;;;x
 secret_religious_society_REAL_revelationist;The Holy Ghost Folks;;;;;;;;;;;;x
 alt_start_community_name_revelationist;The [revelationist.GetName] Faithful;;;;;;;;;;;;;x
@@ -1243,7 +1283,6 @@ secret_religious_community_neomayan;Secret Neomayan Community;;;;;;;;;;;;;x
 secret_neomayan_community;Secret Neomayan Community;;;;;;;;;;;;;x
 secret_neomayan_community_desc;In secret, Neomayan faithful have organized themselves as a community in this province. From there it converts others, grows, and protects their own.;En secret, les fidèles se sont organisés en tant que communauté dans cette province. De là, la commaunauté convertit d'autres personnes, grandit et protège les siens.;;;;;;;;;;;;x
 secret_religious_society_neomayan_leader_desc;The High Priest, leading the international effort of bringing more people into the fold.;Le grand prêtre dirige l'effort mondial visant à réunir davantage de personnes dans les rangs de sa société.;Der Hohepriester des $SOCIETY|Y$-Zirkels, der die internationalen Bemühungen leitet, mehr Menschen in den Schoß der Familie zu führen.;;El Sumo sacerdote, que dirige la misión a escala internacional para atraer a más fieles.;;;;;;;;;x
-
 
 secret_religious_society_uahomche;[GetReligiousCommunityName_uahomche];[GetReligiousCommunityName_uahomche];[GetReligiousCommunityName_uahomche];;[GetReligiousCommunityName_uahomche];;;;;;;;;x
 secret_religious_society_REAL_uahomche;The Incense Burners;;;;;;;;;;;;x

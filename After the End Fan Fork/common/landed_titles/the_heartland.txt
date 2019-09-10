@@ -872,6 +872,9 @@ e_heartland = {
 			c_dodge = { # 349
 				color = { 69 82 171 }
 				color2= { 255 255 255 }
+				
+				holy_site = trailwalker
+				holy_site = trailwalker_reformed
 
 				b_fort_dodge_KS = {
 					used_for_dynasty_names = no
@@ -997,7 +1000,10 @@ e_heartland = {
 			c_omaha = { # 353
 				color = { 192 174 44 }
 				color2= { 255 255 255 }
-
+				
+				holy_site = trailwalker
+				holy_site = trailwalker_reformed
+				
 				b_omaha_NE = {}
 				b_lincoln_NE = {}
 				b_nebraska_city_NE = {
@@ -1183,6 +1189,8 @@ e_heartland = {
 				color2={ 220 220 0 }
 
 				holy_site = catholic
+				holy_site = trailwalker
+				holy_site = trailwalker_reformed
 				
 				motowner = "Saudi"
 				

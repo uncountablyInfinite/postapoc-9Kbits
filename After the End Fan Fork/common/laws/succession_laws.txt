@@ -143,6 +143,7 @@ succession_laws = {
 								religion = midewiwin
 								religion = raven_tales
 								religion = pagan
+								religion = trailwalker
 							}
 						}
 					}

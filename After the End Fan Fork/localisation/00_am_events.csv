@@ -499,6 +499,13 @@ EVTDESC_SHOMRIM_creation;The New Yeshiva now stands tall in the Crown Heights ne
 EVTOPTA_SHOMRIM_creation;Any defense of Judaism is welcome.;;;;;;;;;;;;;x
 EVTOPTB_SHOMRIM_creation;Radicals and extremists, the whole lot!;;;;;;;;;x
 
+EVTNAME_buffalo_rangers_creation;The Buffalo Rangers;;;;;;;;;;;;;x
+EVTDESC_buffalo_rangers_creation;As the Trailwalkers continue to spread across the Great Plains, a group of worshippers in Dodge City have taken it upon themselves to defend the faith. Calling themselves the Buffalo Rangers, after both their deity and an ancient band of warriors, they have managed to recruit a large number of young adventure-seeking Trailwalkers.;;;;;;;;;;;;;x
+EVTOPTA_FS_creation;Praise [Root.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+EVTOPTB_FS_creation;Pretentious Heathens!;;;;;;;;;;;;;x
+EVTOPTC_FS_creation;A worrying development?;;;;;;;;;;;;;x
+
+
 EVTDESC_santeria_ill;Your current state of mind and body is far from perfect. So far you have been able pass the symptoms off as nothing dangerous, but this morning you had to admit something was seriously wrong. Perhaps the time has come to seak help from the santeros and their healing Lucumi?;;;;;;;;;;;;;x
 EVTOPTA_santeria_ill;Here is some gold, send for a santero!;;;;;;;;;;;;;x
 EVTOPTB_santeria_ill;I will be fine, I do not need help from those priests and their herbs!;;;;;;;;;;;;;x

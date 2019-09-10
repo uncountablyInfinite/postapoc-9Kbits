@@ -3894,6 +3894,8 @@ character_event = {
 			religion = celtic_pagan_reformed
 			religion = revelationist
 			religion = revelationist_reformed
+			religion = trailwalker
+			religion = trailwalker_reformed
 			religion = thelemic
 			religion = thelemic_reformed
 		}
@@ -3956,6 +3958,8 @@ character_event = {
 			religion = celtic_pagan_reformed
 			religion = revelationist
 			religion = revelationist_reformed
+			religion = trailwalker
+			religion = trailwalker_reformed
 			religion = thelemic
 			religion = thelemic_reformed
 		}
@@ -4018,6 +4022,8 @@ character_event = {
 			religion = celtic_pagan_reformed
 			religion = revelationist
 			religion = revelationist_reformed
+			religion = trailwalker
+			religion = trailwalker_reformed
 			religion = thelemic
 			religion = thelemic_reformed
 		}
@@ -4080,6 +4086,8 @@ character_event = {
 			religion = celtic_pagan_reformed
 			religion = revelationist
 			religion = revelationist_reformed
+			religion = trailwalker
+			religion = trailwalker_reformed
 			religion = thelemic
 			religion = thelemic_reformed
 		}

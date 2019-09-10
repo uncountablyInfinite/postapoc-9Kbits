@@ -513,8 +513,13 @@ apostolic_DESC;The "Igreja Apostólica", or "Apostolic Church", split from mainst
 apostolic_FEATURES;§Y*§! Adherents can become followers of one of three specific saint-patrons.;;;;;;;;;;;;x
 moravian;Moravian;;;;;;;;;;;;x
 moravian_DESC;Moravianism is one of the oldest branches of Protestant Christianity, and followers of the Church are noted for their intense dedication to missionary work. Following the Event, traditional Moravianism was subsumed beneath the newly-formed Cult of the Falling Star, although pockets of "old believers" still persist throughout the Americas.;;;;;;;;;;;;x
+trailwalker;Trailwalker;;;;;;;;;;;;x
+trailwalker_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange beasts and supernatural beings. Long ago, the two worlds were one, and men lived harsh and short lives. The most powerful spirits of the Frontier, Great Buffalo and his Spirit Council, separated the two, giving mankind the chance to thrive. However, in exchange, Great Buffalo commanded that all people should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Buffalo punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers follow the Trails more devoutly than ever.;;;;;;;;;;;;x
+trailwalker_FEATURES;§Y*§! May go on vision quests with the aid of sacred herbs.;;;;;;;;;;;;;x
+trailwalker_reformed;Trailwalker;;;;;;;;;;;;x
+trailwalker_reformed_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange beasts and supernatural beings. Long ago, the two worlds were one, and men lived harsh and short lives. The most powerful spirits of the Frontier, Great Buffalo and his Spirit Council, separated the two, giving mankind the chance to thrive. However, in exchange, Great Buffalo commanded that all people should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Buffalo punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers have organized their teachings, ensuring that no one can stray from the Trails again.;;;;;;;;;;;;x
+trailwalker_reformed_FEATURES;§Y*§! May go on vision quests with the aid of sacred herbs.;;;;;;;;;;;;;x
 mexicano_FEATURES;[GetIberianFeatures];[GetIberianFeatures];[GetIberianFeatures];;[GetIberianFeatures];;;;;x
-
 
 STAT_PIETY_PATRIOTISM;Patriotism;;;;;;;;;;;;;x
 STAT_PIETY_MENU_PATRIOTISM;Patriotism;;;;;;;;;;;;;x
@@ -636,9 +641,11 @@ danite_desc;This character is one of the chosen warriors who have fought in the 
 jaguar_warrior;Jaguar Warrior;;;;;;;;;;;;;x
 jaguar_warrior_desc;This character is one of the chosen warriors who have fought in the name of the Three Powers.;;;;;;;;;;;;;x
 thunderbird_warrior;Thunderbird Warrior;;;;;;;;;;;;;x
-eagle_warrior_desc;This character is one of the chosen warriors who have fought in the name of the Great Spirit.;;;;;;;;;;;;;x
+thunderbird_warrior_desc;This character is one of the chosen warriors who have fought in the name of the Great Spirit.;;;;;;;;;;;;;x
 raven_warrior;Raven Warrior;;;;;;;;;;;;;x
 raven_warrior_desc;This character is one of the chosen warriors who have fought in the name of Xhúuyee.;;;;;;;;;;;;;x
+cowboy;Cowboy;;;;;;;;;;;;;x
+cowboy_desc;This character is one of the chosen warriors who have fought in the name of Great Buffalo.;;;;;;;;;;;;;x
 twelve_tribes;Twelve Tribes of Israel;;;;;;;;;;;;;x
 twelve_tribes_desc;This character is a member of the Twelve Tribes of Israel mansion, placing emphasis on equality and the connections between Rasta, Christianity, and Judaism.;;;;;;;;;;;;;x
 bobo_ashanti;Bobo Ashanti;;;;;;;;;;;;;x
@@ -864,6 +871,8 @@ GOD_CHIA;Chía;;;;;;;;;;;;;x
 GOD_CHIBCHACHUM;Chibchachum;;;;;;;;;;;;;x
 GOD_CHIMINIGAGUA;Chiminigagua;;;;;;;;;;;;;x
 GOD_CHRIST;Christ;;;;;;;;;;;;;x
+GOD_COYOTE;Coyote;;;;;;;;;;;;;x
+GOD_CROW;Crow;;;;;;;;;;;;;x
 GOD_CUZA;Cuza;;;;;;;;;;;;;x
 GOD_DANU;Danu;;;;;;;;;;;;;x
 GOD_DEUS;Deus;;;;;;;;;;;;;x
@@ -876,6 +885,7 @@ GOD_FATHER_BESSEMER;Father Bessemer;;;;;;;;;;;;;x
 GOD_FATHER_FORD;Father Ford;;;;;;;;;;;;;x
 GOD_GAIA;Gaia;;;;;;;;;;;;;x
 GOD_GLOOSCAP;Glooscap;;;;;;;;;;;;;x
+GOD_GREAT_BUFFALO;Great Buffalo;;;;;;;;;;;;;x
 GOD_GUAICAIPURO;Guaicaipuro;;;;;;;;;;;;;x
 GOD_GUATAVITA;Guatavita;;;;;;;;;;;;;x
 GOD_GYHLDEPTIS;Gyhldeptis;;;;;;;;;;;;;x
@@ -901,6 +911,7 @@ GOD_KAMI_SAMA;Kami-sama;;;;;;;;;;;;;x
 GOD_KUKULKAN;Kukulkan;;;;;;;;;;;;;x
 GOD_LADY_LIBERTY;Lady Liberty;;;;;;;;;;;;;x
 GOD_LAGUA;Lagua;;;;;;;;;;;;;x
+GOD_LEWIS_CLARK;Lewis Clark;;;;;;;;;;;;;x
 GOD_LINCOLN;Lincoln;;;;;;;;;;;;;x
 GOD_LITTLE_BOY;Little Boy;;;;;;;;;;;;;x
 GOD_MADISON;Madison;;;;;;;;;;;;;x
@@ -932,10 +943,12 @@ GOD_PAUPER;The Pauper;;;;;;;;;;;;;x
 GOD_PRIMORDIA;Primordia;;;;;;;;;;;;;x
 GOD_RA_HOOR_KHUIT;Ra-Hoor-Khuit;;;;;;;;;;;;;x
 GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
-GOD_SELASSIE;Haile Selassie I;;;;;;;;;;;;;x
+GOD_SACAGAWEA;Sacagawea;;;;;;;;;;;;;x
+GOD_SELASSIE;Haile Selassie;;;;;;;;;;;;;x
 GOD_SILBON;El Silbón;;;;;;;;;;;;;x
 GOD_SOL_INVICTA;Sol Invicta;;;;;;;;;;;;;x
 GOD_SUA;Sua;;;;;;;;;;;;;x
+GOD_SURESHOT;Sureshot;;;;;;;;;;;;;x
 GOD_SUSANOO;Susanoo;;;;;;;;;;;;;x
 GOD_TAXET;Ta'xet;;;;;;;;;;;;;x
 GOD_THE_ANGEL_MORONI;The Angel Moroni;;;;;;;;;;;;;x
@@ -974,6 +987,7 @@ GOD_THE_PRESIDENTS;The Presidents;;;;;;;;;;;;;x
 GOD_THE_PROPHET;The Prophet;;;;;;;;;;;;;x
 GOD_THE_QUEEN;The Queen;;;;;;;;;;;;;x
 GOD_THE_RAM_HEADED_SNAKE;The Ram-Headed Snake;;;;;;;;;;;;;x
+GOD_THE_RANGER;The Ranger;;;;;;;;;;;;;x
 GOD_THE_SAINTS;The Saints;;;;;;;;;;;;;x
 GOD_THE_SEA_HAG;The Sea Hag;;;;;;;;;;;;;x
 GOD_THE_SERPENT;The Serpent;;;;;;;;;;;;;x
@@ -1084,6 +1098,7 @@ THE_BOOK_OF_MORMON;The Book of Mormon;;;;;;;;;;;;;x
 THE_BOOK_OF_RUST;The Book of Rust;;;;;;;;;;;;;x
 THE_BOOK_OF_SHADOWS;The Book of Shadows;;;;;;;;;;;;;x
 THE_BOOK_OF_THE_LAW;The Book of the Law;;;;;;;;;;;;;x
+THE_BUZZARD;The Buzzard;;;;;;;;;;;;;x
 THE_CATALOG;The Catalog;;;;;;;;;;;;;x
 THE_CHROME_BOOK;The Chrome Book;;;;;;;;;;;;;x
 THE_CODE;The Code;;;;;;;;;;;;;x
@@ -1101,6 +1116,7 @@ THE_FALSE_VISION;The False Vision;;;;;;;;;;;;;x
 THE_FEDS;The Feds;;;;;;;;;;;;;x
 THE_FREEMASONS;The Freemasons;;;;;;;;;;;;;x
 THE_FROST_GIANTS;The Frost Giants;;;;;;;;;;;;;x
+THE_GHOST_RIDERS;The Ghost Riders;;;;;;;;;;;;;x
 THE_GREAT_TOTEM;The Great Totem;;;;;;;;;;;;;x
 THE_GREAT_WAMPUM_BELT;The Great Wampum Belt;;;;;;;;;;;;;x
 THE_GRIM_REAPER;The Grim Reaper;;;;;;;;;;;;;x
@@ -1202,6 +1218,8 @@ norse_pagan_opinion;[norse_pagan.GetName] Opinion;;;;;;;;;;;;;x
 norse_pagan_reformed_opinion;[norse_pagan_reformed.GetName] Opinion;;;;;;;;;;;;;x
 celtic_pagan_opinion;[celtic_pagan.GetName] Opinion;;;;;;;;;;;;;x
 celtic_pagan_reformed_opinion;[celtic_pagan_reformed.GetName] Opinion;;;;;;;;;;;;;x
+trailwalker_opinion;[trailwalker.GetName] Opinion;;;;;;;;;;;;;x
+trailwalker_reformed_opinion;[trailwalker_reformed.GetName] Opinion;;;;;;;;;;;;;x
 pirate_opinion;[pirate.GetGroupName] Opinion;;;;;;;;;;;;;x
 brethren_opinion;[brethren.GetName] Opinion;;;;;;;;;;;;;x
 jewish_group_opinion;[jewish_group.GetGroupName] Opinion;;;;;;;;;;;;;x
@@ -1423,6 +1441,7 @@ religion_openly_rust_cultist_or_heresy_trigger;Publicly follows the §Y[rust_cult
 religion_openly_thelemic_or_reformed_trigger;Publicly follows the §Y[thelemic_reformed.GetName]§! religion;;;;;;;;;;;;;x
 religion_openly_espiritista_or_reformed_trigger;Publicly follows the §Y[espiritista_reformed.GetName]§! religion;;;;;;;;;;;;;x
 religion_openly_americanist_or_heresy_tooltip;Publicly follows the §Y[americanist.GetName]§! religion (or a heresy);;;;;;;;;;;;;x
+religion_openly_trailwalker_or_reformed_trigger;Publicly follows the §Y[trailwalker.GetName]§! religion;;;;;;;;;;;;;x
 
 key_poll;poll;;;;;;;;;;;;;x
 key_poll_cap;Poll;;;;;;;;;;;;;x

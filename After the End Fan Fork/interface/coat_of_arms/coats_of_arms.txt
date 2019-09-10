@@ -1343,6 +1343,8 @@ culture =
 	religion = {
 		"revelationist"
 		"revelationist_reformed"
+		"trailwalker"
+		"trailwalker_reformed"
 	}
 
 	templates = { 

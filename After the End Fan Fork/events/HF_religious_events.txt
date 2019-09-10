@@ -4181,6 +4181,13 @@ character_event = {
 			}
 		}
 		if = {
+			limit = { trailwalker = { OR = { has_religion_feature = religion_cosmopolitan has_religion_feature = religion_feature_espiritista } } }
+			random_playable_ruler = {
+				limit = { religion = trailwalker }
+				apply_cosmopolian_on_start_effect = yes
+			}
+		}
+		if = {
 			limit = { brethren = { OR = { has_religion_feature = religion_cosmopolitan has_religion_feature = religion_feature_espiritista } } }
 			random_playable_ruler = {
 				limit = { religion = brethren }
@@ -4604,6 +4611,13 @@ character_event = {
 			limit = { celtic_pagan = { has_religion_feature = religion_dogmatic } }
 			random_playable_ruler = {
 				limit = { religion = celtic_pagan }
+				apply_dogmatic_on_start_effect = yes
+			}
+		}
+		if = {
+			limit = { trailwalker = { has_religion_feature = religion_dogmatic } }
+			random_playable_ruler = {
+				limit = { religion = trailwalker }
 				apply_dogmatic_on_start_effect = yes
 			}
 		}
@@ -10953,6 +10967,12 @@ character_event = {
 		} 
 		text = EVTDESCFHF23470
 	}
+	desc = { 
+		trigger = { 
+			religion = trailwalker
+		} 
+		text = EVTDESCGHF23470 #needs localization
+	}
 	picture = GFX_evt_irminsul_shrine
 	border = GFX_event_normal_frame_religion
 	
@@ -11037,6 +11057,10 @@ character_event = {
 					AND = {
 						has_province_flag = flag_great_pillar_celtic_pagan
 						ROOT = { religion_openly_in_celtic_subgroup_trigger = no }
+					}
+					AND = {
+						has_province_flag = flag_great_pillar_trailwalker
+						ROOT = { religion_openly_trailwalker_or_reformed_trigger = no }
 					}
 				}
 			}
@@ -11182,6 +11206,30 @@ character_event = {
 						any_realm_character = {
 							limit = {  
 								religion = celtic_pagan
+							}
+							character_event = { id = HF.23474 }
+						}
+					}	
+				}
+				if = { 
+					limit = {
+						location = { has_province_flag = flag_great_pillar_trailwalker }
+					}
+					location = { 
+						clr_province_flag = flag_great_pillar_trailwalker
+						set_province_flag = flag_just_destroyed_trailwalker_pillar #Needed for next event.
+						province_event = { id = HF.23475 days = 60 } #Clean up flag.
+					}
+					trailwalker = {
+						religion_authority = {
+							modifier = destroyed_great_pillar
+							years = 10
+						}
+					}	
+					owner = {
+						any_realm_character = {
+							limit = {  
+								religion = trailwalker
 							}
 							character_event = { id = HF.23474 }
 						}
@@ -11371,6 +11419,31 @@ character_event = {
 				years = 10
 			}
 		}
+		if = { 
+			limit = {
+				FROMFROM = { location = { has_province_flag = flag_just_destroyed_trailwalker_pillar } }
+				religion = trailwalker
+			}
+			tooltip = { #Already removed in previous event.
+				religion_authority = {
+					modifier = destroyed_great_pillar
+					years = 10
+				}
+			}
+			if = { 
+				limit = { has_character_modifier = recently_built_great_pillar }
+				remove_character_modifier = recently_built_great_pillar
+			}
+			add_character_modifier = { #Prevents rebuilding one immediately after.
+				name = recently_destroyed_great_pillar_cooldown
+				years = 30
+			}
+			opinion = {
+				who = FROM
+				modifier = opinion_sacrilege
+				years = 10
+			}
+		}
 	}
 	option = { 
 		name = EVTOPTBHF23474
@@ -11391,6 +11464,7 @@ province_event = {
 		clr_province_flag = flag_just_destroyed_occultist_pillar
 		clr_province_flag = flag_just_destroyed_thelemic_pillar
 		clr_province_flag = flag_just_destroyed_celtic_pagan_pillar
+		clr_province_flag = flag_just_destroyed_trailwalker_pillar
 	}
 }
 

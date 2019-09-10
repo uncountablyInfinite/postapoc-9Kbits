@@ -678,7 +678,11 @@ nick_the_kid = {
 		factor = 2
 		modifier = {
 			factor = 1.5
-			culture_group = west_anglo
+			OR = {
+				culture_group = west_anglo
+				religion = trailwalker
+				religion = trailwalker_reformed
+			}
 		}
 	}
 }
@@ -872,7 +876,11 @@ nick_the_kingfish = {
 nick_the_mysterious = {
 	allow = {
 		is_adult = yes
-		culture_group = west_anglo
+		OR = {
+			culture_group = west_anglo
+			religion = trailwalker
+			religion = trailwalker_reformed
+		}
 		trait = shy
 	}
 	chance = {
@@ -887,7 +895,11 @@ nick_the_mysterious = {
 nick_the_wild = {
 	allow = {
 		is_adult = yes
-		culture_group = west_anglo
+		OR = {
+			culture_group = west_anglo
+			religion = trailwalker
+			religion = trailwalker_reformed
+		}
 		female = no
 		trait = wroth
 	}
@@ -910,6 +922,8 @@ nick_the_buffalo = {
 		OR = {
 			culture_group = west_anglo
 			culture_group = plains
+			religion = trailwalker
+			religion = trailwalker_reformed
 		}
 		trait = strong
 		trait = brave
@@ -930,7 +944,11 @@ nick_the_buffalo = {
 nick_the_calamity = {
 	allow = {
 		is_adult = yes
-		culture_group = west_anglo
+		OR = {
+			culture_group = west_anglo
+			religion = trailwalker
+			religion = trailwalker_reformed
+		}
 		female = yes
 		trait = wroth
 	}
@@ -982,7 +1000,11 @@ nick_the_doctor = {
 		factor = 5
 		modifier = {
 			factor = 3
-			culture_group = west_anglo
+			OR = {
+				culture_group = west_anglo
+				religion = trailwalker
+				religion = trailwalker_reformed
+			}
 		}
 		modifier = {
 			factor = 2

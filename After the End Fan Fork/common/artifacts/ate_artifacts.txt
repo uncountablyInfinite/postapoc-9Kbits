@@ -2273,3 +2273,5 @@ excalibur = {
 	picture = "GFX_sword_of_heroes"
 	slot = weapon
 }
+
+#add some trailwalker artifacts

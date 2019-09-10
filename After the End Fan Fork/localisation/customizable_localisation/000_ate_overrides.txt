@@ -451,6 +451,15 @@ defined_text = {
 			}
 		}
 	}
+	text = {
+		localisation_key = String_Trailblazer
+		trigger = {
+			OR = {
+				religion = trailwalker
+				religion = trailwalker_reformed
+			}
+		}
+	}
 }
 
 defined_text = {
@@ -640,8 +649,18 @@ defined_text = {
 		localisation_key = String_Druid
 		trigger = {
 			OR = {
-				true_religion_celtic_pagan_trigger = yes
-				true_religion_celtic_pagan_reformed_trigger = yes
+				religion = celtic_pagan
+				religion = celtic_pagan_reformed
+			}
+		}
+	}
+	
+	text = {
+		localisation_key = trailwalker
+		trigger = {
+			OR = {
+				religion = trailwalker
+				religion = trailwalker_reformed
 			}
 		}
 	}
@@ -1157,6 +1176,15 @@ defined_text = {
 		localisation_key = celtic_pagan_reformed
 		trigger = { true_religion = celtic_pagan_reformed }
 	}
+	
+	text = {
+		localisation_key = trailwalker
+		trigger = { true_religion = trailwalker }
+	}
+	text = {
+		localisation_key = trailwalker_reformed
+		trigger = { true_religion = trailwalker_reformed }
+	}
 }
 
 defined_text = {
@@ -1347,6 +1375,14 @@ defined_text = {
 	text = {
 		localisation_key = GOD_LUGH
 		trigger = { true_religion_celtic_pagan_reformed_trigger = yes }
+	}
+	text = {
+		localisation_key = GOD_GREAT_BUFFALO
+		trigger = { true_religion_trailwalker_trigger = yes }
+	}
+	text = {
+		localisation_key = GOD_GREAT_BUFFALO
+		trigger = { true_religion_trailwalker_reformed_trigger = yes }
 	}
 }
 
@@ -5989,6 +6025,26 @@ defined_text = {
 		localisation_key = secret_religious_society_REAL_revelationist_reformed
 	}
 }
+
+defined_text = {
+	name = GetReligiousCommunityName_trailwalker
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_name_trailwalker
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_REAL_trailwalker
+	}
+}
+defined_text = {
+	name = GetReligiousCommunityName_trailwalker_reformed
+	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_name_trailwalker_reformed
+	}
+	text = { trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_REAL_trailwalker_reformed
+	}
+}
+
 defined_text = {
 	name = GetReligiousCommunityName_rust_cultist
 	text = { trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -7143,6 +7199,18 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetReligiousSocietyDesc_trailwalker_reformed
+	text = {
+		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_desc
+	}
+	text = {
+		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_trailwalker_reformed_desc_REAL
+	}
+}
+
+defined_text = {
 	name = GetReligiousSocietyDesc_postadventist
 	text = {
 		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
@@ -7620,6 +7688,18 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
 		localisation_key = secret_religious_society_revelationist_desc_REAL
+	}
+}
+
+defined_text = {
+	name = GetReligiousSocietyDesc_trailwalker
+	text = {
+		trigger = { has_alternate_start_parameter = { key = religion_names value = random } }
+		localisation_key = alt_start_community_desc
+	}
+	text = {
+		trigger = { NOT = { has_alternate_start_parameter = { key = religion_names value = random } } }
+		localisation_key = secret_religious_society_trailwalker_desc_REAL
 	}
 }
 

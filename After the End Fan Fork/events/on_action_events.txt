@@ -4491,6 +4491,16 @@ narrative_event = {
 					}
 				}
 			}
+			if = { 
+				limit = { ROOT = { NOT = { religion = trailwalker_reformed } } }
+				random_playable_ruler = { 
+					limit = { religion = trailwalker }	
+					religion_authority = {
+						modifier = pagan_revival
+						years = 20
+					}
+				}
+			}
 		}
 		if = {
 			limit = { #Modifier not applied correctly by pagan reformation screen.
@@ -4592,6 +4602,8 @@ narrative_event = {
 				remove_intermarry = norse_pagan
 				remove_intermarry = celtic_pagan_reformed
 				remove_intermarry = celtic_pagan
+				remove_intermarry = trailwalker
+				remove_intermarry = trailwalker_reformed
 				remove_intermarry = brethren
 				remove_intermarry = jewish
 				remove_intermarry = reform
@@ -4848,7 +4860,24 @@ narrative_event = {
 				}
 			} 
 		}
-
+		if = {
+			limit = { #Apply default special features if player doesn't have dlc.
+				NOT = { has_dlc = "Holy Fury" } 
+				ROOT = { 
+					religion = trailwalker_reformed
+				} 
+			}
+			ROOT = { 
+				set_unit_modifier = {
+					levy_size = 0.3
+			
+					light_cavalry_offensive = 0.3
+					light_cavalry_defensive = 0.3
+			
+					key = "trailwalker"
+				}
+			} 
+		}
 
 		if = {
 			limit = { ai = no }
@@ -4915,6 +4944,7 @@ narrative_event = {
 			}
 			add_artifact = crown_celtic_fylkir
 		}
+		#add one for trailwalker
 		if = {
 			limit = { 
 				has_religion_feature = religion_temporal_head 
@@ -5002,6 +5032,10 @@ narrative_event = {
 		if = {
 			limit = { religion = raven_tales_reformed }
 			set_global_flag = raven_tales_reformation
+		}
+		if = {
+			limit = { religion = trailwalker_reformed }
+			set_global_flag = trailwalker_reformation
 		}
 	}
 	}

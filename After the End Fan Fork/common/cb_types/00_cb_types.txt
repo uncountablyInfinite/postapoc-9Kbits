@@ -10955,6 +10955,7 @@ pagan_holy_war = { #
 				religion = espiritista_reformed
 				religion = midewiwin_reformed
 				religion = raven_tales_reformed
+				religion = trailwalker_reformed
 			}
 			NOT = { has_religion_feature = religion_peaceful }
 			NOT = { same_realm = FROM }
@@ -11033,6 +11034,7 @@ pagan_holy_war = { #
 				religion = espiritista_reformed 
 				religion = midewiwin_reformed
 				religion = raven_tales_reformed
+				religion = trailwalker_reformed
 			}
 			NOT = { same_realm = FROM }
 			NOT = { religion = FROM }

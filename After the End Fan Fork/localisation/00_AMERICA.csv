@@ -514,10 +514,10 @@ apostolic_FEATURES;§Y*§! Adherents can become followers of one of three specific
 moravian;Moravian;;;;;;;;;;;;x
 moravian_DESC;Moravianism is one of the oldest branches of Protestant Christianity, and followers of the Church are noted for their intense dedication to missionary work. Following the Event, traditional Moravianism was subsumed beneath the newly-formed Cult of the Falling Star, although pockets of "old believers" still persist throughout the Americas.;;;;;;;;;;;;x
 trailwalker;Trailwalker;;;;;;;;;;;;x
-trailwalker_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange beasts and supernatural beings. Long ago, the two worlds were one, and men lived harsh and short lives. The most powerful spirits of the Frontier, Great Buffalo and his Spirit Council, separated the two, giving mankind the chance to thrive. However, in exchange, Great Buffalo commanded that all people should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Buffalo punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers follow the Trails more devoutly than ever.;;;;;;;;;;;;x
+trailwalker_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange critters and powerful spirits. Long ago, the two worlds were one, and men lived harsh and short lives. Then, the Great Eagle, helped by spirits like Iron Horse and great men like Lewis Clark, separated the two, turning the Range into a place where men could live free lives. However, in exchange, the Great Eagle commanded that inhabitants of the Range should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Eagle punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers follow the Trails more devoutly than ever.;;;;;;;;;;;;x
 trailwalker_FEATURES;§Y*§! May go on vision quests with the aid of sacred herbs.;;;;;;;;;;;;;x
 trailwalker_reformed;Trailwalker;;;;;;;;;;;;x
-trailwalker_reformed_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange beasts and supernatural beings. Long ago, the two worlds were one, and men lived harsh and short lives. The most powerful spirits of the Frontier, Great Buffalo and his Spirit Council, separated the two, giving mankind the chance to thrive. However, in exchange, Great Buffalo commanded that all people should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Buffalo punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers have organized their teachings, ensuring that no one can stray from the Trails again.;;;;;;;;;;;;x
+trailwalker_reformed_DESC;Trailwalkers believe that the physical world, known as the Range, intersects with a another world called the Frontier, which is inhabited by strange critters and powerful spirits. Long ago, the two worlds were one, and men lived harsh and short lives. Then, the Great Eagle, helped by spirits like Iron Horse and great men like Lewis Clark, separated the two, turning the Range into a place where men could live free lives. However, in exchange, the Great Eagle commanded that inhabitants of the Range should follow the Trails, spiritual teachings that would keep them close to the land. When mankind turned their backs on the Trails, Great Eagle punished humanity by briefly reuniting the Range and the Frontier. Now, Trailwalkers have written down the Trails, so that they may be better followed.;;;;;;;;;;;;x
 trailwalker_reformed_FEATURES;§Y*§! May go on vision quests with the aid of sacred herbs.;;;;;;;;;;;;;x
 mexicano_FEATURES;[GetIberianFeatures];[GetIberianFeatures];[GetIberianFeatures];;[GetIberianFeatures];;;;;x
 
@@ -808,6 +808,7 @@ BABYLON;Babylon;;;;;;;;;;;;;x
 BAG_O_WIRE;Bag o' Wire;;;;;;;;;;;;;x
 BIG_BOSS;Big Boss;;;;;;;;;;;;;x
 BAAL;Ba'al;;;;;;;;;;;;;x
+BEEELIM;Bee'Elim;;;;;;;;;;;;;x
 BONDYE;Bondye;;;;;;;;;;;;;x
 BOSS;Boss;;;;;;;;;;;;;x
 BOSS_FOA;Boss;;;;;;;;;;;;;x
@@ -871,8 +872,6 @@ GOD_CHIA;Chía;;;;;;;;;;;;;x
 GOD_CHIBCHACHUM;Chibchachum;;;;;;;;;;;;;x
 GOD_CHIMINIGAGUA;Chiminigagua;;;;;;;;;;;;;x
 GOD_CHRIST;Christ;;;;;;;;;;;;;x
-GOD_COYOTE;Coyote;;;;;;;;;;;;;x
-GOD_CROW;Crow;;;;;;;;;;;;;x
 GOD_CUZA;Cuza;;;;;;;;;;;;;x
 GOD_DANU;Danu;;;;;;;;;;;;;x
 GOD_DEUS;Deus;;;;;;;;;;;;;x
@@ -885,7 +884,6 @@ GOD_FATHER_BESSEMER;Father Bessemer;;;;;;;;;;;;;x
 GOD_FATHER_FORD;Father Ford;;;;;;;;;;;;;x
 GOD_GAIA;Gaia;;;;;;;;;;;;;x
 GOD_GLOOSCAP;Glooscap;;;;;;;;;;;;;x
-GOD_GREAT_BUFFALO;Great Buffalo;;;;;;;;;;;;;x
 GOD_GUAICAIPURO;Guaicaipuro;;;;;;;;;;;;;x
 GOD_GUATAVITA;Guatavita;;;;;;;;;;;;;x
 GOD_GYHLDEPTIS;Gyhldeptis;;;;;;;;;;;;;x
@@ -898,6 +896,7 @@ GOD_HUBBARD;Hubbard;;;;;;;;;;;;;x
 GOD_HUNAB_KU;Hunab Ku;;;;;;;;;;;;;x
 GOD_IANSA;Iansã;;;;;;;;;;;;;x
 GOD_IEMANJA;Iemanjá;;;;;;;;;;;;;x
+GOD_IRON_HORSE;Iron Horse;;;;;;;;;;;;;x
 GOD_ITZPAPALOTL;Itzpapalotl;;;;;;;;;;;;;x
 GOD_IXMUCANE;Ixmucané;;;;;;;;;;;;;x
 GOD_JAH;Jah;;;;;;;;;;;;;x
@@ -940,10 +939,10 @@ GOD_OSTARA;Ostara;;;;;;;;;;;;;x
 GOD_OUR_LADY;Our Lady;;;;;;;;;;;;;x
 GOD_PAPA_LEGBA;Papa Legba;;;;;;;;;;;;;x
 GOD_PAUPER;The Pauper;;;;;;;;;;;;;x
+GOD_PEACEMAKER;Peacemaker;;;;;;;;;;;;;x
 GOD_PRIMORDIA;Primordia;;;;;;;;;;;;;x
 GOD_RA_HOOR_KHUIT;Ra-Hoor-Khuit;;;;;;;;;;;;;x
 GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
-GOD_SACAGAWEA;Sacagawea;;;;;;;;;;;;;x
 GOD_SELASSIE;Haile Selassie;;;;;;;;;;;;;x
 GOD_SILBON;El Silbón;;;;;;;;;;;;;x
 GOD_SOL_INVICTA;Sol Invicta;;;;;;;;;;;;;x
@@ -972,6 +971,7 @@ GOD_THE_FREE_MARKET;The Free Market;;;;;;;;;;;;;x
 GOD_THE_GODDESS;The Goddess;;;;;;;;;;;;;x
 GOD_THE_GODHEAD;The Godhead;;;;;;;;;;;;;x
 GOD_THE_GOLDEN_SPHERE;The Golden Sphere;;;;;;;;;;;;;x
+GOD_THE_GREAT_EAGLE;The Great Eagle;;;;;;;;;;;;;x
 GOD_THE_GREAT_SPIRIT;The Great Mystery;;;;;;;;;;;;;x
 GOD_THE_HEAVENLY_FATHER;The Heavenly Father;;;;;;;;;;;;;x
 GOD_THE_HORNED_GOD;The Horned God;;;;;;;;;;;;;x
@@ -980,6 +980,7 @@ GOD_THE_LIGHT;The Light;;;;;;;;;;;;;x
 GOD_THE_LIGHTBRINGER;The Lightbringer;;;;;;;;;;;;;x
 GOD_THE_MACHINE_SPIRITS;The Machine Spirits;;;;;;;;;;;;;x
 GOD_THE_MORRIGAN;The Morrigan;;;;;;;;;;;;;x
+GOD_THE_NAMELESS_ONE;The Nameless One;;;;;;;;;;;;;x
 GOD_THE_NOOSPHERE;The Noosphere;;;;;;;;;;;;;x
 GOD_THE_OLD_ONES;The Old Ones;;;;;;;;;;;;;x
 GOD_THE_ORICHAS;The Orichás;;;;;;;;;;;;;x
@@ -987,7 +988,6 @@ GOD_THE_PRESIDENTS;The Presidents;;;;;;;;;;;;;x
 GOD_THE_PROPHET;The Prophet;;;;;;;;;;;;;x
 GOD_THE_QUEEN;The Queen;;;;;;;;;;;;;x
 GOD_THE_RAM_HEADED_SNAKE;The Ram-Headed Snake;;;;;;;;;;;;;x
-GOD_THE_RANGER;The Ranger;;;;;;;;;;;;;x
 GOD_THE_SAINTS;The Saints;;;;;;;;;;;;;x
 GOD_THE_SEA_HAG;The Sea Hag;;;;;;;;;;;;;x
 GOD_THE_SERPENT;The Serpent;;;;;;;;;;;;;x
@@ -1130,6 +1130,7 @@ THE_POPOL_VUH;The Popol Vuh;;;;;;;;;;;;;x
 THE_PROMISED_KEY;The Promised Key;;;;;;;;;;;;;x
 THE_RED_ROAD;The Red Road;;;;;;;;;;;;;x
 THE_TALES;The Tales;;;;;;;;;;;;;x
+THE_TALL_TALES;The Tall Tales;;;;;;;;;;;;;x
 THE_TAROT;The Tarot;;;;;;;;;;;;;x
 THE_TRAITOR;The Traitor;;;;;;;;;;;;;x
 THE_UNENLIGHTENED;The Unenlightened;;;;;;;;;;;;;x

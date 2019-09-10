@@ -3052,14 +3052,14 @@ pagan_group = {
 		
 		color = { 0.57 0.27 0.1 }
 		
-		high_god_name = GOD_GREAT_BUFFALO
+		high_god_name = GOD_THE_GREAT_EAGLE
 		
 		god_names = {
-			GOD_GREAT_BUFFALO GOD_CROW GOD_COYOTE GOD_LEWIS_CLARK GOD_SACAGAWEA GOD_THE_RANGER GOD_SURESHOT
+			GOD_THE_GREAT_EAGLE GOD_LEWIS_CLARK GOD_IRON_HORSE GOD_PEACEMAKER GOD_THE_NAMELESS_ONE GOD_SURESHOT
 		}
 		
 		evil_god_names = {
-			THE_BUZZARD THE_GHOST_RIDERS
+			BEEELIM THE_BUZZARD THE_GHOST_RIDERS
 		}
 		
 		unit_modifier = {
@@ -3072,7 +3072,7 @@ pagan_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
+		scripture_name = THE_TALL_TALES
 		priest_title = SHAMAN
 		priests_can_marry = yes
 		allow_looting = yes
@@ -3101,14 +3101,14 @@ pagan_group = {
 		
 		color = { 0.47 0.17 0 }
 	
-		high_god_name = GOD_GREAT_BUFFALO
+		high_god_name = GOD_THE_GREAT_EAGLE
 		
 		god_names = {
-			GOD_GREAT_BUFFALO GOD_CROW GOD_COYOTE GOD_LEWIS_CLARK GOD_SACAGAWEA GOD_THE_RANGER GOD_SURESHOT
+			GOD_THE_GREAT_EAGLE GOD_LEWIS_CLARK GOD_IRON_HORSE GOD_PEACEMAKER GOD_THE_NAMELESS_ONE GOD_SURESHOT
 		}
 		
 		evil_god_names = {
-			THE_BUZZARD THE_GHOST_RIDERS
+			BEEELIM THE_BUZZARD THE_GHOST_RIDERS
 		}
 		
 		unit_modifier = {
@@ -3121,7 +3121,7 @@ pagan_group = {
 		}
 		
 		crusade_name = GREAT_HOLY_WAR
-		scripture_name = THE_LEGENDS
+		scripture_name = THE_TALL_TALES
 		priest_title = SHAMAN
 		
 		priests_can_marry = yes

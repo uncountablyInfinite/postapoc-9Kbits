@@ -644,7 +644,7 @@ thunderbird_warrior;Thunderbird Warrior;;;;;;;;;;;;;x
 thunderbird_warrior_desc;This character is one of the chosen warriors who have fought in the name of the Great Spirit.;;;;;;;;;;;;;x
 raven_warrior;Raven Warrior;;;;;;;;;;;;;x
 raven_warrior_desc;This character is one of the chosen warriors who have fought in the name of Xhúuyee.;;;;;;;;;;;;;x
-cowboy;Cowboy;;;;;;;;;;;;;x
+cowboy;Cow[GetBoyGirl];;;;;;;;;;;;;x
 cowboy_desc;This character is one of the chosen warriors who have fought in the name of Great Buffalo.;;;;;;;;;;;;;x
 twelve_tribes;Twelve Tribes of Israel;;;;;;;;;;;;;x
 twelve_tribes_desc;This character is a member of the Twelve Tribes of Israel mansion, placing emphasis on equality and the connections between Rasta, Christianity, and Judaism.;;;;;;;;;;;;;x

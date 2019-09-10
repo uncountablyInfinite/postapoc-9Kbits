@@ -13876,6 +13876,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				has_religion_feature = religion_feature_trailwalker
 			}
 		} 
 		picture = GFX_evt_magic_ritual
@@ -13887,6 +13888,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin 
 				has_religion_feature = religion_feature_celtic
+				has_religion_feature = religion_feature_trailwalker
 			}
 		} 
 		picture = GFX_evt_tribal_shrine
@@ -13906,6 +13908,7 @@ character_event = {
 			has_religion_feature = religion_animistic 
 			has_religion_feature = religion_feature_midewiwin
 			has_religion_feature = religion_feature_celtic 
+			has_religion_feature = religion_feature_trailwalker 
 		}
 	}
 	
@@ -14068,6 +14071,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				has_religion_feature = religion_feature_trailwalker
 			}
 		} 
 		picture = GFX_evt_magic_ritual
@@ -14079,6 +14083,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				has_religion_feature = religion_feature_trailwalker
 			}
 		} 
 		picture = GFX_evt_tribal_shrine
@@ -14398,6 +14403,7 @@ character_event = {
 			has_religion_feature = religion_animistic 
 			has_religion_feature = religion_feature_midewiwin
 			has_religion_feature = religion_feature_celtic
+			has_religion_feature = religion_feature_trailwalker
 		}
 	}
 	
@@ -14425,6 +14431,7 @@ character_event = {
 			has_religion_feature = religion_animistic
 			has_religion_feature = religion_feature_midewiwin
 			has_religion_feature = religion_feature_celtic
+			has_religion_feature = religion_feature_trailwalker
 		}
 	}
 	immediate = { 

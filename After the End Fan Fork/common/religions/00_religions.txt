@@ -3050,7 +3050,7 @@ pagan_group = {
 		icon = 21
 		heresy_icon = 23
 		
-		color = { 0.67 0.37 0.2 }
+		color = { 0.57 0.27 0.1 }
 		
 		high_god_name = GOD_GREAT_BUFFALO
 		

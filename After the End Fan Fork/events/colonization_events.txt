@@ -524,6 +524,7 @@ narrative_event = {
 	}
 	
 	option = {
+		create_family_palace = yes
 		set_government_type = colonial_government
 		name = col.12.optB
 		trigger = { has_landed_title = e_edokko }
@@ -793,7 +794,7 @@ province_event = {
 					random_traits = no
 					dynasty = 1721136
 					religion = nousthreskeia
-					culture = novorusskiy
+					culture = vlodivostockiy
 					age = 30
 				}
 				new_character = {
@@ -868,7 +869,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 30
 		}
@@ -933,7 +934,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 39
 		}
@@ -965,7 +966,7 @@ narrative_event = {
 			dynasty = 1721135
 			dna=dfeaewjbgce
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 18
 			attributes={
@@ -1008,7 +1009,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 18
 		}
@@ -1022,7 +1023,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 18
 		}
@@ -1064,7 +1065,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = no
 			age = 26
 		}
@@ -1092,7 +1093,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = yes
 			age = 16
 		}
@@ -1106,7 +1107,7 @@ narrative_event = {
 			random_traits = yes
 			dynasty = actually_culture
 			religion = nousthreskeia
-			culture = novorusskiy
+			culture = vlodivostockiy
 			female = yes
 			age = 17
 		}
@@ -1191,6 +1192,7 @@ narrative_event = {
 	}
 	
 	option = {
+		create_family_palace = yes
 		set_government_type = colonial_government
 		name = col.22.optB
 		trigger = { has_landed_title = e_novorusskiy }
@@ -1271,7 +1273,7 @@ character_event = {
 		NOT = { realm_levies = 5000 }
 		OR = {
 			culture = petropavlovskiy
-			culture = novorusskiy
+			culture = vlodivostockiy
 		}
 		religion = nousthreskeia
 	}
@@ -1312,7 +1314,7 @@ character_event = {
 		government = colonial_government
 		OR = {
 			culture = petropavlovskiy
-			culture = novorusskiy
+			culture = vlodivostockiy
 		}
 		religion = nousthreskeia
 	}
@@ -1346,7 +1348,7 @@ character_event = {
 						random_traits = yes
 						dynasty = culture
 						religion = nousthreskeia
-						culture = novorusskiy
+						culture = vlodivostockiy
 						female = no
 						age = 30
 						trait = ambitious
@@ -1354,11 +1356,11 @@ character_event = {
 						random_realm_province = {
 							limit = { 
 								NOR = { 
-									culture = novorusskiy
+									culture = vlodivostockiy
 									culture = petropavlovskiy
 								} 
 							}
-							culture = novorusskiy
+							culture = vlodivostockiy
 							religion = nousthreskeia
 						}
 						new_character = {
@@ -1379,7 +1381,7 @@ character_event = {
 						random_realm_province = {
 							limit = { 
 								NOR = { 
-									culture = novorusskiy
+									culture = vlodivostockiy
 									culture = petropavlovskiy
 								} 
 							}
@@ -1416,7 +1418,7 @@ character_event = {
 	trigger = {
 		OR = {
 			culture = petropavlovskiy
-			culture = novorusskiy
+			culture = vlodivostockiy
 			culture = edokko
 		}
 	}
@@ -1428,5 +1430,186 @@ character_event = {
 	
 	option = {
 		name = col.31.optA
+	}
+}
+
+
+# Japan - Player Controlled
+character_event = {
+	id = col.40
+	desc = col.11.text
+	picture = GFX_evt_colonial_japan
+	#hide_window = yes
+	is_triggered_only = yes
+	ai = no
+	
+	trigger = {
+			tier = duke
+			religion = shinto
+			culture = edokko
+			capital_scope = {
+				AND = {
+					region = custom_pacific
+					port = yes
+				}
+			}
+		NOT = { 
+			has_game_rule = {
+				name = colonisation_invasions
+				value = off
+			}
+		}
+		OR = {
+			is_feudal = yes
+			is_merchant_republic = yes
+		}
+		NOT = { is_title_active = e_edokko }
+		NOT = { has_global_flag = edokko_defeated }
+	}
+	
+	option = {
+		activate_title = { title = e_edokko status = yes }
+		wealth = 5000
+		e_edokko = {
+			grant_title = ROOT
+		}
+		add_artifact = ate_firearm
+		narrative_event = { id = col.12 }
+		capital_scope = {
+			random_province_holding = {
+				limit = {
+					holding_type = city
+					holder_scope = {
+						OR = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = { holder = ROOT }
+					}
+					usurp_title = ROOT
+				}
+				make_capital_holding = yes
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = none
+				religion = shinto
+				culture = edokko
+				female = no
+				age = 30
+			}
+			new_character = {
+				add_artifact = ate_firearm
+				character_event = { id = salvage.140 } # Give random salvage
+				character_event = { id = misc.3 } # Diversity
+				character_event = { id = misc.4 } # Physique
+				spawn_unit = {
+					province = PREV
+						troops = {
+							horse_archers = { 1125 1125 }
+							light_infantry = { 900 900 }
+							heavy_infantry = { 1125 1125 }
+							pikemen = { 900 900 }
+							archers = { 375 375 }
+						}
+						attrition = 0.25
+					}
+			}
+		}
+	}
+}
+
+# Russia - Player Controlled
+character_event = {
+	id = col.45
+	desc = col.11.text
+	picture = GFX_evt_colonial_russia
+	#hide_window = yes
+	is_triggered_only = yes
+	ai = no
+	trigger = {
+			tier = duke
+			religion = nousthreskeia			
+			culture = vlodivostockiy
+			capital_scope = {
+				AND = {
+					region = custom_pacific
+					port = yes
+				}
+			}
+		NOT = { 
+			has_game_rule = {
+				name = colonisation_invasions
+				value = off
+			}
+		}
+		OR = {
+			is_feudal = yes
+			is_merchant_republic = yes
+		}
+		independent = yes
+		NOT = { is_title_active = e_novorusskiy }
+		NOT = { has_global_flag = novorusskiy_defeated }
+	}
+	
+	option = {
+		activate_title = { title = e_novorusskiy status = yes }
+		wealth = 5000
+		e_novorusskiy = {
+			grant_title = ROOT
+		}
+		add_artifact = ate_firearm
+		narrative_event = { id = col.22 }
+		capital_scope = {
+			random_province_holding = {
+				limit = {
+					holding_type = city
+					holder_scope = {
+						OR = {
+							character = ROOT
+							is_liege_or_above = ROOT
+						}
+					}
+				}
+				if = {
+					limit = {
+						NOT = { holder = ROOT }
+					}
+					usurp_title = ROOT
+				}
+				make_capital_holding = yes
+			}
+			# create_character = {
+				# random_traits = yes
+				# dynasty = none
+				# religion = nousthreskeia
+				# culture = vlodivostockiy
+				# female = no
+				# age = 30
+			# }
+			# new_character = {
+				# add_artifact = ate_firearm
+				# character_event = { id = salvage.140 } # Give random salvage
+				# character_event = { id = misc.3 } # Diversity
+				# character_event = { id = misc.4 } # Physique
+				# spawn_unit = {
+					# province = FROM
+						# troops = {
+							# light_cavalry = { 1200 1200 }
+							# light_infantry = { 3000 3000 }
+							# heavy_infantry = { 950 950 }
+							# knights = { 500 500 }
+							# pikemen = { 600 600 }
+							# archers = { 1500 1500 }
+						# }
+						# attrition = 0.25
+				# }
+			# }
+		}
+
 	}
 }

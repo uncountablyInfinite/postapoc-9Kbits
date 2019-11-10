@@ -2038,8 +2038,9 @@ character_event = {
 			religion_group = afro_syncretic
 		}
 		has_religion_feature = religion_no_leader
-		NOT = { religion = revelationist }
-		NOT = { religion = revelationist_reformed }
+		NOT = { religion = peyotist }
+		NOT = { religion = occultist }
+		NOT = { religion = occultist_reformed }
 		NOR = { 
 			trait = pagan_branch_1
 			trait = pagan_branch_2
@@ -3349,8 +3350,8 @@ character_event = {
 	trigger = { 
 		is_adult = yes
 		religion_group = pagan_group
-		NOT = { religion = revelationist }
-		NOT = { religion = revelationist_reformed }
+		NOT = { religion = occultist }
+		NOT = { religion = occultist_reformed }
 		has_religion_feature = religion_no_leader 
 		NOR = { 
 			trait = pagan_branch_1
@@ -5938,25 +5939,25 @@ character_event = {
 		trigger = { combat_rating = 15 }
 		tooltip_info = combat_rating 
 		custom_tooltip = { text = TOOLTIP_EVTOPTCHF23214 }
-    	#REQUIRED event targets for setting up duel evaluation!
-	    hidden_tooltip = { 
-	    	save_event_target_as = combatant_1 #the person issuing the duel...
-	    	set_character_flag = flag_pirate_fighting_mercenary_leader 	#Needed for follow-up event in case of victory.
-	    	set_character_flag = flag_duel_no_draws #Prevents duel from ending in a draw.
-	    	event_target:scoped_pirate_mercenary = {
-	    		set_character_flag = flag_duel_no_backsies #Make the challenged party unable to decline the duel.
-	    		set_character_flag = flag_duel_no_draws #Prevents duel from ending in a draw.
-	    		save_event_target_as = combatant_2 } #the target of the duel...
-	    }
-	    pacifists_lose_piety_effect = yes
-	    add_character_modifier = {
-	        modifier = recent_duel_timer
-	        duration = 365
-	        hidden = yes
-	    }
-	    hidden_tooltip = {
-	        event_target:scoped_pirate_mercenary = { character_event = { id = HFP.10095 } }
-	    }
+		#REQUIRED event targets for setting up duel evaluation!
+		hidden_tooltip = { 
+			save_event_target_as = combatant_1 #the person issuing the duel...
+			set_character_flag = flag_pirate_fighting_mercenary_leader 	#Needed for follow-up event in case of victory.
+			set_character_flag = flag_duel_no_draws #Prevents duel from ending in a draw.
+			event_target:scoped_pirate_mercenary = {
+				set_character_flag = flag_duel_no_backsies #Make the challenged party unable to decline the duel.
+				set_character_flag = flag_duel_no_draws #Prevents duel from ending in a draw.
+				save_event_target_as = combatant_2 } #the target of the duel...
+		}
+		pacifists_lose_piety_effect = yes
+		add_character_modifier = {
+			modifier = recent_duel_timer
+			duration = 365
+			hidden = yes
+		}
+		hidden_tooltip = {
+			event_target:scoped_pirate_mercenary = { character_event = { id = HFP.10095 } }
+		}
 		ai_chance = { 
 			factor = 20 
 			modifier = { 
@@ -5973,9 +5974,9 @@ character_event = {
 			scaled_wealth = { value = -1 min = -150 max = -250 } 
 		}
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -6056,9 +6057,9 @@ character_event = {
 			death = { death_reason = death_murder killer = ROOT }
 		}
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -6103,9 +6104,9 @@ character_event = {
 			}
 		}
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -6128,9 +6129,9 @@ character_event = {
 		name = EVTOPTCHF23215
 		custom_tooltip = { text = TOOLTIP_EVTOPTCHF23215 }
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -6178,9 +6179,9 @@ character_event = {
 			scaled_wealth = { value = -2 min = -250 max = -450 } 
 		}
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -6270,9 +6271,9 @@ character_event = {
 	option = { 
 		name = EVTOPTAHF23218
 		location = { 
-            show_scope_change = no
+			show_scope_change = no
 			ROOT = {
-            	show_scope_change = no
+				show_scope_change = no
 				spawn_unit = {
 					province = PREV
 					home = PREV
@@ -13985,9 +13986,10 @@ character_event = {
 				religion_group = afro_syncretic
 			} 
 			OR = {
-				has_religion_feature = religion_animistic 
+				has_religion_feature = religion_animistic
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				religion = peyotist
 			}
 		} 
 		picture = GFX_evt_magic_ritual
@@ -13999,6 +14001,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin 
 				has_religion_feature = religion_feature_celtic
+				religion = peyotist
 			}
 		} 
 		picture = GFX_evt_tribal_shrine
@@ -14017,7 +14020,8 @@ character_event = {
 			religion_group = afro_syncretic
 			has_religion_feature = religion_animistic 
 			has_religion_feature = religion_feature_midewiwin
-			has_religion_feature = religion_feature_celtic 
+			has_religion_feature = religion_feature_celtic
+			religion = peyotist
 		}
 	}
 	
@@ -14180,6 +14184,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				religion = peyotist
 			}
 		} 
 		picture = GFX_evt_magic_ritual
@@ -14191,6 +14196,7 @@ character_event = {
 				has_religion_feature = religion_animistic 
 				has_religion_feature = religion_feature_midewiwin
 				has_religion_feature = religion_feature_celtic
+				religion = peyotist
 			}
 		} 
 		picture = GFX_evt_tribal_shrine
@@ -14510,6 +14516,7 @@ character_event = {
 			has_religion_feature = religion_animistic 
 			has_religion_feature = religion_feature_midewiwin
 			has_religion_feature = religion_feature_celtic
+			religion = peyotist
 		}
 	}
 	
@@ -14537,6 +14544,7 @@ character_event = {
 			has_religion_feature = religion_animistic
 			has_religion_feature = religion_feature_midewiwin
 			has_religion_feature = religion_feature_celtic
+			religion = peyotist
 		}
 	}
 	immediate = { 

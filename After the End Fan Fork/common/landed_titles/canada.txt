@@ -39,7 +39,7 @@ e_canada = {
 			custom_tooltip = {
 				text = controls_pitupok_chebucto
 				hidden_tooltip = {
-					1256 = { # Pitupok
+					1257 = { # Pitupok
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -360,6 +360,10 @@ e_canada = {
 				b_waterdown_ON = {}
 				b_millgrove_ON = {}
 				b_jerseyville_ON = {}
+				b_burlington_ON = {}
+				b_morriston_ON = {}
+				b_scotch_block_ON = {}
+				b_aberfoyle_ON = {}
 			}
 			c_toronto = {
 				color = { 237 162 3 }
@@ -376,6 +380,9 @@ e_canada = {
 				b_woodbridge_ON = {}
 				b_thornhill_ON = {}
 				b_rexdale_ON = {}
+				b_oakville_ON = {}
+				b_milton_ON = {}
+				b_halton_hills_ON = {}
 			}
 			c_york = {
 				color = { 205 173 33 }
@@ -387,17 +394,6 @@ e_canada = {
 				b_bond_head_ON = {}
 				b_newton_robinson_ON = {}
 				b_gilford_beach_ON = {}
-			}
-			c_halton = {
-				color = { 202 136 31 }
-
-				b_oakville_ON = {}
-				b_burlington_ON = {}
-				b_morriston_ON = {}
-				b_milton_ON = {}
-				b_scotch_block_ON = {}
-				b_aberfoyle_ON = {}
-				b_halton_hills_ON = {}
 			}
 			c_oshawa = {
 				color = { 240 200 66 }
@@ -754,7 +750,7 @@ e_canada = {
 		}
 		
 		d_montreal = {
-			color = { 64 76 186 }
+			color = { 158 17 18 }
 			color2= { 255 255 20 }
 
 			capital = 1217 # Hochelaga / Montreal
@@ -768,7 +764,7 @@ e_canada = {
 			metis = "Montréal"
 
 			c_hochelaga = {
-				color = { 90 101 199 }
+				color = { 148 20 18 }
 				color2= { 255 255 20 }
 				holy_site = ursuline
 				holy_site = confederated
@@ -794,6 +790,7 @@ e_canada = {
 				b_pierrefonds_QC = {}
 				b_beaconsfield_QC = {}
 				b_riviere_des_prairies_QC = {}
+				b_salaberry_de_valleyfield_QC = {}
 			}
 			c_vaudreuil_soulanges = {
 				color = { 99 102 180 }
@@ -835,7 +832,7 @@ e_canada = {
 				b_oka_QC = {}
 			}
 			c_matawinia = {
-				color = { 93 99 198 }
+				color = { 154 154 154 }
 				color2= { 255 255 20 }
 
 				quebecois = "Matawinie"
@@ -879,14 +876,14 @@ e_canada = {
 				color = { 93 98 187 }
 				color2= { 255 255 20 }
 
-				b_longueuil_QC = {}
-				b_boucherville_QC = {}
 				b_st_hubert_QC = {}
 				b_granby_QC = {}
 				b_mont_saint_hilaire_QC = {}
 				b_saint_hyacinthe_QC = {}
 				b_ange_gardien_QC = {}
 				b_saint_liboire_QC = {}
+				b_sabrevois_QC = {}
+				b_sorel_QC = {}
 			}
 			c_monteregie = {
 				color = { 56 106 171 }
@@ -894,6 +891,8 @@ e_canada = {
 
 				b_brossard_QC = {}
 				b_st_jean_sur_richelieu_QC = {}
+				b_longueuil_QC = {}
+				b_boucherville_QC = {}
 				b_st_philippe_QC = {}
 				b_napierville_QC = {}
 				b_chateauguay_QC = {}
@@ -1052,6 +1051,26 @@ e_canada = {
 				b_nantes_QC = {}
 				b_st_romain_QC = {}
 			}
+			c_saint_francois = {
+				color = { 205 175 184 }
+				color2= { 255 255 20 }
+
+				b_drummondville_QC = {}
+				b_victoriaville_QC = {}
+				b_nicolet_QC = {}
+				b_becancour_QC = {}
+				b_st_wenceslas_QC = {}
+				b_warwick_QC = {}
+				b_st_nicephore_QC = {}
+				b_st_albert_QC = {}
+			}
+		}
+		d_chaudiere_appalaches = {
+			color = { 253 231 230 }
+			color2= { 225 225 20 }
+
+			capital = 1210
+
 			c_amiante = {
 				color = { 220 201 206 }
 				color2= { 255 255 20 }
@@ -1067,36 +1086,38 @@ e_canada = {
 				b_lyster_QC = {}
 				b_laurierville_QC = {}
 			}
-			c_saint_francois = {
-				color = { 205 175 184 }
-				color2= { 255 255 20 }
-
-				b_drummondville_QC = {}
-				b_victoriaville_QC = {}
-				b_nicolet_QC = {}
-				b_becancour_QC = {}
-				b_st_wenceslas_QC = {}
-				b_warwick_QC = {}
-				b_st_nicephore_QC = {}
-				b_st_albert_QC = {}
-			}
 			c_chaudiere = {
 				color = { 189 187 179 }
 				color2= { 255 255 255 }
 
 				b_levis_QC = {}
 				b_desjardins_QC = {}
-				b_beauceville_QC = {}
-				b_ste_marie_QC = {}
 				b_charny_QC = {}
 				b_st_henri_QC = {}
 				b_st_romuald_QC = {}
+				b_st_paul_de_montminy_QC = {}
+				b_st_gervais_QC = {}
+				b_st_just_de_bretenieres_QC = {}
+				b_lac_frontiere_QC = {}
+			}
+			c_beauce = {
+				color = { 155 153 162 }
+				color2= { 255 255 255 }
+
+				b_beauceville_QC = {}
 				b_st_georges_QC = {}
+				b_ste_marie_QC = {}
+				b_st_joseph_de_beauce_QC = {}
+				b_st_victor_QC = {}
+				b_vallee_jonction_QC = {}
+				b_st_zacharie_QC = {}
+				b_st_rene_QC = {}
+				b_notre_dame_des_pins_QC = {}
 			}
 		}
 		
 		d_mauricia = {
-			color = { 164 228 148 }
+			color = { 0 115 190 }
 			color2= { 255 255 20 }
 
 			quebecois = "Mauricie"
@@ -1110,7 +1131,7 @@ e_canada = {
 			capital = 1221 #Mauricia
 			
 			c_mauricia = {
-				color = { 131 211 116 }
+				color = { 0 114 188 }
 				color2= { 255 255 20 }
 
 				quebecois = "Mauricie"
@@ -1155,7 +1176,7 @@ e_canada = {
 			}
 		}
 		d_saguenay = {
-			color = { 5 88 38 }
+			color = { 47 117 62 }
 			color2= { 220 220 0 }
 			
 			capital = 267 # Saguenay
@@ -1285,7 +1306,7 @@ e_canada = {
 	}
 
 	k_maritimes = {
-		color = { 131 62 168 }
+		color = { 49 70 133 }
 		color2= { 220 220 0 }
 		
 		culture = maritimer
@@ -1310,7 +1331,7 @@ e_canada = {
 			custom_tooltip = {
 				text = controls_pitupok_chebucto
 				hidden_tooltip = {
-					1256 = { # Pitupok
+					1257 = { # Pitupok
 						owner = {
 							OR = {
 								is_liege_or_above = ROOT
@@ -1639,88 +1660,6 @@ e_canada = {
 				b_miminegash_PEI = {}
 			}
 		}
-		d_nova_scotia = {
-			color={ 20 80 162 }
-			color2={ 255 255 255 }
-			capital = 1260 # Halifax
-
-			quebecois = "Nouvelle-Écosse"
-			ontarois = "Nouvelle-Écosse"
-			cajun = "Acadie"
-			acadien = "Acadie"
-			haitian = "Nouvelle-Écosse"
-			metis = "Nouvelle-Écosse"
-			maritimer = "Alba Nuadh"
-			newfie = "Albain Nua"
-			
-			c_halifax = {
-				color = { 157 65 157 }
-				
-				holy_site = high_church
-				holy_site = confederated
-				
-				mikmaq = "Chebucto"
-				acadien = "Chezzacook"
-				
-				b_fort_george_NS = {}
-				b_halifax_NS = {acadien = "Chezzacook"}
-				b_bridgewater_NS = {}
-				b_lunenburg_NS = {acadien = "Mirliguesh"}
-				b_dartmouth_NS = {}
-				b_lake_echo_NS = {}
-				b_enfield_NS = {}
-				b_bedford_NS = {}
-				b_fall_river_NS = {}
-			}
-			c_hants = {
-				color = { 206 65 157 }
-				
-				mikmaq = "Pisiguit"
-				
-				b_kentville_NS = {acadien = "Grand Habitat"}
-				b_wolfville_NS = {}
-				b_windsor_NS = {acadien = "Paroisse L'Assomption"}
-				b_kingston_NS = {}
-				b_bridgetown_NS = {}
-				b_middleton_NS = {}
-				b_paradise_NS = {acadien = "Le Paradis Terrestre"}
-				b_annapolis_royal_NS = {
-					quebecois = "Port-Royal"
-					cajun = "Port-Royal"
-					acadien = "Port-Royal"
-					haitian = "Port-Royal"}
-			}
-			c_cap_fourchu = {
-				color = { 255 65 157 }
-				
-				mikmaq = "Usitukun"
-				
-				b_yarmouth_NS = {}
-				b_westport_NS = {}
-				b_meteghan_NS = {}
-				b_digby_NS = {}
-				b_argyle_NS = {}
-				b_tusket_NS = {}
-				b_kemptville_NS = {}
-				b_port_maitland_NS = {}
-			}
-			c_shelburne = {
-				color = { 214 92 132 }
-				
-				acadien = "Port-Rasoir"
-				
-				b_shelburne_NS = {acadien = "Port-Rasoir"}
-				b_clarks_harbour_NS = {}
-				b_barrington_NS = {acadien = "Baccareau"}
-				b_lockeport_NS = {}
-				b_shag_harbour_NS = {}
-				b_sable_river_NS = {}
-				b_upper_ohio_NS = {}
-				b_liverpool_NS = {acadien = "Port-Rossignol"}
-				b_hunts_point_NS = {}
-				b_caledonia_NS = {}
-			}
-		}
 		d_north_nova = {
 			color = { 46 85 177 }
 			color2= { 255 255 20 }
@@ -1778,9 +1717,103 @@ e_canada = {
 				b_kemptown_NS = {}
 			}
 		}
+		d_nova_scotia = {
+			color={ 20 80 162 }
+			color2={ 255 255 255 }
+			capital = 1260 # Halifax
+
+			quebecois = "Nouvelle-Écosse"
+			ontarois = "Nouvelle-Écosse"
+			cajun = "Acadie"
+			acadien = "Acadie"
+			haitian = "Nouvelle-Écosse"
+			metis = "Nouvelle-Écosse"
+			maritimer = "Alba Nuadh"
+			newfie = "Albain Nua"
+			
+			c_halifax = {
+				color = { 157 65 157 }
+				color2={ 255 255 255 }
+				
+				holy_site = high_church
+				holy_site = confederated
+				
+				mikmaq = "Chebucto"
+				acadien = "Chezzacook"
+				
+				b_fort_george_NS = {}
+				b_halifax_NS = {acadien = "Chezzacook"}
+				b_dartmouth_NS = {}
+				b_lake_echo_NS = {}
+				b_enfield_NS = {}
+				b_bedford_NS = {}
+				b_fall_river_NS = {}
+				b_lower_sackville_NS = {}
+				b_spry_bay_NS = {}
+			}
+			c_lunenburg = {
+				color = { 214 92 132 }
+				color2={ 255 255 255 }
+				
+				acadien = "Mirliguesh"
+				
+				b_lunenburg_NS = {acadien = "Mirliguesh"}
+				b_bridgewater_NS = {}
+				b_liverpool_NS = {acadien = "Port-Rossignol"}
+				b_hunts_point_NS = {}
+				b_caledonia_NS = {}
+				b_hebbville_NS = {}
+				b_mahone_bay_NS = {}
+				b_riverport_NS = {}
+				b_new_germany_NS = {}
+				b_broad_cove_NS = {}
+			}
+			c_annapolis = {
+				color = { 206 65 157 }
+				color2={ 255 255 255 }
+				
+				mikmaq = "Pisiguit"
+				
+				b_kentville_NS = {acadien = "Grand Habitat"}
+				b_wolfville_NS = {}
+				b_windsor_NS = {acadien = "Paroisse L'Assomption"}
+				b_kingston_NS = {}
+				b_bridgetown_NS = {}
+				b_middleton_NS = {}
+				b_upper_ohio_NS = {}
+				b_paradise_NS = {acadien = "Le Paradis Terrestre"}
+				b_annapolis_royal_NS = {
+					quebecois = "Port-Royal"
+					cajun = "Port-Royal"
+					acadien = "Port-Royal"
+					haitian = "Port-Royal"}
+				b_digby_NS = {}
+			}
+			c_cap_fourchu = {
+				color = { 255 65 157 }
+				color2={ 255 255 255 }
+				
+				mikmaq = "Usitukun"
+				
+				b_yarmouth_NS = {}
+				b_shelburne_NS = {acadien = "Port-Rasoir"}
+				b_westport_NS = {}
+				b_meteghan_NS = {}
+				b_argyle_NS = {}
+				b_tusket_NS = {}
+				b_kemptville_NS = {}
+				b_port_maitland_NS = {}
+				b_lockeport_NS = {}
+				b_clarks_harbour_NS = {}
+				b_barrington_NS = {acadien = "Baccareau"}
+				b_shag_harbour_NS = {}
+				b_sable_river_NS = {}
+			}
+		}
+		
 		d_cape_breton = {
 			color = { 100 80 162 }
-			capital = 1256 # Glace
+			capital = 1257 # Sydney
 			
 			quebecois = "Île-Royale"
 			cajun = "Île-Royale"
@@ -2074,6 +2107,19 @@ e_canada = {
 					used_for_dynasty_names = no
 				}
 				b_baysville_ON = {}
+			}
+			c_temiscamingue = {
+				color = { 7 102 171 }
+				color2= { 255 255 255 }
+
+				b_belleterre_QC = {}
+				b_ville_marie_QC = {}
+				b_moffet_QC = {}
+				b_winneway_QC = {}
+				b_hunters_point_QC = {}
+				b_kipawa_QC = {}
+				b_temiscaming_QC = {}
+				b_st_bruno_de_guigues_QC = {}
 			}
 		}
 		d_thunder = {

@@ -100,10 +100,10 @@
 		prestige = 500
 		effect = {
 			spawn_unit = {
-				province = 3270  # Georgetown
+				province = 1970 # Georgetown
 				owner = ROOT
 				troops = {
-					archers = { 250 250 }
+					archers = { 500 500 }
 					heavy_infantry = { 750 750 }
 					light_infantry = { 500 500 }
 				}

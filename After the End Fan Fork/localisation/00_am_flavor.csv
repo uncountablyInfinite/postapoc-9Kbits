@@ -386,6 +386,38 @@ temple_kingdom_of_catholic;Theocracy of;Théocratie de;Theokratie von;;Teocracia 
 temple_emperor_catholic;Emperor-Bishop;Empereur très Chrétien;Kaiser-Bischof;;Emperador-obispo;;;;;;;;;x
 temple_emperor_female_catholic;Empress-Bishop;Empereur très Chrétien;Kaiser-Bischof;;Emperador-obispo;;;;;;;;;x
 
+
+temple_baron_falling_star;Acolyte;;;;;;;;;;;;;x
+temple_baron_falling_stars;Acolytes;;;;;;;;;;;;;x
+temple_baron_female_falling_star;Acolyte;;;;;;;;;;;;;x
+temple_baron_female_falling_stars;Acolytes;;;;;;;;;;;;;x
+temple_barony_of_falling_star;Congregation of;;;;;;;;;;;;;x
+temple_barony_falling_star;Congregation;;;;;;;;;;;;;x
+temple_count_falling_star;Deacon;;;;;;;;;;;;;x
+temple_count_falling_stars;Deacons;;;;;;;;;;;;;x
+temple_count_female_falling_star;Deacon;;;;;;;;;;;;;x
+temple_count_female_falling_stars;Deacons;;;;;;;;;;;;;x
+temple_county_of_falling_star;Deaconate of;;;;;;;;;;;;;x
+temple_county_falling_star;Deaconate;;;;;;;;;;;;;x
+temple_duke_falling_star;Presbyter;;;;;;;;;;;;;x
+temple_duke_falling_stars;Presbyters;;;;;;;;;;;;;x
+temple_duke_female_falling_star;Presbyter;;;;;;;;;;;;;x
+temple_duke_female_falling_stars;Presbyters;;;;;;;;;;;;;x
+temple_duchy_of_falling_star;Presbyterate of;;;;;;;;;;;;;x
+temple_duchy_falling_star;Presbyterate;;;;;;;;;;;;;x
+temple_king_falling_star;Bishop;;;;;;;;;;;;;x
+temple_king_falling_stars;Bishops;;;;;;;;;;;;;x
+temple_king_female_falling_star;Bishop;;;;;;;;;;;;;x
+temple_king_female_falling_stars;Bishops;;;;;;;;;;;;;x
+temple_kingdom_of_falling_star;Bishopric of;;;;;;;;;;;;;x
+temple_kingdom_falling_star;Bishopric;;;;;;;;;;;;;x
+temple_emperor_falling_star;Elder;;;;;;;;;;;;;x
+temple_emperors_falling_star;Elders;;;;;;;;;;;;;x
+temple_emperor_female_falling_star;Elder;;;;;;;;;;;;;x
+temple_emperor_female_falling_stars;Elders;;;;;;;;;;;;;x
+temple_empire_of_falling_star;Eldership of;;;;;;;;;;;;;x
+temple_empire_falling_star;Eldership;;;;;;;;;;;;;x
+
 temple_baron_mesoamerican_gods;Priest;;;;;;;;;;;;;x
 temple_baron_mesoamerican_godss;Priests;;;;;;;;;;;;;x
 temple_count_mesoamerican_gods;High Priest;;;;;;;;;;;;;x
@@ -909,6 +941,23 @@ temple_kingdom_american_native;Shaman-Kingdom;;;;;;;;;;;;;x
 temple_empire_of_american_native;Shaman-Empire of;;;;;;;;;;;;;x
 temple_empire_american_native;Shaman-Empire;;;;;;;;;;;;;x
 temple_emperor_american_native;Celestial Shaman;;;;;;;;;;;;;x
+
+job_spiritual_peyotist;First Roadman;;;;;;;;;;;;;x
+temple_baron_peyotist;Roadman;;;;;;;;;;;;;x
+temple_barony_of_peyotist;Great Tipi of;;;;;;;;;;;;;x
+temple_barony_peyotist;Great Tipi;;;;;;;;;;;;;x
+temple_count_peyotist;Roadman-Chief;;;;;;;;;;;;;x
+temple_county_of_peyotist;Roadman-Chiefdom of;;;;;;;;;;;;;x
+temple_county_peyotist;Roadman-Chiefdom;;;;;;;;;;;;;x
+temple_duke_peyotist;Roadman-Lord;;;;;;;;;;;;;x
+temple_duchy_of_peyotist;Roadman-Lordship of;;;;;;;;;;;;;x
+temple_duchy_peyotist;Roadman-Lordship;;;;;;;;;;;;;x
+temple_king_peyotist;Roadman-King;;;;;;;;;;;;;x
+temple_kingdom_of_peyotist;Roadman-Kingdom of;;;;;;;;;;;;;x
+temple_kingdom_peyotist;Roadman-Kingdom;;;;;;;;;;;;;x
+temple_empire_of_peyotist;Roadman-Empire of;;;;;;;;;;;;;x
+temple_empire_peyotist;Roadman-Empire;;;;;;;;;;;;;x
+temple_emperor_peyotist;Celestial Roadman;;;;;;;;;;;;;x
 
 temple_baron_gaian;Druid;;;;;;;;;;;;;x
 temple_baron_female_gaian;Druidess;;;;;;;;;;;;;x
@@ -1560,8 +1609,8 @@ gov_hereditary_despotic_monarchy_guyanese;Hereditary Despotic [PrimaryTitle.GetT
 gov_hereditary_absolute_autocracy_guyanese;Hereditary Absolute Imperial Autocracy;Autocratie impériale (régime absolu);Absolute Kaiserliche Autokratie;;Autocracia imperial absoluta;;;;;;;;;;;;;x
 gov_hereditary_despotic_autocracy_guyanese;Hereditary Despotic Imperial Autocracy;Autocratie impériale (régime despotique);Despotische Kaiserliche Autokratie;;Autocracia imperial despótica;;;;;;;;;;;;;x
 gov_hereditary_aristocratic_autocracy_guyanese;Hereditary Aristocratic Imperial Autocracy;Autocratie impériale (régime aristocratique);Aristokratische Kaiserliche Autokratie;;Autocracia imperial aristocrática;;;;;;;;;;;;;x
-gov_hereditary_sol;Hereditary [PrimaryTitle.GetTier] of Sol Invicta;;;;;;;;;;;;;x
-gov_electorial_sol;Elective [PrimaryTitle.GetTier] of Sol Invicta;;;;;;;;;;;;;x
+gov_hereditary_sol;Hereditary [PrimaryTitle.GetTier] of Eréndira;;;;;;;;;;;;;x
+gov_electorial_sol;Elective [PrimaryTitle.GetTier] of Eréndira;;;;;;;;;;;;;x
 gov_native_eldership;[Religion.GetName] Eldership;Conseil des anciens ([Religion.GetName]);[Religion.GetName]e-Ältestenherrschaft;;Anciano [Religion.GetName];;;;;;;;;x
 gov_noble_native_eldership;Noble [Religion.GetName] Eldership;Conseil noble des anciens ([Religion.GetName]);Aristokratische [Religion.GetName]e-Ältestenherrschaft;;Noble anciano [Religion.GetName];;;;;;;;;x
 gov_ecumenical;[Religion.GetName] Council Seat;;;;;;;;;;;;;x
@@ -1704,6 +1753,8 @@ martyrs_ashes;Martyr's Ashes;;;;;;;;;;;;;x
 martyrs_ashes_desc;The ashes of a Revelationist martyr, cremated in accordance with the ancient rites.;;;;;;;;;;;;;x
 divine_egg;Divine Egg;;;;;;;;;;;;;x
 divine_egg_desc;An enormous iron egg emblazoned with the sacred trefoil. When the time is right, it will hatch and Atomos will be reborn.;;;;;;;;;;;;;x
+plutonium_mace;Mace of Plutos;;;;;;;;;;;;;x
+plutonium_mace_desc;A holy mace once said to be wielded by the great warrior Plutos, servant to Fat Man. The metal used in crafting this weapon is said to be enchanted by Atomos.;;;;;;;;;;;;;x
 ate_firearm;Old World Firearm;;;;;;;;;;;;;x
 ate_firearm_desc;A lovingly restored and functional pre-calamity firearm.;;;;;;;;;;;;;x
 ate_calculator;Old World Calculator;;;;;;;;;;;;;x
@@ -1785,7 +1836,7 @@ ate_sampo_desc;A strangely well-crafted quern, bearing a striking resemblance to
 ate_fetish_of_souls;The Fetish of Souls;Le Fétiche des Âmes;Der Seelenfetisch;;El fetiche de almas;;;;;;;;;;;;;x
 ate_fetish_of_souls_desc;A piece of bark that has grown into the shape of a trio of visages. The trio's unsettling gazes pierce one's soul, almost as if some form of spirit still remains behind their eyes...;Un morceau d'écorce qui a pris la forme de plusieurs visages. Les trois regards troublants transpercent l'âme, presque comme si une certaine forme d'esprit restait derrière leurs yeux...;Ein Stück Rinde, das so gewachsen ist, dass seine Form ein Trio aus Gesichtern bildet. Der unheimliche Blick der Drei dringt dem Betrachter bis tief in die Seele, ganz so als ob hinter den Augen noch immer ein Fünkchen Leben wohnte.;;Un pedazo de corteza con la forma de tres rostros. Las inquietantes miradas del trío penetran en tu alma, casi como si existiera alguna clase de espíritu tras sus ojos...;;;;;;;;;x
 king_james_bible;King James Bible;;;;;;;;;;;;;x
-king_james_bible_desc;The King James Bible has been the gold standard of all English-language bibles for over a millennium. However, only twelve complete pre-Event copies of the King James Bible are known to exist today, and the text is indecipherable without special training.;;;;;;;;;;;;;x
+king_james_bible_desc;The King James Bible has been the gold standard of all High American bibles for over a millennium. However, only twelve complete pre-Event copies of the King James Bible are known to exist today, and the text is indecipherable without special training.;;;;;;;;;;;;;x
 ate_mardi_gras_beads;Mardi Gras Beads;;;;;;;;;;;;;x
 ate_mardi_gras_beads_desc;Once common during festivals in New Orleans, these plastic beads were distributed to anyone who attended these events before the Event. Plastic is now a rare commodity, but not too uncommon, often found by peasants and farmers from time to time.;;;;;;;;;;;;;x
 golden_fencing_saber;Golden Saber;;;;;;;;;;;;;x

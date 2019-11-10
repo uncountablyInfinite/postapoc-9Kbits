@@ -61,8 +61,8 @@ BM_GODS_AND_KINGS_DESC;The lands west of the Rockies are said to be beacons of p
 BM_GODS_AND_KINGS_ERA_INFO;The lands west of the Rockies are said to be beacons of peace and prosperity, but life in the 27th century is no utopia. The mighty empire of California, which enjoyed centuries of stable rule over nearly all the west coast, has been thrown into chaos by six warring kingdoms, each desiring control over the Emperor and harboring their own ambitions, while the Cascadian kings struggle against Haida invaders, the Mormons of Deseret spread their faith northwards at swordpoint, and Arixan cowboys clash with Navajo, Hopi, and tinkers of the Atomicist faith. Can the peace so many sing about ever be restored to the region?;;;;;;;;;;;;;x
 BM_SOUTH_OF_THE_BORDER;South of the Border;;;;;;;;;;;;;x
 BM_SOUTH_OF_THE_BORDER_ERA;South of the Border;;;;;;;;;;;;;x
-BM_SOUTH_OF_THE_BORDER_DESC;As Mictlantec and Sol Invicta heathens consolidate their power in the Valley of Mexico, the followers of the Sacred Heart begin to call for a grand reconquista of the old Empire of Mexico. In the midst of this chaos, the merchants of Veracruz and Colima grow rich from trade between the Anglos and those further south. The Atom-worshipping lords of Sonora and Tejano conquerors of Sierra Madre must defend their conquests from those still loyal to the Sacred Heart. The Kingdom of Yucatan is strong, but dissension between Yucatecs and Mayas threatens it from within as the growing Caribbean Empire threatens it from without.;;;;;;;;;;;;;x
-BM_SOUTH_OF_THE_BORDER_ERA_INFO;As Mictlantec and Sol Invicta heathens consolidate their power in the Valley of Mexico, the followers of the Sacred Heart begin to call for a grand reconquista of the old Empire of Mexico. In the midst of this chaos, the merchants of Veracruz and Colima grow rich from trade between the Anglos and those further south. The Atom-worshipping lords of Sonora and Tejano conquerors of Sierra Madre must defend their conquests from those still loyal to the Sacred Heart. The Kingdom of Yucatan is strong, but dissension between Yucatecs and Mayas threatens it from within as the growing Caribbean Empire threatens it from without.;;;;;;;;;;;;;x
+BM_SOUTH_OF_THE_BORDER_DESC;As Mictlantec and Jurihiata Ikikunari heathens consolidate their power in the Valley of Mexico, the followers of the Sacred Heart begin to call for a grand reconquista of the old Empire of Mexico. In the midst of this chaos, the merchants of Veracruz and Colima grow rich from trade between the Anglos and those further south. The Atom-worshipping lords of Sonora and Tejano conquerors of Sierra Madre must defend their conquests from those still loyal to the Sacred Heart. The Kingdom of Yucatan is strong, but dissension between Yucatecs and Mayas threatens it from within as the growing Caribbean Empire threatens it from without.;;;;;;;;;;;;;x
+BM_SOUTH_OF_THE_BORDER_ERA_INFO;As Mictlantec and Jurihiata Ikikunari heathens consolidate their power in the Valley of Mexico, the followers of the Sacred Heart begin to call for a grand reconquista of the old Empire of Mexico. In the midst of this chaos, the merchants of Veracruz and Colima grow rich from trade between the Anglos and those further south. The Atom-worshipping lords of Sonora and Tejano conquerors of Sierra Madre must defend their conquests from those still loyal to the Sacred Heart. The Kingdom of Yucatan is strong, but dissension between Yucatecs and Mayas threatens it from within as the growing Caribbean Empire threatens it from without.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1910107;California has seen better days. The Emperor has become a mere figurehead, with his former governors acting as independent rulers in all but name. Can you reunite California under its divinely-ordained ruler, or will disharmony and strife continue to reign?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_2000011;Marchioness Portia of Jamaica has built a great empire through conquest and diplomacy. But as she grows old, earls and marquises plot to break away or gain the throne for themselves, united only in hatred for the vile Prince Barrington. Worshippers of the orishas, the loa, and Jah are in constant conflict. Can you hold the Caribbean together, or will the Empire survive only as a historical footnote?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1788001;Hudsonia's fortunes have declined somewhat, from its glory days under the Rodham kings. Although the realm is mostly united, the authority of the crown is weakened, and Baltus III Groot's reign is plagued by religious strife, disloyal vassals, Rodham claimants to the throne and the perpetual threat of Occultists to the east. Can you ride the storm and restore Hudsonia to its old strength, or are Baltus and his kingdom doomed to obscurity?;;;;;;;;;;;;;x
@@ -81,11 +81,11 @@ ERA_CHAR_INFO_1875001;In the years since the apocalypse, the Comanche have been 
 ERA_CHAR_INFO_1667035;Maskwa Pîwâpisk was given his first name, meaning "Bear", in honor of a legendary Cree leader from the distant past. However, Maskwa bestowed his second name, meaning "Iron", upon himself, to reflect the future which he intends to forge. Inspired by the great multi-ethnic Iron Confederacy that once claimed dominance over the northern Great Plains, Maskwa seeks to expand his already sizeable realm into one worthy of reclaiming that title, allowing both the Cree and the other nations of the Great Plains to stand as equals against those who would steal their lands and wealth. Will Maskwa succeed in his task, or will his ambitions be dented?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1200041;King Tsaa Hamjuuwee is the ruler of the great kingdom of Haida Tlagaang, which occupies the coast of what was once British Columbia. The expansionist ambitions of his ancestors were checked by the Freelander Kingdom of Cascadia, but that realm is no more. Tsaa Hamjuuwee now has the opportunity to expand south and claim the entire Northwest for House Tlgunghung. Will Tsaa Hamjuuwee lead his dynasty to a glorious future, or will the daughters and sons of the Earth prove hardier than expected?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1889001;Nearly two centuries ago, the area now known as Lakotah used to be home to a thriving Americanist empire centered at Rushmore. Times change, however, and the Sioux have now filled the previous power vacuum in the region. King Tasinagi Hokwoju is the first of these Sioux kings, having formed Lakotah 22 years ago. In the South, Catholics and the threat of holy war loom. In the East, the hostile Norsemen may soon unite and challenge Lakotah. But the Sioux are as resilient now as they were before the Event. They are warriors, and King Tasinagi won't let his young kingdom go gently.;;;;;;;;;;;;;x
-ERA_CHAR_INFO_1810083;House Iturbide claims direct descent from the pre-Event Emperors of Mexico, but they have fallen on hard times. The current head of the Iturbides, Wenceslao I, rules over a vestigial kingdom barely worthy of the name "Mexico". Surrounded by heathen Mesoamericans, rival kings, and squabbling principalities, it seems unlikely that the rulers of Mexico will ever be able to regain their former glory. Will Wenceslao defy the odds and start a new golden age for his dynasty, or will House Iturbide continue its slow fall into obscurity?;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1810083;House Iturbide once ruled all of Mexico, but they have fallen on hard times by the year 2666. The current head of the Iturbides, Wenceslao I, rules over a vestigial kingdom barely worthy of the name "Mexico". Surrounded by heathen Mesoamericans, rival kings, and squabbling principalities, it seems unlikely that the rulers of Mexico will ever be able to regain their former glory. Will Wenceslao defy the odds and reverse his dynasty's fortune, or is Mexico doomed to stay shattered forever?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1875009;The Cherokee people were driven from their ancestral homeland centuries ago, and, unlike their Comanche neighbors, they have not yet reconquered it. The current leader of the Cherokee, Will-usdi, does not seem like the kind of ruler who will lead his people to glory - he is known for his complacent nature and his tendency to shy away from conflict. It looks like the Cherokee will stay in their neighbor's shadow for decades to come... unless Will-usdi can defy expectations and carry his tribe to new heights.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1810200;When he was a young man, King Louis embarked on a holy conquest of Mexico in the name of the Atom. He carved out a realm for himself south of the Rio Grande, establishing a feudal kingdom in what was once a barren and desolate wasteland. However, King Louis is no longer a young man - he is now 73 years old, and it seems that he will soon become one with the Atom. Although his son Jesús seems like a worthy successor, some still fear that the Kingdom of Sierra Madre is doomed to fall to the worshippers of the Sacred Heart.;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1800025;The Shareef of Guyana, Geert-Jan, won his throne in the fires of revolt against the former Hindu rulers of the kingdom. However, that was in the prime of his youth - the Shareef is now an aging man, disillusioned with his court and unconcerned with his family after a chunk of Guyanese territory, including his former capital, was annexed by the Hindu Stokely the Conqueror. With the majority of his populace being Hindu, Geert-Jan is at the knife's edge - will he be able to ensure that Muslim rule in Guyana lasts beyond his life, or is he yet another failed ruler?;;;;;;;;;;;;;x
-ERA_CHAR_INFO_1800010;King Stokely "the Conqueror" has certainly earned his nickname. In less than a decade, Stokely quadrupled the size of his island realm by taking advantage of religious strife in the nearby Kingdom of Guyana. Stokely's forces were welcomed as liberators by fellow Hindus who had been placed under the Muslim yoke of Guyana. However, taking land and keeping land are two very different things, and the Sharifate of Guyana probably won't take their defeat lying down...;;;;;;;;;;;;;x
+ERA_CHAR_INFO_1325002;King Zuangua of Michoacán is the grandson of the great King Kuruchi, a humble peasant who was divinely appointed by the goddess Eréndira to strike down the wicked Empire of Mexico. Nearly fifty years later, the empire's remnants are still reeling from its loss. However, Zuangua cannot rest on his laurels. The agents of darkness in Mexico City have begun spreading the idea of a "holy reconquest", and the sons of Kuruchi will surely be one of their first targets. Will Zuangua pick up his grandfather's divine torch, or will darkness consume Mesoamerica once more?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1491004;Hastiin Dodge is the current leader of the ancient Navajo people, and things are looking better than ever for them. The Navajo are the undisputed rulers of their homeland, and their co-religionists in the Kingdom of Deseret are valuable allies. However, all is not well in Navajoland. Hastiin is getting old, and his three sons have already begun vying for power in anticipation of his death. Will Navajo remain a Mormon bulwark in Arixo, or will they be divided and weak in the face of the Atomicist heathens to their south?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1788017;The Iroquois are the only native people east of the Mississippi that have retained a foothold in their ancestral lands, and they are led by the young Duke Hiawatha Onondaga of Cayuga. Named for the ancient founder of the Iroquois Confederacy, Hiawatha has already proven himself equal to his namesake in diplomatic skill. However, he is still a vassal to the King of Hudsonia, and the Iroquois people are still a minority in their own lands. Can Hiawatha revive the legacy of the Iroquois, or will he prove unable to match his namesake?;;;;;;;;;;;;;x
 ERA_CHAR_INFO_1513001;Elias Waltney is the latest ruler of the noble and ancient Tribe of the Mouse. The forefathers of his tribe ruled Orlando in the days before the Event, and it is claimed that they turned this patch of marshland into "the happiest place on Earth." However, Elias faces challenges from both within and without. Elias's days as a charming prince have come and gone, but he still lacks an heir. To make matters worse, both the Holy Columbian Confederacy and the Caribbean Empire eye his lands hungrily. Elias's diplomatic skill can only keep them at bay for so long. Will Elias's story have a happy ending?;;;;;;;;;;;;;x
@@ -113,7 +113,7 @@ ERA_CHAR_NAME_AMMARON;Ammaron Anthophile;;;;;;;;;;;;;x
 ERA_CHAR_NAME_PORTIA;Portia Bustamante;;;;;;;;;;;;;x
 ERA_CHAR_NAME_WENECESLAO;Wenceslao Iturbide;;;;;;;;;;;;;x
 ERA_CHAR_NAME_GEERT_JAN;Geert-Jan Zonnebeld;;;;;;;;;;;;;x
-ERA_CHAR_NAME_STOKELY;Stokely Best;;;;;;;;;;;;;x
+ERA_CHAR_NAME_ZUANGUA;Zuangua Iurhúri;;;;;;;;;;;;;x
 ERA_CHAR_NAME_LUIS;Luis de Armas;;;;;;;;;;;;;x
 ERA_CHAR_NAME_PAUL;Paul Mahonic;;;;;;;;;;;;;x
 ERA_CHAR_NAME_HASTIIN;Hastiin Dodge;;;;;;;;;;;;;x
@@ -243,7 +243,7 @@ native;Native;;;;;;;;;;;;;x
 navajo;Navajo;;;;;;;;;;;;;x
 neoladino;Neoladino;;;;;;;;;;;;;x
 neomexicano;Neomexicano;;;;;;;;;;;;;x
-new_english;New English;;;;;;;;;;;;;x
+new_english;Colonial;;;;;;;;;;;;;x
 newfie;Newfie;;;;;;;;;;;;;x
 northwest_coast;Northwest Coast;;;;;;;;;;;;;x
 nigerian;Nigerian;;;;;;;;;;;;;x
@@ -345,7 +345,7 @@ neognostic;Neo-Gnostic;;;;;;;;;;;;;x
 neognostic_DESC;Neo-Gnostism (re)emerged in Colorado as a syncretic faith combining teachings coming from the the Cetic west and the Catholic east. Neo-Gnostics have amalgamated the belief in the Christian God with the rejection of the material world often found in Cetic schools of thought. They believe that Salvation can be found in worship of Christ and that they can find Enlightenment through his teachings. Gnostics see material processions and desires as secondary to Oneness with God. They reject the material world (matter, flesh) as being the work of Satan and seek to embrace the 'Gnosis' of God (knowledge, enlightenment, salvation).;;;;;;;;;;;;;x
 neognostic_FEATURES;§Y*§! Are considered a Catholic heresy owing to their agreement with the Catholic understanding of God and the Saints, while dismissing the teachings of most Cetic Gurus.\n§Y*§! May have ambitions to remove vices.;;;;;;;;;;;;;x
 sedevacantist;Sedevacantist;;;;;;;;;;;;;x
-sedevacantist_DESC;The name Sedevancantist comes from the Latin term 'Sede Vacante', meaning 'the seat is vacant'. Sedevacantists reject the authority of the Pope of New Rome, denying his right to call himself successor of the Pope of Old Rome because it cannot be established if the Papacy of the Old World still exists. Even if it has ceased to exist, they reject the notion that the Bishop of New Rome (St. Louis) could or should have the same authority as the original Pope. They argue that the Primacy of Rome cannot be duplicated merely out of convenience, feel the Bishop of New Rome has no more right to be head of their faith than any other bishop in the land, and call his College of Cardinals a sham and cabal of co-conspirators. Instead, Sedevancantists believe the office of Pope should be considered 'vacant' until a true Pope returns, unless it can be confirmed the original Papacy is no more.;;;;;;;;;;;;;x
+sedevacantist_DESC;The name Sedevancantist comes from the Latin term 'Sede Vacante', meaning 'the seat is vacant'. Sedevacantism split from mainstream Catholicism shortly after the collapse of the Old World, arguing that the Papacy could not continue out of contact with the city of Rome and that the Cardinals' attempts to do so defied the doctrine of primacy and were therefore invalid. Thus, the Sedevacantists do not recognise the authority of the Pope in St Louis and consider the seat of the Papacy to be vacant. Theological differences quickly sprang up between these two groups, making full reconciliation unlikely if not impossible.;;;;;;;;;;;;;x
 ursuline;Ursuline;;;;;;;;;;;;;x
 ursuline_DESC;The Ursulines originated as an antediluvian religious order, patronized by Saint Ursula. Introduced to the Americas during the colonial era, their presence could be found wherever the French colonized. During and shortly after the great cataclysm, Quebecois Roman Catholics, unable to contact old Rome, turned to the Ursuline order for leadership. Since then the Ursulines have served as Quebec's continuation of antediluvian Catholicism, and their followers have steadfastly refused to recognize the American Pope in New Rome.;;;;;;;;;;;;;x
 ursuline_FEATURES;§Y*§! The Abbess-General is elected via the same mechanics as the Pope.\n§Y*§! Women are the only ones who can become priests or cardinals.;;;;;;;;;;;;;x
@@ -407,7 +407,7 @@ voodoo_DESC;Descended from West African Vodun, Voodoo originated in 18th century
 voodoo_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.\n§Y*§! May crush the mind of a prisoner with poison, turning them into a zombi.\n§Y*§! Possession by the Loa may grant various advantages and disadvantages.;;;;;;;;;;;;;x
 african_group;African;;;;;;;;;;;;;x
 afro_syncretic;Afro-Syncretic;;;;;;;;;;;;;x
-catholic_DESC;Catholicism is one of the oldest branches of Christianity, and survived the cataclysmic events of centuries past by the skin of its teeth. The Papacy is now located in old St. Louis, as contact with Rome was lost. The formal head of the religion is the Bishop of New Rome - the Pope.;;;;;;;;;;;;;x
+catholic_DESC;Catholicism is one of the oldest branches of Christianity, and it survived the cataclysmic events of centuries past by the skin of its teeth. The unmatched destruction wrought by the Deluge, coupled with the total loss of contact with Rome, led the surviving Cardinals in America to conclude that the Pope and his Curia in Rome must have been destroyed. This left the rump American Curia with sole authority over apostolic succession. Eventually, the American Papacy established temporal control over the city of St. Louis and its environs. Because of its association with the Papacy, St. Louis earned the nickname "New Rome", although the Papacy has been careful not to use this term officially. The formal head of the religion is the New Bishop of Rome - the Pope.;;;;;;;;;;;;;x
 santeria;Santería;;;;;;;;;;;;;x
 santeria_DESC;Santería, translating roughly to "devotion to the saints", is an Afro-Cuban religion that can be traced back to the Yoruba people of West Africa. Believers worship three aspects of one god: Olodumaré the Creator, Olorun, who manifests as the Sun, and Olofi, who directly communicates with the Orichás - or "Saints" - and grants them spiritual energy to act as intermediaries between man and God, as well as to help mankind live moral, harmonious lives.;;;;;;;;;;;;;x
 santeria_FEATURES;§Y*§! May go on vision quests with the aid of sacramental herbs.;;;;;;;;;;;;;x
@@ -435,8 +435,8 @@ mesoamerican_gods;Mesoamerican;;;;;;;;;;;;;x
 mictlantec;Mictlantec;;;;;;;;;;;;;x
 mictlantec_DESC;Mictlantec is a revival of old Aztec traditions for the new Age of the Dead Sun. The previous cycle ended in apocalypse with the near destruction of the sun god Huitzilopochtli in his struggle against the darkness. Death god Mictlantecuhtli was largely responsible for saving humanity, and is now considered the sun god.;;;;;;;;;;;;;x
 mictlantec_FEATURES;§Y*§! Sacrifice prisoners to their gods, either individually or in a major ceremony. \n§Y*§! Kings and emperors are expected to declare themselves Incarnates (living gods).\n§Y*§! May go on vision quests after a ceremony of human sacrifice. \n§Y*§!May declare Flower Wars to gain captives for sacrifice.;;;;;;;;;;;;;x
-sol_invicta;Sol Invicta;;;;;;;;;;;;;x
-sol_invicta_DESC;Sol Invicta is a syncretic religion that emerged after the Event, blending both Catholic and Aztec influences. Like the Mictlantec, Sol Invictists believe that light and darkness are locked in perpetual conflict. However, unlike the Mictlantec faith, Sol Invicta is a monotheistic religion. Their supreme deity is the sun goddess known as Sol Invicta, the Unconquered Sun. Adherents believe that Sol Invicta is locked in an eternal war with the evil Dark Father, and that the Event was the result of a particularly destructive battle between the two deities.;;;;;;;;;;;;;x
+sol_invicta;Jurihiata Ikikunari;;;;;;;;;;;;;x
+sol_invicta_DESC;Jurihiata Ikikunari is a religion based on Mesoamerican mythology that emerged after the Event. Followers of Jurihiata Ikikunari revere Eréndira, the sun goddess. When the forces of darkness came to enslave Mexico, Eréndira, then a mortal princess, fought valiantly against them by teaching her people the ways of the horse. Although she failed to stop the conquest of darkness, she ascended to Aúandarhu, the land of the gods, instead of dying. Over time, the gods in Aúandarhu began to vanish because of the influence of the darkness on their people. The last god to vanish, the sun god, passed his mantle to Eréndira. The new sun goddess then used her divine power to free Mexico by wiping the world's slate clean. The darkness still fights to regain its power, but Eréndira will always protect her faithful...;;;;;;;;;;;;;x
 neomayan;Neomayan;;;;;;;;;;;;;x
 neomayan_DESC;Neomayanism is a mixture of both Mayan beliefs and obscure Old World spirituality. According to their own history, the original Mayan civilization was not completely destroyed. It instead moved on to a new reality as a result of their collective worship of all things and the grace of Hunab Ku, the One True God. Neomayans believe that they currently live in the Age of Aquarius, and that the beginning of this age was ushered in by a period where the Earth was consumed in Darkness. The Darkness destroyed the corrupt world order that preceded the Age of Aquarius, but it also allowed many unnatural creatures and negative energies to enter the natural world. In order to protect oneself from these dangers, one must devote themselves totally to Hunab Ku.;;;;;;;;;;;;;x
 neomayan_FEATURES;§Y*§! Women are capable of fighting as warriors. \n§Y*§! Are adherents of the ancient practice of Astrology.;;;;;;;;;;;;;x
@@ -473,7 +473,7 @@ raven_tales_reformed;Xhúuyee K'iigaang;;;;;;;;;;;;;x
 raven_tales_reformed_DESC;Followers of Xhúuyee K'iigaang revere supernatural beings described in their sacred tales, Raven (Xhúuyee) foremost among them. In some tales Raven is playful and benevolent, while in others he is greedy, treacherous, and wanton. He is sometimes loved and sometimes feared. Raven indirectly made the world by stealing and transforming that which came before, and preserved the Haida though the Dark Times with cleverness and trickery. Other Xhúuyee K'iigaang gods include Ta'xet and Tia, who rule respectively over violent and peaceful death. The reformed Xhúuyee K'iigaang faith has a new religious hierarchy and a codified holy text.;;;;;;;;;;;;;x
 latter_day_saints;Latter-Day Saints;;;;;;;;;;;;;x
 mormon;Mormon;;;;;;;;;;;;;x
-mormon_DESC;With roots in Ancient America's frontier, Mormonism has a solid hold on many parts of the Old West. Although based on Christian foundations, the Church of Latter-Day Saints has many additional books, customs, and traditions which have caused it to be treated differently from some elements of mainstream Christianity. With the chaos of the apocalypse, these attitudes were exacerbated, and Mormonism is widely treated as a wholly distinct entity from the Christian world of New Rome and the Protestantism of the East.;;;;;;;;;;;;;x
+mormon_DESC;With roots in Ancient America's frontier, Mormonism has a solid hold on many parts of the Old West. Although based on Christian foundations, the Church of Latter-Day Saints has many additional books, customs, and traditions which have caused it to be treated differently from some elements of mainstream Christianity. With the chaos of the apocalypse, these attitudes were exacerbated, and Mormonism is widely treated as a wholly distinct entity from the Catholicism of New Rome and the Protestantism of the East.;;;;;;;;;;;;;x
 mormon_FEATURES;§Y*§! The President of the Quorum of the Twelve is elected using the same mechanics as the Pope.;;;;;;;;;;;;;x
 bickertonite;Bickertonite;;;;;;;;;;;;;x
 bickertonite_DESC;The Bickertonite faithful consider themselves the true continuation of the Mormon faith, following the events of the calamity. The Bickertonites believe that they have a sacred duty to share the gift of salvation with people of every race, and allow women to be ordained into the priesthood, unlike other LDS sects.;;;;;;;;;;;;;x
@@ -575,7 +575,7 @@ marian_el_santo_desc;This Sagrado Corazón adherent is a member of the cult of El
 marian_santa_muerte;Santa Muerte;;;;;;;;;;;;;x
 marian_santa_muerte_desc;Followers of Santa Muerte are generally members of the Cult of Death, commonly known as 'Muertenos'.;;;;;;;;;;;;;x
 marian_guadalupe;Our Lady of Guadalupe;;;;Nuestra Señora de Guadalupe;;;;;;;;;x
-marian_guadalupe_desc;The Patroness of Lords and Protectress of the Pious, Our Lady of Guadelupe has been the most popular figure in the pantheon of el Sagrado Corazón since time immemorial.;;;;;;;;;;;;;x
+marian_guadalupe_desc;The Patroness of Lords and Protectress of the Pious, Our Lady of Guadalupe has been the most popular figure in the pantheon of el Sagrado Corazón since time immemorial.;;;;;;;;;;;;;x
 
 MAPMODE_DUCHIES_DESC;This map mode shows all the geographical and traditional ('de jure') duchies of the Americas.;Ce mode de carte affiche tous les duchés géographiques et traditionnels (de Jure) les Amériques.;Dieser Kartenmodus zeigt alle geografischen und traditionellen (rechtmäßigen) Herzogtümer Amerika.;;Este modo de mapa muestra todos los ducados geográficos y tradicionales (de iure) de las Américas.;;;;;;;;;x
 MAPMODE_KINGDOMS_DESC;This map mode shows all the geographical and traditional ('de jure') kingdoms of the Americas.;Ce mode de carte affiche tous les royaumes géographiques et traditionnels (de Jure) les Amériques.;Dieser Kartenmodus zeigt alle geografischen und traditionellen (rechtmäßigen) Königreiche Amerika.;;Este modo de mapa muestra todos los reinos geográficos y tradicionales (de iure) de las Américas.;;;;;;;;;x
@@ -653,7 +653,7 @@ apostolic_pedro_desc;This character reveres Emperor Pedro II of Brazil, otherwis
 apostolic_aparecida;Nossa Senhora Aparecida;;;;;;;;;;;;;x
 apostolic_aparecida_desc;This character reveres Our Lady of Aparecida, the traditional patroness of Brazil. Adherents of this cult tend to be highly devout, and avoid allowing elements of other faiths to influence their worship.;;;;;;;;;;;;;x
 apostolic_bonfim;Nosso Senhor do Bonfim;;;;;;;;;;;;;x
-apostolic_bonfim_desc;This character reveres Our Lord of the Good End, centered in the city of Salvador. Followers of this cult are more open to religious syncretism than most other Apostolics.;;;;;;;;;;;;;x
+apostolic_bonfim_desc;This character reveres Our Lord of the Good End, a representation of Jesus at the moment of his death on the cross. Followers of this cult are more open to religious syncretism than most other Apostolics.;;;;;;;;;;;;;x
 bad_priest_mormon;Improper Priest;;;;;;;;;;;;;x
 bad_priest_mormon_desc;The personality and habits of this Mormon priest are very inappropriate for [GetHerHis] position. And what's worse, [GetSheHe] has been unable to hide them from public view.;;;;;;;;;;;;;x
 peyotist_leader;Buffalo-Killer;;;;;;;;;;;;;x
@@ -806,6 +806,7 @@ BABYLON;Babylon;;;;;;;;;;;;;x
 BAG_O_WIRE;Bag o' Wire;;;;;;;;;;;;;x
 BIG_BOSS;Big Boss;;;;;;;;;;;;;x
 BAAL;Ba'al;;;;;;;;;;;;;x
+BISHOP;Bishop;;;;;;;;;;;;;x
 BONDYE;Bondye;;;;;;;;;;;;;x
 BOSS;Boss;;;;;;;;;;;;;x
 BOSS_FOA;Boss;;;;;;;;;;;;;x
@@ -816,6 +817,8 @@ CHARTER_PRESIDENT;Charter-President;;;;;;;;;;;;;x
 CHIEF_FOA;Your Chieftaincy;;;;;;;;;;;;;x
 CHIEF_FOREMAN;Chief Foreman;;;;;;;;;;;;;x
 CHIEF;Chief;;;;;;;;;;;;;x
+COACH;Coach;;;;;;;;;;;;;x
+COACH_FOA;Coach;;;;;;;;;;;;;x
 COLONEL_FOA;Sir;;;;;;;;;;;;;x
 COLONEL;Colonel;;;;;;;;;;;;;x
 COMMISSIONER;Commissioner;;;;;;;;;;;;;x
@@ -874,12 +877,14 @@ GOD_DANU;Danu;;;;;;;;;;;;;x
 GOD_DEUS;Deus;;;;;;;;;;;;;x
 GOD_EARTH_MOTHER;Earth Mother;;;;;;;;;;;;;x
 GOD_EPONA;Epona;;;;;;;;;;;;;x
+GOD_ERENDIRA;Eréndira;;;;;;;;;;;;;x
 GOD_ERIS;Eris;;;;;;;;;;;;;x
 GOD_ERZULIE_FREDA;Erzulie Freda;;;;;;;;;;;;;x
 GOD_FAT_MAN;Fat Man;;;;;;;;;;;;;x
 GOD_FATHER_BESSEMER;Father Bessemer;;;;;;;;;;;;;x
 GOD_FATHER_FORD;Father Ford;;;;;;;;;;;;;x
 GOD_GAIA;Gaia;;;;;;;;;;;;;x
+GOD_GITCHE_MANITOU;Gitche Manitou;;;;;;;;;;;;;x
 GOD_GLOOSCAP;Glooscap;;;;;;;;;;;;;x
 GOD_GUAICAIPURO;Guaicaipuro;;;;;;;;;;;;;x
 GOD_GUATAVITA;Guatavita;;;;;;;;;;;;;x
@@ -900,6 +905,7 @@ GOD_JEFFERSON;Jefferson;;;;;;;;;;;;;x
 GOD_JEHOVAH;Jehovah;;;;;;;;;;;;;x
 GOD_JESUCRISTO_NAHUAL;Jesucristo Nahual;;;;;;;;;;;;;x
 GOD_JOSE_GREGORIO;José Gregorio;;;;;;;;;;;;;x
+GOD_JURIHATA;Jurihata;;;;;;;;;;;;;x
 GOD_KABRAKAN;Kabrakán;;;;;;;;;;;;;x
 GOD_KALFU;Petro Kalfu;;;;;;;;;;;;;x
 GOD_KAMI_SAMA;Kami-sama;;;;;;;;;;;;;x
@@ -939,7 +945,6 @@ GOD_RA_HOOR_KHUIT;Ra-Hoor-Khuit;;;;;;;;;;;;;x
 GOD_RASTAFARI;Ras Tafari;;;;;;;;;;;;;x
 GOD_SELASSIE;Haile Selassie I;;;;;;;;;;;;;x
 GOD_SILBON;El Silbón;;;;;;;;;;;;;x
-GOD_SOL_INVICTA;Sol Invicta;;;;;;;;;;;;;x
 GOD_SUA;Sua;;;;;;;;;;;;;x
 GOD_SUSANOO;Susanoo;;;;;;;;;;;;;x
 GOD_TAXET;Ta'xet;;;;;;;;;;;;;x
@@ -975,6 +980,7 @@ GOD_THE_MORRIGAN;The Morrigan;;;;;;;;;;;;;x
 GOD_THE_NOOSPHERE;The Noosphere;;;;;;;;;;;;;x
 GOD_THE_OLD_ONES;The Old Ones;;;;;;;;;;;;;x
 GOD_THE_ORICHAS;The Orichás;;;;;;;;;;;;;x
+GOD_THE_PEYOTE_SPIRIT;The Peyote Spirit;;;;;;;;;;;;;x
 GOD_THE_PRESIDENTS;The Presidents;;;;;;;;;;;;;x
 GOD_THE_PROPHET;The Prophet;;;;;;;;;;;;;x
 GOD_THE_QUEEN;The Queen;;;;;;;;;;;;;x
@@ -996,6 +1002,7 @@ GOD_THE_WITNESSES;The Witnesses;;;;;;;;;;;;;x
 GOD_THE_YOKAI;The Yokai;;;;;;;;;;;;;x
 GOD_TIA;Tia;;;;;;;;;;;;;x
 GOD_TOLTEC;Toltec;;;;;;;;;;;;;x
+GOD_TONANTZIN;Tonantzin;;;;;;;;;;;;;x
 GOD_TSAR_BOMBA;Tsar Bomba;;;;;;;;;;;;;x
 GOD_TSUKUYOMI;Tsukuyomi;;;;;;;;;;;;;x
 GOD_TUATH_DE;Tuath Dé;;;;;;;;;;;;;x
@@ -1004,6 +1011,7 @@ GOD_UZUME;Uzume;;;;;;;;;;;;;x
 GOD_VALKYRIE;Valkyrie;;;;;;;;;;;;;x
 GOD_VISHNU;Vishnu;;;;;;;;;;;;;x
 GOD_VULCAN;Vulcan;;;;;;;;;;;;;x
+GOD_WAKAN_TANKA;Wakan Tanka;;;;;;;;;;;;;x
 GOD_WASHINGTON;Washington;;;;;;;;;;;;;x
 GOD_XHUUYEE;Xhúuyee;;;;;;;;;;;;;x
 GOD_XIBALBA;Xibalba;;;;;;;;;;;;;x
@@ -1056,6 +1064,7 @@ MYSTAGOGUE_FEMALE;Mystagogue;;;;;;;;;;;;;x
 ODU_IFA;The Odu Ifá;;;;;;;;;;;;;x
 OLD_NOLL;Old Noll;;;;;;;;;;;;;x
 PADRE;Padre;;;;;;;;;;;;;x
+PASTOR;Pastor;;;;;;;;;;;;;x
 PARISH_OF;Parish of;;;;;;;;;;;;;x
 PATAKI;Versos de Patakí;;;;;;;;;;;;;x
 PATAKI_BIBLE;Biblia Patakí;;;;;;;;;;;;;x
@@ -1070,6 +1079,7 @@ PROPHET_GARVEY;Garvey;;;;;;;;;;;;;x
 PROPHET_MOSCHIACH;Moshiach;;;;;;;;;;;;;x
 PROPHET_PRESIDENT;Prophet-President;;;;;;;;;;;;;x
 RANDALL_FLAGG;Flagg;;;;;;;;;;;;;x
+RIABLO;Riablo;;;;;;;;;;;;;x
 ROADMAN;Roadman;;;;;;;;;;;;;x
 SECRETARY;Secretary;;;;;;;;;;;;;x
 SIR_KNIGHT_FOA;Sir Knight;;;;;;;;;;;;;x
@@ -1112,6 +1122,7 @@ THE_GRIM_REAPER;The Grim Reaper;;;;;;;;;;;;;x
 THE_HANGMAN;The Hangman;;;;;;;;;;;;;x
 THE_ILLUMINATI;The Illuminati;;;;;;;;;;;;;x
 THE_KOJIKI;The Kojiki;;;;;;;;;;;;;x
+THE_LECTURES;The Lectures;;;;;;;;;;;;;x
 THE_LEFT_SPIRITS;The Spirits of the Left Side;;;;;;;;;;;;;x
 THE_LORD_OF_RUST;The Lord of Rust;;;;;;;;;;;;;x
 THE_PAPERS;The Founders' Papers;;;;;;;;;;;;;x
@@ -1411,7 +1422,7 @@ medium_loan;Medium Loan;;;;;;;;;;;;;x
 large_loan;Large Loan;;;;;;;;;;;;;x
 huge_loan;Huge Loan;;;;;;;;;;;;;x
 war_torn;War Torn;;;;;;;;;;;;;x
-bloodline_effect_cognatic;Enables ï¿½GCognatic Successionï¿½!;;;;;;;;;;;;;x
+bloodline_effect_cognatic;Enables §YCognatic Succession§!;;;;;;;;;;;;;x
 
 ##SHATTERED WORLD##
 ALT_GOD_FLYING_SPAGHETTI_MONSTER;The Flying Spaghetti Monster;;;;;;;;;;;;;x

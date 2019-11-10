@@ -186,7 +186,7 @@
 	religion=imamite
 	trait=sayyid2
 	2598.12.14={birth=yes}
-	2618.3.1={add_spouse=112120101}
+	2618.3.1={add_spouse=2200031}
 	2622.1.1={death=yes}
 }
 2200015={
@@ -251,6 +251,11 @@
 	trait=shrewd
 	trait=elusive_shadow
 	2600.5.1={birth=yes}
+	2660.1.1={
+		effect = {
+			set_character_flag = ammon_jaffar
+		}
+	}
 	2670.5.5={death=yes}
 }
 2200018={
@@ -440,6 +445,7 @@
 	learning=6
 	culture=angeleno
 	religion=cetic
+	trait=way_book
 	2649.4.5={birth=yes}
 	2690.11.7={death=yes}
 }
@@ -459,6 +465,7 @@
 	trait=fair
 	trait=proud
 	trait=arbitrary
+	trait=way_fist
 	culture=californio
 	religion=cetic
 	2643.4.17= {
@@ -484,7 +491,11 @@
 	employer=2200016
 	culture=tehrangeleno
 	religion=imamite
-	2648.4.5={birth=yes}
+	2648.4.5={birth=yes
+		effect = {
+			set_character_flag = peasant_girl
+		}
+	}
 	2690.11.7={death=yes}
 }
 2200030={
@@ -494,6 +505,7 @@
 	stewardship=4
 	intrigue=4 
 	learning=2
+	trait=way_cowl
 	culture=angeleno
 	religion=cetic
 	2576.4.5={birth=yes}
@@ -508,6 +520,7 @@
 	stewardship=4
 	intrigue=4 
 	learning=2
+	trait=way_cowl
 	culture=angeleno
 	religion=cetic
 	2597.4.5={birth=yes}
@@ -544,10 +557,11 @@
 	trait=homosexual
 	trait=shy
 	trait=paranoid
+	trait=way_branch
 	employer=2200016
 	disallow_random_traits = yes
 	culture=cascadian
-	religion=gaian
+	religion=cetic
 	2648.12.5={birth=yes}
 	2690.11.7={death=yes}
 }
@@ -563,6 +577,7 @@
 	trait=shrewd
 	trait=child_of_consort
 	trait=architect
+	trait=way_book
 	employer=2200016
 	disallow_random_traits = yes
 	culture=angeleno
@@ -582,6 +597,7 @@
 	trait=lunatic
 	trait=genius
 	trait=fair
+	trait=way_fist
 	employer=2200016
 	disallow_random_traits = yes
 	culture=angeleno
@@ -601,6 +617,7 @@
 	trait=shrewd
 	trait=patient
 	trait=gamer
+	trait=way_fist
 	employer=2200016
 	disallow_random_traits = yes
 	culture=angeleno
@@ -622,6 +639,7 @@
 	trait=shrewd
 	trait=content
 	trait=gamer
+	trait=way_fist
 	employer=2200016
 	disallow_random_traits = yes
 	culture=angeleno
@@ -641,6 +659,7 @@
 	trait=just
 	trait=ambitious
 	trait=gamer
+	trait=way_dove
 	employer=2200016
 	disallow_random_traits = yes
 	culture=neoladino
@@ -660,6 +679,7 @@
 	trait=scholar
 	trait=temperate
 	trait=gamer
+	trait=way_book
 	employer=2200016
 	disallow_random_traits = yes
 	culture=angeleno
@@ -682,6 +702,7 @@
 	trait=fair
 	trait=homosexual
 	trait=gamer
+	trait=way_cowl
 	employer=1910107
 	disallow_random_traits = yes
 	culture=bayfolk
@@ -689,4 +710,223 @@
 	2648.4.5={birth=yes}
 	2690.11.7={death=yes}
 }
-
+2200051={
+	name="Friedrich" 
+	dynasty=2029091
+	female=no
+	martial=7
+	diplomacy=4
+ 	stewardship=5
+	intrigue=8
+	learning=5
+	trait=grey_eminence
+	trait=mystic
+	trait=deceitful 
+	trait=cynical 
+	trait=proud
+	trait=ambitious
+	disallow_random_traits = yes
+	culture= plautdietsch
+	religion= atomicist
+	secret_religion= "anabaptist"
+	2612.9.5={birth=yes}
+	2627.4.3= {add_spouse=2200052}
+	2680.3.24={death=yes}
+}
+2200052={
+	name="Justica"
+	dna="ccbjdjbdibg" 
+	female=yes
+	martial=3
+	diplomacy=6
+ 	stewardship=5
+	intrigue=8
+	learning=8
+	trait=mastermind_theologian
+	trait=fair
+	trait=mystic
+	trait=heresiarch 
+	trait=zealous
+	trait=diligent 
+	trait=shy 
+	disallow_random_traits = yes
+	culture= plautdietsch
+	religion= anabaptist
+	2610.5.1={birth=yes}
+	2627.4.3= {add_spouse=2200051}
+	2629.12.25={death = {
+			death_reason = death_execution_burning
+			killer = 1325118
+		}
+	}
+}
+2200053={
+	name="Sigfried" 
+	dynasty=2029091
+	father=2200051
+	mother=2200052
+	female=no
+	martial=9
+	diplomacy=4
+ 	stewardship=3
+	intrigue=3
+	learning=3
+	trait=tough_soldier
+	trait=brave
+	trait=wroth 
+	trait=proud 
+	trait=robust
+	disallow_random_traits = yes
+	culture= plautdietsch
+	religion= atomicist
+	secret_religion= "anabaptist"
+	2628.3.24={birth=yes}
+	2680.3.24={death=yes}
+}
+2200054={
+	name="Irasvel"
+	dynasty=2029091
+	dna="ccbjdjbdibg"
+	father=2200051
+	mother=2200052
+	female=yes
+	martial=3
+	diplomacy=6
+ 	stewardship=5
+	intrigue=8
+	learning=7
+	trait=intricate_webweaver
+	trait=fair
+	trait=shrewd
+	trait=gregarious
+	trait=deceitful 
+	trait=arbitrary 
+	trait=diligent
+	trait=ambitious
+	disallow_random_traits = yes
+	culture= plautdietsch
+	religion= atomicist
+	secret_religion= "anabaptist"
+	2629.12.15={birth=yes}
+	2680.3.24={death=yes}
+}
+1384001 = {
+    name = "Belali"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+	trait=legendary
+	trait=grey_eminence
+	trait=proud
+	trait=diligent
+	trait=wroth
+	trait=zealous
+	occluded=yes
+    2413.3.5 = { birth = yes }
+    2475.3.2 = { death = yes }
+}
+1384002 = {
+    name = "Lamont"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384001
+	trait=legendary
+	trait=intricate_webweaver
+	trait=cynical
+	trait=deceitful
+	trait=just
+	trait=patient
+	occluded=yes
+    2430.5.6 = { birth = yes }
+    2489.9.16 = { death = yes }
+}
+1384003 = {
+    name = "Lionel"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384002
+	trait=tough_soldier
+	trait=wroth
+	trait=honest
+	trait=brave
+	trait=just
+    2459.4.12 = { birth = yes }
+    2510.11.19 = { death = yes }
+}
+1384004 = {
+    name = "Darell"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384003
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=erudite
+	trait=arbitrary
+	trait=kind
+    2480.8.19 = { birth = yes }
+    2551.2.17 = { death = yes }
+}
+1384005 = {
+    name = "Lamont"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384004
+	trait=elusive_shadow
+	trait=lustful
+	trait=greedy
+	trait=slothful
+	trait=kind
+    2500.7.20 = { birth = yes }
+    2553.9.13 = { death = yes }
+}
+1384006 = {
+    name = "Barry"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384005
+	trait=mastermind_theologian
+	trait=humble
+	trait=erudite
+	trait=patient
+	trait=chaste
+    2516.10.31 = { birth = yes }
+    2573.4.13 = { death = yes }
+}
+1384007 = {
+    name = "Duane"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384006
+	trait=elusive_shadow
+	trait=lustful
+	trait=greedy
+	trait=slothful
+	trait=kind
+    2533.5.14 = { birth = yes }
+    2599.8.12 = { death = yes }
+}
+1384008 = {
+    name = "Kwame"
+    dynasty = 1967016
+    culture = motowner
+    religion = orientalist
+    father = 1384007
+	trait=skilled_tactician
+	trait=diligent
+	trait=wroth
+	trait=zealous
+	trait=ambitious
+    2550.12.19 = { birth = yes }
+    2613.2.13 = {
+		death = {
+			death_reason = death_battle
+            killer = 1763048
+        }
+	}
+}

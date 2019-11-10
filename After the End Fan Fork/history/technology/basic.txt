@@ -95,6 +95,7 @@ technology = {
 		d_bas_st_laurent
 		d_gaspesia
 		d_estrie
+		d_chaudiere_appalaches
 		d_monteregie
 		d_mauricia
 		d_saguenay
@@ -294,8 +295,8 @@ technology = {
 		d_north_jersey
 		d_jersey
 		d_connecticut
-		d_philadelphia
 		d_delaware_valley
+		d_delmarva
 		d_maryland
 		d_coalland
 		d_upper_susquehanna
@@ -508,7 +509,7 @@ technology = {
 		d_sinaloa
 		d_sonora
 		d_yaqui
-		d_el_bajio
+		d_bajio_occidente
 		d_guanajuato
 		d_queretaro
 		d_salado
@@ -607,6 +608,9 @@ technology = {
 		d_campeche
 		d_tabasco
 		d_yucatan
+		d_chan_santa_cruz
+		d_laguna_de_terminos
+		d_mayapan
 		d_zapata
 		d_chiapas
 		d_peten

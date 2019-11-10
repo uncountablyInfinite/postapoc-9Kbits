@@ -581,6 +581,7 @@ e_atlantica = {
 		# Crusade target weight
 		catholic = 5
 		ursuline = 5
+		orientalist = 350
 		americanist = 500
 		revelationist_reformed = 5
 		rust_cultist = 250 #has a holy site
@@ -623,13 +624,13 @@ e_atlantica = {
 				holy_site = jewish
 				holy_site = traditionalist
 				holy_site = orientalist
+				holy_site = misrist
 				
 				deitsch = "Mannatten"
 				yiddish = "Niu York"
 				northlander = "Nýr Jórvík"
 				dellsman = "Nýr Jórvík"
 				yooper = "Nýr Jórvík"
-				motowner = "Mecca"
 				
 				b_manhattan_NY = {
 					deitsch = "Mannatten"
@@ -641,9 +642,7 @@ e_atlantica = {
 				b_bronx_NY = {
 					yiddish = "Bronks"
 				}
-				b_harlem_NY = {
-					motowner = "Mecca"
-				}
+				b_harlem_NY = {}
 				b_yonkers_NY = {}
 				b_mamaroneck_NY = {}
 				b_scarsdale_NY = {}
@@ -677,16 +676,12 @@ e_atlantica = {
 				
 				deitsch = "Bruchlin"
 				yiddish = "Bruklen"
-				motowner = "Medina"
 				
 				b_brooklyn_NY = {
 					deitsch = "Bruchlin"
 					yiddish = "Bruklen"
-					motowner = "Medina"
 				}
-				b_queens_NY = {
-					motowner = "The Desert"
-				}
+				b_queens_NY = {}
 				b_elmhurst_NY = {}
 				b_flushing_NY = {}
 				b_gravesend_NY = {}
@@ -880,11 +875,8 @@ e_atlantica = {
 				
 				deitsch = "Kwinpaken"
 				yiddish = "Kenepak"
-				motowner = "New Heaven"
 				
-				b_new_haven_CT = {
-					motowner = "New Heaven"
-				}
+				b_new_haven_CT = {}
 				b_norwalk_CT = {}
 				b_bridgeport_CT = {}
 				b_westport_CT = {}
@@ -980,13 +972,13 @@ e_atlantica = {
 		
 		deitsch = "Kolumbi"
 		yiddish = "Amerika"
-
-		d_philadelphia = {
+		
+		d_delaware_valley = {
 			color={ 55 124 208 }
 			color2={ 220 220 0 }
 			
-			deitsch = "Filadelfi"
-			yiddish = "Filadelfyi"
+			deitsch = "Dellawerwaelli"
+			yiddish = "Delaver Tol"
 			
 			capital = 27 # Philadelphia
 
@@ -1001,12 +993,10 @@ e_atlantica = {
 				
 				deitsch = "Filadelfi"
 				yiddish = "Filadelfyi"
-				motowner = "Power Hill"
 				
 				b_philadelphia_PA = {
 					deitsch = "Filadelfi"
 					yiddish = "Filadelfyi"
-					motowner = "Power Hill"
 				}
 				b_camden_NJ = {}
 				b_havertown_PA = {}
@@ -1018,19 +1008,6 @@ e_atlantica = {
 				b_chester_PA = {}
 				b_pennsauken_NJ = {}
 			}
-		}
-
-		d_delaware_valley = {
-			color={ 199 164 41 }
-			color2={ 220 220 0 }
-
-			capital = 53
-			
-			deitsch = "Dellawerwaelli"
-			yiddish = "Delaver Tol"
-			northlander = "Nya Sverige"
-			dellsman = "Nya Sverige"
-			yooper = "Nya Sverige"
 			
 			c_wilmington = {
 				color={ 200 140 30 }
@@ -1051,13 +1028,24 @@ e_atlantica = {
 				b_yorklyn_DE = {}
 				b_montchanin_DE = {}
 				b_elsmere_DE = {}
-				### above and beyond ###
 				b_edgemoor_DE = {}
 				b_newport_DE = {}
 				b_christiana_DE = {}
 				b_elkton_MD = {}
 				b_glasgow_DE = {}
 			}
+		}
+
+		d_delmarva = {
+			color={ 199 164 41 }
+			color2={ 220 220 0 }
+
+			capital = 54 #Dover
+			
+			northlander = "Nya Sverige"
+			dellsman = "Nya Sverige"
+			yooper = "Nya Sverige"
+			
 			c_dover = {
 				color={ 220 180 50 }
 				color2={ 220 220 0 }
@@ -1068,15 +1056,24 @@ e_atlantica = {
 				b_milford_DE = {}
 				b_harrington_DE = {}
 				b_millsboro_DE = {}
-				b_laurel_DE = {}
-				b_seaford_DE = {}
-				b_lewes_DE = {}
 				b_dagsboro_DE = {}
-				### above and beyond ###
-				#b_bridgeville_DE = {
-				#}
-				#b_selbyville_DE = {
-				#}
+				b_bridgeville_DE = {}
+				b_middletown_DE = {}
+				b_smyrna_DE = {}
+				b_odessa_DE = {}
+			}
+			c_sussex = {
+				color={ 199 145 92 }
+				color2={ 220 220 0 }
+				
+				b_georgetown_DE = {}
+				b_seaford_DE = {}
+				b_laurel_DE = {}
+				b_rehoboth_beach_DE = {}
+				b_bethany_beach_DE = {}
+				b_lewes_DE = {}
+				b_delmar_DE = {}
+				b_selbyville_DE = {}
 			}
 			c_choptank = {
 				color={ 195 160 45 }

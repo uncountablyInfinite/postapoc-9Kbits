@@ -2273,7 +2273,7 @@ letter_event = {
 				who = ROOT
 			}
 		}	
-        FROM = { ROOT = { join_prev_monastic_order_society = yes } }
+		FROM = { ROOT = { join_prev_monastic_order_society = yes } }
 		hidden_tooltip = { character_event = { id = HF.20300 } } #Go to budget event
 		ai_chance = { factor = 100 }
 	}
@@ -2318,10 +2318,10 @@ letter_event = {
 			}
 		}
 		hidden_tooltip = { 
-       		FROM = { 
-       			character_event = { id = HF.20234 } 
-       		} 
-       	}
+	   		FROM = { 
+	   			character_event = { id = HF.20234 } 
+	   		} 
+	   	}
 		hidden_tooltip = { character_event = { id = HF.20300 } } #Go to budget event
 		ai_chance = { factor = 100 }
 	}
@@ -11897,7 +11897,7 @@ character_event = {
 						has_landed_title = k_quebec
 					}
 					modifier = { #Historically more likely.
-						factor = 100
+						factor = 10000000
 						religion = mormon
 						has_landed_title = k_deseret
 					}
@@ -11968,6 +11968,11 @@ character_event = {
 							NOT = { has_landed_title = k_ursuline }
 							NOT = { has_landed_title = d_quorum_of_the_twelve }
 						}
+					}
+					modifier = { #Historically never happened
+						factor = 0
+						religion = mormon
+						has_landed_title = k_deseret
 					}
 					add_trait = crowned_by_priest
 				}

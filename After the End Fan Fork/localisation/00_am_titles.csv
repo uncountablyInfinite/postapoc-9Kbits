@@ -15110,6 +15110,8 @@ d_arrowhead;Arrowhead;;;;;;;;;;;;;x
 d_assiniboia;Assiniboia;;;;;;;;;;;;;x
 d_atlantida_adj;Atlántida;;;;;;;;;;;;;x
 d_atlantida;Atlántida;;;;;;;;;;;;;x
+d_atletico_junior_adj;Tiburones;;;;;;;;;;;;;x
+d_atletico_junior;Los Tiburones;;;;;;;;;;;;;x
 d_atomicist_adj;Atomic;;;;;;;;;;;;;x
 d_atomicist;The Atomic Energy Commission;;;;;;;;;;;;;x
 d_augusta_adj;August;;;;;;;;;;;;;x
@@ -15235,6 +15237,8 @@ d_cesar_adj;Cesarian;;cesarer;;;;;;;;;;;x
 d_cesar;Cesar;Cesar;Cesar;;Cesar;;;;;;;;;x
 d_champlain_adj;Champlainian;;;;;;;;;;;;;x
 d_champlain;Champlain;;;;;;;;;;;;;x
+d_chan_santa_cruz_adj;Cruzob;;;;;;;;;;;;;x
+d_chan_santa_cruz;Chan Santa Cruz;;;;;;;;;;;;;x
 d_channel_islands_adj;Channel Islander;;;;;;;;;;;x
 d_channel_islands;Channel Islands;;;;;;;;;;;;;x
 d_chapines_adj;Chapine;;;;;;;;;;;;;x
@@ -15243,6 +15247,7 @@ d_chargers_adj;Charger;;;;;;;;;;;;;x
 d_chargers;Chargers;;;;;;;;;;;;;x
 d_chariton_adj;Charitonian;;;;;;;;;;;;;x
 d_chariton;Chariton;;;;;;;;;;;;;x
+d_chaudiere_appalaches;Chaudière-Appalaches;;;;;;;;;;;;;x
 d_chesapeake_adj;Chesapeakean;;;;;;;;;;;;;x
 d_chesapeake;Chesapeake;;;;;;;;;;;;;x
 d_chiapas_adj;Chiapas;;;;;;;;;;;;;x
@@ -15295,6 +15300,8 @@ d_columbia_valley_adj;Columbian;;;;;;;;;;;;;x
 d_columbia_valley;Columbia Valley;;;;;;;;;;;;;x
 d_colville_adj;Colviller;;;;;;;;;;;;;x
 d_colville;Colville;;;;;;;;;;;;;x
+d_comando_vermelho_adj;Vermelho;;;;;;;;;;;;;x
+d_comando_vermelho;Comando Vermelho do Norte;;;;;;;;;;;;;x
 d_confederated_adj;Confederated;;;;;;;;;;;;;x
 d_confederated;Confederated Church;;;;;;;;;;;;;x
 d_connecticut_adj;Connecticuter;;;;;;;;;;;;;x
@@ -15336,8 +15343,10 @@ d_death_valley_adj;Death Valleian;;Death Valleer;;;;;;;;;;;x
 d_death_valley;Death Valley;Death Valley;Death Valley;;Death Valley;;;;;;;;;x
 d_deer_lodge_adj;Deer Lodge;;;;;;;;;;;;;x
 d_deer_lodge;Deer Lodge;;;;;;;;;;;;;x
-d_delaware_valley_adj;Delmarvan;;;;;;;;;;;;;x
-d_delaware_valley;Delmarva;;;;;;;;;;;;;x
+d_delaware_valley_adj;Delawarean;;;;;;;;;;;;;x
+d_delaware_valley;Delaware Valley;;;;;;;;;;;;;x
+d_delmarva_adj;Delmarvan;;;;;;;;;;;;;x
+d_delmarva;Delmarva;;;;;;;;;;;;;x
 d_delta_amacuro_adj;Delta Amacurian;;Delta Amacurer;;;;;;;;;;;x
 d_delta_amacuro;Delta Amacuro;Delta Amacuro;Delta Amacuro;;Delta Amacuro;;;;;;;;;x
 d_delta_blues_adj;Blue;;;;;;;;;;;;;x
@@ -15389,6 +15398,8 @@ d_extras_adj;Dramatic;;;;;;;;;;;;;x
 d_extras;Extras;;;;;;;;;;;;;x
 d_falcon_adj;Falcónian;;falcóner;;;;;;;;;;;x
 d_falcon;Falcón;Falcón;Falcón;;Falcón;;;;;;;;;x
+d_falling_star_adj;Angelic;;;;;;;;;;;;;x
+d_falling_star;The Unity Province;;;;;;;;;;;;;x
 d_fh_adj;Hundred;;;;;;;;;;;;;x
 d_fh;The Fylkir's Hundreds;;;;;;;;;;;;;x
 d_finger_lakes_adj;Finger;;;;;;;;;;;;;x
@@ -15571,6 +15582,8 @@ d_lacandon_adj;Lacandón;;;;;;;;;;;;;x
 d_lacandon;Lacandón;;;;;;;;;;;;;x
 d_lafitte_adj;Lafittiste;;;;;;;;;;;;;x
 d_lafitte;Lafitte Fleet;;;;;;;;;;;;;x
+d_laguna_de_terminos_adj;Laguna;;;;;;;;;;;;;x
+d_laguna_de_terminos;Laguna de Términos;;;;;;;;;;;;;x
 d_lara_adj;Laran;;larer;;;;;;;;;;;x
 d_lara;Lara;Lara;Lara;;Lara;;;;;;;;;x
 d_las_brumas_adj;Las Brumas;;;;;;;;;;;;;x
@@ -15587,6 +15600,8 @@ d_leeward_isles_adj;Leeward Islander;;;;;;;;;;;;;x
 d_leeward_isles;Leeward Isles;;;;;;;;;;;;;x
 d_lekwiltok_adj;Lekwiltok;;;;;;;;;;;;;x
 d_lekwiltok;Lekwiltok Kiidaaw;;;;;;;;;;;;;x
+d_leones_del_caracas_adj;Leones;;;;;;;;;;;;;x
+d_leones_del_caracas;Leones del Caracas;;;;;;;;;;;;;x
 d_libertarian_adj;Libertarian;;;;;;;;;;;;;x
 d_libertarian;First Order of Our Lady Liberty;;;;;;;;;;;;;x
 d_lightbringers_adj;Lightbringer;;;;;;;;;;;;;x
@@ -15639,6 +15654,8 @@ d_metropolitans_adj;Metropolitan;;;;;;;;;;;;;x
 d_metropolitans;Metropolitans;;;;;;;;;;;;;x
 d_mexico_adj;Mexico;;;;;;;;;;;;;x
 d_mexico;Mexico;;;;;;;;;;;;;x
+d_mayapan_adj;Mayapánese;;;;;;;;;;;;;x
+d_mayapan;Mayapán;;;;;;;;;;;;;x
 d_MI_wolverines_adj;Wolverine;;;;;;;;;;;;;x
 d_MI_wolverines;Arborite Wolverines;;;;;;;;;;;;;x
 d_miami_adj;Miamian;;;;;;;;;;;;;x
@@ -15663,6 +15680,8 @@ d_midwestern_brotherhood_adj;Brotherhood;;;;;;;;;;;;;x
 d_midwestern_brotherhood;Midwestern Brotherhood;;;;;;;;;;;;;x
 d_migonids_adj;Migonid;;;;;;;;;;;;;x
 d_migonids;The Migonids;;;;;;;;;;;;;x
+d_millonarios_adj;Millos;;;;;;;;;;;;;x
+d_millonarios;Millonarios;;;;;;;;;;;;;x
 d_minganie_adj;Minganish;;;;;;;;;;;;;x
 d_minganie;Minganie;;;;;;;;;;;;;x
 d_minnesota_adj;Minnesotan;;;;;;;;;;;;;x
@@ -15719,6 +15738,8 @@ d_nauvoo_legion_adj;Nauvoo Legionary;;;;;;;;;;;;;x
 d_nauvoo_legion;Nauvoo Legion;;;;;;;;;;;;;x 
 d_navajoland_adj;Navajolander;;;;;;;;;;;;;x
 d_navajoland;Navajoland;;;;;;;;;;;;;x
+d_navegantes_adj;Magallanes;;;;;;;;;;;;;x
+d_navegantes;Navegantes;;;;;;;;;;;;;x
 d_nayarit_adj;Nayarit;;;;;;;;;;;;;x
 d_nayarit;Nayarit;;;;;;;;;;;;;x
 d_nayomniki_adj;Nayomniki;;;;;;;;;;;;;x
@@ -15761,8 +15782,6 @@ d_north_jefferson_adj;North Jefferson;;;;;;;;;;;;;x
 d_north_jefferson;North Jefferson;;;;;;;;;;;;;x
 d_north_jersey_adj;Raritanic;;;;;;;;;;;;;x
 d_north_jersey;Raritan;;;;;;;;;;;;;x
-d_north_nova_adj;North Novan;;;;;;;;;;;;;x
-d_north_nova;North Nova;;;;;;;;;;;;;x
 d_north_sea_whalers_adj;North Sea Whaler;;;;;;;;;;;;;x
 d_north_sea_whalers;North Sea Whalers;;;;;;;;;;;;;x
 d_north_valley_adj;North Valleian;;North Valleer;;;;;;;;;;;x
@@ -15772,6 +15791,8 @@ d_northern_basin;Northern Basin;;;;;;;;;;;;;x
 d_northern_quebec;Northern Quebec;;;;;;;;;;;;;x
 d_northwoods_adj;Northwoodsman;;;;;;;;;;;;;x
 d_northwoods;The Northwoods;;;;;;;;;;;;;x
+d_north_nova_adj;North Novan;;;;;;;;;;;;;x
+d_north_nova;North Nova;;;;;;;;;;;;;x
 d_nova_scotia_adj;Nova Scotian;;;;;;;;;;;;;x
 d_nova_scotia;Nova Scotia;;;;;;;;;;;;;x
 d_nuevo_leon_adj;Nuevo León;;;;;;;;;;;;;x
@@ -16015,6 +16036,8 @@ d_six_rivers_adj;Six Riversian;;Six Riverser;;;;;;;;;;;x
 d_six_rivers;Six Rivers;Six Rivers;Six Rivers;;Six Rivers;;;;;;;;;x
 d_skull_legion_adj;Skull;;;;;;;;;;;;;x
 d_skull_legion;Skull Legion;;;;;;;;;;;;;x
+d_smoking_snakes_adj;Fumantes;;;;;;;;;;;;;x
+d_smoking_snakes;Cobras Fumantes;;;;;;;;;;;;;x
 d_snowbirds_adj;Snowbird;;;;;;;;;;;;;x
 d_snowbirds;Snowbirds;;;;;;;;;;;;;x
 d_sonora_adj;Sonora;;;;;;;;;;;;;x
@@ -16408,7 +16431,7 @@ e_neomexicano_adj;New Mexican;;;;;;;;;;;;;x
 e_neomexicano;Neomexicano Empire;;;;;;;;;;;;;x
 e_new_california_adj;New Californian;;;;;;;;;;;;;x
 e_new_california;New California;;;;;;;;;;;;;x
-e_new_english_adj;New English;;;;;;;;;;;;;x
+e_new_english_adj;Colonial;;;;;;;;;;;;;x
 e_new_english;New Britannia;;;;;;;;;;;;;x
 e_new_france_adj;Nouvelle-Français;;;;;;;;;;;;;x
 e_new_france;Nouvelle-France;;;;;;;;;;;;;x
@@ -17519,3 +17542,223 @@ b_little_grand_rapids_MB;Little Grand Rapid;;;;;;;;;;;;;x
 b_princess_harbour_MB;Princess Harbour;;;;;;;;;;;;;x
 b_jacksons_lodge_MB;Jackson's Lodge;;;;;;;;;;;;;x
 b_nanowin_MB;Nanowin;;;;;;;;;;;;;x
+b_georgetown_DE;Georgetown;;;;;;;;;;;;;x
+b_rehoboth_beach_DE;Rehoboth Beach;;;;;;;;;;;;;x
+b_bethany_beach_DE;Bethany Beach;;;;;;;;;;;;;x
+b_delmar_DE;Delmar;;;;;;;;;;;;;x
+b_middletown_DE;Middletown;;;;;;;;;;;;;x
+b_smyrna_DE;Smyrna;;;;;;;;;;;;;x
+b_odessa_DE;Odessa;;;;;;;;;;;;;x
+b_batopito_SI;Batopito;;;;;;;;;;;;;x
+b_tameapa_SI;Tameapa;;;;;;;;;;;;;x
+b_otatillos_SI;Otatillos;;;;;;;;;;;;;x
+b_el_varejonal_SI;El Varejonal;;;;;;;;;;;;;x
+b_llano_de_los_rochin_SI;Llano de los Rochín;;;;;;;;;;;;;x
+b_ballaca_SI;Ballaca;;;;;;;;;;;;;x
+b_bamopa_SI;Bamopa;;;;;;;;;;;;;x
+c_palizada;Palizada;;;;;;;;;;;;;x
+c_valladolid;Valladolid;;;;;;;;;;;;;x
+c_riviera_maya;Riviera Maya;;;;;;;;;;;;;x
+c_jose_maria_morelos;José María Morelos;;;;;;;;;;;;;x
+c_china;China;;;;;;;;;;;;;x
+c_shelburne;Shelburne;;;;;;;;;;;;;x
+c_halton;Halton;;;;;;;;;;;;;x
+c_retalhuleu;Retalhuleu;;;;;;;;;;;;;x
+c_lempira;Lempira;;;;;;;;;;;;;x
+c_soconusco;Soconusco;;;;;;;;;;;;;x
+c_huehuetenango;Huehuetenango;;;;;;;;;;;;;x
+c_york;York;;;;;;;;;;;;;x
+c_monteregie;Montérégie;;;;;;;;;;;;;x
+c_gouin;Gouin;;;;;;;;;;;;;x
+c_alta_verapaz;Alta Verapaz;;;;;;;;;;;;;x
+c_sussex;Sussex;;;;;;;;;;;;;x
+c_nantucket;Nantucket;;;;;;;;;;;;;x
+c_nantucket;Temiscamingue;;;;;;;;;;;;;x
+c_badiraguato;Badiraguato;;;;;;;;;;;;;x
+c_beauce;Beauce;;;;;;;;;;;;;x
+c_popular_river;Popular River;;;;;;;;;;;;;x
+c_notre_dame;Notre Dame;;;;;;;;;;;;;x
+c_palizada_adj;Palizada;;;;;;;;;;;;;x
+c_valladolid_adj;Valladolid;;;;;;;;;;;;;x
+c_riviera_maya_adj;Mayan;;;;;;;;;;;;;x
+c_jose_maria_morelos_adj;José María Morelos;;;;;;;;;;;;;x
+c_china_adj;China;;;;;;;;;;;;;x
+c_shelburne_adj;Shelburne;;;;;;;;;;;;;x
+c_halton_adj;Halton;;;;;;;;;;;;;x
+c_retalhuleu_adj;Retalhuleu;;;;;;;;;;;;;x
+c_lempira_adj;Lempira;;;;;;;;;;;;;x
+c_soconusco_adj;Soconusco;;;;;;;;;;;;;x
+c_huehuetenango_adj;Huehuetenango;;;;;;;;;;;;;x
+c_york_adj;Yorker;;;;;;;;;;;;;x
+c_monteregie_adj;Montérégie;;;;;;;;;;;;;x
+c_gouin_adj;Gouin;;;;;;;;;;;;;x
+c_alta_verapaz_adj;Alta Verapaz;;;;;;;;;;;;;x
+c_sussex_adj;Sussex;;;;;;;;;;;;;x
+c_nantucket_adj;Nantucketer;;;;;;;;;;;;;x
+c_nantucket_adj;Temiscamingue;;;;;;;;;;;;;x
+c_badiraguato_adj;Badiraguato;;;;;;;;;;;;;x
+c_beauce_adj;Beauce;;;;;;;;;;;;;x
+c_popular_river_adj;Popular;;;;;;;;;;;;;x
+c_notre_dame_adj;Notre Damer;;;;;;;;;;;;;x
+d_bajio_occidente_adj;Occidental;;;;;;;;;;;;;x
+d_bajio_occidente;Bajío Occidente;;;;;;;;;;;;;x
+c_cimitarra;Cimitarra;;;;;;;;;;;;;x
+c_cimitarra_adj;Cimitarra;;;;;;;;;;;;;x
+b_cimitarra_COL;Cimitarra;;;;;;;;;;;;;x
+b_puerto_parra_COL;Puerto Parra;;;;;;;;;;;;;x
+b_puerto_araujo_COL;Puerto Araujo;;;;;;;;;;;;;x
+b_gallineto_COL;Gallineto;;;;;;;;;;;;;x
+b_las_montoyas_COL;Las Montoyas;;;;;;;;;;;;;x
+b_el_saldo_COL;El Saldo;;;;;;;;;;;;;x
+b_petaquero_COL;Petaquero;;;;;;;;;;;;;x
+b_tartarugalzinho_AMA;Tartarugalzinho;;;;;;;;;;;;;x
+b_aporema_AMA;Aporema;;;;;;;;;;;;;x
+b_amapa_AMA;Amapá;;;;;;;;;;;;;x
+b_cupixi_AMA;Cupixi;;;;;;;;;;;;;x
+b_waiapi_AMA;Waiãpi;;;;;;;;;;;;;x
+b_santana_AMA;Santana;;;;;;;;;;;;;x
+b_bom_amigo_AMA;Bom Amigo;;;;;;;;;;;;;x
+b_ilha_de_santana_AMA;Ilha de Santana;;;;;;;;;;;;;x
+b_mazagao_AMA;Mazagão;;;;;;;;;;;;;x
+b_maruanun_AMA;Maruanun;;;;;;;;;;;;;x
+b_macapa_AMA;Macapá;;;;;;;;;;;;;x
+b_porto_do_ceu_AMA;Porto do Céu;;;;;;;;;;;;;x
+b_preda_branca_do_amapari_AMA;Pedra Branca do Amaparí;;;;;;;;;;;;;x
+b_ferreira_gomes_AMA;Ferreira Gomes;;;;;;;;;;;;;x
+b_ilha_de_maraca_AMA;Ilha de Maracá;;;;;;;;;;;;;x
+b_puerto_villamil_EC;Puerto Villamil;;;;;;;;;;;;;x
+b_cerro_azul_EC;Cerro Azul;;;;;;;;;;;;;x
+b_san_cristobal_EC;San Cristobal;;;;;;;;;;;;;x
+b_punta_vicente_roca_EC;Punta Vicente Roca;;;;;;;;;;;;;x
+b_puerto_ayora_EC;Puerto Ayora;;;;;;;;;;;;;x
+b_puerto_baquerizo_moreno_EC;Puerto Baquerizo Moreno;;;;;;;;;;;;;x
+b_puerto_villamil_EC;Puerto Villamil;;;;;;;;;;;;;x
+b_guayaquil_EC;Guayaquil;;;;;;;;;;;;;x
+b_samborondon_EC;Samborondón;;;;;;;;;;;;;x
+b_playas_EC;Playas;;;;;;;;;;;;;x
+b_safado_EC;Safado;;;;;;;;;;;;;x
+b_salinas_EC;Salinas;;;;;;;;;;;;;x
+b_monteverde_EC;Monteverde;;;;;;;;;;;;;x
+b_montanita_EC;Montañita;;;;;;;;;;;;;x
+b_la_rinconada_EC;La Rinconada;;;;;;;;;;;;;x
+b_salango_EC;Salango;;;;;;;;;;;;;x
+b_puerto_lopez_EC;Puerto López;;;;;;;;;;;;;x
+b_milagro_EC;Milagro;;;;;;;;;;;;;x
+b_quito_EC;Quito;;;;;;;;;;;;;x
+b_puembo_EC;Puembo;;;;;;;;;;;;;x
+b_cumbaya_EC;Cumbayá;;;;;;;;;;;;;x
+b_pifo_EC;Pifo;;;;;;;;;;;;;x
+b_sangolqui_EC;Sangolqui;;;;;;;;;;;;;x
+b_cayambe_EC;Cayambe;;;;;;;;;;;;;x
+b_ibarra_EC;Ibarra;;;;;;;;;;;;;x
+b_cotacachi_EC;Cotacachi;;;;;;;;;;;;;x
+b_otavalo_EC;Otavalo;;;;;;;;;;;;;x
+b_el_angel_EC;El Angel;;;;;;;;;;;;;x
+b_alto_tambo_EC;Alto Tambo;;;;;;;;;;;;;x
+b_pulun_EC;Pulún;;;;;;;;;;;;;x
+b_san_lorenzo_EC;San Lorenzo;;;;;;;;;;;;;x
+b_rio_verde_canton_EC;Río Verde Canton;;;;;;;;;;;;;x
+b_esmeraldas_EC;Esmeraldas;;;;;;;;;;;;;x
+b_atacames_EC;Atacames;;;;;;;;;;;;;x
+b_tonchigue_EC;Tonchigüe;;;;;;;;;;;;;x
+b_quingue_EC;Quingüe;;;;;;;;;;;;;x
+b_muisne_EC;Muisne;;;;;;;;;;;;;x
+b_las_mareas_EC;Las Mareas;;;;;;;;;;;;;x
+b_mompiche_EC;Mompiche;;;;;;;;;;;;;x
+b_cojimies_EC;Cojimies;;;;;;;;;;;;;x
+b_chamanga_EC;Chamanga;;;;;;;;;;;;;x
+b_pedernales_EC;Pedernales;;;;;;;;;;;;;x
+b_jama_EC;Jama;;;;;;;;;;;;;x
+b_puerto_cabuyal_EC;Puerto Cabuyal;;;;;;;;;;;;;x
+b_boca_de_briceno_EC;Boca de Briceno;;;;;;;;;;;;;x
+b_bahia_de_caraquez_EC;Bahía de Caráquez;;;;;;;;;;;;;x
+b_portoviejo_EC;Portoviejo ;;;;;;;;;;;;;x
+b_quevedo_EC;Quevedo;;;;;;;;;;;;;x
+b_velasco_ibarra_EC;Velasco Ibarra;;;;;;;;;;;;;x
+b_babahoyo_EC;Babahoyo;;;;;;;;;;;;;x
+b_nobol_EC;Nobol;;;;;;;;;;;;;x
+b_santa_ana_EC;Santa Ana;;;;;;;;;;;;;x
+b_montecristi_EC;Montecristi;;;;;;;;;;;;;x
+b_chone_EC;Chone;;;;;;;;;;;;;x
+b_pichincha_EC;Pichincha;;;;;;;;;;;;;x
+b_el_puyo_EC;El Puyo;;;;;;;;;;;;;x
+b_tena_EC;Tena;;;;;;;;;;;;;x
+b_cotundo_EC;Cotundo;;;;;;;;;;;;;x
+b_cosanga_EC;Cosanga;;;;;;;;;;;;;x
+b_baeza_EC;Baeza;;;;;;;;;;;;;x
+b_coca_EC;Coca;;;;;;;;;;;;;x
+b_orellana_EC;Orellana;;;;;;;;;;;;;x
+b_san_sebastian_del_coca_EC;San Sebastián del Coca;;;;;;;;;;;;;x
+b_nueva_loja_EC;Nueva Loja;;;;;;;;;;;;;x
+b_joya_de_los_sachas_EC;Joya de los Sachas;;;;;;;;;;;;;x
+b_latacunga_EC;Latacunga;;;;;;;;;;;;;x
+b_ambato_EC;Ambato;;;;;;;;;;;;;x
+b_santo_domingo_EC;Santo Domingo;;;;;;;;;;;;;x
+b_nanegalito_EC;Nanegalito;;;;;;;;;;;;;x
+b_guaranda_EC;Guaranda;;;;;;;;;;;;;x
+b_san_gabriel_EC;San Gabriel;;;;;;;;;;;;;x
+b_julio_andrade_EC;Julio Andrade;;;;;;;;;;;;;x
+b_tulcan_EC;Tulcan;;;;;;;;;;;;;x
+b_bolivar_EC;Bolívar;;;;;;;;;;;;;x
+
+b_cape_st_george_NL;Cape St. George;;;;;;;;;;;;;x
+b_lark_harbour_NL;Lark Harbour;;;;;;;;;;;;;x
+b_york_harbour_NL;York Harbour;;;;;;;;;;;;;x
+b_massey_drive_NL;Massey Drive;;;;;;;;;;;;;x
+b_flat_bay_NL;Flat Bay;;;;;;;;;;;;;x
+b_mckays_NL;McKay's;;;;;;;;;;;;;x
+b_upper_ferry_NL;Upper Ferry;;;;;;;;;;;;;x
+b_cape_ray_NL;Cape Ray;;;;;;;;;;;;;x
+b_deer_lake_NL;Deer Lake;;;;;;;;;;;;;x
+b_hebbville_NS;Hebbville;;;;;;;;;;;;;x
+b_riverport_NS;Riverport;;;;;;;;;;;;;x
+b_mahone_bay_NS;Mahone Bay;;;;;;;;;;;;;x
+b_new_germany_NS;New Germany;;;;;;;;;;;;;x
+b_broad_cove_NS;Broad Cove;;;;;;;;;;;;;x
+b_lower_sackville_NS;Lower Sackville;;;;;;;;;;;;;x
+b_spry_bay_NS;Spry Bay;;;;;;;;;;;;;x
+b_canyon_creek_AB;Canyon Creek;;;;;;;;;;;;;x
+b_driftpile_AB;Driftpile;;;;;;;;;;;;;x
+b_joussard_AB;Joussard;;;;;;;;;;;;;x
+b_marten_beach_AB;Marten Beach;;;;;;;;;;;;;x
+b_grouard_AB;Grouard;;;;;;;;;;;;;x
+b_kinuso_AB;Kinuso;;;;;;;;;;;;;x
+b_battleford_SK;Battleford;;;;;;;;;;;;;x
+b_maymont_SK;Maymont;;;;;;;;;;;;;x
+b_borden_SK;Borden;;;;;;;;;;;;;x
+b_cando_SK;Cando;;;;;;;;;;;;;x
+b_unity_SK;Unity;;;;;;;;;;;;;x
+b_wilkie_SK;Wilkie;;;;;;;;;;;;;x
+b_landis_SK;Landis;;;;;;;;;;;;;x
+b_radisson_SK;Radisson;;;;;;;;;;;;;x
+b_kitscoty_SK;Kitscoty;;;;;;;;;;;;;x
+b_st_paul_AB;St. Paul;;;;;;;;;;;;;x
+b_elk_point_AB;Elk Point;;;;;;;;;;;;;x
+b_bonnyville_AB;Bonnyville;;;;;;;;;;;;;x
+b_frog_lake_AB;Frog Lake;;;;;;;;;;;;;x
+b_saddle_lake_AB;Saddle Lake;;;;;;;;;;;;;x
+b_spedden_AB;Spedden;;;;;;;;;;;;;x
+b_vilna_AB;Vilna;;;;;;;;;;;;;x
+b_st_lina_AB;St. Lina;;;;;;;;;;;;;x
+b_wawota_SK;Wawota;;;;;;;;;;;;;x
+b_moosomin_SK;Moosomin;;;;;;;;;;;;;x
+b_whitewood_SK;Whitewood;;;;;;;;;;;;;x
+b_grenfell_SK;Grenfell;;;;;;;;;;;;;x
+b_lumsden_SK;Lumsden;;;;;;;;;;;;;x
+b_southey_SK;Southey;;;;;;;;;;;;;x
+b_rouleau_SK;Rouleau;;;;;;;;;;;;;x
+b_balgonie_SK;Balgonie;;;;;;;;;;;;;x
+b_wainwright_AB;Wainwright;;;;;;;;;;;;;x
+b_drumheller_AB;Drumheller;;;;;;;;;;;;;x
+b_hardisty_AB;Hardisty;;;;;;;;;;;;;x
+b_hughenden_AB;Hughenden;;;;;;;;;;;;;x
+b_provost_AB;Provost;;;;;;;;;;;;;x
+b_halkirk_AB;Halkirk;;;;;;;;;;;;;x
+b_forestburg_AB;Forestburg;;;;;;;;;;;;;x
+b_sedgewick_AB;Sedgewick;;;;;;;;;;;;;x
+b_czar_AB;Czar;;;;;;;;;;;;;x
+b_sabrevois_QC;Sabrevois;;;;;;;;;;;;;x
+b_sorel_QC;Sorel;;;;;;;;;;;;;x
+b_salaberry_de_valleyfield_QC;Salaberry-de-Valleyfield;;;;;;;;;;;;;x
+
+

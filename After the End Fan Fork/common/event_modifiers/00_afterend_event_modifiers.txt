@@ -414,20 +414,20 @@ requested_military_aid = {
 }
 
 inspirational_martyr = {
-    global_revolt_risk = 0.08
-    icon = 31
+	global_revolt_risk = 0.08
+	icon = 31
 }
 
 antinomian_revival = {
-    icon = 31
+	icon = 31
 }
    
 resist_revival = {
-    icon = 17
+	icon = 17
 }
 
 burned_over = {
-    icon = 31
+	icon = 31
 }
 
 # Secret communities
@@ -1021,4 +1021,42 @@ bloodline_effect_cognatic = {
 	is_hidden = no
 	max_decimals = 0
 	show_value = no
+}
+hosay_opinion = {
+	icon = 3 
+	general_opinion = 10
+}
+hosay_timer = {
+	icon = 3
+}
+ashura_timer = {
+	icon = 3
+	muslim_opinion = 10
+}
+st_patricks_timer = {
+	icon = 3
+	christian_opinion = 10
+	revelationist_opinion = -10 #driving away snakes
+}
+halloween_timer = {
+	icon = 48
+	pagan_group_opinion = 5
+}
+muslim_settlement = {
+	icon = 9
+	city_tax_modifier = 0.25
+	culture_techpoints = 0.03
+}
+thriving_muslim_settlement = {
+	icon = 9
+	city_tax_modifier = 0.4
+	culture_techpoints = 0.2
+}
+expelled_muslim_settlement = {
+	icon = 27
+	city_tax_modifier = -0.25
+	culture_techpoints = -0.03
+}
+held_agape_feast_timer = {
+	icon = 3
 }

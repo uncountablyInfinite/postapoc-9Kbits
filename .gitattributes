@@ -20,3 +20,7 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+*.txt	text working-tree-encoding=cp1252
+*.csv	text working-tree-encoding=cp1252
+*.gfx	text working-tree-encoding=cp1252

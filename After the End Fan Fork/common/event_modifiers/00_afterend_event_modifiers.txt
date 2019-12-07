@@ -118,18 +118,28 @@ postadventist_revival = {
 revelationist_revival = {
 	icon = 26
 }
+
 mormon_revival = {
 	icon = 26
 }
 
-
 americanist_revival = {
 	icon = 26
 }
+
 atomic_quarantine = {
 	icon = 12
 }
 
+bureau_offices = {
+	icon = 12
+	global_tax_modifier = -0.05
+}
+
+bureau_roads = {
+	icon = 97
+	global_tax_modifier = -0.03
+}
 
 # Character Modifiers
 
@@ -1096,4 +1106,156 @@ held_agape_feast_timer = {
 }
 imperial_authority = {
 	icon = 10
+}
+bureaucracy = {
+	icon = 11
+	is_visible = { 
+		character = FROM
+	}
+}
+low_bureaucracy = {
+	icon = 29
+	global_tax_modifier = -0.25
+	global_levy_size = -0.1
+	global_revolt_risk = 0.02
+	build_time_modifier = 0.2
+	build_cost_modifier = 0.2
+	demesne_size = -2
+}
+high_bureaucracy = {
+	icon = 3
+	global_tax_modifier = 0.2
+	global_levy_size = 0.2
+	global_revolt_risk -0.05
+	build_time_modifier = -0.2
+	build_cost_modifier = -0.10
+	demesne_size = 2
+}
+poor_reforms = {
+	icon = 33
+	global_tax_modifier = -0.05
+	global_levy_size = -0.05
+	global_revolt_risk = 0.01
+	build_time_modifier = 0.10
+	build_cost_modifier = 0.10
+}
+good_reforms = {
+	icon = 15
+	global_tax_modifier = 0.05
+	global_levy_size = 0.05
+	global_revolt_risk = -0.02
+	build_time_modifier = -0.10
+	build_cost_modifier = -0.05
+}
+sold_bureaucratic_positions = {
+	icon = 33
+	global_tax_modifier = -0.05
+	global_levy_size = -0.05
+	build_time_modifier = 0.10
+	build_cost_modifier = 0.10
+	general_opinion = -20
+	just_opinion = -25
+}
+follower_of_serpent = {
+	icon = 48
+	intrigue = 2
+	diplomacy = -1
+}
+follower_of_burning_bush = {
+	icon = 48
+	martial = 2
+	stewardship = -1
+}
+follower_of_the_light = {
+	icon = 48
+	learning = 2
+	intrigue = -1
+}
+follower_of_white_lamb = {
+	icon = 48
+	martial = 2
+	diplomacy = -1
+}
+follower_of_lionza = {
+	icon = 48
+	stewardship = 2
+	intrigue = -1
+}
+follower_of_guaicaipuro = {
+	icon = 48
+	martial = 1
+	intrigue = 1
+	learning = -1
+}
+follower_of_felipe = {
+	icon = 48
+	martial = 1
+	diplomacy = 1
+	intrigue = -1
+}
+follower_of_gregorio = {
+	icon = 48
+	learning = 2
+	martial = -1
+}
+follower_of_bello = {
+	icon = 48
+	diplomacy = 2
+	martial = -1
+}
+follower_of_bolivar = {
+	icon = 48
+	martial = 2
+	diplomacy = -1
+}
+follower_of_almighty_spirit = {
+	icon = 48
+	learning = 2
+	diplomacy = -1
+}
+follower_of_sacagewea = {
+	icon = 48
+	stewardship = 2
+	martial = -1
+}
+follower_of_missus_sureshot = {
+	icon = 48
+	martial = 2
+	intrigue = -1
+}
+follower_of_the_nameless = {
+	icon = 48
+	intrigue = 1
+	martial = 1
+	diplomacy = -1
+}
+follower_of_the_tuatha = {
+	icon = 48
+	diplomacy = 2
+	intrigue = -1
+}
+follower_of_nokomis = {
+	icon = 48
+	learning = 2
+	intrigue = -1
+}
+voice_of_white_lamb = {
+	icon = 3
+	general_opinion = 10
+}
+voice_of_bello = {
+	icon = 3
+	general_opinion = 10
+}
+voice_of_the_tuatha = {
+	icon = 3
+	general_opinion = 10
+}
+nokomis_blessing = {
+	icon = 39
+	fertility = 0.2
+}
+sacagewea_blessing = {
+	icon = 39
+	fertility = 0.2
 }

@@ -2,7 +2,6 @@
  # start trigger is in title scope.
  
 tribal = {
-
 	#Mexican Fast horse breeders
 	tb_culture_mexican_1 = {
 		desc = ca_culture_mexican_1_desc
@@ -181,7 +180,6 @@ tribal = {
 		
 		extra_tech_building_start = 0.8
 	}
-
 
 	#Rustbelt Pikemen
 	tb_culture_rostmann_1 = {
@@ -863,22 +861,24 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger  
-				}
+					culture = carpetbagger
+				}  
 			}
-		} 
+		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger	   
-				}
+					culture = carpetbagger
+				}	   
 			}
 		}
 		prestige_cost = 100
@@ -893,6 +893,7 @@ tribal = {
 		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = upland
 					NOT = { culture = riverlander }
 				}
@@ -904,22 +905,24 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger   
-				}
+					culture = carpetbagger
+				}   
 			}
-		} 
+		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger   
-				}
+					culture = carpetbagger
+				}   
 			}
 		}
 		upgrades_from = tb_culture_appalachian_1
@@ -937,6 +940,7 @@ tribal = {
 		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = upland
 					NOT = { culture = riverlander }
 				}
@@ -949,22 +953,24 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger   
-				}
+					culture = carpetbagger
+				}   
 			}
-		} 
+		}
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger   
-				}
+					culture = carpetbagger
+				}   
 			}
 		}
 		upgrades_from = tb_culture_appalachian_2
@@ -980,6 +986,7 @@ tribal = {
 		desc = ca_culture_appalachian_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = upland
 					NOT = { culture = riverlander }
 				}
@@ -993,22 +1000,24 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger   
-				}
+					culture = carpetbagger
+				}   
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
+					AND = {
 						culture_group = upland
 						NOT = { culture = riverlander }
 					}
-					culture = carpetbagger	   
-				}
+					culture = carpetbagger
+				}	   
 			}
 		}
 		upgrades_from = tb_culture_appalachian_3
@@ -1847,39 +1856,35 @@ tribal = {
 				OR = {
 					terrain = mountain
 					terrain = arctic
-					terrain = steppe
-					terrain = desert
 				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+					NOT = { culture = metis }
+				}
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_canadian_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac					
+					culture = inuit					
 				}
 			}
 		} 
@@ -1887,17 +1892,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac					
+					culture = inuit					
 				}
 			}
 		}
@@ -1916,22 +1920,19 @@ tribal = {
 				OR = {
 					terrain = mountain
 					terrain = arctic
-					terrain = steppe
-					terrain = desert
 				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+					NOT = { culture = metis }
+				}
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_canadian_1
 				has_building = tb_culture_canadian_2
 			}
@@ -1939,17 +1940,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac					
+					culture = inuit					
 				}
 			}
 		} 
@@ -1957,17 +1957,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -1989,22 +1988,19 @@ tribal = {
 				OR = {
 					terrain = mountain
 					terrain = arctic
-					terrain = steppe
-					terrain = desert
 				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+					NOT = { culture = metis }
+				}
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_canadian_1
 				has_building = tb_culture_canadian_2
 				has_building = tb_culture_canadian_3
@@ -2013,17 +2009,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2031,17 +2026,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2061,22 +2055,19 @@ tribal = {
 				OR = {
 					terrain = mountain
 					terrain = arctic
-					terrain = steppe
-					terrain = desert
 				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+					NOT = { culture = metis }
+				}
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_canadian_1
 				has_building = tb_culture_canadian_2
 				has_building = tb_culture_canadian_3
@@ -2086,17 +2077,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2104,17 +2094,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+						NOT = { culture = metis }
+					}
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2139,34 +2128,32 @@ tribal = {
 				terrain = arctic
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+				}
+				culture = prairielander
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
-				culture = mikmaq		 
+				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_ski_troops_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
-					culture = mikmaq							 
+					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2174,17 +2161,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
-					culture = mikmaq							 
+					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2206,17 +2192,16 @@ tribal = {
 				terrain = arctic
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+				}
+				culture = prairielander
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
-				culture = mikmaq							 
+				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_ski_troops_1
 				has_building = tb_culture_ski_troops_2
 			}
@@ -2224,17 +2209,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2242,17 +2226,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2277,17 +2260,16 @@ tribal = {
 				terrain = arctic
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+				}
+				culture = prairielander
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_ski_troops_1
 				has_building = tb_culture_ski_troops_2
 				has_building = tb_culture_ski_troops_3
@@ -2296,17 +2278,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2314,17 +2295,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2347,13 +2327,14 @@ tribal = {
 				terrain = arctic
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
+				AND = {
+					culture_group = gallomerican
+					NOT = { culture = creole }
+					NOT = { culture = cajun }
+				}
+				culture = prairielander
 				culture = ontarian
 				culture = canuck
-				culture = metis
-				culture = ontarois
-				culture = prairielander
 				culture = mikmaq
 				culture = inuit
 				has_building = tb_culture_ski_troops_1
@@ -2365,17 +2346,16 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2383,17 +2363,16 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
+					AND = {
+						culture_group = gallomerican
+						NOT = { culture = creole }
+						NOT = { culture = cajun }
+					}
+					culture = prairielander
 					culture = ontarian
 					culture = canuck
-					culture = metis
-					culture = ontarois
-					culture = prairielander
 					culture = mikmaq
 					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2415,39 +2394,23 @@ tribal = {
 	tb_culture_prairie_1 = {
 		desc = ca_culture_prairie_1_desc
 		potential = {
-			OR = {
-				terrain = steppe
-				terrain = desert
+			NOT = {
+				OR = {
+					terrain = mountain
+					terrain = arctic
+				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
-				culture = ontarian
-				culture = canuck
 				culture = metis
-				culture = ontarois
 				culture = prairielander
-				culture = mikmaq
-				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_prairie_1
 			}
 		}
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2455,17 +2418,8 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2482,22 +2436,15 @@ tribal = {
 	tb_culture_prairie_2 = {
 		desc = ca_culture_prairie_1_desc
 		potential = {
-			OR = {
-				terrain = steppe
-				terrain = desert
+			NOT = {
+				OR = {
+					terrain = mountain
+					terrain = arctic
+				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
-				culture = ontarian
-				culture = canuck
 				culture = metis
-				culture = ontarois
 				culture = prairielander
-				culture = mikmaq
-				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_prairie_1
 				has_building = tb_culture_prairie_2
 			}
@@ -2505,17 +2452,8 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2523,17 +2461,8 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2553,22 +2482,15 @@ tribal = {
 	tb_culture_prairie_3 = {
 		desc = ca_culture_prairie_1_desc
 		potential = {
-			OR = {
-				terrain = steppe
-				terrain = desert
+			NOT = {
+				OR = {
+					terrain = mountain
+					terrain = arctic
+				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
-				culture = ontarian
-				culture = canuck
 				culture = metis
-				culture = ontarois
 				culture = prairielander
-				culture = mikmaq
-				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_prairie_1
 				has_building = tb_culture_prairie_2
 				has_building = tb_culture_prairie_3
@@ -2577,17 +2499,8 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2595,17 +2508,8 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -2623,22 +2527,15 @@ tribal = {
 	tb_culture_prairie_4 = {
 		desc = ca_culture_prairie_1_desc
 		potential = {
-			OR = {
-				terrain = steppe
-				terrain = desert
+			NOT = {
+				OR = {
+					terrain = mountain
+					terrain = arctic
+				}
 			}
 			OR = {
-				culture = quebecois
-				culture = acadien
-				culture = ontarian
-				culture = canuck
 				culture = metis
-				culture = ontarois
 				culture = prairielander
-				culture = mikmaq
-				culture = inuit
-				culture = rouillard
-				culture = omedulac
 				has_building = tb_culture_prairie_1
 				has_building = tb_culture_prairie_2
 				has_building = tb_culture_prairie_3
@@ -2648,17 +2545,8 @@ tribal = {
 		is_active_trigger = {
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		} 
@@ -2666,17 +2554,8 @@ tribal = {
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
 				OR = {
-					culture = quebecois
-					culture = acadien
-					culture = ontarian
-					culture = canuck
 					culture = metis
-					culture = ontarois
 					culture = prairielander
-					culture = mikmaq
-					culture = inuit
-					culture = rouillard
-					culture = omedulac
 				}
 			}
 		}
@@ -5125,19 +5004,23 @@ tribal = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 0
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		}
 		prestige_cost = 100
@@ -5164,19 +5047,23 @@ tribal = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 1
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		}
 		upgrades_from = tb_culture_woodlands_1
@@ -5207,19 +5094,23 @@ tribal = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 2
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		}
 		upgrades_from = tb_culture_woodlands_2
@@ -5249,19 +5140,23 @@ tribal = {
 		}
 		is_active_trigger = {
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		} 
 		trigger = { 
 			TECH_CASTLE_CONSTRUCTION = 4
 			ROOT = {
-				culture_group = eastern_woodlands
-				culture_group = anishinaabe
-				culture = innu 
-				culture = iyyu  
+				OR = {
+					culture_group = eastern_woodlands
+					culture_group = anishinaabe
+					culture = innu 
+					culture = iyyu
+				}  
 			}
 		}
 		upgrades_from = tb_culture_woodlands_3
@@ -6110,6 +6005,7 @@ tribal = {
 		desc = ca_culture_haida_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = northwest_coast
 					NOT = { culture = tlingit }
 				}			  
@@ -6141,6 +6037,7 @@ tribal = {
 		desc = ca_culture_haida_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = northwest_coast
 					NOT = { culture = tlingit }
 				}			  
@@ -6176,6 +6073,7 @@ tribal = {
 		desc = ca_culture_haida_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = northwest_coast
 					NOT = { culture = tlingit }
 				}			  
@@ -6210,6 +6108,7 @@ tribal = {
 		desc = ca_culture_haida_1_desc
 		potential = {
 			OR = {
+				AND = {
 					culture_group = northwest_coast
 					NOT = { culture = tlingit }
 				}			  
@@ -6756,7 +6655,7 @@ tribal = {
 		extra_tech_building_start = 0.8
 	}
 	
-	#Sefari Training Grounds
+	#Zebenya Training Grounds
 	tb_culture_zebenya_1 = {
 		desc = ca_culture_zebenya_1_desc
 		potential = {
@@ -7197,7 +7096,7 @@ tribal = {
 		extra_tech_building_start = 0.8
 	}
 	
-	#Azucarero Riding Grounds
+	#Mambí Riding Grounds
 	tb_culture_cubano_1 = {
 		desc = ca_culture_cubano_1_desc
 		potential = {

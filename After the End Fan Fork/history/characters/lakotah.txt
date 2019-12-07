@@ -196,7 +196,7 @@
 
 1889022 = {
 	name="Holger"
-	dynasty=1889037
+	dynasty=1889038
 	culture=mountainer
 	religion=norse_pagan
 	2640.1.1={birth=yes}
@@ -231,7 +231,7 @@
 	trait=legendary
 	trait=brilliant_strategist
 	trait=theologian
-	trait=sympathy_american_native
+	trait=sympathy_amero_syncretic
 	trait=humble
 	trait=brave
 	trait=just

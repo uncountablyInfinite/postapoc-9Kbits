@@ -4742,3 +4742,27 @@ upgrade_shrine_of_the_great_spirit = {
 		local_revolt_risk = -0.05
 	}
 }
+
+upgrade_gates_of_martyrs = {
+	picture = GFX_upgrade_icon_key
+
+	potential = { }
+	allow = { }
+	active = { }
+
+	flags = {	
+		defensive
+		is_plural
+	}
+	build_time = 40
+	gold_cost_flat = 800
+	gold_cost_ticking = 2
+	local_modifier = {
+		siege_speed = 0.5
+		siege_defence = 1
+		tradevalue = 10
+		disease_defence = 0.08
+	}
+	owner_modifier = {
+	}
+}

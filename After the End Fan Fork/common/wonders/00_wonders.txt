@@ -3358,6 +3358,7 @@ wonder_apostolic_palace = {
 		upgrade_retinue
 		upgrade_road_tolls
 		upgrade_tavern
+		upgrade_gates_of_martyrs
 	}
 	stage = {
 		allow = {
@@ -4480,13 +4481,14 @@ wonder_parliament_hill = {
 # Mt. Rushmore
 wonder_mt_rushmore = {
 	allow_coastal = no
-	picture = GFX_wonder_strip_ruler_statue
-	model = wonder_statue
+	picture = GFX_wonder_strip_rushmore
+	#model = wonder_statue
 	
 	active = {
 		always = yes
 	}
 	flags = {
+		is_historical
 		statue
 		inspires_greatness
 	}

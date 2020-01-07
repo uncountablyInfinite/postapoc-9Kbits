@@ -1006,6 +1006,7 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_Hooverdam_small.dds"
 		noOfFrames = 5
 	}
+
 	
 	spriteType = {
 		name = "GFX_wonder_strip_rushmore_large"
@@ -1025,4 +1026,5 @@ spriteTypes = {
 		texturefile = "ggfx\\interface\\wonder_interface\\wonder_strips\\wonder_stages_statue_small.dds"
 		noOfFrames = 5
 	}
+
 }

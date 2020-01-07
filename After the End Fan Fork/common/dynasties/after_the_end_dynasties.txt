@@ -763,6 +763,7 @@
 1402028 = { name="Hidebark" culture=arixan }
 1402029 = { name="Maíz" culture=arixan }
 1402030 = { name="Nyukem" culture=arixan }
+1402031 = { name="Warmsands" culture=arixan }
 
 
 1428000 = { name="Acatl" culture=nahua }
@@ -6299,6 +6300,7 @@ coat_of_arms = {
 1812071 = { name="Norton" culture=british }
 1812072 = { name="Owens" culture=british }
 1812073 = { name="Featherstonehaugh" culture=british }
+1812074 = { name="Hanover" culture=british }
 
 
 1813000 = { name="Oulton" culture=maritimer }
@@ -8962,6 +8964,7 @@ coat_of_arms = {
 1967014 = { name="Troxler" culture=motowner }
 1967015 = { name="Amofah" culture=motowner }
 1967016 = { name="el-Shabazz" culture=motowner }
+1967017 = { name="Barack" culture=motowner }
 
 
 1975000 = { name="Quang" culture=kinh }
@@ -9193,7 +9196,7 @@ coat_of_arms = {
 2000067 = { name="Carmichael" culture=west_indian }
 2000068 = { name="Braithwaite" culture=west_indian }
 2000069 = { name="Mowatt" culture=west_indian }
-2000070 = { name="Sparrow" culture=west_indian }
+2000070 = { name="Passer" culture=west_indian }
 2000071 = { name="Abbot" culture=west_indian }
 2000072 = { name="Abeselome" culture=west_indian }
 
@@ -10903,6 +10906,16 @@ coat_of_arms = {
 2035008 = { name="Arafat" culture=filastino }
 2035009 = { name="Al-Khatib" culture=filastino }
 2035010 = { name="Mustafa" culture=filastino }
+2035011 = { name="Haddad" culture=filastino }
+2035012 = { name="Franjieh" culture=filastino }
+2035013 = { name="Awad" culture=filastino }
+2035014 = { name="Assaad" culture=filastino }
+2035015 = { name="Mustafa" culture=filastino }
+2035016 = { name="Ghantous" culture=filastino }
+2035017 = { name="Kafrouni" culture=filastino }
+2035018 = { name="Saad" culture=filastino }
+2035019 = { name="Awad" culture=filastino }
+2035020 = { name="Karam" culture=filastino }
 
 2036000 = { name="Prendergast" culture=omedulac }
 2036001 = { name="Dagobert" culture=omedulac }

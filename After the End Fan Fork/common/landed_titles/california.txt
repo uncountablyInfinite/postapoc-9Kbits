@@ -418,10 +418,16 @@ e_california = {
 			color2={ 255 255 255 }
 			
 			capital = 2056 # c_eureka
+
+			edokko = "Akaizai"
+
 			
 			c_eureka = { # 2056
 				color={ 82 68 202 }
 				color2={ 255 255 255 }
+
+				edokko = "Yurikka" #Transliterated
+
 				
 				b_eureka_CA = {}
 				b_mckinleyville_CA = {}
@@ -434,6 +440,9 @@ e_california = {
 			c_bragg = { # 2053
 				color={ 178 188 233 }
 				color2={ 255 255 255 }
+
+				edokko = "Kawanogake" #River Cliff
+
 				
 				b_fort_bragg_CA = {}
 				b_caspar_CA = {}
@@ -446,7 +455,9 @@ e_california = {
 			c_humboldt = { # 2055
 				color={ 218 158 233 }
 				color2={ 255 255 255 }
-				
+
+				edokko = "Hululu"
+
 				b_fortuna_CA = {}
 				b_garberville_CA = {}
 				b_weott_CA = {}
@@ -458,6 +469,9 @@ e_california = {
 			c_mendocino = { # 2054
 				color={ 218 188 193 }
 				color2={ 255 255 255 }
+
+				edokko = "Reiyama" #Cold Mountain
+
 				
 				b_ukiah_CA = {}
 				b_willits_CA = {}
@@ -471,6 +485,7 @@ e_california = {
 			c_redwood = { # 2057
 				color={ 62 118 182 }
 				color2={ 255 255 255 }
+				edokko = "Akaizai" #Red Wood
 				
 				b_crescent_CA = {}
 				b_bertsch_CA = {}
@@ -490,12 +505,15 @@ e_california = {
 		atomicist = 500
 		
 		capital = 2031 # c_san_francisco
+		edokko = "Kariwan" # Californian Bay
 		
 		d_goldengate = {
 			color={ 227 210 150 }
 			color2={ 255 255 255 }
 			
 			capital = 2031 # c_san_francisco
+			edokko = "Daikari Hashi" # Great Californian Bridge
+
 			
 			c_san_francisco = { # 2031
 				color={ 237 230 150 }
@@ -503,6 +521,8 @@ e_california = {
 				holy_site = cetic
 				holy_site = shinto
 				holy_site = imamite
+
+				edokko = "Sanfuran" #Abbreviated San Francisco
 				
 				b_fort_point_CA = {}
 				b_alcatraz_CA = {}
@@ -529,13 +549,18 @@ e_california = {
 		d_east_bay = {
 			color={ 173 119 164 }
 			color2={ 255 255 255 }
+
+			edokko = "Touwan" #Literally East Bay
+
 			
 			capital = 2032 # c_alameda
 			
 			c_san_jose = { # 2029
 				color={ 143 149 164 }
 				color2={ 255 255 255 }
-				
+
+				edokko = "Sanpose"
+
 				b_san_jose_CA = {}
 				b_mountain_view_CA = {}
 				b_sunnyvale_CA = {}
@@ -549,6 +574,8 @@ e_california = {
 				color2={ 255 255 255 }
 				holy_site = gaian
 				holy_site = aphite
+
+				edokko = "Arameda"
 				
 				b_oakland_CA = {}
 				b_fremont_CA = {}
@@ -561,7 +588,9 @@ e_california = {
 			c_contra_costa = { # 2042
 				color={ 173 149 134 }
 				color2={ 255 255 255 }
-				
+
+				edokko = "Gyakkaigan" #Opposite Coast
+
 				b_antioch_CA = {}
 				b_concord_CA = {}
 				b_richmond_CA = {}
@@ -574,13 +603,18 @@ e_california = {
 		d_salinas = {
 			color={ 233 188 194 }
 			color2={ 255 255 255 }
+
+			edokko = "Shionotani" #Valley of Salt
+
 			
 			capital = 2030 # c_santa_cruz
 			
 			c_santa_cruz = { # 2030
 				color={ 193 188 194 }
 				color2={ 255 255 255 }
-				
+
+				edokko = "Shinjuukei" #Divine Ten-Form
+
 				b_santa_cruz_salinas_CA = {}
 				b_salinas_CA = {}
 				b_watsonville_CA = {}
@@ -592,6 +626,8 @@ e_california = {
 			c_monterey = { # 2026
 				color={ 233 158 194 }
 				color2={ 255 255 255 }
+
+				edokko = "Ounoyama" #Kings Mountain
 				
 				b_carmel_CA = {}
 				b_pacific_grove_CA = {}
@@ -605,6 +641,8 @@ e_california = {
 			c_san_benito = { # 2028
 				color={ 233 188 154 }
 				color2={ 255 255 255 }
+
+				edokko = "Beninoseijin" #literally saint Benedict
 				
 				b_hollister_CA = {}
 				b_pinnacles_CA = {}
@@ -617,6 +655,8 @@ e_california = {
 			c_obispo = { # 2025
 				color={ 213 198 174 }
 				color2={ 255 255 255 }
+
+				edokko = "Shikyounoshi" #City of the Bishop/Pontiff
 				
 				b_san_luis_obispo_CA = {}
 				b_san_simeon_CA = {}
@@ -632,7 +672,9 @@ e_california = {
 			color2={ 255 255 255 }
 			
 			capital = 2043 # c_napa
-			
+
+			edokko = "Budoushuriku" #Land of Wine
+
 			c_napa = { # 2043
 				color={ 233 104 198 }
 				color2={ 255 255 255 }
@@ -648,6 +690,8 @@ e_california = {
 			c_lake = { # 2051
 				color={ 193 134 198 }
 				color2={ 255 255 255 }
+
+				edokko = "Kouseiko" #High Blue Lake
 				
 				b_clearlake_CA = {}
 				b_lakeport_CA = {}
@@ -663,6 +707,8 @@ e_california = {
 				
 				vlodivostockiy = "Kreposti Ross"
 				petropavlovskiy = "Kreposti Ross"
+				edokko = "Kotoride" #Old Fort
+
 				
 				holy_site = nousthreskeia #Fort Ross
 				
@@ -684,6 +730,7 @@ e_california = {
 			c_solano = { # 2076
 				color={ 203 134 188 }
 				color2={ 255 255 255 }
+				edokko = "Sorano" #Transliterated
 				
 				b_travis_CA = {}
 				b_fairfield_CA = {}
@@ -943,14 +990,19 @@ e_california = {
 		color2={ 243 215 59 }
 		
 		capital = 2046 # c_sacramento
+		edokko = "Shoukoushi" #Little Emperor City 
+
 		
 		d_sacramento = {
 			color={ 192 61 146 }
 			color2={ 243 215 59 }
-			
+			edokko = "Shoukoushi" #Little Emperor City 
+
 			capital = 2046 # c_sacramento
 			
 			c_sacramento = { # 2046
+				edokko = "Shoukoushi" #Little Emperor City 
+
 				color={ 192 61 146 }
 				color2={ 243 215 59 }
 				holy_site = cetic
@@ -989,6 +1041,8 @@ e_california = {
 				color={ 218 227 105 }
 				color2={ 255 255 255 }
 				holy_site = shinto # mount whitney
+				edokko = "Taiyou no Tengoku no Yama" #The Mountain of the Heavenly Sun (Its a holy site, it deserves some pomp (this also might be "horribly wrong"))
+
 
 				b_bishop_CA = {}
 				b_lone_pine_CA = {}
@@ -1056,6 +1110,7 @@ e_california = {
 			color2={ 255 255 255 }
 
 			tehrangeleno = "Tehrangeles"
+			edokko = "Tenshiji"
 
 			
 			capital = 2019 # c_los_angeles
@@ -1068,7 +1123,7 @@ e_california = {
 				holy_site = shinto
 
 				tehrangeleno = "Tehrangeles"
-
+				edokko = "Tenshiji"
 				
 				b_hollywood_CA = {}
 				b_long_beach_CA = {}
@@ -1082,6 +1137,8 @@ e_california = {
 				color={ 220 130 74 }
 				color2={ 255 255 255 }
 				holy_site = imamite
+
+				edokko = "Daidairiku" #Land of Bitter Oranges (I am totally not shitting on Orange County)
 				
 				b_anaheim_CA = {}
 				b_irvine_CA = {}
@@ -1094,6 +1151,8 @@ e_california = {
 			c_channel_islands = {
 				color={ 189 187 190 }
 				color2={ 255 255 255 }
+
+				edokko = "Tenshi no Shima" #Angel's Islands
 				
 				b_santa_catalina_CA = {}
 				b_santa_cruz_island_CA = {}
@@ -1171,6 +1230,10 @@ e_california = {
 				color={ 181 241 144 }
 				color2={ 255 255 255 }
 				holy_site = mormon
+				holy_site = imamite
+
+				edokko = "Deigo" #Transliterated
+
 				
 				b_san_diego_CA = {}
 				b_la_jolla_CA = {}
@@ -1197,8 +1260,9 @@ e_california = {
 			c_pendleton = { # 2012
 				color={ 211 241 114 }
 				color2={ 255 255 255 }
-				holy_site = imamite
 				holy_site = aphite
+
+				edokko = "Hokusai" #North Fort
 				
 				b_camp_pendleton_CA = {}
 				b_escondido_CA = {}
@@ -1231,7 +1295,9 @@ e_california = {
 			c_ventura = { # 2021
 				color={ 169 197 170 }
 				color2={ 255 255 255 }
-				
+
+				edokko = "Bentsura" #Transliterated
+
 				b_oxnard_CA = {}
 				b_thousand_oaks_CA = {}
 				b_malibu_CA = {}
@@ -1243,6 +1309,9 @@ e_california = {
 			c_santa_barbara = { # 2024
 				color={ 199 167 170 }
 				color2={ 255 255 255 }
+
+				edokko = "Sanbaba" #Transliterated
+
 				
 				b_vandenburg_CA = {}
 				b_santa_barbara_CA = {}
@@ -1255,6 +1324,9 @@ e_california = {
 			c_tejon_pass = { # 2022
 				color={ 199 197 130 }
 				color2={ 255 255 255 }
+
+				edokko = "Anaguma no Touge" #Pass of Badgers
+
 				
 				b_tehachapi_CA = {}
 				b_lebec_CA = {}

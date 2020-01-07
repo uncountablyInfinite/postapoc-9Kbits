@@ -21,6 +21,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_player_colonizer"
+		texturefile = "gfx/traits/player_col.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
 		name = "GFX_trait_legendary"
 		texturefile = "gfx/traits/legendary.tga"
 		noOfFrames = 1
@@ -1093,6 +1101,16 @@ spriteTypes = {
 		name = "GFX_hold_agape_feast"
 		texturefile = "gfx\\interface\\decision_icon_feast.dds"
 	}
+	spriteType = {
+		name = "GFX_hold_obon_festival"
+		texturefile = "gfx\\interface\\decision_icon_obon_festival.dds"
+	}
+	spriteType = {
+		name = "GFX_send_home_goods"
+		texturefile = "gfx\\interface\\decision_icon_send_colonial_goods_home.dds"
+	}
+
+
 	spriteType = {
 		name = "GFX_take_imp_exam"
 		texturefile = "gfx\\interface\\decision_icon_issue_declaration_of_repentance.dds"

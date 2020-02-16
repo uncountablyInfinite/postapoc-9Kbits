@@ -38,7 +38,6 @@ al-Sayyid/ShiatAli
 Shadeoses/BoneLorde
 Lord_Iggy/KaYoS
 jd_stuyvesant/Stuyvesant
-Little Skull Boi
 
 Original mod team:
 

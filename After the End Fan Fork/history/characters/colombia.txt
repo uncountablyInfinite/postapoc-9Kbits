@@ -474,14 +474,12 @@
 2400049={
 	name="Rafael"
 	dynasty=1536014
-	culture=brown
+	culture=quechua
 	religion=gracia_divina
 	trait=gracia_dorado
 	father=2400045
 	mother=2400046
-	2658.1.1={birth=yes
-		culture=valluno
-	}
+	2658.1.1={birth=yes}
 	2708.3.18={death=yes}
 }
 

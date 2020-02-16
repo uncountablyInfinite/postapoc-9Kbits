@@ -9,7 +9,7 @@ max_settlements = 4
 b_girardot_COL = tribal
 
 # Misc
-culture = quechua
+culture = muisca
 religion = gracia_divina
 terrain = hills
 

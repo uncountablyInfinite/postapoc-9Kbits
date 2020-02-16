@@ -411,9 +411,9 @@
 }
 
 2400045={
-	name="Héctor"
-	dynasty=1536014
-	culture=brown
+	name="Viracocha"
+	dynasty=1438031
+	culture=quechua
 	religion=gracia_divina
 	trait=tough_soldier
 	trait=hunter
@@ -422,58 +422,50 @@
 	trait=content
 	trait=craven
 	trait=gracia_dorado
-	2621.1.1={birth=yes
-		culture=valluno
-	}
+	2621.1.1={birth=yes}
 	2648.3.5={add_spouse=2400046}
 	2698.3.18={death=yes}
 }
 
 2400046={
-	name="Catalina"
+	name="Suyana"
 	female=yes
-	culture=brown
+	culture=quechua
 	religion=gracia_divina
 	trait=gracia_dorado
-	2622.1.1={birth=yes
-		culture=valluno
-	}
+	2622.1.1={birth=yes}
 	2648.3.5={add_spouse=2400045}
 	2688.3.18={death=yes}
 }
 
 2400047={
-	name="Yolanda"
-	dynasty=1536014
+	name="Waylla"
+	dynasty=1438031
 	female=yes
-	culture=brown
+	culture=quechua
 	religion=gracia_divina
 	trait=gracia_dorado
 	father=2400045
 	mother=2400046
-	2649.1.1={birth=yes
-		culture=valluno
-	}
+	2649.1.1={birth=yes}
 	2698.3.18={death=yes}
 }
 
 2400048={
-	name="Víctor"
-	dynasty=1536014
-	culture=brown
+	name="Viracocha"
+	dynasty=1438031
+	culture=quechua
 	religion=gracia_divina
 	trait=gracia_dorado
 	father=2400045
 	mother=2400046
-	2652.1.1={birth=yes
-		culture=valluno
-	}
+	2652.1.1={birth=yes}
 	2688.3.18={death=yes}
 }
 
 2400049={
-	name="Rafael"
-	dynasty=1536014
+	name="Wamani"
+	dynasty=1438031
 	culture=quechua
 	religion=gracia_divina
 	trait=gracia_dorado
@@ -484,26 +476,25 @@
 }
 
 2400050={
-	name="Quenti"
-	dynasty=1438034
-	culture=quechua
+	name="Mohanes"
+	dynasty=1450013
+	culture=muisca
 	religion=gracia_divina
 	trait=grey_eminence
 	trait=shrewd
 	trait=gregarious
 	trait=deceitful
-	trait=brave
+	trait=arbitrary
 	trait=gracia_dorado
-	give_nickname=nick_the_conqueror
 	2621.1.1={birth=yes}
 	2639.3.5={add_spouse=2400051}
 	2664.3.18={death=yes}
 }
 
 2400051={
-	name="Golotina"
+	name="Gueta"
 	female=yes
-	culture=quechua
+	culture=muisca
 	religion=gracia_divina
 	trait=gracia_dorado
 	2621.1.1={birth=yes}
@@ -512,9 +503,9 @@
 }
 
 2400052={
-	name="Huáscar"
-	dynasty=1438034
-	culture=quechua
+	name="Huascar"
+	dynasty=1450013
+	culture=muisca
 	religion=gracia_divina
 	trait=charismatic_negotiator
 	trait=robust
@@ -531,9 +522,9 @@
 }
 
 2400053={
-	name="Sahuaraura"
-	dynasty=1438034
-	culture=quechua
+	name="Sadigua"
+	dynasty=1450013
+	culture=muisca
 	religion=gracia_divina
 	trait=tough_soldier
 	trait=shrewd
@@ -550,10 +541,10 @@
 }
 
 2400055={
-	name="Caiya"
+	name="Poporo"
 	female=yes
-	dynasty=1438019
-	culture=quechua
+	dynasty=1450007
+	culture=muisca
 	religion=gracia_divina
 	trait=gracia_dorado
 	2641.1.1={birth=yes}
@@ -561,9 +552,9 @@
 }
 
 2400056={
-	name="Miguel"
-	dynasty=1539011
-	culture=rolo
+	name="Zhue"
+	dynasty=1450008
+	culture=muisca
 	religion=gracia_divina
 	trait=gracia_dorado
 	2638.1.1={birth=yes}
@@ -571,9 +562,9 @@
 }
 
 2400057={
-	name="Hernando"
-	dynasty=1539013
-	culture=rolo
+	name="Huitaca"
+	dynasty=1450009
+	culture=muisca
 	religion=gracia_divina
 	trait=gracia_dorado
 	2644.1.1={birth=yes}

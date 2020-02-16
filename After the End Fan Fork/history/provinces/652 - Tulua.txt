@@ -9,8 +9,9 @@ max_settlements = 4
 b_tulua_COL = tribal
 
 # Misc
-culture = valluno
+culture = paisa
 religion = gracia_divina
 terrain = farmlands
+
 
 #History

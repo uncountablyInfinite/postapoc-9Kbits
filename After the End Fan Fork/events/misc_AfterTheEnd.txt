@@ -483,11 +483,11 @@ character_event = {
 				culture = caraqueno
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = llanero
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = bolivarense
 			}
 			modifier = {
@@ -587,7 +587,7 @@ character_event = {
 				culture = tagalog
 			}
 			modifier = {
-				factor = 0
+				factor = 15
 				culture = gocho
 			}
 			modifier = {
@@ -813,14 +813,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = white
@@ -1158,11 +1150,11 @@ character_event = {
 				culture = edokko
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = paisa
 			}
 			modifier = {
-				factor = 20
+				factor = 5
 				culture = costeno
 			}
 			modifier = {
@@ -1170,15 +1162,15 @@ character_event = {
 				culture = istmeno
 			}
 			modifier = {
-				factor = 0
+				factor = 25
 				culture = caraqueno
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = llanero
 			}
 			modifier = {
-				factor = 10
+				factor = 5
 				culture = bolivarense
 			}
 			modifier = {
@@ -1206,11 +1198,11 @@ character_event = {
 				culture = inuit
 			}
 			modifier = {
-				factor = 90
+				factor = 80
 				culture = chocoano
 			}
 			modifier = {
-				factor = 5
+				factor = 20
 				culture = truenonato
 			}
 			modifier = {
@@ -1278,7 +1270,7 @@ character_event = {
 				culture = tagalog
 			}
 			modifier = {
-				factor = 0
+				factor = 15
 				culture = gocho
 			}
 			modifier = {
@@ -1504,14 +1496,6 @@ character_event = {
 			modifier = {
 				factor = 2
 				culture = lokono
-			}
-			modifier = {
-				factor = 5
-				culture = rolo
-			}
-			modifier = {
-				factor = 30
-				culture = valluno
 			}
 		}
 		set_graphical_culture = black
@@ -1849,11 +1833,11 @@ character_event = {
 				culture = edokko
 			}
 			modifier = {
-				factor = 45
+				factor = 20
 				culture = paisa
 			}
 			modifier = {
-				factor = 60
+				factor = 20
 				culture = costeno
 			}
 			modifier = {
@@ -1861,15 +1845,15 @@ character_event = {
 				culture = istmeno
 			}
 			modifier = {
-				factor = 0
+				factor = 30
 				culture = caraqueno
 			}
 			modifier = {
-				factor = 60
+				factor = 30
 				culture = llanero
 			}
 			modifier = {
-				factor = 40
+				factor = 20
 				culture = bolivarense
 			}
 			modifier = {
@@ -1897,11 +1881,11 @@ character_event = {
 				culture = inuit
 			}
 			modifier = {
-				factor = 0
+				factor = 10
 				culture = chocoano
 			}
 			modifier = {
-				factor = 45
+				factor = 5
 				culture = truenonato
 			}
 			modifier = {
@@ -1969,7 +1953,7 @@ character_event = {
 				culture = tagalog
 			}
 			modifier = {
-				factor = 50
+				factor = 40
 				culture = gocho
 			}
 			modifier = {
@@ -2195,14 +2179,6 @@ character_event = {
 			modifier = {
 				factor = 10
 				culture = lokono
-			}
-			modifier = {
-				factor = 60
-				culture = rolo
-			}
-			modifier = {
-				factor = 50
-				culture = valluno
 			}
 		}
 		set_graphical_culture = brown
@@ -2540,11 +2516,11 @@ character_event = {
 				culture = edokko
 			}
 			modifier = {
-				factor = 5
+				factor = 10
 				culture = paisa
 			}
 			modifier = {
-				factor = 0
+				factor = 10
 				culture = costeno
 			}
 			modifier = {
@@ -2552,15 +2528,15 @@ character_event = {
 				culture = istmeno
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = caraqueno
 			}
 			modifier = {
-				factor = 20
+				factor = 30
 				culture = llanero
 			}
 			modifier = {
-				factor = 10
+				factor = 30
 				culture = bolivarense
 			}
 			modifier = {
@@ -2592,7 +2568,7 @@ character_event = {
 				culture = chocoano
 			}
 			modifier = {
-				factor = 0
+				factor = 5
 				culture = truenonato
 			}
 			modifier = {
@@ -2660,7 +2636,7 @@ character_event = {
 				culture = tagalog
 			}
 			modifier = {
-				factor = 5
+				factor = 15
 				culture = gocho
 			}
 			modifier = {
@@ -2882,14 +2858,6 @@ character_event = {
 			modifier = {
 				factor = 86
 				culture = lokono
-			}
-			modifier = {
-				factor = 5
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = native
@@ -3574,14 +3542,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = chinese
 	}
@@ -4260,14 +4220,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = norse
@@ -4952,14 +4904,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = celtic
 	}
@@ -5639,14 +5583,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = ugric
 	}
@@ -5983,11 +5919,11 @@ character_event = {
 				culture = edokko
 			}
 			modifier = {
-				factor = 45
+				factor = 65
 				culture = paisa
 			}
 			modifier = {
-				factor = 20
+				factor = 65
 				culture = costeno
 			}
 			modifier = {
@@ -5995,15 +5931,15 @@ character_event = {
 				culture = istmeno
 			}
 			modifier = {
-				factor = 0
+				factor = 33
 				culture = caraqueno
 			}
 			modifier = {
-				factor = 10
+				factor = 20
 				culture = llanero
 			}
 			modifier = {
-				factor = 40
+				factor = 30
 				culture = bolivarense
 			}
 			modifier = {
@@ -6035,7 +5971,7 @@ character_event = {
 				culture = chocoano
 			}
 			modifier = {
-				factor = 25
+				factor = 30
 				culture = truenonato
 			}
 			modifier = {
@@ -6103,7 +6039,7 @@ character_event = {
 				culture = tagalog
 			}
 			modifier = {
-				factor = 45
+				factor = 15
 				culture = gocho
 			}
 			modifier = {
@@ -6329,14 +6265,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 30
-				culture = rolo
-			}
-			modifier = {
-				factor = 20
-				culture = valluno
 			}
 		}
 		set_graphical_culture = mediterranean
@@ -7021,10 +6949,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
 		}
 		set_graphical_culture = indian
 	}
@@ -7707,14 +7631,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = slavic
@@ -8399,14 +8315,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = west_slavic
 	}
@@ -9073,14 +8981,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = german
@@ -9760,14 +9660,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = english
@@ -10452,10 +10344,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = persian
 	}
@@ -10792,7 +10680,7 @@ character_event = {
 				culture = edokko
 			}
 			modifier = {
-				factor = 5
+				factor = 0
 				culture = paisa
 			}
 			modifier = {
@@ -10804,7 +10692,7 @@ character_event = {
 				culture = istmeno
 			}
 			modifier = {
-				factor = 0
+				factor = 7
 				culture = caraqueno
 			}
 			modifier = {
@@ -10844,7 +10732,7 @@ character_event = {
 				culture = chocoano
 			}
 			modifier = {
-				factor = 25
+				factor = 40
 				culture = truenonato
 			}
 			modifier = {
@@ -11138,14 +11026,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = italian
@@ -11830,14 +11710,6 @@ character_event = {
 				factor = 0
 				culture = lokono
 			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
-			}
 		}
 		set_graphical_culture = french
 	}
@@ -12520,14 +12392,6 @@ character_event = {
 			modifier = {
 				factor = 0
 				culture = lokono
-			}
-			modifier = {
-				factor = 0
-				culture = rolo
-			}
-			modifier = {
-				factor = 0
-				culture = valluno
 			}
 		}
 		set_graphical_culture = greek

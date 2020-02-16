@@ -5,9 +5,8 @@ title=c_simcoe
 
 # Settlements
 max_settlements=4
-b_orillia_ON=castle
-b_barrie_ON=city
-b_innisfil_ON=temple
+b_barrie_ON=castle
+b_orillia_ON=city
 
 # Misc
 culture=ontarian

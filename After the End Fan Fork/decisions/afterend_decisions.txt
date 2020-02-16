@@ -1628,10 +1628,7 @@ decisions = {
 			is_playable = yes
 			prisoner = no
 			religion = sacred_heart
-			OR = {
-				tier = king
-				tier = emperor
-			}
+			has_landed_title = e_mexico
 			k_sagrado_corazon = {
 				has_holder = no
 			}
@@ -1641,7 +1638,6 @@ decisions = {
 		}
 		allow = {
 			piety = 250
-			has_landed_title = e_mexico
 		}
 		effect = {
 			give_nickname = nick_the_great

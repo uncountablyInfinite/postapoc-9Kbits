@@ -1236,7 +1236,6 @@
 		}
 	}
 	2664.2.24={add_spouse=1845054}
-	2723.4.21={death=yes}
 }
 
 1845054={
@@ -1257,7 +1256,6 @@
 	trait=zealous
 	2636.7.9={birth=yes}
 	2664.2.24={add_spouse=1845053}
-	2698.8.29={death=yes}
 }
 
 1845055={
@@ -1353,7 +1351,6 @@
 	father=1845053
 	mother=1845054
 	2664.8.18={birth=yes}
-	2694.8.17={death=yes}
 }
 
 1845060={
@@ -1490,7 +1487,6 @@
 	religion=gaian
 	2641.8.23={birth=yes}
 	2659.9.10={add_matrilineal_spouse=1845069}
-	2674.2.27={death=yes}
 }
 
 1845069={
@@ -1515,7 +1511,6 @@
 			prestige=250
 		}
 	}
-	2681.2.1={death=yes}
 }
 
 1845070={
@@ -1691,9 +1686,9 @@
 1845078={
 	name="Raven"
 	female=yes
-	dynasty=1886007
+	dynasty=1210023
 	dna="cbpdnafccod"
-	culture=canuck
+	culture=shuswap
 	religion=gaian
 	martial=3
 	diplomacy=2
@@ -1712,9 +1707,9 @@
 1845079={
 	name="Erica"
 	female=yes
-	dynasty=1886007
+	dynasty=1210023
 	dna="anbalhaelfb"
-	culture=canuck
+	culture=shuswap
 	religion=gaian
 	martial=2
 	diplomacy=3
@@ -1733,9 +1728,9 @@
 1845080={
 	name="Saskia"
 	female=yes
-	dynasty=1886007
+	dynasty=1210023
 	dna="hamccaaajdl"
-	culture=canuck
+	culture=shuswap
 	religion=gaian
 	martial=3
 	diplomacy=4
@@ -1958,8 +1953,9 @@
 	trait=wroth
 	father=1845017
 	2645.11.19={birth=yes}
-	2660.1.1={ employer=1845014 }
-	2678.8.27={death=yes}
+	2660.1.1={
+		employer=1845014
+	}
 }
 
 1845092={

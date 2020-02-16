@@ -76,16 +76,6 @@ narrative_event = {
 					title = e_pirates
 				}
 			}
-			NOT = {
-				primary_title = {
-					title = e_playercolnovorusskiy
-				}
-			}
-			NOT = {
-				primary_title = {
-					title = e_playercoledokko
-				}
-			}
 
 			NOR = {
 				primary_title = {

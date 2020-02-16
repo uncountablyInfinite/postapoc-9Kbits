@@ -57,10 +57,9 @@ portuguese = {
 			Xoana 
 		}
 		from_dynasty_prefix = "de "
-		
-		male_patronym = "filho de"
-		female_patronym = "filha de"
-		prefix = yes
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
 
 		modifier = default_culture_modifier
 
@@ -132,10 +131,9 @@ portuguese = {
 		}
 		
 		from_dynasty_prefix = "de "
-		
-		male_patronym = "filho de"
-		female_patronym = "filha de"
-		prefix = yes
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
 
 		modifier = default_culture_modifier
 

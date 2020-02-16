@@ -54,10 +54,9 @@ portunhol = {
 			Vanda Virgínia
 		}
 		from_dynasty_prefix = "de "
-		
-		male_patronym = "filho de"
-		female_patronym = "filha de"
-		prefix = yes
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
 	
 		allow_looting = yes
 		modifier = default_culture_modifier
@@ -121,10 +120,9 @@ portunhol = {
 			Zanina
 		}
 		from_dynasty_prefix = "di "
-		
-		male_patronym = "filho de"
-		female_patronym = "filha de"
-		prefix = yes
+		male_patronym = "es"
+		female_patronym = "es"
+		grammar_transform = spanish
 		
 		allow_looting = yes
 		modifier = default_culture_modifier

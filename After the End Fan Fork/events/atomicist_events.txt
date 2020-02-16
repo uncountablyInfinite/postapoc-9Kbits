@@ -1162,7 +1162,9 @@ province_event = {
 	
 	option = {
 		name = EVTOPTATOMICISTFREE
-		remove_province_modifier = atomic_quarantine
+		remove_province_modifier = {
+			name = atomic_quarantine
+		}
 		hidden_tooltip = {
 			FROM = {
 				character_event = { id = event_atomicist.308 }

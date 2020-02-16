@@ -46,10 +46,7 @@ claim = {
 	can_use_gui = {
 		ROOT = {
 			OR = {
-				NOR = { 
-					trait = figurehead
-					trait = weak_emperor
-				}
+				NOT = { trait = figurehead }
 				excommunicated_for = ROOT
 			}
 		}
@@ -1933,10 +1930,7 @@ claim_all = {
 	
 	can_use_gui = {
 		ROOT = {
-			NOR = { 
-				trait = figurehead
-				trait = weak_emperor
-			}
+			NOT = { trait = figurehead }
 		}
 		NAND = {
 			ROOT = {
@@ -12249,10 +12243,7 @@ dejure_county_claim = {
 	can_use_gui = {
 		ROOT = {
 			OR = {
-				NOR = { 
-					trait = figurehead
-					trait = weak_emperor
-				}
+				NOT = { trait = figurehead }
 				excommunicated_for = ROOT
 			}
 		}

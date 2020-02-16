@@ -140,10 +140,7 @@ cb_pro_imperial = {
 	}
 	
 	is_valid = {
-		OR = {
-			e_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-		}
+		e_california = { holder_scope = { trait = figurehead } }
 		ROOT = {
 			NOT = { top_liege = { has_landed_title = e_california } }
 			OR = {
@@ -4151,9 +4148,8 @@ governator_war = {
 			NOT = {
 				trait = sanctioned_governator
 			}
-			NOR = {
+			NOT = {
 				has_landed_title = e_california
-				has_landed_title = e_new_california
 			}
 			OR = {
 				is_theocracy = yes
@@ -4184,12 +4180,7 @@ governator_war = {
 				}
 			}
 		}
-		OR = {
-			e_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-			e_new_california = { holder_scope = { trait = figurehead } }
-			e_new_california = { holder_scope = { trait = weak_emperor } }
-		}
+		e_california = { holder_scope = { trait = figurehead } }
 	}
 	
 	can_use_gui = {
@@ -4211,12 +4202,7 @@ governator_war = {
 	}
 
 	is_valid = {
-		OR = {
-			e_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-			e_new_california = { holder_scope = { trait = figurehead } }
-			e_new_california = { holder_scope = { trait = weak_emperor } }
-		}
+		e_california = { holder_scope = { trait = figurehead } }
 		FROM = {
 			OR = {
 				trait = governator
@@ -4281,27 +4267,14 @@ governator_war = {
 				}
 			}
 		}
-		e_new_california = {
-			holder_scope = {
-				opinion = {
-					modifier = defied_norms
-					who = ROOT
-				}
-			}
-		}
 		ROOT = {
 			show_scope_change = no
 			participation_scaled_prestige = 100
 			add_trait = governator
 			if = {
 				limit = {
-					OR = {
-						liege = {
-							has_landed_title = e_california
-						}
-						liege = {
-							has_landed_title = e_new_california
-						}
+					liege = {
+						has_landed_title = e_california
 					}
 				}
 				give_minor_title = title_governator
@@ -4449,12 +4422,7 @@ sanc_governator_war = {
 				}
 			}
 		}
-		OR = {
-			e_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-			e_new_california = { holder_scope = { trait = figurehead } }
-			e_new_california = { holder_scope = { trait = weak_emperor } }
-		}
+		e_california = { holder_scope = { trait = figurehead } }
 	}
 	
 	can_use_gui = {
@@ -4474,12 +4442,7 @@ sanc_governator_war = {
 	}
 
 	is_valid = {
-		OR = {
-			e_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-			e_new_california = { holder_scope = { trait = figurehead } }
-			e_new_california = { holder_scope = { trait = weak_emperor } }
-		}
+		e_california = { holder_scope = { trait = figurehead } }
 		FROM = {
 			OR = {
 				trait = governator
@@ -4542,35 +4505,14 @@ sanc_governator_war = {
 				character_event = { id = cetic.361 }
 			}
 		}
-		if = {
-			limit = {
-				e_new_california = {
-					has_holder = yes
-				}
-			}
-			e_new_california = {
-				holder_scope = {
-					opinion = {
-						modifier = gnator_succeed
-						who = ROOT
-					}
-					character_event = { id = cetic.361 }
-				}
-			}
-		}
 		ROOT = {
 			show_scope_change = no
 			participation_scaled_prestige = 100
 			add_trait = governator
 			if = {
 				limit = {
-					OR = {
-						liege = {
-							has_landed_title = e_california
-						}
-						liege = {
-							has_landed_title = e_new_california
-						}
+					liege = {
+						has_landed_title = e_california
 					}
 				}
 				give_minor_title = title_governator
@@ -4627,14 +4569,6 @@ sanc_governator_war = {
 			}
 		}
 		e_california = {
-			holder_scope = {
-				opinion = {
-					modifier = gnator_fail
-					who = ROOT
-				}
-			}
-		}
-		e_new_california = {
 			holder_scope = {
 				opinion = {
 					modifier = gnator_fail

@@ -6265,7 +6265,7 @@ likes_antillais = {
 likes_caribeno = {
 	culture_group = caribeno
 }
-#add statuses for mesanglo
+#add statuses for mesanglo and guyan
 likes_costero = {
 	culture_group = costero
 }

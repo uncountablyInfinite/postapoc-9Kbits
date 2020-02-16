@@ -19,13 +19,23 @@ decisions = {
 				AND = {
 					OR = {
 						trait = homosexual
-						trait = bisexual
 						trait = celibate
 						trait = eunuch
 					}
 					OR = { 
 						religion_group = pacific
 						religion_group = oldworld
+					}
+					custom_tooltip = {
+						text = TXT_is_homosexually_married
+						hidden_tooltip = {
+							OR = {
+								trait = homosexualmarried_mp
+								trait = homosexualmarried_fp
+								trait = homosexualmarried_mm
+								trait = homosexualmarried_ff
+							}
+						}
 					}
 					NOT = {
 						has_game_rule = {
@@ -34,18 +44,6 @@ decisions = {
 						}
 					}
 				}
-				custom_tooltip = {
-					text = TXT_is_homosexually_married
-					hidden_tooltip = {
-						OR = {
-							trait = homosexualmarried_mp
-							trait = homosexualmarried_fp
-							trait = homosexualmarried_mm
-							trait = homosexualmarried_ff
-						}
-					}
-				}
-
 			}
 		}
 		effect = {

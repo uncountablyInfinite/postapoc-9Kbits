@@ -259,7 +259,6 @@
 	trait=just
 	trait=kind
 	trait=patient
-	trait=imp_ex3
 	2649.1.1={birth=yes}
 	2660.1.1={
 		effect={

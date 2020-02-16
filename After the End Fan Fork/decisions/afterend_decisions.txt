@@ -1525,10 +1525,8 @@ decisions = {
 				trait = greedy
 				trait = lustful
 			}
-			hidden_tooltip = {
-				NOT = { #immersion-breaking
-					has_alternate_start_parameter = { key = religion_names value = random }
-				}
+			NOT = { #immersion-breaking
+				has_alternate_start_parameter = { key = religion_names value = random }
 			}
 		}
 		effect = {

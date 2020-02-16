@@ -337,7 +337,7 @@ character_event = {
 					}
 					modifier = {
 						factor = 1.5
-						trait = uncouth
+						trait = rude #this trait does not exist
 					}
 					modifier = {
 						factor = 1.5
@@ -1429,19 +1429,14 @@ character_event = {
 			}
 			move_character = ROOT
 			if = {
-				limit = { trait = misguided_warrior }
-				hidden_tooltip = { remove_trait = misguided_warrior }
-				add_trait = tough_soldier
+				limit = { trait = skilled_warrior }  #this trait does not exist
+				hidden_tooltip = { remove_trait = skilled_warrior }  #this trait does not exist
+				add_trait = master_warrior
 			}
 			if = {
-				limit = { trait = tough_soldier }
-				hidden_tooltip = { remove_trait = tough_soldier }
-				add_trait = skilled_tactician
-			}
-			if = {
-				limit = { trait = skilled_tactician }
-				hidden_tooltip = { remove_trait = skilled_tactician }
-				add_trait = brilliant_strategist
+				limit = { trait = trained_warrior } #this trait does not exist
+				hidden_tooltip = { remove_trait = trained_warrior } #this trait does not exist
+				add_trait = skilled_warrior #this trait does not exist
 			}
 			if = {
 				limit = { 

@@ -1,6 +1,4 @@
-spriteTypes = {
-
-### AFRICAN MALE ####
+	### AFRICAN MALE ####
 	
 	spriteType = {
 		name = "GFX_african_male_hair_behind"
@@ -58,4 +56,3 @@ spriteTypes = {
 		noOfFrames = 10
 		norefcount = yes
 	}
-}

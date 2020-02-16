@@ -782,40 +782,20 @@ thunderbird_whistle = {
 		morale_offence = 0.2
 		morale_defence = 0.2
 	}
-	active = {
-		OR = {
-			religion_group = american_native
-			religion_group = amero_syncretic
-		}	
-	}
-	allowed_gift = {
-		OR = {
-			religion_group = american_native
-			religion_group = amero_syncretic
-		}	
-	}
+	active = { religion_group = american_native }
+	allowed_gift = { religion_group = american_native }
 	quality = 3
-	flags = { religious american_native amero_syncretic horn troops_morale }
+	flags = { religious american_native horn troops_morale }
 	stacking = no
 	picture = "GFX_relic_box"
 }
 
 sacred_bundle = {
 	monthly_character_piety = 0.2
-	active = {
-		OR = {
-			religion_group = american_native
-			religion_group = amero_syncretic
-		}	
-	}
-	allowed_gift = {
-		OR = {
-			religion_group = american_native
-			religion_group = amero_syncretic
-		}	
-	}
+	active = { religion_group = american_native }
+	allowed_gift = { religion_group = american_native }
 	quality = 1
-	flags = { religious american_native amero_syncretic }
+	flags = { religious american_native }
 	stacking = no
 	picture = "GFX_pouch"
 }
@@ -2446,7 +2426,7 @@ bell_of_batoche = {
 	monthly_character_prestige = 0.5
 	monthly_character_piety = 0.2
 	same_religion_opinion = 10
-	metis_opinion = 10
+	metis_opinon = 10
 	intrigue = 3
 	active = {
 		OR = {

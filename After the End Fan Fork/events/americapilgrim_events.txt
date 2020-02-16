@@ -2077,6 +2077,7 @@ character_event = {
 					opinion = {
 						who = ROOT
 						value = -20
+						years = 2
 					}
 				}
 			}

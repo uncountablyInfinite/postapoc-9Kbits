@@ -1592,9 +1592,9 @@
 }
 3000206={#Watermelon Vendor
 	name="Rum'i"
-	dynasty=2031021
+	dynasty=1795009
 	culture=neomoor
-	religion=orientalist
+	religion=ursuline
 	diplomacy=4
 	martial=8
 	stewardship=10

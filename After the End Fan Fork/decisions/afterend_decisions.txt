@@ -1597,10 +1597,7 @@ decisions = {
 		potential = {
 			is_playable = yes
 			prisoner = no
-			OR = {
-				religion = imamite
-				religion = qingzheng
-			}
+			religion = imamite
 			NOT = { trait = sympathy_pacific }
 			NOT = { trait = zealous }
 			NOT = {

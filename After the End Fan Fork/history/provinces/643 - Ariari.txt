@@ -1,9 +1,11 @@
+# 643 Ariari
+
 # County Title
-title = c_mapiripan
+title = c_ariari
 
 # Settlements
 max_settlements = 3
-b_mapiripan_LLA = tribal
+b_el_castillo_LLA = tribal
 
 # Misc
 culture = llanero

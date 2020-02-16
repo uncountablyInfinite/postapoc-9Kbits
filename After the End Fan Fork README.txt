@@ -39,7 +39,6 @@ Shadeoses/BoneLorde
 Lord_Iggy/KaYoS
 jd_stuyvesant/Stuyvesant
 Little Skull Boi
-frederico83
 
 Original mod team:
 

@@ -1,5 +1,4 @@
-2628.1.1 = {
-	holder = 1811056
+2649.1.1 = {
+	holder = 1811005
 	historical_nomad = yes
-	liege=d_meta
 }

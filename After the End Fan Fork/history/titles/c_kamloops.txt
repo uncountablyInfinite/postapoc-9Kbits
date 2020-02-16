@@ -1,4 +1,3 @@
-2645.9.21 = {
-	holder = 1845092
-	liege=d_okanagan
+2625.2.11 = {
+	holder = 1845076
 }

@@ -5,7 +5,7 @@ title = c_paez
 
 # Settlements
 max_settlements = 3
-b_guasdualito_LLA = tribal
+b_guasdualito_LLA = castle
 
 # Misc
 culture = llanero

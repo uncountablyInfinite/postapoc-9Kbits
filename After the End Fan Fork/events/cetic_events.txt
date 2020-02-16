@@ -269,6 +269,7 @@ character_event = {
 					check_variable = { which = global_imp_auth value < 10 }
 				}
 				add_trait = weak_emperor
+				add_trait = figurehead
 			}
 			if = {
 				limit = {
@@ -312,24 +313,7 @@ narrative_event = {
 			has_landed_title = e_new_california
 		}
 	}
-	
-	# same dynasty, previous holder was weak
-	option = {
-		name = EVTOPT_cetic_usurp_same
-		trigger = {
-			dynasty = FROMFROM
-			FROMFROM = { trait = weak_emperor }
-		}
-		add_trait = weak_emperor
-		FROMFROM = { remove_trait = weak_emperor }
-		add_character_modifier = {
-			name = imperial_authority
-			duration = -1
-		}
-		add_trait = weak_emperor
-		ai_chance = { factor = 100 }
-	}
-	
+
 	# same dynasty, previous holder was figurehead
 	option = {
 		name = EVTOPT_cetic_usurp_same
@@ -343,6 +327,18 @@ narrative_event = {
 			name = imperial_authority
 			duration = -1
 		}
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value < 10 }
+			}
+			add_trait = weak_emperor
+		}
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value > 70 }
+			}
+			add_trait = strong_emperor
+		}
 		ai_chance = { factor = 100 }
 	}
 	
@@ -353,24 +349,9 @@ narrative_event = {
 			dynasty = FROMFROM
 			FROMFROM = { NOT = { trait = figurehead } }
 		}
-		
 		prestige = 50
 		ai_chance = { factor = 100 }
 	}
-	
-	# same dynasty, previous holder was strong
-	option = {
-		name = EVTOPT_cetic_usurp_same
-		trigger = {
-			dynasty = FROMFROM
-			FROMFROM = { { trait = strong_emperor } }
-		}
-		add_trait = strong_emperor
-		prestige = 100
-		ai_chance = { factor = 100 }
-	}
-	
-	
 	
 	# different dynasty, high diplo
 	option = {
@@ -380,11 +361,23 @@ narrative_event = {
 			diplomacy = 14
 		}
 		tooltip_info = diplomacy
+		add_trait = figurehead
 		add_character_modifier = {
 			name = imperial_authority
 			duration = -1
 		}
-		add_trait = strong_emperor
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value < 10 }
+			}
+			add_trait = weak_emperor
+		}
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value > 70 }
+			}
+			add_trait = strong_emperor
+		}
 		FROMFROM = { remove_trait = figurehead }
 		ai_chance = { factor = 100 }
 	}
@@ -397,11 +390,23 @@ narrative_event = {
 			learning = 14
 		}
 		tooltip_info = learning
+		add_trait = figurehead
 		add_character_modifier = {
 			name = imperial_authority
 			duration = -1
 		}
-		add_trait = strong_emperor
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value < 10 }
+			}
+			add_trait = weak_emperor
+		}
+		if = {
+			limit = {
+				check_variable = { which = global_imp_auth value > 70 }
+			}
+			add_trait = strong_emperor
+		}
 		FROMFROM = { remove_trait = figurehead }
 		ai_chance = { factor = 100 }
 	}
@@ -1827,10 +1832,10 @@ narrative_event = {
 						check_variable = { which = global_imp_auth value < 10 }
 					}
 					add_trait = weak_emperor
+					add_trait = figurehead
 				}
 				if = {
 					limit = {
-						check_variable = { which = global_imp_auth value >= 10 }
 						check_variable = { which = global_imp_auth value <= 50 }
 					}
 					add_trait = figurehead
@@ -1886,10 +1891,10 @@ narrative_event = {
 						check_variable = { which = global_imp_auth value < 10 }
 					}
 					add_trait = weak_emperor
+					add_trait = figurehead
 				}
 				if = {
 					limit = {
-						check_variable = { which = global_imp_auth value >= 10 }
 						check_variable = { which = global_imp_auth value <= 50 }
 					}
 					add_trait = figurehead
@@ -1944,10 +1949,10 @@ narrative_event = {
 						check_variable = { which = global_imp_auth value < 10 }
 					}
 					add_trait = weak_emperor
+					add_trait = figurehead
 				}
 				if = {
 					limit = {
-						check_variable = { which = global_imp_auth value >= 10 }
 						check_variable = { which = global_imp_auth value <= 50 }
 					}
 					add_trait = figurehead
@@ -2004,10 +2009,10 @@ narrative_event = {
 						check_variable = { which = global_imp_auth value < 10 }
 					}
 					add_trait = weak_emperor
+					add_trait = figurehead
 				}
 				if = {
 					limit = {
-						check_variable = { which = global_imp_auth value >= 10 }
 						check_variable = { which = global_imp_auth value <= 50 }
 					}
 					add_trait = figurehead
@@ -3295,7 +3300,6 @@ character_event = {
 				trait = weak_emperor
 			}
 			AND = {
-				check_variable = { which = global_imp_auth value >= 10 }
 				check_variable = { which = global_imp_auth value <= 50 }
 				NOT = {
 					trait = figurehead
@@ -3342,7 +3346,6 @@ character_event = {
 		name = {
 			text = EVTOPTACETIC304_FIGUREHEAD
 			trigger = {
-				check_variable = { which = global_imp_auth value >= 10 }
 				check_variable = { which = global_imp_auth value <= 50 }
 				NOT = {
 					trait = figurehead
@@ -3380,7 +3383,6 @@ character_event = {
 				}
 			}
 			add_trait = weak_emperor
-			remove_trait = figurehead
 		}
 		if = {
 			limit = {
@@ -3391,7 +3393,6 @@ character_event = {
 		}
 		if = {
 			limit = {
-				check_variable = { which = global_imp_auth value >= 10 }
 				check_variable = { which = global_imp_auth value <= 50 }
 				NOT = {
 					trait = figurehead
@@ -3954,8 +3955,6 @@ character_event = {
 		OR = {
 			e_california = { holder_scope = { trait = figurehead } }
 			e_new_california = { holder_scope = { trait = figurehead } }
-			e_california = { holder_scope = { trait = weak_emperor } }
-			e_new_california = { holder_scope = { trait = weak_emperor } }
 		}
 		NOR = {
 			has_character_flag = chosen_heir_gnator
@@ -4292,10 +4291,7 @@ character_event = {
 		}
 		if = {
 			limit = {
-				OR = {
-					trait = figurehead
-					trait = weak_emperor
-				}
+				trait = figurehead
 			}
 			random_courtier_or_vassal = {
 				limit = {
@@ -6378,7 +6374,6 @@ character_event = {
 				}
 			}
 			add_trait = weak_emperor
-			remove_trait = figurehead
 		}
 		if = {
 			limit = {
@@ -6389,7 +6384,6 @@ character_event = {
 		}
 		if = {
 			limit = {
-				check_variable = { which = global_imp_auth value >= 10 }
 				check_variable = { which = global_imp_auth value <= 50 }
 				NOT = {
 					trait = figurehead

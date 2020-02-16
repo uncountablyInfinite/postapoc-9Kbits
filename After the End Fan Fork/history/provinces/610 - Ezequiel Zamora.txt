@@ -1,5 +1,5 @@
 # County Title
-title = c_ezequiel_zamora
+title = c_ezequial_zamora
 
 # Settlements
 max_settlements = 3

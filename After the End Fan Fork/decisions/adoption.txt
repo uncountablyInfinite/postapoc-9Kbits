@@ -33,16 +33,14 @@ decisions = {
 						}
 					}
 				}
-			}
-			custom_tooltip = {
-				text = TXT_is_homosexually_married
 				hidden_tooltip = {
-				OR = {
-						trait = homosexualmarried_mp
-						trait = homosexualmarried_fp
-						trait = homosexualmarried_mm
-						trait = homosexualmarried_ff
-					}
+					trait = homosexualmarried_mp
+					trait = homosexualmarried_fp
+					trait = homosexualmarried_mm
+					trait = homosexualmarried_ff
+				}
+				custom_tooltip = {
+					text = TXT_is_homosexually_married
 				}
 			}
 		}

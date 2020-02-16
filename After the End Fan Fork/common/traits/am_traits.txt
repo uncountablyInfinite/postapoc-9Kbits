@@ -1667,14 +1667,6 @@ not_evaluated = {
 	random = no
 	customizer = no
 	
-	opposites = {
-		imp_ex1
-		imp_ex2
-		imp_ex3
-		imp_ex4
-		failed_exam
-	}
-	
 	male_insult = INSULT_IDLER
 	female_insult = INSULT_IDLER
 	male_insult_adj = INSULT_INDOLENT
@@ -1688,14 +1680,6 @@ failed_exam = {
 	monthly_character_piety = -1
 	random = no
 	customizer = no
-	
-	opposites = {
-		imp_ex1
-		imp_ex2
-		imp_ex3
-		imp_ex4
-		not_evaluated
-	}
 	
 	male_insult = INSULT_DULLARD
 	female_insult = INSULT_NITWIT
@@ -1712,14 +1696,6 @@ imp_ex1 = {
 	random = no
 	customizer = no
 	
-	opposites = {
-		imp_ex2
-		imp_ex3
-		imp_ex4
-		failed_exam
-		not_evaluated
-	}
-	
 	male_compliment_adj = COMPL_LEARNED
 	female_compliment_adj = COMPL_LEARNED
 	child_compliment_adj = COMPL_SMART
@@ -1734,14 +1710,6 @@ imp_ex2 = {
 	random = no
 	customizer = no
 	
-	opposites = {
-		imp_ex1
-		imp_ex3
-		imp_ex4
-		failed_exam
-		not_evaluated
-	}
-	
 	male_compliment_adj = COMPL_LEARNED
 	female_compliment_adj = COMPL_LEARNED
 	child_compliment_adj = COMPL_SMART
@@ -1755,14 +1723,6 @@ imp_ex3 = {
 	learning = 2
 	random = no
 	customizer = no
-	
-	opposites = {
-		imp_ex1
-		imp_ex2
-		imp_ex4
-		failed_exam
-		not_evaluated
-	}
 	
 	male_compliment = COMPL_GENIUS
 	male_compliment_adj = COMPL_BRILLIANT
@@ -1780,14 +1740,6 @@ imp_ex4 = {
 	learning = 4
 	random = no
 	customizer = no
-	
-	opposites = {
-		imp_ex1
-		imp_ex2
-		imp_ex3
-		failed_exam
-		not_evaluated
-	}
 	
 	male_compliment = COMPL_GENIUS
 	male_compliment_adj = COMPL_BRILLIANT

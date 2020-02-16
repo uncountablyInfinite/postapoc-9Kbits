@@ -54,6 +54,7 @@ character_event = {
 					opinion = {
 						who = ROOT
 						value = -20
+						years = 2
 					}
 				}
 			}
@@ -250,7 +251,7 @@ character_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1
+		month = 1
 	}
 	option = {
 		name = EVTOPTA_pacific_10
@@ -289,7 +290,7 @@ character_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1
+		month = 1
 	}
 	option = {
 		name = EVTOPTA_pacific_10

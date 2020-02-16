@@ -1151,6 +1151,7 @@ d_alawiyya = {
 	allow = {
 		OR = {
 			trait = sayyid2
+			trait = mirza2
 			wealth = 1000
 		}
 	}
@@ -1217,6 +1218,7 @@ d_qingzheng = {
 	allow = {
 		OR = {
 			trait = sayyid2
+			trait = mirza2
 			wealth = 750
 			piety = 500
 		}

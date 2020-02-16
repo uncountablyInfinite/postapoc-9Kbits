@@ -102,10 +102,7 @@ government_flavor = {
 		government = bureaucratic_government
 		religion = cetic
 		has_landed_title = e_california
-		NOR = { 
-			trait = figurehead 
-			trait = weak_emperor
-		}
+		NOT = { trait = figurehead }
 	}
 }
 
@@ -117,10 +114,7 @@ government_flavor = {
 		government = bureaucratic_government
 		religion = cetic
 		has_landed_title = e_california
-		NOR = { 
-			trait = figurehead 
-			trait = weak_emperor
-		}
+		trait = figurehead
 	}
 }
 

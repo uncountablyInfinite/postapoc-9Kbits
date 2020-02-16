@@ -5265,7 +5265,6 @@ character_event = {
 		name = EVTOPTACETIC369
 		opinion = {
 			modifier = defied_norms
-			who = FROM
 		}
 		if = {
 			limit = {
@@ -5300,7 +5299,6 @@ character_event = {
 		name = EVTOPTACETIC369
 		opinion = {
 			modifier = defied_norms
-			who = FROM
 		}
 		if = {
 			limit = {

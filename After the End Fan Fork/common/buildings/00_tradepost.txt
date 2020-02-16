@@ -192,12 +192,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -231,12 +239,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -272,12 +288,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -313,12 +337,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -353,12 +385,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -393,12 +433,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -433,12 +481,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -472,12 +528,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -513,12 +577,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -555,12 +627,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -605,12 +685,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}
@@ -656,12 +744,20 @@ trade_post = {
 						caribbean_trade_post_trigger = yes
 					}
 					AND = {
+						trade_route = great_waters_trade
+						great_waters_trade_post_trigger = yes
+					}
+					AND = {
 						trade_route = interstate_trade
 						interstate_trade_post_trigger = yes
 					}
 					AND = {
 						trade_route = great_pacific_trade
 						pacific_trade_post_trigger = yes
+					}
+					AND = {
+						trade_route = great_fur_trade
+						great_fur_trade_post_trigger = yes
 					}
 				}
 			}

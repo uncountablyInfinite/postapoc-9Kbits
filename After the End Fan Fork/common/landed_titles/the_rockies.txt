@@ -13,8 +13,7 @@ e_the_rockies = {
 		catholic = 50
 		revelationist_reformed = 20
 		rust_cultist = 5
-		trailwalker_reformed = 50
-		
+
 		culture = coloradan
 
 		capital = 389 # Denver
@@ -340,8 +339,7 @@ e_the_rockies = {
 		
 		#Crusade target weight
 		mormon = 5000
-		trailwalker_reformed = 50
-		
+
 		capital = 430 # Salt Lake
 
 		culture = utahn
@@ -553,7 +551,8 @@ e_the_rockies = {
 		capital = 448
 		
 		#Crusade target weight
-		trailwalker_reformed = 500
+		mormon = 500
+
 		culture = mountainer
 
 		d_sweetwater = {
@@ -789,7 +788,6 @@ e_the_rockies = {
 		
 		mormon = 500
 		raven_tales_reformed = 100
-		trailwalker_reformed = 50
 
 		d_west_snake = {
 			color = { 255 201 49 }
